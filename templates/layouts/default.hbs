@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {{> header }}
+  </head>
+  <body data-spy="scroll" data-target=".fn-sidebar">
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    {{> nav-main }}
+
+    <!-- Docs page layout -->
+    <div class="page-header page-header-anchor page-header-showcase" id="content">
+      <div class="container">
+        <h1>{{ title }}</h1>
+        <p>{{ lead }}</p>
+      </div>
+    </div>
+
+    <div class="container bs-docs-container">
+      <div class="row">
+        <div class="col-md-9">
+          {{> body }}
+        </div>
+
+        <div class="col-md-3">
+          <div class="fn-sidebar affix-top" data-spy="affix" data-offset-top="200">
+            {{#is slug "theme"}}{{> nav-theme }}{{/is}}
+            {{#is slug "new"}}{{> nav-new }}{{/is}}
+            {{#is slug "icons"}}{{> nav-icons }}{{/is}}
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer
+    ================================================== -->
+    {{> footer }}
+
+
+  </body>
+</html>

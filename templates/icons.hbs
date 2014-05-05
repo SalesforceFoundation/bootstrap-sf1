@@ -1,0 +1,83 @@
+---
+layout: default.hbs
+title: New Icons
+slug: icons
+lead: "Salesforce1 icons with new helper classes."
+base_url: "../"
+---
+
+<section class="section" id="introduction">
+  <h2 class="section-head">Introduction</h2>
+  <p>The <a href="http://sfdc-styleguide.herokuapp.com/">SFDC Salesforce1 styleguide</a> provides a number of new icons both for setting context and also for UI elements. As part of this project we are providing icon classes and styles more in the style of Bootstrap or Font Awesome to make inserting icons easier. As many of these icons are image based, you will not have the same level of customization in terms of sizing or coloring as you do with the font-based icons.</p>
+</section>
+
+<section class="section" id="sizes">
+  <h2 class="section-head">Sizes</h2>
+  <p><span class="s1icon s1icon-s-account s1icon-xs"></span> .s1icon-xs</p>
+  <p><span class="s1icon s1icon-s-account"></span> .s1icon-sm (default)</p>
+  <p><span class="s1icon s1icon-s-account s1icon-m"></span> .s1icon-m</p>
+  <p><span class="s1icon s1icon-s-account s1icon-lg"></span> .s1icon-lg</p>
+  <p><span class="s1icon s1icon-s-account s1icon-xl"></span> .s1icon-xl</p>
+  <p><span class="s1icon s1icon-s-account s1icon-xxl"></span> .s1icon-xxl</p>
+</section>
+
+<section class="section" id="standard">
+  <h2 class="section-head">Standard Icons</h2>
+  <p>Mouse over to view CSS classes.</p>
+  <ul class="docs-icon-list">
+  {{#each icons.standard}}
+    {{#contains . "-s-"}}
+      <li>
+        <span class="s1icon {{.}} s1icon-xl"></span>
+        <span class="s1icon-class">s1icon {{.}}</span>
+      </li>
+    {{/contains}}
+  {{/each}}
+  </ul>
+</section>
+
+<section class="section" id="friendly-custom">
+  <h2 class="section-head">Friendlier Custom Icons</h2>
+  <p>We have created a mapping of the SF1 custom icons to friendlier classnames. For example you can use .s1icon-c-heart instead of .s1icon-c-1. This should make the markup a little more readable.</p>
+  <p>Mouse over to view CSS classes.</p>
+  <ul class="docs-icon-list">
+  {{#each icons.mapped}}
+    {{#contains . "-c-"}}
+      <li>
+        <span class="s1icon {{.}} s1icon-xl"></span>
+        <span class="s1icon-class">s1icon {{.}}</span>
+      </li>
+    {{/contains}}
+  {{/each}}
+  </ul>
+</section>
+
+<section class="section" id="custom">
+  <h2 class="section-head">Custom Icons</h2>
+  <p>If you would rather use the numeric classes for custom icons you can do so.</p>
+  <p>Mouse over to view CSS classes.</p>
+  <ul class="docs-icon-list">
+  {{#each icons.custom}}
+    {{#contains . "-c-"}}
+      <li>
+        <span class="s1icon {{.}} s1icon-xl"></span>
+        <span class="s1icon-class">s1icon {{.}}</span>
+      </li>
+    {{/contains}}
+  {{/each}}
+  </ul>
+</section>
+
+<section class="section" id="utility">
+  <h2 class="section-head">Utility Icons</h2>
+  <p>These are font based icons that can be used similar to the Glyphicons in Bootstrap.</p>
+
+  <ul class="docs-icon-list">
+  {{#each icons.utility}}
+    <li>
+      <span class="s1utility {{.}}"></span>
+      <span class="s1utility-class">s1utility {{.}}</span>
+    </li>
+  {{/each}}
+  </ul>
+</section>

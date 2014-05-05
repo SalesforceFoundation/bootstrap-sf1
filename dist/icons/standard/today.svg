@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill-rule:evenodd;clip-rule:evenodd;fill:#84304E;">
+	<!ENTITY st1 "display:inline;">
+	<!ENTITY st2 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st3 "fill-rule:evenodd;clip-rule:evenodd;fill:#CE4672;">
+	<!ENTITY st4 "display:none;">
+	<!ENTITY st5 "display:inline;fill-rule:evenodd;clip-rule:evenodd;filter:url(#f1);">
+]>
+<svg version="1.1" id="Today" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  filterUnits="userSpaceOnUse" y="8" x="-7" id="f1">
+	<feOffset  result="offOut" dy="3" in="SourceGraphic" dx="0"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  in2="blurOut" mode="normal" in="SourceGraphic"></feBlend>
+</filter>
+<g id="shape_copy_49_" style="&st4;">
+	<g style="&st1;">
+		<path style="&st3;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.627,5.373,12,12,12h96c6.627,0,12-5.373,12-12V12
+			C120,5.373,114.627,0,108,0z"/>
+	</g>
+</g>
+<g id="Layer_74" style="&st4;">
+	<path style="&st5;" d="M20.949,44.371l47.424,18.596L67.422,66L2,40L20.949,44.371z"/>
+</g>
+<g id="Layer_70">
+	<path style="&st0;" d="M20.949,44.371l47.424,18.596L67.422,66L20,47.404L20.949,44.371z"/>
+</g>
+<g id="Layer_73" style="&st4;">
+	<path style="&st5;" d="M85.5,42.167L78.334,35L53.168,60.334L85,93l7-7.166l-25-25.5L85.5,42.167z"/>
+</g>
+<g id="Layer_69">
+	<path style="&st2;" d="M85.5,42.167L78.334,35L53.168,60.334L85,93l7-7.166l-25-25.5L85.5,42.167z"/>
+</g>
+</svg>

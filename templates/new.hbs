@@ -1,0 +1,526 @@
+---
+layout: default.hbs
+title: New Components
+slug: new
+lead: "New classes and markup for building enhanced UI in SF1, VF and in external apps."
+base_url: "../"
+---
+
+<section class="section" id="cards">
+  <h2 class="section-head">Cards</h2>
+  <p>From the SFDC styleguide:</p>
+  <blockquote>The card component is a generic container for a piece of content that needs to be separated from other pieces of content on the same page. It may include a header with a title, and can contain a list.</blockquote>
+  <div class="fn-example">
+    <div class="card">
+      <div class="card-heading">
+        ACME Publishing
+      </div>
+      <div class="card-detail">
+        Details about this card can be placed in the card body.
+      </div>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<div class="card">
+  <div class="card-heading">
+    ACME Publishing
+  </div>
+  <div class="card-detail">
+    Details about this card can be placed in the card body.
+  </div>
+</div>
+```
+{{/markdown}}
+
+  <h3 id="cards-sizing">Sizing</h3>
+  <p>The width of the card will be the full width of its parent element. For example you can wrap a card in a container with a column class.</p>
+  <div class="fn-example">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-heading">
+          ACME Publishing
+        </div>
+        <div class="card-detail">
+          Details about this card can be placed in the card body.
+        </div>
+      </div>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<div class="col-md-4">
+  <div class="card">
+    <div class="card-heading">
+      ACME Publishing
+    </div>
+    <div class="card-detail">
+      Details about this card can be placed in the card body.
+    </div>
+  </div>
+</div>
+```
+{{/markdown}}
+
+  <h3 id="cards-details">Details</h3>
+  <p>In general cards will be used to display line by line details about a particular object. Replace the div.card-detail element with an ul.card-detail.</p>
+  <div class="fn-example">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-heading">
+          ACME Publishing
+        </div>
+        <ul class="card-detail">
+          <li>Nonprofit Organization</li>
+          <li>Santa Barbara, CA</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<div class="card">
+  <div class="card-heading">
+    ACME Publishing
+  </div>
+  <ul class="card-detail">
+    <li>Nonprofit Organization</li>
+    <li>Santa Barbara, CA</li>
+  </ul>
+</div>
+```
+{{/markdown}}
+
+  <h3 id="cards-labels">Label and value detail pairs</h3>
+  <p>Sometimes you will need to provide labels for your data. This is only appropriate to use with brief bits of data and labels to display.</p>
+  <div class="fn-example">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-heading">
+          ACME Publishing
+        </div>
+        <ul class="card-detail ">
+          <li>
+            <label class="card-detail-label">Founded</label>
+            <span class="card-detail-value">1956</span>
+          </li>
+          <li>
+            <label class="card-detail-label">Budget</label>
+            <span class="card-detail-value">$10,000,000</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<div class="card">
+  <div class="card-heading">
+    ACME Publishing
+  </div>
+  <ul class="card-detail">
+    <li>
+      <label class="card-detail-label">Founded</label>
+      <span class="card-detail-value">1956</span>
+    </li>
+    <li>
+      <label class="card-detail-label">Budget</label>
+      <span class="card-detail-value">$10,000,000</span>
+    </li>
+  </ul>
+</div>
+```
+{{/markdown}}
+
+<h3 id="cards-contexts">Contextual Cards</h3>
+  <p>In many cases you will want to display icons on cards or card lists to indicate which object or context they relate to in the app.</p>
+  <div class="fn-example">
+
+    <!-- Card for an Account -->
+    <div class="col-md-4">
+      <div class="card context-account">
+        <div class="card-heading">
+          ACME Publishing
+        </div>
+        <ul class="card-detail ">
+          <li>Nonprofit Organization</li>
+          <li>Santa Barbara, CA</li>
+        </ul>
+      </div> <!-- end card -->
+    </div>
+
+    <!-- Card for Contact -->
+    <div class="col-md-4">
+      <div class="card context-contact">
+        <div class="card-heading">
+          Jeffery Fisher
+        </div>
+        <ul class="card-detail ">
+          <li>Executive</li>
+          <li>Santa Barbara, CA</li>
+        </ul>
+      </div> <!-- end card -->
+    </div>
+
+    <!-- Custom context -->
+    <div class="col-md-4">
+      <div class="card context-c-sailboat">
+        <div class="card-heading">
+          Timothy Lake
+        </div>
+        <ul class="card-detail ">
+          <li>Sailing Buddy</li>
+          <li>San Francisco, CA</li>
+        </ul>
+      </div> <!-- end card -->
+    </div>
+  </div>
+{{#markdown}}
+```html
+<!-- Card for an Account -->
+<div class="card context-account">
+  <div class="card-heading">
+    ACME Publishing
+  </div>
+  <ul class="card-detail ">
+    <li>Nonprofit Organization</li>
+    <li>Santa Barbara, CA</li>
+  </ul>
+</div>
+
+<!-- Card for Contact -->
+<div class="card context-contact">
+  <div class="card-heading">
+    Jeffery Fisher
+  </div>
+  <ul class="card-detail ">
+    <li>Executive</li>
+    <li>Santa Barbara, CA</li>
+  </ul>
+</div>
+
+<!-- Custom context -->
+<div class="card context-c-sailboat">
+  <div class="card-heading">
+    Timothy Lake
+  </div>
+  <ul class="card-detail ">
+    <li>Sailing Buddy</li>
+    <li>San Francisco, CA</li>
+  </ul>
+</div>
+```
+{{/markdown}}
+
+</section>
+
+<section class="section" id="card-list">
+  <h2 class="section-head" >Card list</h2>
+  <p>You can also display grouped lists of cards.</p>
+  <div class="fn-example">
+    <div class="col-md-4">
+      <div class="card-list">
+        <div class="card-list-heading">
+          <h3>Organizations</h3>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            ACME Publishing
+          </div>
+          <ul class="card-detail ">
+            <li>Nonprofit Organization</li>
+            <li>Santa Barbara, CA</li>
+          </ul>
+        </div> <!-- end card -->
+        <div class="card">
+          <div class="card-heading">
+            Save the Cats
+          </div>
+          <ul class="card-detail ">
+            <li>Nonprofit Organization</li>
+            <li>Santa Barbara, CA</li>
+          </ul>
+        </div> <!-- end card -->
+      </div> <!-- end card list -->
+    </div>
+  </div>
+{{#markdown}}
+```html
+<div class="card-list">
+  <div class="card-list-heading">
+    <h3>Organizations</h3>
+  </div>
+  <div class="card">
+    <div class="card-heading">
+      ACME Publishing
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </div> <!-- end card -->
+  <div class="card">
+    <div class="card-heading">
+      Save the Cats
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </div> <!-- end card -->
+</div> <!-- end card list -->
+```
+{{/markdown}}
+
+  
+
+<h3 id="card-list-contexts">Contexts on Card Lists</h3>
+<p>Context classes can also be added to card lists. Adding the context class to the list will add icons to all of the cards within it.</p>
+<div class="fn-example">
+    <div class="col-md-4">
+      <div class="card-list context-account">
+        <div class="card-list-heading">
+          <h3>Organizations</h3>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            ACME Publishing
+          </div>
+          <ul class="card-detail ">
+            <li>Nonprofit Organization</li>
+            <li>Santa Barbara, CA</li>
+          </ul>
+        </div> <!-- end card -->
+        <div class="card">
+          <div class="card-heading">
+            Save the Cats
+          </div>
+          <ul class="card-detail ">
+            <li>Nonprofit Organization</li>
+            <li>Santa Barbara, CA</li>
+          </ul>
+        </div> <!-- end card -->
+      </div> <!-- end card list -->
+    </div>
+
+    <div class="col-md-4">
+      <div class="card-list context-lead">
+        <div class="card-list-heading">
+          <h3>Organizations</h3>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            ACME Publishing
+          </div>
+          <ul class="card-detail ">
+            <li>Nonprofit Organization</li>
+            <li>Santa Barbara, CA</li>
+          </ul>
+        </div> <!-- end card -->
+        <div class="card">
+          <div class="card-heading">
+            Save the Cats
+          </div>
+          <ul class="card-detail ">
+            <li>Nonprofit Organization</li>
+            <li>Santa Barbara, CA</li>
+          </ul>
+        </div> <!-- end card -->
+      </div> <!-- end card list -->
+    </div>
+
+    <div class="col-md-4">
+      <div class="card-list context-c-bridge">
+        <div class="card-list-heading">
+          <h3>Organizations</h3>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            ACME Publishing
+          </div>
+          <ul class="card-detail ">
+            <li>Nonprofit Organization</li>
+            <li>Santa Barbara, CA</li>
+          </ul>
+        </div> <!-- end card -->
+        <div class="card">
+          <div class="card-heading">
+            Save the Cats
+          </div>
+          <ul class="card-detail ">
+            <li>Nonprofit Organization</li>
+            <li>Santa Barbara, CA</li>
+          </ul>
+        </div> <!-- end card -->
+      </div> <!-- end card list -->
+    </div>
+  </div>
+
+{{#markdown}}
+```html
+<div class="card-list context-account">
+  <div class="card-list-heading">
+    <h3>Organizations</h3>
+  </div>
+  <div class="card">
+    <div class="card-heading">
+      ACME Publishing
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </div> <!-- end card -->
+  <div class="card">
+    <div class="card-heading">
+      Save the Cats
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card-list context-lead">
+  <div class="card-list-heading">
+    <h3>Organizations</h3>
+  </div>
+  <div class="card">
+    <div class="card-heading">
+      ACME Publishing
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </div> <!-- end card -->
+  <div class="card">
+    <div class="card-heading">
+      Save the Cats
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card-list context-c-bridge">
+  <div class="card-list-heading">
+    <h3>Organizations</h3>
+  </div>
+  <div class="card">
+    <div class="card-heading">
+      ACME Publishing
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </div> <!-- end card -->
+  <div class="card">
+    <div class="card-heading">
+      Save the Cats
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </div> <!-- end card -->
+</div> <!-- end card list -->```
+{{/markdown}}
+
+</section>
+
+<section class="section" id="page-headers">
+  <h2 class="section-head">Page Headers</h2>
+
+  <p>Page headers are not new to Bootstrap, but we have included some additional styles and components. The first customization is a class for the SFDC style page header anchor.</p>
+
+  <p>This element is designed to span the full width of the window. Use a .container element to provide padding and set the width. The page headers in this documentation are an example of this usage.</p>
+
+  <p>These page headers are also responsive. Notice that when you narrow the window the text will center align.</p>
+
+  <div class="fn-example">
+    <div class="page-header page-header-anchor">
+      <div class="container">
+        <h1>ACME Publishing</h1>
+      </div>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<div class="page-header page-header-anchor">
+  <div class="container">
+    <h1>ACME Publishing</h1>
+  </div>
+</div>
+```
+{{/markdown}}
+
+  <h3 id="page-headers-contexts">Page Header Contexts</h3>
+  <p>You can set the context of the page header by using the context icon classes.</p>
+
+  <div class="fn-example">
+
+    <!-- Account -->
+    <div class="page-header page-header-anchor context-account">
+      <div class="container">
+        <h1>ACME Publishing</h1>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="page-header page-header-anchor context-contact">
+      <div class="container">
+        <h1>Jason Blakemoth</h1>
+      </div>
+    </div>
+
+    <!-- Boat -->
+    <div class="page-header page-header-anchor context-c-boat">
+      <div class="container">
+        <h1>HMS Shazam</h1>
+      </div>
+    </div>
+
+    <!-- Triangle -->
+    <div class="page-header page-header-anchor context-c-triangle">
+      <div class="container">
+        <h1>Scheme</h1>
+      </div>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<!-- Account -->
+<div class="page-header page-header-anchor context-account">
+  <div class="container">
+    <h1>ACME Publishing</h1>
+  </div>
+</div>
+
+<!-- Contact -->
+<div class="page-header page-header-anchor context-contact">
+  <div class="container">
+    <h1>Jason Blakemoth</h1>
+  </div>
+</div>
+
+<!-- Boat -->
+<div class="page-header page-header-anchor context-c-boat">
+  <div class="container">
+    <h1>HMS Shazam</h1>
+  </div>
+</div>
+
+<!-- Triangle -->
+<div class="page-header page-header-anchor context-c-triangle">
+  <div class="container">
+    <h1>Scheme</h1>
+  </div>
+</div>
+```
+{{/markdown}}
+</section>

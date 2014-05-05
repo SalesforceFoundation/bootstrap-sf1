@@ -1,0 +1,40 @@
+@import "variables.less";
+
+/* these styles are from bootstrap's html and body selectors, so they should be applied to the namespaced container element */
+.bootstrap {
+    margin: 0;
+    display: block;
+    font-family: @font-family-sans-serif;
+    font-size: @font-size-base;
+    line-height: 1.428571429;
+    color: @text-color;
+    background-color: @body-bg;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+    // this is needed to override the heading layout style from salesforce styles
+    h1, h2, h3, h4, h5, h6 {
+        display: block;
+    }
+
+    @import (less) "../dist/css/bootstrap.css";
+}
+
+/* these styles need to be UN-namespaced in order for modals to work properly */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #000000;
+}
+.modal-backdrop.fade {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.modal-backdrop.in {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}

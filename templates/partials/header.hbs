@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ site.description }}">
+<meta name="keywords" content="{{ site.keywords }}">
+<meta name="author" content="{{ site.author }}">
+
+<title>
+  {{#is title "Bootstrap"}}
+    {{ title }}
+  {{ else }}
+    {{ title }} &middot; Bootstrap
+  {{/is}}
+</title>
+
+<link rel="stylesheet" href="{{ assets }}/css/bootstrap.css">
+<link rel="stylesheet" href="{{ assets }}/css/docs.min.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ base_url }}js/docs.js"></script>
+
+<style>pre code { background: transparent; }</style>
+<!--[if lt IE 9]><script src="{{ assets }}/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->

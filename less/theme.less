@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'ProximaNovaSoft-Regular';
+  src: url("../fonts/proximanovasoft-regular.eot");
+  src: url("../fonts/proximanovasoft-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ProximaNovaSoft-Medium';
+  src: url("../fonts/proximanovasoft-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+
+@import "bootstrap.less";
+@import "s1-icons.less";
+@import "cards.less";
+@import "generated/contexts.less";
+
+// Add CSS Customizations to your theme here.
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+// Panels
+// -------------------------
+.panel {
+
+    .panel-heading {
+        font-weight: bold;
+        font-size: 18px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+
+        .panel-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+
+    &.panel-default {
+      > .panel-heading {
+        color: @headings-color;
+      }
+    }
+
+    &.panel-primary {
+      > .panel-heading {
+        color: @panel-primary-text;
+      }
+    }
+
+    &.panel-success {
+      > .panel-heading {
+        color: @panel-success-text;
+      }
+    }
+
+    &.panel-info {
+      > .panel-heading {
+        color: @panel-info-text;
+      }
+    }
+
+    &.panel-warning {
+      .panel-heading {
+        color: @panel-warning-text;
+      }
+    }
+
+    &.panel-danger {
+      > .panel-heading {
+        color: @panel-danger-text;
+      }
+    }
+}
+
+//
+// Jumbotron
+// --------------------------------------------------
+
+.jumbotron {
+  
+  &.jumbotron-center {
+    text-align: center;
+  }
+}
+
+.jumbotron-inverse {
+  background-color: @jumbotron-inverse-bg;
+  color: @jumbotron-inverse-color;
+}
+
+//
+// Page Header
+// --------------------------------------------------
+
+.page-header {
+  margin: 0 0 20px;
+  font-size: (@font-size-base * 1.2);
+  position: relative;
+
+  &.page-header-anchor {
+    padding: 30px 0 20px 0;
+    background-color: @brand-anchor;
+    #gradient > .vertical(#23394d, #33495f);
+    color: @anchor-text-color;
+    h1, h2, h3, h4, h5, h6 {
+      color: #fff;
+    }
+  }
+
+  &.page-header-center {
+    text-align: center;
+  }
+
+  &[class*='context-'] {
+    h1 {
+      position: relative;
+      padding: 10px 0 10px 70px;
+      font-size: 40px;
+      margin: 10px 0;
+
+      &:before {
+        content: "";
+        .s1icon;
+        .s1icon-lg;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        @media (max-width: @screen-sm) {
+          left: 50%;
+          margin-left: -50px;
+          .s1icon-xl;
+        }
+
+        @media (max-width: @screen-xs) {
+          .s1icon-lg;
+          margin-left: -30px;
+        }
+      }
+
+      @media (max-width: @screen-sm) {
+        padding-top: 110px;
+        padding-left: 0;
+      }
+
+      @media (max-width: @screen-xs) {
+        padding-top: 70px;
+        font-size: 30px;
+      }
+    }
+  }
+
+  @media (max-width: @screen-sm) {
+    text-align: center;
+  }
+}
+
+//
+// Navbar
+// --------------------------------------------------
+
+.navbar {
+  header&,
+  header > & {
+    margin-bottom: 0;
+  }
+
+  .navbar-nav {
+    > li {
+      > a {
+        font-size: 14px;
+        margin: -1px 0;
+        line-height: 22px;
+      }
+    }
+  }
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+
+//
+// Buttons
+// --------------------------------------------------
+
+.btn-default {
+  #gradient > .vertical(#ffffff, #f1f1f1);
+}
+.btn-primary {
+  #gradient > .vertical(#3f9fd9, #2789c7);
+}
+.btn-success {
+  #gradient > .vertical(lighten(@btn-success-bg, 5%), darken(@btn-success-bg, 5%));
+}
+.btn-info {
+  #gradient > .vertical(lighten(@btn-info-bg, 5%), darken(@btn-info-bg, 5%));
+}
+.btn-warning {
+  #gradient > .vertical(lighten(@btn-warning-bg, 5%), darken(@btn-warning-bg, 5%));
+}
+.btn-danger {
+  #gradient > .vertical(lighten(@btn-danger-bg, 5%), darken(@btn-danger-bg, 5%));
+}
+
+
+//
+// Forms
+// --------------------------------------------------
+
+.form-control-focus(@color: @input-border-focus) {
+  @color-rgba: rgba(red(@color), green(@color), blue(@color), .6);
+  &:focus {
+    border-color: @color;
+    outline: 0;
+    background-color: #fff;
+    .box-shadow(~"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px @{color-rgba}");
+  }
+}
+
+
+//
+// Sections
+// --------------------------------------------------
+
+.section {
+  .clearfix;
+  margin-bottom: 30px;
+  .section-head {
+    .h2;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cfd0d2;
+  }
+}
+
+//
+// Progress bars
+// --------------------------------------------------
+
+.progress {
+  border-radius: 10px;
+  border: 1px solid @gray;
+  .box-shadow(none);
+  padding: 3px;
+}
+
+.progress-bar {
+  &:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  &:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}

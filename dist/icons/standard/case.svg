@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill-rule:evenodd;clip-rule:evenodd;fill:#B49B46;">
+	<!ENTITY st1 "display:none;opacity:0.19;filter:url(#f1);">
+	<!ENTITY st2 "display:none;opacity:0.24;filter:url(#f1);">
+	<!ENTITY st3 "fill-rule:evenodd;clip-rule:evenodd;fill:#F3EBCB;">
+	<!ENTITY st4 "display:inline;">
+	<!ENTITY st5 "fill-rule:evenodd;clip-rule:evenodd;fill:#FAF6E6;">
+	<!ENTITY st6 "display:none;">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:#CFB354;">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+]>
+<svg version="1.1" id="Case" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g>
+	<g id="shape_copy_27_" style="&st6;">
+		<g style="&st4;">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+				<stop  offset="0" style="stop-color:#E8C44C"/>
+				<stop  offset="1" style="stop-color:#EBCD67"/>
+			</linearGradient>
+			<path style="&st8;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.627,0,12-5.372,12-12V12
+				C120,5.373,114.627,0,108,0z"/>
+		</g>
+	</g>
+	<g id="shape_copy_37_2_" style="&st1;">
+		<path style="&st4;" d="M98.497,45.977H21.503l0.06,34.547l-0.02,10.008c0,4.17,1.452,5.497,5.617,5.497h65.72
+			c4.165,0,5.617-1.198,5.617-5.368l0.006-10.106L98.497,45.977z"/>
+	</g>
+	<g id="shape_copy_37">
+		<g>
+			<path style="&st3;" d="M100,44H20l0.062,35.896l-0.02,10.399c0,4.333,1.508,5.711,5.836,5.711h68.286
+				c4.328,0,5.836-1.245,5.836-5.577l0.006-10.501L100,44z"/>
+		</g>
+	</g>
+	<g id="handle_copy_3">
+		<g>
+			<path style="&st0;" d="M73,16H47c-3.896,0-6,2.041-6,6v14h10V25h18v11h10V22C79,18.14,76.933,16,73,16z"/>
+		</g>
+	</g>
+	<g id="Top_2_" style="&st2;">
+		<path style="&st4;" d="M98.937,43.724l0.02-2.882c0-3.672-1.471-4.841-5.689-4.841H26.693c-4.22,0-5.69,1.056-5.69,4.729
+			l-0.006,2.968l0.006,17.74h77.994L98.937,43.724z"/>
+	</g>
+	<g id="Top">
+		<g>
+			<path style="&st5;" d="M99.938,43.104l0.02-3.399c0-4.332-1.508-5.711-5.836-5.711H25.836c-4.328,0-5.836,1.245-5.836,5.577
+				l-0.006,3.502L20,64h80L99.938,43.104z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_38_copy_2">
+		<g>
+			<path style="&st7;" d="M53,55v17c0,2.948,2.958,6,6,6h2c2.979,0,6-3.052,6-6V55H53z"/>
+		</g>
+	</g>
+	<g id="Ellipse_9">
+		<g>
+			<circle style="&st3;" cx="60" cy="71" r="3"/>
+		</g>
+	</g>
+</g>
+</svg>

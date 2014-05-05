@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "display:none;opacity:0.2;filter:url(#f1);">
+	<!ENTITY st1 "display:inline;">
+	<!ENTITY st2 "fill-rule:evenodd;clip-rule:evenodd;fill:#67717A;">
+	<!ENTITY st3 "display:none;">
+	<!ENTITY st4 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+	<!ENTITY st5 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);">
+]>
+<svg version="1.1" id="Portal" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g>
+	<g id="shape_copy_49" style="&st3;">
+		<g style="&st1;">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+				<stop  offset="0" style="stop-color:#99B366"/>
+				<stop  offset="1" style="stop-color:#ADC27A"/>
+			</linearGradient>
+			<path style="&st4;" d="M108,0H12C5.373,0,0,5.373,0,12v96.001C0,114.628,5.373,120,12,120h96c6.627,0,12-5.372,12-11.999V12
+				C120,5.373,114.627,0,108,0z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_43_3_" style="&st0;">
+		<path style="&st1;" d="M92.535,18.482h-65.32c-4.123,0-7.465,3.457-7.465,7.721v66.593c0,4.265,3.342,7.721,7.465,7.721h65.32
+			c4.123,0,7.465-3.456,7.465-7.721V26.204C100,21.939,96.658,18.482,92.535,18.482z"/>
+	</g>
+	<g id="Rounded_Rectangle_43">
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="60" y1="102" x2="60" y2="17.75">
+				<stop  offset="0" style="stop-color:#DBE2C9"/>
+				<stop  offset="0.8916" style="stop-color:#EBF2D9"/>
+			</linearGradient>
+			<path style="&st5;" d="M94.187,17.75H25.814C21.499,17.75,18,21.3,18,25.68V94.07c0,4.38,3.499,7.93,7.814,7.93h68.372
+				c4.314,0,7.813-3.549,7.813-7.93V25.68C102,21.3,98.501,17.75,94.187,17.75z"/>
+		</g>
+	</g>
+	<g id="Ellipse_4_copy_5">
+		<g>
+			<path style="&st2;" d="M74,48.216C74,40.364,67.732,34,60,34c-7.731,0-14,6.364-14,14.216c0,5.846,3.475,10.867,8.442,13.051
+				c0.044,0.02,0.116,0.117,0.116,0.117L50.667,84h18.666l-3.732-22.279c0,0,0.021-0.481-0.029-0.46
+				C70.531,59.074,74,54.057,74,48.216z"/>
+		</g>
+	</g>
+</g>
+</svg>

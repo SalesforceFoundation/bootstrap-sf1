@@ -1,0 +1,26 @@
+<header class="navbar navbar-default navbar-static-top navbar-branded" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="{{ base_url }}index.html" class="navbar-brand navbar-foundation-logo">{{ site.brand }}</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li{{#is slug "theme"}} class="active"{{/is}}>
+          <a href="{{ base_url }}pages/theme.html">Theme</a>
+        </li>
+        <li{{#is slug "sfdc-icons"}} class="active"{{/is}}>
+          <a href="{{ base_url }}pages/icons.html">New Icons</a>
+        </li>
+        <li{{#is slug "new"}} class="active"{{/is}}>
+          <a href="{{ base_url }}pages/new.html">New Components</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

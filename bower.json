@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-sf1",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Ryan Foster",
+  "main": [
+    "dist/bootstrap.css",
+    "dist/bootstrap.min.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap":"3.1.1"
+  }
+}

@@ -1,0 +1,117 @@
+.card-context-mixin() {
+    .card-heading {
+        position: relative;
+
+        &:after {
+            .s1icon;
+            position: absolute;
+            display: block;
+            content: "";
+            right: 10px;
+            top: 10px;
+        }
+    }
+}
+.card-list-context-mixin() {
+    .card-list-heading {
+        position: relative;
+
+        &:after {
+            .s1icon;
+            position: absolute;
+            display: block;
+            content: "";
+            right: 10px;
+            top: 5px;
+        }
+    }
+}
+
+.card {
+    background-color: @panel-bg;
+    border-radius: @border-radius-base;
+    border: 1px solid #cfd0d2;
+    margin-bottom: 15px;
+
+    .card-heading {
+        color: @gray-dark;
+        padding: 15px 15px 10px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .card-detail {
+        padding: 0 15px 15px;
+        line-height: 16px;
+        font-size: 14px;
+    }
+
+    ul.card-detail {
+        list-style: none;
+        margin: 0;
+        padding: 0 0 15px;
+
+        li {
+            list-style: none;
+            margin-bottom: 2px;
+            padding: 0 15px;
+            box-sizing: border-box;
+            clear: both;
+            .clearfix;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .card-detail-label {
+        font-weight: 700;
+        display: inline-block;
+        vertical-align: top;
+        width: 49%;
+        min-width: 100px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .card-detail-value {
+        display: inline-block;
+        vertical-align: top;
+        width: 49%;
+        min-width: 100px;
+        text-align: right;
+        float: right;
+    }
+}
+
+.card-list {
+    background-color: @panel-bg;
+    border-radius: @border-radius-base;
+    border: 1px solid #cfd0d2;
+    margin-bottom: 20px;
+
+    .card-list-heading {
+        border-bottom: 1px solid #cfd0d2;
+        padding: 10px 15px;
+    }
+    .card-list-heading,
+    .card-list-heading > h3 {
+        color: @gray-dark;
+        font-weight: 500;
+        margin: 0;
+        font-size: @font-size-base;
+        color: @text-color;
+    }
+
+    .card {
+        border: none;
+        border-bottom: 1px solid #cfd0d2;
+        border-radius: 0;
+        margin-bottom: 0;
+        background: transparent;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

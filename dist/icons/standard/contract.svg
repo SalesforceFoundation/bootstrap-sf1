@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "display:none;opacity:0.2;filter:url(#f1);">
+	<!ENTITY st1 "fill-rule:evenodd;clip-rule:evenodd;fill:#B0D9A2;">
+	<!ENTITY st2 "display:inline;">
+	<!ENTITY st3 "fill-rule:evenodd;clip-rule:evenodd;fill:#5FAC45;">
+	<!ENTITY st4 "fill-rule:evenodd;clip-rule:evenodd;fill:#C7E8BA;">
+	<!ENTITY st5 "display:none;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);">
+]>
+<svg version="1.1" id="Contract" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g>
+	<g id="shape_copy_32_" style="&st5;">
+		<g style="&st2;">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+				<stop  offset="0" style="stop-color:#6CB654"/>
+				<stop  offset="1" style="stop-color:#7EC168"/>
+			</linearGradient>
+			<path style="&st6;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.628,0,12-5.372,12-12V12
+				C120,5.373,114.628,0,108,0z"/>
+		</g>
+	</g>
+	<g id="shape_copy_99_" style="&st0;">
+		<path style="&st2;" d="M71.987,25.6H33.022c-3.042,0-5.51,2.466-5.51,5.509v58.759c0,3.043,2.468,5.509,5.51,5.509h53.98
+			c3.043,0,5.51-2.466,5.51-5.509v-41.65L71.987,25.6z"/>
+	</g>
+	<g id="shape_copy_33_">
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="60.0127" y1="96" x2="60.0127" y2="22.9756">
+				<stop  offset="0" style="stop-color:#DBECD4"/>
+				<stop  offset="1" style="stop-color:#EDFEE7"/>
+			</linearGradient>
+			<path style="&st7;" d="M72.544,22.976H31.766c-3.184,0-5.766,2.581-5.766,5.766v61.493C26,93.419,28.582,96,31.766,96H88.26
+				c3.185,0,5.766-2.581,5.766-5.766V46.646L72.544,22.976z"/>
+		</g>
+	</g>
+	<g id="Rectangle_15">
+		<g>
+			<polygon style="&st1;" points="36,22 36,87 47.25,80 59,87 59,22 			"/>
+		</g>
+	</g>
+	<g id="Shape_92">
+		<g>
+			<path style="&st3;" d="M61.804,61.451c-0.001-0.307-0.146-0.596-0.391-0.781l-2.133-1.607l1.338-2.31
+				c0.153-0.264,0.174-0.587,0.056-0.87c-0.119-0.284-0.363-0.495-0.661-0.572l-2.584-0.668l0.351-2.646
+				c0.041-0.303-0.062-0.609-0.281-0.827c-0.218-0.216-0.524-0.316-0.829-0.274l-2.644,0.372l-0.688-2.578
+				c-0.08-0.296-0.294-0.539-0.576-0.656c-0.285-0.117-0.606-0.092-0.872,0.062l-2.3,1.354l-1.623-2.118
+				c-0.187-0.244-0.476-0.386-0.783-0.386c-0.308,0.001-0.596,0.147-0.781,0.393l-1.605,2.132l-2.312-1.337
+				c-0.266-0.152-0.587-0.174-0.871-0.057c-0.282,0.12-0.494,0.363-0.571,0.661l-0.668,2.583l-2.646-0.349
+				c-0.3-0.045-0.609,0.063-0.826,0.282c-0.216,0.217-0.318,0.524-0.275,0.828l0.372,2.644l-2.578,0.688
+				c-0.297,0.079-0.539,0.292-0.656,0.577c-0.115,0.284-0.092,0.605,0.063,0.871l1.355,2.3l-2.12,1.622
+				c-0.245,0.187-0.387,0.477-0.386,0.784c0.002,0.307,0.146,0.595,0.392,0.781l2.133,1.606l-1.337,2.311
+				c-0.154,0.265-0.175,0.587-0.056,0.871c0.118,0.283,0.362,0.495,0.659,0.571l2.584,0.669l-0.35,2.645
+				c-0.041,0.305,0.064,0.611,0.281,0.827c0.219,0.216,0.523,0.318,0.829,0.274l2.644-0.37l0.689,2.578
+				c0.077,0.297,0.291,0.539,0.575,0.655s0.606,0.093,0.871-0.063l2.299-1.354l1.623,2.12c0.168,0.218,0.417,0.355,0.687,0.38
+				c0.032,0.003,0.064,0.003,0.098,0.004c0.307-0.002,0.596-0.146,0.78-0.391l1.606-2.133l2.311,1.336
+				c0.266,0.154,0.588,0.174,0.871,0.056c0.283-0.119,0.494-0.362,0.571-0.66l0.669-2.584l2.646,0.351
+				c0.012,0.002,0.024,0.003,0.037,0.004c0.002,0,0.005,0,0.008,0.001c0.539,0.051,1.019-0.345,1.069-0.885
+				c0.012-0.123,0-0.24-0.03-0.352l-0.354-2.522l2.578-0.689c0.297-0.079,0.539-0.292,0.656-0.577
+				c0.115-0.283,0.092-0.605-0.063-0.87l-1.355-2.3l2.121-1.623C61.664,62.047,61.806,61.758,61.804,61.451z"/>
+		</g>
+	</g>
+	<g id="Ellipse_2_copy_2_">
+		<g>
+			<circle style="&st1;" cx="47.25" cy="61.501" r="8.056"/>
+		</g>
+	</g>
+	<g id="shape_copy_37_">
+		<g>
+			<path style="&st4;" d="M72.562,22.976v17.414c0,3.729,1.832,6.291,6.349,6.291l15.114,0.006L72.562,22.976z"/>
+		</g>
+	</g>
+</g>
+</svg>

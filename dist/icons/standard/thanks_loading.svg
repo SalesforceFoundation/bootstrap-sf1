@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "display:none;opacity:0.4;filter:url(#f1);">
+	<!ENTITY st1 "fill-rule:evenodd;clip-rule:evenodd;fill:#EBECED;">
+	<!ENTITY st2 "display:inline;">
+	<!ENTITY st3 "fill-rule:evenodd;clip-rule:evenodd;fill:#97A4AF;">
+	<!ENTITY st4 "display:none;">
+	<!ENTITY st5 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+]>
+<svg version="1.1" id="Thanks_-_loading" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g>
+	<g id="shape_copy_5_1_" style="&st4;">
+		<g style="&st2;">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+				<stop  offset="0" style="stop-color:#B8C1CA"/>
+				<stop  offset="1" style="stop-color:#BCC4CD"/>
+			</linearGradient>
+			<path style="&st5;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.628,0,12-5.372,12-12V12
+				C120,5.373,114.628,0,108,0z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_18_1_">
+		<g>
+			<path style="&st1;" d="M22,41v51c0,2.209,1.791,4,4,4h68c2.209,0,4-1.791,4-4V41H22z"/>
+		</g>
+	</g>
+	<g id="Shape_549">
+		<g>
+			<path style="&st3;" d="M49.178,17.171c-5.302-2.815-11.494-1.533-13.83,2.865s0.068,10.247,5.37,13.063
+				c5.302,2.815,22.992,2,22.992,2S54.479,19.986,49.178,17.171z"/>
+		</g>
+	</g>
+	<g id="Shape_549_copy_2">
+		<g>
+			<path style="&st3;" d="M84.652,20.036c-2.336-4.398-8.528-5.681-13.83-2.865S56.291,35.1,56.291,35.1s17.689,0.815,22.991-2
+				C84.584,30.283,86.988,24.435,84.652,20.036z"/>
+		</g>
+	</g>
+	<g id="Shape_551">
+		<g>
+			<rect x="53" y="59" style="&st3;" width="14" height="37"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_18_copy_3_2_" style="&st0;">
+		<path style="&st2;" d="M94.2,36.088H25.8c-2.099,0-3.8,1.305-3.8,2.914v16.023h76V39.002C98,37.393,96.299,36.088,94.2,36.088z"/>
+	</g>
+	<g id="Rounded_Rectangle_18_copy_3">
+		<g>
+			<path style="&st1;" d="M96,33H24c-2.209,0-4,1.791-4,4v22h80V37C100,34.791,98.209,33,96,33z"/>
+		</g>
+	</g>
+	<g id="Shape_551_1_">
+		<g>
+			<rect x="53" y="33" style="&st3;" width="14" height="26"/>
+		</g>
+	</g>
+</g>
+</svg>

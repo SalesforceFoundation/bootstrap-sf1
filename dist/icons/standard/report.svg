@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px"
+	 height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  filterUnits="userSpaceOnUse" y="8" x="-7" id="f1">
+	<feOffset  result="offOut" dy="3" in="SourceGraphic" dx="0"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  in2="blurOut" mode="normal" in="SourceGraphic"></feBlend>
+</filter>
+<g id="Report" style="enable-background:new    ;">
+	<g id="shape_copy_64_" style="display:none;">
+		<g style="display:inline;">
+			<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#D75143;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.627,5.373,12,12,12
+				h96c6.627,0,12-5.373,12-12V12C120,5.373,114.627,0,108,0z"/>
+		</g>
+	</g>
+	<g id="Layer_77" style="display:none;">
+		<path style="display:inline;fill-rule:evenodd;clip-rule:evenodd;filter:url(#f1);" d="M59.207,19
+			C81.461,19,99.5,37.041,99.5,59.294c0,22.254-18.039,40.295-40.293,40.295S18.912,81.548,18.912,59.294
+			C18.912,37.041,36.953,19,59.207,19z"/>
+	</g>
+	<g id="Layer_70_copy">
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#923434;" d="M59.899,59.833V100c0,0-0.399,0-0.707,0
+			c-21.983,0-39.876-17.517-40.48-39.354c-0.011-0.38,0.031-0.812,0.031-0.812H59.899z"/>
+	</g>
+	<g id="Layer_73_copy">
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#FD8F83;" d="M86.65,29.739C79.433,23.073,69.782,19,59.183,19
+			C37.374,19,19.592,36.239,18.72,57.834c-0.022,0.552,0,1.993,0,1.993h42.732l26.5-28.562
+			C87.952,31.265,87.399,30.431,86.65,29.739z"/>
+	</g>
+	<g id="Layer_69_copy">
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#FECAC4;" d="M88.564,31.835C95.235,39.179,99.5,48.81,99.5,59.514
+			c0,21.712-17.056,39.433-38.515,40.451C60.339,99.995,59.71,100,59.71,100V59.875l27.406-29.562
+			C87.116,30.312,87.331,30.478,88.564,31.835z"/>
+	</g>
+</g>
+<g id="nyt_x5F_exporter_x5F_info" style="display:none;">
+	<text transform="matrix(1 0 0 1 -558.5 -384)" style="display:inline;"><tspan x="0" y="0" style="font-family:'MyriadPro-Regular'; font-size:12;">&lt;nyt_prefs&gt;</tspan><tspan x="0" y="14.4" style="font-family:'MyriadPro-Regular'; font-size:12;">  &lt;nyt_prefix&gt;&lt;/nyt_prefix&gt;</tspan><tspan x="0" y="28.8" style="font-family:'MyriadPro-Regular'; font-size:12;">  &lt;nyt_suffix&gt;_60&lt;/nyt_suffix&gt;</tspan><tspan x="0" y="43.2" style="font-family:'MyriadPro-Regular'; font-size:12;">  &lt;nyt_base_path&gt;~/Desktop&lt;/nyt_base_path&gt;</tspan><tspan x="0" y="57.6" style="font-family:'MyriadPro-Regular'; font-size:12;">  &lt;nyt_scaling&gt;50&lt;/nyt_scaling&gt;</tspan><tspan x="0" y="72" style="font-family:'MyriadPro-Regular'; font-size:12;">  &lt;nyt_transparency&gt;true&lt;/nyt_transparency&gt;</tspan><tspan x="0" y="86.4" style="font-family:'MyriadPro-Regular'; font-size:12;">  &lt;nyt_format&gt;PNG 24&lt;/nyt_format&gt;</tspan><tspan x="0" y="100.8" style="font-family:'MyriadPro-Regular'; font-size:12;">  &lt;nyt_export_code&gt;artboards&lt;/nyt_export_code&gt;</tspan><tspan x="0" y="115.2" style="font-family:'MyriadPro-Regular'; font-size:12;">&lt;/nyt_prefs&gt;</tspan></text>
+</g>
+</svg>

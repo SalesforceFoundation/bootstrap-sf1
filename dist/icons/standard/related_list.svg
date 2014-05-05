@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill-rule:evenodd;clip-rule:evenodd;fill:#3A9A89;">
+	<!ENTITY st1 "fill-rule:evenodd;clip-rule:evenodd;fill:#D7ECE9;">
+	<!ENTITY st2 "display:none;opacity:0.2;filter:url(#f1);">
+	<!ENTITY st3 "fill-rule:evenodd;clip-rule:evenodd;fill:#4FAC9C;">
+	<!ENTITY st4 "display:inline;">
+	<!ENTITY st5 "display:none;">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:#6CB6A9;">
+]>
+<svg version="1.1" id="Related_List" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g>
+	<g id="shape_copy" style="&st5;">
+		<g style="&st4;">
+			<path style="&st3;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.628,0,12-5.372,12-12V12
+				C120,5.373,114.628,0,108,0z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_18_4_" style="&st2;">
+		<path style="&st4;" d="M93.75,25.281h-67.5c-2.071,0-3.75,1.679-3.75,3.75v60.938c0,2.071,1.679,3.75,3.75,3.75h67.5
+			c2.071,0,3.75-1.679,3.75-3.75V29.031C97.5,26.96,95.821,25.281,93.75,25.281z"/>
+	</g>
+	<g id="Rounded_Rectangle_18">
+		<g>
+			<path style="&st1;" d="M96,23H24c-2.209,0-4,1.791-4,4v65c0,2.209,1.791,4,4,4h72c2.209,0,4-1.791,4-4V27
+				C100,24.791,98.209,23,96,23z"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_18">
+		<g>
+			<rect x="47" y="37" style="&st6;" width="40" height="9"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_19">
+		<g>
+			<rect x="47" y="55" style="&st6;" width="40" height="9"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_20">
+		<g>
+			<rect x="47" y="73" style="&st6;" width="40" height="9"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_10">
+		<g>
+			<circle style="&st0;" cx="36.339" cy="41.583" r="4.583"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_11">
+		<g>
+			<circle style="&st0;" cx="36.339" cy="59.583" r="4.583"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_12">
+		<g>
+			<circle style="&st0;" cx="36.339" cy="77.583" r="4.583"/>
+		</g>
+	</g>
+</g>
+</svg>

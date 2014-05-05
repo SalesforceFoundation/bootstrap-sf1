@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "display:inline;">
+	<!ENTITY st1 "display:none;">
+	<!ENTITY st2 "fill-rule:evenodd;clip-rule:evenodd;fill:#3472B5;">
+	<!ENTITY st3 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+]>
+<svg version="1.1" id="Dropbox" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<g>
+	<g id="shape_copy_9_" style="&st1;">
+		<g style="&st0;">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+				<stop  offset="0" style="stop-color:#63A7EF"/>
+				<stop  offset="1" style="stop-color:#6BABF0"/>
+			</linearGradient>
+			<path style="&st3;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.627,0,12-5.372,12-12V12
+				C120,5.373,114.627,0,108,0z"/>
+		</g>
+	</g>
+	<g id="logo">
+		<g>
+			<path style="&st2;" d="M60.51,37.014L43.851,22.989L20.013,38.686l16.453,13.278L60.51,37.014z M60.451,66.974L36.466,51.994
+				L20.043,65.303l23.778,15.666L60.451,66.974z M60.54,66.944l16.63,13.995l23.808-15.637L84.525,52.023L60.54,66.944z
+				 M100.978,38.686L77.17,23.019L60.569,36.984l23.956,14.979L100.978,38.686z M60.54,70.018L43.821,84.013l-7.148-4.715v5.252
+				L60.54,98.992L84.437,84.52v-5.222l-7.178,4.685L60.54,70.018z"/>
+		</g>
+	</g>
+</g>
+</svg>

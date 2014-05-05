@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "display:none;opacity:0.1;filter:url(#f1);">
+	<!ENTITY st1 "display:inline;">
+	<!ENTITY st2 "display:none;opacity:0.15;filter:url(#f1);">
+	<!ENTITY st3 "display:none;">
+	<!ENTITY st4 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+	<!ENTITY st5 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_3_);">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_4_);">
+	<!ENTITY st8 "fill-rule:evenodd;clip-rule:evenodd;fill:#3865A5;">
+]>
+<svg version="1.1" id="Poll" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g>
+	<g id="shape_copy_18_" style="&st3;">
+		<g style="&st1;">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+				<stop  offset="0" style="stop-color:#4377BF"/>
+				<stop  offset="1" style="stop-color:#5E8BC8"/>
+			</linearGradient>
+			<path style="&st4;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.627,0,12-5.372,12-12V12
+				C120,5.373,114.627,0,108,0z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_17_3_" style="&st2;">
+		<path style="&st1;" d="M94.65,26.281h-69.3c-2.126,0-3.85,1.724-3.85,3.85v6.737c0,2.126,1.724,3.85,3.85,3.85h69.3
+			c2.126,0,3.85-1.724,3.85-3.85v-6.737C98.5,28.005,96.776,26.281,94.65,26.281z"/>
+	</g>
+	<g id="Rounded_Rectangle_17">
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="60" y1="41" x2="60" y2="26">
+				<stop  offset="0" style="stop-color:#8EB8F4"/>
+				<stop  offset="1" style="stop-color:#9BC7FF"/>
+			</linearGradient>
+			<path style="&st5;" d="M96,26H24c-2.209,0-4,1.791-4,4v7c0,2.209,1.791,4,4,4h72c2.209,0,4-1.791,4-4v-7
+				C100,27.791,98.209,26,96,26z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_17_copy_2">
+		<g>
+			<path style="&st8;" d="M96,52H24c-2.209,0-4,1.791-4,4v7c0,2.21,1.791,4,4,4h72c2.209,0,4-1.79,4-4v-7
+				C100,53.791,98.209,52,96,52z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_17_copy_2_5_" style="&st2;">
+		<path style="&st1;" d="M52.421,52.79H25.579c-1.977,0-3.579,1.603-3.579,3.579v6.264c0,1.977,1.603,3.579,3.579,3.579h26.842
+			c1.977,0,3.579-1.602,3.579-3.579v-6.264C56,54.392,54.397,52.79,52.421,52.79z"/>
+	</g>
+	<g id="Rounded_Rectangle_17_copy_2_1_">
+		<g>
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="39" y1="67" x2="39" y2="52">
+				<stop  offset="0" style="stop-color:#8EB8F4"/>
+				<stop  offset="1" style="stop-color:#9BC7FF"/>
+			</linearGradient>
+			<path style="&st6;" d="M54,52H24c-2.209,0-4,1.791-4,4v7c0,2.21,1.791,4,4,4h30c2.209,0,4-1.79,4-4v-7C58,53.791,56.209,52,54,52
+				z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_17_copy_3">
+		<g>
+			<path style="&st8;" d="M96,78H24c-2.209,0-4,1.791-4,4v7c0,2.209,1.791,4,4,4h72c2.209,0,4-1.791,4-4v-7
+				C100,79.791,98.209,78,96,78z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_17_copy_3_5_" style="&st0;">
+		<path style="&st1;" d="M70.286,78.536H25.714c-2.051,0-3.714,1.663-3.714,3.714v6.5c0,2.051,1.663,3.714,3.714,3.714h44.571
+			c2.051,0,3.714-1.663,3.714-3.714v-6.5C74,80.199,72.337,78.536,70.286,78.536z"/>
+	</g>
+	<g id="Rounded_Rectangle_17_copy_3_1_">
+		<g>
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="48" y1="93" x2="48" y2="78">
+				<stop  offset="0" style="stop-color:#8EB8F4"/>
+				<stop  offset="1" style="stop-color:#9BC7FF"/>
+			</linearGradient>
+			<path style="&st7;" d="M72,78H24c-2.209,0-4,1.791-4,4v7c0,2.209,1.791,4,4,4h48c2.209,0,4-1.791,4-4v-7
+				C76,79.791,74.209,78,72,78z"/>
+		</g>
+	</g>
+</g>
+</svg>

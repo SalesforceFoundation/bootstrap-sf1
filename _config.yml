@@ -1,0 +1,47 @@
+# =============================================
+# Build config
+# =============================================
+
+root:             ./
+dest:             <%= site.root %>
+assets:           <%= site.dest %>/dist
+
+# Data
+data:             templates/_data
+
+# Templates
+templates:        templates
+partials:         <%= site.templates %>/partials/*.hbs
+layouts:          <%= site.templates %>/layouts
+layout:           default.hbs
+pages:            <%= site.templates %>/pages
+
+
+# =============================================
+# Project metadata
+# =============================================
+
+author:           <%= pkg.author.name %>
+
+# Assemble metadata.
+assemble:
+  latest:         <%= pkg.version %>
+
+# GitHub
+username:         SalesforceFoundation
+name:             <%= pkg.name %>
+download:
+  source:         <%= pkg.homepage %>/archive/master.zip
+
+
+# =============================================
+# Site metadata
+# =============================================
+
+brand:            Bootstrap SF1
+title:            Bootstrap SF1
+lead:             Salesforce1 styled theme for Bootstrap.
+keywords:         <%= pkg.keywords %>
+
+version:          <%= pkg.version %>
+description:      <%= pkg.description %>

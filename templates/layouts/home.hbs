@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {{> header }}
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    {{> nav-main }}
+
+    <!-- Docs page layout -->
+    <div class="jumbotron jumbotron-inverse jumbotron-center" id="content">
+      <div class="container">
+        <h1>{{ title }}</h1>
+        <p>{{ lead }}</p>
+        <p>
+          <a class="btn btn-primary btn-lg" href="https://github.com/SalesforceFoundation/bootstrap-sf1/archive/master.zip">
+            <span class="s1utility s1utility-download"></span>
+            Download <small>(v0.0.0-dev)</small>
+          </a>
+          <a class="btn btn-success btn-lg" href="https://github.com/SalesforceFoundation/bootstrap-sf1">
+            View on Github
+          </a>
+      </div>
+    </div>
+
+    <div class="container">
+      {{> body }}
+    </div>
+
+    <!-- Footer
+    ================================================== -->
+    {{> footer }}
+
+
+  </body>
+</html>

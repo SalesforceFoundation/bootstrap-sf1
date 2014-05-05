@@ -1,0 +1,118 @@
+@import "variables.less";
+@import "mixins.less";
+@import "list-group.less";
+
+.docs-icon-list {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+  > li {
+    position: relative;
+    margin: 0 3px 6px 0;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    border-radius: 5px;
+  
+    > .s1icon-class {
+      line-height: 20px;
+      display: none;
+      background: rgba(255, 255, 255, 0.7);
+      position: absolute;
+      padding: 5px 0;
+      bottom: 10px;
+      left: 0;
+      width: 100%;
+    }
+
+    .s1utility {
+      font-size: 50px;
+      line-height: 60px;
+      text-align: center;
+      display: block;
+    }
+    .s1utility-class {
+      font-size: 14px;
+    }
+    
+    &:hover {
+      > .s1icon-class {
+        display: block;
+      }
+    }
+  }
+}
+
+.fn-sidebar {
+
+  &.affix,
+  &.affix-top {
+    top: 20px;
+  }
+  &.affix-bottom {
+    bottom: 20px;
+  }
+
+  .nav {
+    .active > a {
+      color: @text-color;
+    }
+  }
+
+  > .nav {
+    .list-group;
+    > li {
+      .list-group-item;
+      a {
+        padding: 0;
+      }
+      > .nav {
+        margin-left: 20px;
+        > li > a {
+          padding: 4px 0;
+        }
+      }
+    }
+  }
+}
+@media (max-width: @screen-md) {
+  .fn-sidebar.affix {
+    position: relative;
+  }
+}
+
+.fn-example {
+  background-color: #f8f8f8;
+  clear: both;
+  overflow: hidden;
+  padding: 45px 15px 15px 15px; 
+  border: 1px solid #cfd0d2;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+.fn-example:after {
+  content: "example";
+  clear: both;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-weight: 700;
+  color: #b8b8b8;
+}
+.fn-example+pre {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+}
+
+.fn-footer {
+  background-color: @brand-anchor;
+  padding: 30px 0;
+  margin-top: 50px;
+  color: @gray-lighter;
+}

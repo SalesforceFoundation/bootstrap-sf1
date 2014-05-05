@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill-rule:evenodd;clip-rule:evenodd;fill:#E68DB1;">
+	<!ENTITY st1 "display:inline;">
+	<!ENTITY st2 "display:none;opacity:0.15;filter:url(#f1);">
+	<!ENTITY st3 "display:none;">
+	<!ENTITY st4 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+	<!ENTITY st5 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);">
+]>
+<svg version="1.1" id="Share" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g>
+	<g id="shape_copy_13_" style="&st3;">
+		<g style="&st1;">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+				<stop  offset="0" style="stop-color:#DD6894"/>
+				<stop  offset="1" style="stop-color:#E277A4"/>
+			</linearGradient>
+			<path style="&st4;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.628,0,12-5.372,12-12V12
+				C120,5.373,114.628,0,108,0z"/>
+		</g>
+	</g>
+	<g id="Share_copy_8_3_" style="&st2;">
+		<path style="&st1;" d="M71.18,71.256c-1.77,0.223-3.393,0.845-4.791,1.761l-15.715-8.386c0.64-1.42,0.999-2.995,0.999-4.653
+			c0-1.66-0.359-3.233-1-4.654l15.45-8.516c1.378,0.969,2.993,1.647,4.77,1.925c6.191,0.967,11.992-3.268,12.957-9.458
+			c0.967-6.188-3.267-11.989-9.457-12.956c-6.188-0.967-11.989,3.268-12.956,9.456c-0.234,1.5-0.16,2.976,0.17,4.367l-16.623,9.491
+			c-1.421-0.639-2.994-0.999-4.652-0.999c-6.265,0-11.344,5.078-11.344,11.343s5.079,11.343,11.344,11.343
+			c1.658,0,3.232-0.359,4.652-1l16.673,9.208c-0.379,1.393-0.5,2.88-0.308,4.4c0.785,6.215,6.459,10.617,12.674,9.832
+			c6.216-0.786,10.617-6.46,9.832-12.675C83.069,74.872,77.396,70.47,71.18,71.256z"/>
+	</g>
+	<g id="Share_copy_8">
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="56.4873" y1="94.9521" x2="56.4873" y2="25.0826">
+				<stop  offset="0" style="stop-color:#EBE3E5"/>
+				<stop  offset="1" style="stop-color:#FFFBFE"/>
+			</linearGradient>
+			<path style="&st5;" d="M71.657,71.621c-1.827,0.23-3.503,0.872-4.946,1.818l-16.226-8.658c0.66-1.466,1.031-3.092,1.031-4.804
+				c0-1.714-0.371-3.339-1.032-4.806l15.952-8.793c1.423,1.001,3.09,1.701,4.925,1.987c6.392,0.998,12.381-3.374,13.378-9.765
+				c0.998-6.39-3.373-12.379-9.765-13.377c-6.39-0.998-12.379,3.374-13.377,9.764c-0.242,1.549-0.166,3.072,0.175,4.509l-17.163,9.8
+				c-1.467-0.66-3.091-1.031-4.804-1.031c-6.468,0-11.712,5.243-11.712,11.712c0,6.468,5.244,11.711,11.712,11.711
+				c1.713,0,3.338-0.371,4.804-1.032l17.215,9.508c-0.392,1.438-0.516,2.974-0.317,4.543c0.811,6.417,6.669,10.962,13.086,10.151
+				c6.418-0.812,10.962-6.67,10.151-13.087S78.075,70.81,71.657,71.621z"/>
+		</g>
+	</g>
+	<g id="Ellipse_6_copy_3">
+		<g>
+			<circle style="&st0;" cx="73" cy="83" r="6"/>
+		</g>
+	</g>
+	<g id="Ellipse_6_copy_4">
+		<g>
+			<circle style="&st0;" cx="40" cy="60" r="6"/>
+		</g>
+	</g>
+	<g id="Ellipse_6_copy_5">
+		<g>
+			<circle style="&st0;" cx="73" cy="37" r="6"/>
+		</g>
+	</g>
+</g>
+</svg>

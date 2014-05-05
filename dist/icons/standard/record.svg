@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "display:none;opacity:0.2;filter:url(#f1);">
+	<!ENTITY st1 "fill-rule:evenodd;clip-rule:evenodd;fill:#52B052;">
+	<!ENTITY st2 "display:inline;">
+	<!ENTITY st3 "display:none;">
+	<!ENTITY st4 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+	<!ENTITY st5 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);">
+]>
+<svg version="1.1" id="Record" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g>
+	<g id="shape_copy_24_" style="&st3;">
+		<g style="&st2;">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+				<stop  offset="0" style="stop-color:#70B970"/>
+				<stop  offset="1" style="stop-color:#68B568"/>
+			</linearGradient>
+			<path style="&st4;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.628,0,12-5.372,12-12V12
+				C120,5.373,114.628,0,108,0z"/>
+		</g>
+	</g>
+	<g id="Rounded_Rectangle_18_9_" style="&st0;">
+		<path style="&st2;" d="M94.65,25.369H25.35c-2.126,0-3.85,1.724-3.85,3.85v62.562c0,2.126,1.724,3.85,3.85,3.85H94.65
+			c2.126,0,3.85-1.724,3.85-3.85V29.219C98.5,27.093,96.776,25.369,94.65,25.369z"/>
+	</g>
+	<g id="Rounded_Rectangle_18_3_">
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="60" y1="96" x2="60" y2="23">
+				<stop  offset="0" style="stop-color:#C6DBD1"/>
+				<stop  offset="1" style="stop-color:#D9EEE4"/>
+			</linearGradient>
+			<path style="&st5;" d="M96,23H24c-2.209,0-4,1.791-4,4v65c0,2.209,1.791,4,4,4h72c2.209,0,4-1.791,4-4V27
+				C100,24.791,98.209,23,96,23z"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_20_1_">
+		<g>
+			<rect x="33" y="72" style="&st1;" width="54" height="9"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_19_1_">
+		<g>
+			<rect x="33" y="55" style="&st1;" width="54" height="9"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_18_1_">
+		<g>
+			<rect x="51" y="38" style="&st1;" width="36" height="9"/>
+		</g>
+	</g>
+	<g id="Rectangle_7_copy_21">
+		<g>
+			<rect x="33" y="38" style="&st1;" width="10" height="9"/>
+		</g>
+	</g>
+</g>
+</svg>

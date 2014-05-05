@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Ryan Foster">
+
+<title>
+  
+    Bootstrap SF1 &middot; Bootstrap
+  
+</title>
+
+<link rel="stylesheet" href="dist/css/bootstrap.css">
+<link rel="stylesheet" href="dist/css/docs.min.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/docs.js"></script>
+
+<style>pre code { background: transparent; }</style>
+<!--[if lt IE 9]><script src="dist/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-default navbar-static-top navbar-branded" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="./index.html" class="navbar-brand navbar-foundation-logo">Bootstrap SF1</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="./pages/theme.html">Theme</a>
+        </li>
+        <li>
+          <a href="./pages/icons.html">New Icons</a>
+        </li>
+        <li>
+          <a href="./pages/new.html">New Components</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Docs page layout -->
+    <div class="jumbotron jumbotron-inverse jumbotron-center" id="content">
+      <div class="container">
+        <h1>Bootstrap SF1</h1>
+        <p>A Salesforce1 styled theme for Bootstrap</p>
+        <p>
+          <a class="btn btn-primary btn-lg" href="https://github.com/SalesforceFoundation/bootstrap-sf1/archive/master.zip">
+            <span class="s1utility s1utility-download"></span>
+            Download <small>(v0.0.0-dev)</small>
+          </a>
+          <a class="btn btn-success btn-lg" href="https://github.com/SalesforceFoundation/bootstrap-sf1">
+            View on Github
+          </a>
+      </div>
+    </div>
+
+    <div class="container">
+      
+
+<h1 id="readme">Readme</h1>
+<p>This is a Bootstrap based theme developed by the Salesforce.com Foundation&#39;s Business Applications team. The aim is to provide a solid and complete theme for Bootstrap that matches the <a href="http://sfdc-styleguide.herokuapp.com/">SFDC Salesforce1 styleguide</a>.</p>
+<p>The general look and feel is inspired by the <a href="http://sfdc-styleguide.herokuapp.com/">SFDC Styleguide</a>. There is some intention of building theme variations for different application contexts (visualforce, salesforce1, chatter), but this work has not been done at this time.</p>
+<p>The Proxima Nova Soft fonts are not included in this repository. To match the SFDC styles you will need to include this font in your page.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>To use the theme you just need to include the <code>dist/</code> folder in your project and include <code>bootstrap.css</code> or <code>bootstrap.min.css</code> in your page. For use inside of a VisualForce page you may need to use the namespaced CSS in <code>bootstrap-namespaced.css</code>.</p>
+<p>You can download the theme using bower:</p>
+<pre><code>bower install https://github.com/SalesforceFoundation/bootstrap-theme-foundation.git#master</code></pre>
+<p>Or you can <a href="https://github.com/SalesforceFoundation/bootstrap-theme-foundation/archive/master.zip">download the zip</a>.</p>
+<h2 id="development">Development</h2>
+<p>You will need:</p>
+<ul>
+<li>Git</li>
+<li><a href="http://nodejs.org/download/">Node</a></li>
+<li><a href="http://bower.io">Bower</a></li>
+<li><a href="http://gruntjs.com">Grunt</a></li>
+</ul>
+<p>Things never to do:</p>
+<ul>
+<li>Edit any CSS files in <code>dist/</code> directly</li>
+<li>Edit any html page in <code>pages/</code> or the <code>index.html</code> file directly</li>
+<li>Edit any less file in the <code>less/generated</code> folder directly</li>
+</ul>
+<p>These files are generated automatically and your changes will be overwritten. You have been warned.  :)</p>
+<p>First clone the repo and navigate into the directory:</p>
+<pre><code>git clone https://github.com/SalesforceFoundation/bootstrap-theme-foundation.git
+cd bootstrap-theme-foundation</code></pre>
+<p>Next</p>
+<pre><code>npm install
+bower install</code></pre>
+<p>There are a number of files that are generated for you as you make changes to the less files. To facilitate this process start the grunt watch machinery with:</p>
+<pre><code>grunt serve</code></pre>
+<p>This will also start up a local webserver at <a href="http://localhost:8000">http://localhost:8000</a>. As you edit Less files or templates Grunt will automatically compile the CSS and HTML for the docs so long as you have <code>grunt serve</code> running.</p>
+
+    </div>
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="fn-footer" role="contentinfo">
+  <div class="container">
+    <p>This project is released for your page-designing pleasure by the Salesforce Foundation Business Applications Team under the open-source BSD license. Contributors to the project are welcome.</p>
+    <p><a href="http://www.getbootstrap.com">Bootstrap</a> is released under its own <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE">license</a></p>
+  </div>
+</footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "display:none;opacity:0.4;filter:url(#f2);">
+	<!ENTITY st1 "display:none;opacity:0.2;filter:url(#f1);">
+	<!ENTITY st2 "fill-rule:evenodd;clip-rule:evenodd;fill:#EBF2F9;">
+	<!ENTITY st3 "display:inline;">
+	<!ENTITY st4 "display:none;">
+	<!ENTITY st5 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_3_);">
+	<!ENTITY st8 "display:none;opacity:0.5;filter:url(#f1);">
+]>
+<svg version="1.1" id="Email_and_Note" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="-4" filterUnits="userSpaceOnUse" id="f2">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="-2"></feOffset>
+	<feGaussianBlur  stdDeviation="1" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g id="shape_copy_16_" style="&st4;">
+	<g style="&st3;">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+			<stop  offset="0" style="stop-color:#8199AF"/>
+			<stop  offset="1" style="stop-color:#8DA3B7"/>
+		</linearGradient>
+		<path style="&st5;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.627,0,12-5.372,12-12V12
+			C120,5.373,114.627,0,108,0z"/>
+	</g>
+</g>
+<g style="&st1;">
+	<path style="&st3;" d="M98.875,89.674c0,1.694-1.374,3.068-3.068,3.068H22.943c-1.694,0-3.068-1.374-3.068-3.068V28.826
+		c0-1.694,1.374-3.068,3.068-3.068h72.864c1.694,0,3.068,1.374,3.068,3.068V89.674z"/>
+</g>
+<g id="Rectangle_12">
+	<g>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="60.0215" y1="84" x2="60.0215" y2="35.8335">
+			<stop  offset="0" style="stop-color:#D2DDE8"/>
+			<stop  offset="1" style="stop-color:#D7E3ED"/>
+		</linearGradient>
+		<rect x="20.047" y="35.833" style="&st6;" width="79.949" height="48.167"/>
+	</g>
+</g>
+<g id="shape_copy_25_3_" style="&st0;">
+	<path style="&st3;" d="M73.956,56.107c0,0-7.106-5.651-8.327-4.673c-2.94,2.358-2.662,3.796-6.565,0.938
+		c-0.104-0.076-5.359-0.851-5.46-0.932c-1.396-1.123-7.692,4.568-7.692,4.568L22.542,81.349l-0.019,6.003
+		c0,4.062,1.415,5.355,5.474,5.355h64.046c4.059,0,5.474-1.168,5.474-5.231l0.006-6.098L73.956,56.107z"/>
+</g>
+<g id="shape_copy_25">
+	<g>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="60.0239" y1="94.0059" x2="60.0239" y2="49.8496">
+			<stop  offset="0" style="stop-color:#DCE7F1"/>
+			<stop  offset="1" style="stop-color:#EAEFF5"/>
+		</linearGradient>
+		<path style="&st7;" d="M74.878,54.982c0,0-7.577-6.025-8.878-4.982c-3.135,2.514-2.838,4.047-7,1
+			c-0.111-0.081-5.714-0.907-5.822-0.994c-1.489-1.197-8.201,4.871-8.201,4.871L20.062,81.896l-0.02,6.4
+			c0,4.331,1.508,5.71,5.836,5.71h68.286c4.328,0,5.836-1.245,5.836-5.577l0.006-6.501L74.878,54.982z"/>
+	</g>
+</g>
+<g id="shape_copy_19_2_" style="&st8;">
+	<path style="&st3;" d="M93.172,26.797H26.87c-4.308,0-5.85,1.545-5.85,5.857l0.01,2.178c0,0,32.458,26.816,35.068,28.937
+		c2.372,1.926,6.447,1.899,8.78,0c3.798-3.091,34.375-28.707,34.14-28.695l0.002-2.419C99.021,28.343,97.48,26.797,93.172,26.797z"
+		/>
+</g>
+<g id="shape_copy_19">
+	<g>
+		<path style="&st2;" d="M94.004,25H26.038c-4.416,0-5.996,1.584-5.996,6.004l0.01,6.333c0,0,33.273,27.489,35.949,29.663
+			c2.432,1.975,6.609,1.946,9,0c3.894-3.169,35.239-29.428,34.998-29.415L100,31.004C100,26.584,98.42,25,94.004,25z"/>
+	</g>
+</g>
+</svg>
