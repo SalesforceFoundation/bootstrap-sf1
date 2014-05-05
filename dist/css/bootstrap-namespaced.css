@@ -4916,7 +4916,7 @@
 .bootstrap .panel-footer {
   padding: 10px 15px;
   background-color: #ffffff;
-  border-top: 1px solid #cfd0d2;
+  border-top: 1px solid #e8e9ec;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -5073,13 +5073,13 @@
   border-bottom: 0;
 }
 .bootstrap .panel-group .panel-heading + .panel-collapse .panel-body {
-  border-top: 1px solid #cfd0d2;
+  border-top: 1px solid #e8e9ec;
 }
 .bootstrap .panel-group .panel-footer {
   border-top: 0;
 }
 .bootstrap .panel-group .panel-footer + .panel-collapse .panel-body {
-  border-bottom: 1px solid #cfd0d2;
+  border-bottom: 1px solid #e8e9ec;
 }
 .bootstrap .panel-default {
   border-color: #cfd0d2;
@@ -7277,9 +7277,19 @@
   border-bottom-left-radius: 4px;
   border-bottom: 1px solid #cfd0d2;
 }
+.bootstrap .panel > .card-list,
 .bootstrap .panel > .card-list-group > .card-list {
   border-radius: 0;
   border: none;
+  border-bottom: 1px solid #e8e9ec;
+}
+.bootstrap .panel > .card-list:last-child,
+.bootstrap .panel > .card-list-group > .card-list:last-child {
+  border-bottom: none;
+}
+.bootstrap .panel > .card-list > .card,
+.bootstrap .panel > .card-list-group > .card-list > .card {
+  border-color: #e8e9ec;
 }
 .bootstrap .card.context-account .card-heading,
 .bootstrap .context-account > .card .card-heading {

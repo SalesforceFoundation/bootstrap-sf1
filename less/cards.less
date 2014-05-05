@@ -154,10 +154,17 @@
 
 .panel {
 
-  > .card-list-group {
-    > .card-list {
-      border-radius: 0;
-      border: none;
+  > .card-list,
+  > .card-list-group > .card-list {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid @panel-inner-border;
+    &:last-child {
+      border-bottom: none;
+    }
+    > .card {
+      border-color: @panel-inner-border;
     }
   }
+  
 }
