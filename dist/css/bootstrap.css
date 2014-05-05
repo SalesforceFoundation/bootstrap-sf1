@@ -8559,7 +8559,7 @@ button.close {
 
 .card-list .card-list-heading {
   padding: 10px 15px;
-  border-bottom: 1px solid #cfd0d2;
+  border-bottom: 1px solid #e8e9ec;
 }
 
 .card-list .card-list-heading > .card-list-more {
@@ -8599,7 +8599,7 @@ button.close {
   margin-bottom: 0;
   background: transparent;
   border: none;
-  border-bottom: 1px solid #cfd0d2;
+  border-bottom: 1px solid #e8e9ec;
   border-radius: 0;
 }
 

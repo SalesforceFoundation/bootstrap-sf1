@@ -7214,7 +7214,7 @@
   margin-bottom: 20px;
 }
 .bootstrap .card-list .card-list-heading {
-  border-bottom: 1px solid #cfd0d2;
+  border-bottom: 1px solid #e8e9ec;
   padding: 10px 15px;
 }
 .bootstrap .card-list .card-list-heading > .card-list-more {
@@ -7249,7 +7249,7 @@
 }
 .bootstrap .card-list .card {
   border: none;
-  border-bottom: 1px solid #cfd0d2;
+  border-bottom: 1px solid #e8e9ec;
   border-radius: 0;
   margin-bottom: 0;
   background: transparent;
