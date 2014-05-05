@@ -12,7 +12,7 @@ To use the theme you just need to include the `dist/` folder in your project and
 
 You can download the theme using bower:
 
-    bower install https://github.com/SalesforceFoundation/bootstrap-theme-foundation.git#master
+    bower install https://github.com/SalesforceFoundation/bootstrap-sf1.git#master
 
 Or you can [download the zip][download].
 
@@ -35,7 +35,7 @@ These files are generated automatically and your changes will be overwritten. Yo
 
 First clone the repo and navigate into the directory:
 
-    git clone https://github.com/SalesforceFoundation/bootstrap-theme-foundation.git
+    git clone https://github.com/SalesforceFoundation/bootstrap-sf1.git
     cd bootstrap-theme-foundation
 
 Next
@@ -50,7 +50,7 @@ There are a number of files that are generated for you as you make changes to th
 This will also start up a local webserver at http://localhost:8000. As you edit Less files or templates Grunt will automatically compile the CSS and HTML for the docs so long as you have `grunt serve` running.
 
 [sfdc-styles]: http://sfdc-styleguide.herokuapp.com/
-[download]: https://github.com/SalesforceFoundation/bootstrap-theme-foundation/archive/master.zip
+[download]: https://github.com/SalesforceFoundation/bootstrap-sf1/archive/master.zip
 [node-download]: http://nodejs.org/download/
 [grunt]: http://gruntjs.com
 [bower]: http://bower.io
