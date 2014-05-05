@@ -628,7 +628,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #eceef0;
+  border-bottom: 1px dotted #e8e9ec;
 }
 .initialism {
   font-size: 90%;
@@ -2326,7 +2326,7 @@ fieldset[disabled] .btn-link {
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
-  color: #eceef0;
+  color: #e8e9ec;
   text-decoration: none;
 }
 .btn-lg,
@@ -3477,11 +3477,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #ffffff;
 }
 .nav > li.disabled > a {
-  color: #eceef0;
+  color: #e8e9ec;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
-  color: #eceef0;
+  color: #e8e9ec;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
@@ -4135,7 +4135,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #cccccc;
 }
 .breadcrumb > .active {
-  color: #eceef0;
+  color: #e8e9ec;
 }
 .pagination {
   display: inline-block;
@@ -4195,7 +4195,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
-  color: #eceef0;
+  color: #e8e9ec;
   background-color: #ffffff;
   border-color: #cfd0d2;
   cursor: not-allowed;
@@ -4264,7 +4264,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #eceef0;
+  color: #e8e9ec;
   background-color: #ffffff;
   cursor: not-allowed;
 }
@@ -4538,7 +4538,7 @@ a.thumbnail.active {
   height: 100%;
   font-size: 12px;
   line-height: 20px;
-  color: #444444;
+  color: #ffffff;
   text-align: center;
   background-color: #2a94d6;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
@@ -4621,7 +4621,7 @@ a.thumbnail.active {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #ffffff;
-  border: 1px solid #eceef0;
+  border: 1px solid #cfd0d2;
 }
 .list-group-item:first-child {
   border-top-right-radius: 4px;
@@ -4795,7 +4795,7 @@ a.list-group-item-danger.active:focus {
 .panel-footer {
   padding: 10px 15px;
   background-color: #ffffff;
-  border-top: 1px solid #eceef0;
+  border-top: 1px solid #cfd0d2;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -4952,27 +4952,27 @@ a.list-group-item-danger.active:focus {
   border-bottom: 0;
 }
 .panel-group .panel-heading + .panel-collapse .panel-body {
-  border-top: 1px solid #eceef0;
+  border-top: 1px solid #cfd0d2;
 }
 .panel-group .panel-footer {
   border-top: 0;
 }
 .panel-group .panel-footer + .panel-collapse .panel-body {
-  border-bottom: 1px solid #eceef0;
+  border-bottom: 1px solid #cfd0d2;
 }
 .panel-default {
-  border-color: #eceef0;
+  border-color: #cfd0d2;
 }
 .panel-default > .panel-heading {
   color: #525354;
   background-color: #ffffff;
-  border-color: #eceef0;
+  border-color: #cfd0d2;
 }
 .panel-default > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #eceef0;
+  border-top-color: #cfd0d2;
 }
 .panel-default > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #eceef0;
+  border-bottom-color: #cfd0d2;
 }
 .panel-primary {
   border-color: #aad4ef;
@@ -7105,6 +7105,28 @@ button.close {
   border-bottom: 1px solid #cfd0d2;
   padding: 10px 15px;
 }
+.card-list .card-list-heading > .card-list-more {
+  float: right;
+}
+.card-list .card-list-heading > .card-list-more:after {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #3c3d3e;
+  padding-left: 5px;
+  content: "\e019";
+  font-size: 12px;
+}
+.card-list .card-list-heading > .card-list-more:hover {
+  text-decoration: none;
+}
 .card-list .card-list-heading,
 .card-list .card-list-heading > h3 {
   color: #3c3d3e;
@@ -7122,6 +7144,30 @@ button.close {
 }
 .card-list .card:last-child {
   border-bottom: none;
+}
+.card-list-group {
+  margin-bottom: 20px;
+}
+.card-list-group > .card-list {
+  border-radius: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.card-list-group > .card-list > .card-list-heading {
+  background-color: #f5f6f7;
+}
+.card-list-group > .card-list:first-child {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.card-list-group > .card-list:last-child {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom: 1px solid #cfd0d2;
+}
+.panel > .card-list-group > .card-list {
+  border-radius: 0;
+  border: none;
 }
 /* This file is generated via Grunt task. **Do not edit directly.** */
 .card.context-account .card-heading,
@@ -11868,6 +11914,10 @@ header > .navbar {
   -webkit-box-shadow: none;
   box-shadow: none;
   padding: 3px;
+}
+.progress-bar {
+  font-size: 11px;
+  line-height: 14px;
 }
 .progress-bar:first-child {
   border-top-left-radius: 10px;

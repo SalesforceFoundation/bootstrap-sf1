@@ -8,7 +8,7 @@
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #ffffff;
-  border: 1px solid #eceef0;
+  border: 1px solid #cfd0d2;
 }
 .list-group-item:first-child {
   border-top-right-radius: 4px;
@@ -208,7 +208,7 @@ a.list-group-item-danger.active:focus {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #ffffff;
-  border: 1px solid #eceef0;
+  border: 1px solid #cfd0d2;
 }
 .fn-sidebar > .nav > li:first-child {
   border-top-right-radius: 4px;
