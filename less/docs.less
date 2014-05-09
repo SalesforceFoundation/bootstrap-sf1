@@ -1,6 +1,6 @@
 @import "variables.less";
 @import "mixins.less";
-@import "list-group.less";
+@import (reference) "list-group.less";
 
 .docs-icon-list {
   padding: 0;
@@ -67,6 +67,8 @@
     .list-group;
     > li {
       .list-group-item;
+      border: 1px solid @list-group-border;
+      background-color: #fff;
       a {
         padding: 0;
       }
@@ -89,7 +91,7 @@
   background-color: #f8f8f8;
   clear: both;
   overflow: hidden;
-  padding: 45px 15px 15px 15px; 
+  padding: 45px 15px 15px 15px;
   border: 1px solid #cfd0d2;
   position: relative;
   border-radius: 5px 5px 0 0;

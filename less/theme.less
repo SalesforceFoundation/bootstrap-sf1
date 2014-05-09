@@ -266,3 +266,21 @@ body {
     border-bottom-right-radius: 10px;
   }
 }
+
+//
+// List groups
+// --------------------------------------------------
+
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid @list-group-border;
+  border-radius: 0;
+
+  &:first-child {
+    .border-top-radius(0);
+  }
+  &:last-child {
+    margin-bottom: 0;
+    .border-bottom-radius(0);
+  }
+}
