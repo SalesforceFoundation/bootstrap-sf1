@@ -11859,6 +11859,14 @@
   background-color: #344a5f;
   color: #ffffff;
 }
+.bootstrap .jumbotron-inverse h1,
+.bootstrap .jumbotron-inverse h2,
+.bootstrap .jumbotron-inverse h3,
+.bootstrap .jumbotron-inverse h4,
+.bootstrap .jumbotron-inverse h5,
+.bootstrap .jumbotron-inverse h6 {
+  color: #ffffff;
+}
 .bootstrap .page-header {
   margin: 0 0 20px;
   font-size: 16.8px;
