@@ -1,24 +1,35 @@
+@import "bootstrap.less";
+
 @font-face {
   font-family: 'ProximaNovaSoft-Regular';
-  src: url("../fonts/proximanovasoft-regular.eot");
-  src: url("../fonts/proximanovasoft-medium.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  src: ~"url('@{font-path}@{font-file-regular}.eot')";
+  src: ~"url('@{font-path}@{font-file-regular}.eot?#iefix') format('embedded-opentype')",
+       ~"url('@{font-path}@{font-file-regular}.woff') format('woff')",
+       ~"url('@{font-path}@{font-file-regular}.ttf') format('truetype')",
+       ~"url('@{font-path}@{font-file-regular}.svg#proxima_nova_softregular') format('svg')";
+}
 @font-face {
   font-family: 'ProximaNovaSoft-Medium';
-  src: url("../fonts/proximanovasoft-medium.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  src: ~"url('@{font-path}@{font-file-regular}.eot')";
+  src: ~"url('@{font-path}@{font-file-regular}.eot?#iefix') format('embedded-opentype')",
+       ~"url('@{font-path}@{font-file-regular}.woff') format('woff')",
+       ~"url('@{font-path}@{font-file-regular}.ttf') format('truetype')",
+       ~"url('@{font-path}@{font-file-regular}.svg#proxima_nova_softmedium') format('svg')";
+}
 
 
-@import "bootstrap.less";
 @import "s1-icons.less";
 @import "cards.less";
 @import "generated/contexts.less";
 
 // Add CSS Customizations to your theme here.
 
-body {
+body,
+.bootstrap {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -107,7 +118,6 @@ body {
   &.page-header-anchor {
     padding: 30px 0 20px 0;
     background-color: @brand-anchor;
-    #gradient > .vertical(#23394d, #33495f);
     color: @anchor-text-color;
     h1, h2, h3, h4, h5, h6 {
       color: #fff;

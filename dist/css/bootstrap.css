@@ -1,16 +1,3 @@
-@font-face {
-  font-family: 'ProximaNovaSoft-Regular';
-  src: url("../fonts/proximanovasoft-regular.eot");
-  src: url("../fonts/proximanovasoft-medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'ProximaNovaSoft-Medium';
-  src: url("../fonts/proximanovasoft-medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5791,6 +5778,20 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+@font-face {
+  font-family: 'ProximaNovaSoft-Regular';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/proximanovasoft-regular.eot');
+  src: url('../fonts/proximanovasoft-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanovasoft-regular.woff') format('woff'), url('../fonts/proximanovasoft-regular.ttf') format('truetype'), url('../fonts/proximanovasoft-regular.svg#proxima_nova_softregular') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaSoft-Medium';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/proximanovasoft-regular.eot');
+  src: url('../fonts/proximanovasoft-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanovasoft-regular.woff') format('woff'), url('../fonts/proximanovasoft-regular.ttf') format('truetype'), url('../fonts/proximanovasoft-regular.svg#proxima_nova_softmedium') format('svg');
 }
 .s1icon {
   position: relative;
@@ -12358,7 +12359,8 @@ button.close {
   background-color: #e15d76;
   background-image: url("../icons/custom/custom100_120.png");
 }
-body {
+body,
+.bootstrap {
   -webkit-font-smoothing: antialiased;
 }
 .panel .panel-heading {
@@ -12412,10 +12414,6 @@ body {
 .page-header.page-header-anchor {
   padding: 30px 0 20px 0;
   background-color: #344a5f;
-  background-image: -webkit-linear-gradient(top, #23394d 0%, #33495f 100%);
-  background-image: linear-gradient(to bottom, #23394d 0%, #33495f 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff23394d', endColorstr='#ff33495f', GradientType=0);
   color: #afb5b9;
 }
 .page-header.page-header-anchor h1,
