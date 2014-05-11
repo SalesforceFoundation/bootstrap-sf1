@@ -121,6 +121,16 @@ module.exports = function(grunt) {
           }
         ]
       },
+      icons: {
+        files: [
+          {
+            expand: true,
+            cwd: 'icons',
+            src: ['**/*_120.png'],
+            dest: 'dist/icons'
+          }
+        ]
+      },
       fonts: {
         files: [
           {
