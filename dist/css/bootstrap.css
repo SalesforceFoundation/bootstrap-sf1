@@ -12558,8 +12558,15 @@ body,
 .panel.panel-danger > .panel-heading {
   color: #a83136;
 }
+.jumbotron {
+  color: #e8e9ec;
+}
 .jumbotron.jumbotron-center {
   text-align: center;
+}
+.jumbotron a {
+  color: #fff;
+  text-decoration: underline;
 }
 .jumbotron-inverse {
   background-color: #344a5f;
@@ -12728,6 +12735,11 @@ header > .navbar {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+.list-group-heading {
+  border-bottom: 1px solid #cfd0d2;
+  margin: 0;
+  padding: 10px 0;
+}
 .list-group-item {
   border: none;
   border-bottom: 1px solid #cfd0d2;
@@ -12741,4 +12753,44 @@ header > .navbar {
   margin-bottom: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+/* TODO: Move to Bootstrap-sf1 */
+.datepicker {
+  padding: 0;
+}
+.datepicker thead {
+  background: #f0f1f2;
+}
+.datepicker thead .dow {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.datepicker .btn {
+  border: none;
+  background: transparent;
+  padding: 8px 12px 6px 12px;
+}
+.datepicker .btn:hover,
+.datepicker .btn:focus {
+  background-color: #e8e9ec;
+}
+.datepicker .btn:active,
+.datepicker .btn.btn-primary {
+  color: #fff;
+  background-color: #2a94d6;
+}
+.datepicker tbody .btn {
+  border-radius: 0;
+}
+.datepicker tbody td {
+  border-right: 1px solid #e8e9ec;
+  border-bottom: 1px solid #e8e9ec;
+}
+.datepicker tbody td:last-child {
+  border-right: none;
+}
+.datepicker tbody tr:last-child td {
+  border-bottom: none;
 }

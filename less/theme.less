@@ -91,9 +91,13 @@ body,
 // --------------------------------------------------
 
 .jumbotron {
-  
+  color: @gray-light;
   &.jumbotron-center {
     text-align: center;
+  }
+  a {
+    color: #fff;
+    text-decoration: underline;
   }
 }
 
@@ -269,6 +273,12 @@ body,
 // List groups
 // --------------------------------------------------
 
+.list-group-heading {
+  border-bottom: 1px solid @list-group-border;
+  margin: 0;
+  padding: 10px 0;
+}
+
 .list-group-item {
   border: none;
   border-bottom: 1px solid @list-group-border;
@@ -280,5 +290,54 @@ body,
   &:last-child {
     margin-bottom: 0;
     .border-bottom-radius(0);
+  }
+}
+
+//
+// Angular Strap: Datepicker
+// --------------------------------------------------
+
+/* TODO: Move to Bootstrap-sf1 */
+.datepicker {
+  padding: 0;
+  thead {
+    background: #f0f1f2;
+    .dow {
+      font-weight: normal;
+      text-transform: uppercase;
+      font-size: 12px;
+      padding: 5px 0;
+    }
+  }
+  .btn {
+    border: none;
+    background: transparent;
+    padding: 8px 12px 6px 12px;
+    &:hover,
+    &:focus {
+      background-color: @gray-light;
+    }
+    &:active,
+    &.btn-primary {
+      color: #fff;
+      background-color: @brand-primary;
+    }
+  }
+  tbody {
+    .btn {
+      border-radius: 0;
+    }
+    td {
+      border-right: 1px solid @gray-light;
+      border-bottom: 1px solid @gray-light;
+      &:last-child {
+        border-right: none;
+      }
+    }
+    tr:last-child {
+      td {
+        border-bottom: none;
+      }
+    }
   }
 }
