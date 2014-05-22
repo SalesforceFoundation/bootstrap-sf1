@@ -50,7 +50,7 @@ There are a number of files that are generated for you as you make changes to th
 This will also start up a local webserver at http://localhost:8000. As you edit Less files or templates Grunt will automatically compile the CSS and HTML for the docs so long as you have `grunt serve` running.
 
 [sfdc-styles]: http://sfdc-styleguide.herokuapp.com/
-[download]: https://github.com/SalesforceFoundation/bootstrap-sf1/archive/v0.1.0-beta.4.zip
+[download]: https://github.com/SalesforceFoundation/bootstrap-sf1/archive/v0.1.0-beta.5.zip
 [node-download]: http://nodejs.org/download/
 [grunt]: http://gruntjs.com
 [bower]: http://bower.io
