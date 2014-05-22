@@ -36,7 +36,7 @@ These files are generated automatically and your changes will be overwritten. Yo
 First clone the repo and navigate into the directory:
 
     git clone https://github.com/SalesforceFoundation/bootstrap-sf1.git
-    cd bootstrap-theme-foundation
+    cd bootstrap-sf1
 
 Next
 

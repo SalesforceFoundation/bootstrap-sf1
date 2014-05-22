@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-sf1",
   "version": "v0.1.0-beta.4",
-  "private": true,
+  "private": false,
   "author": "Ryan Foster",
   "main": [
     "dist/bootstrap.css",
@@ -14,7 +14,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {
+  "devDependencies": {
     "bootstrap":"3.1.1"
   }
 }
