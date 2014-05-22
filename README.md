@@ -1,4 +1,4 @@
-# Readme
+## Introduction
 
 This is a Bootstrap based theme developed by the Salesforce.com Foundation's Business Applications team. The aim is to provide a solid and complete theme for Bootstrap that matches the [SFDC Salesforce1 styleguide][sfdc-styles].
 
@@ -12,7 +12,7 @@ To use the theme you just need to include the `dist/` folder in your project and
 
 You can download the theme using bower:
 
-    bower install https://github.com/SalesforceFoundation/bootstrap-sf1.git#v0.1.0-beta.4
+    bower install bootstrap-sf1
 
 Or you can [download the zip][download].
 

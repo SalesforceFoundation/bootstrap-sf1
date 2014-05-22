@@ -79,16 +79,18 @@
     </div>
 
     <div class="container">
-      
+      <div class="row">
+        <div class="col-md-9">
+          
 
-<h1 id="readme">Readme</h1>
+<h2 id="introduction">Introduction</h2>
 <p>This is a Bootstrap based theme developed by the Salesforce.com Foundation&#39;s Business Applications team. The aim is to provide a solid and complete theme for Bootstrap that matches the <a href="http://sfdc-styleguide.herokuapp.com/">SFDC Salesforce1 styleguide</a>.</p>
 <p>The general look and feel is inspired by the <a href="http://sfdc-styleguide.herokuapp.com/">SFDC Styleguide</a>. There is some intention of building theme variations for different application contexts (visualforce, salesforce1, chatter), but this work has not been done at this time.</p>
 <p>The Proxima Nova Soft fonts are not included in this repository. To match the SFDC styles you will need to include this font in your page.</p>
 <h2 id="getting-started">Getting Started</h2>
 <p>To use the theme you just need to include the <code>dist/</code> folder in your project and include <code>bootstrap.css</code> or <code>bootstrap.min.css</code> in your page. For use inside of a VisualForce page you may need to use the namespaced CSS in <code>bootstrap-namespaced.css</code>.</p>
 <p>You can download the theme using bower:</p>
-<pre><code>bower install https://github.com/SalesforceFoundation/bootstrap-sf1.git#v0.1.0-beta.4</code></pre>
+<pre><code>bower install bootstrap-sf1</code></pre>
 <p>Or you can <a href="https://github.com/SalesforceFoundation/bootstrap-sf1/archive/v0.1.0-beta.4.zip">download the zip</a>.</p>
 <h2 id="development">Development</h2>
 <p>You will need:</p>
@@ -115,6 +117,17 @@ bower install</code></pre>
 <pre><code>grunt serve</code></pre>
 <p>This will also start up a local webserver at <a href="http://localhost:8000">http://localhost:8000</a>. As you edit Less files or templates Grunt will automatically compile the CSS and HTML for the docs so long as you have <code>grunt serve</code> running.</p>
 
+        </div>
+        <div class="col-md-3">
+          <div class="fn-sidebar affix-top" data-spy="affix" data-offset-top="380">
+            <ul class="nav">
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#development">Development</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Footer

@@ -27,7 +27,16 @@
     </div>
 
     <div class="container">
-      {{> body }}
+      <div class="row">
+        <div class="col-md-9">
+          {{> body }}
+        </div>
+        <div class="col-md-3">
+          <div class="fn-sidebar affix-top" data-spy="affix" data-offset-top="380">
+            {{> nav-index }}
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Footer
