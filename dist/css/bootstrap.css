@@ -7118,7 +7118,7 @@ button.close {
 .card .card-heading {
   color: #3c3d3e;
   padding: 15px 15px 10px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
 }
 .card .card-detail {
@@ -7259,7 +7259,7 @@ button.close {
 .card.context-account .card-heading,
 .context-account > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-account .card-heading:after,
 .context-account > .card .card-heading:after {
@@ -7290,7 +7290,7 @@ button.close {
 .card.context-campaign .card-heading,
 .context-campaign > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-campaign .card-heading:after,
 .context-campaign > .card .card-heading:after {
@@ -7321,7 +7321,7 @@ button.close {
 .card.context-campaign-members .card-heading,
 .context-campaign-members > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-campaign-members .card-heading:after,
 .context-campaign-members > .card .card-heading:after {
@@ -7352,7 +7352,7 @@ button.close {
 .card.context-case .card-heading,
 .context-case > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-case .card-heading:after,
 .context-case > .card .card-heading:after {
@@ -7383,7 +7383,7 @@ button.close {
 .card.context-contact .card-heading,
 .context-contact > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-contact .card-heading:after,
 .context-contact > .card .card-heading:after {
@@ -7414,7 +7414,7 @@ button.close {
 .card.context-contract .card-heading,
 .context-contract > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-contract .card-heading:after,
 .context-contract > .card .card-heading:after {
@@ -7445,7 +7445,7 @@ button.close {
 .card.context-dashboard .card-heading,
 .context-dashboard > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-dashboard .card-heading:after,
 .context-dashboard > .card .card-heading:after {
@@ -7476,7 +7476,7 @@ button.close {
 .card.context-lead .card-heading,
 .context-lead > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-lead .card-heading:after,
 .context-lead > .card .card-heading:after {
@@ -7507,7 +7507,7 @@ button.close {
 .card.context-opportunity .card-heading,
 .context-opportunity > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-opportunity .card-heading:after,
 .context-opportunity > .card .card-heading:after {
@@ -7538,7 +7538,7 @@ button.close {
 .card.context-portal .card-heading,
 .context-portal > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-portal .card-heading:after,
 .context-portal > .card .card-heading:after {
@@ -7569,7 +7569,7 @@ button.close {
 .card.context-product .card-heading,
 .context-product > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-product .card-heading:after,
 .context-product > .card .card-heading:after {
@@ -7600,7 +7600,7 @@ button.close {
 .card.context-record .card-heading,
 .context-record > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-record .card-heading:after,
 .context-record > .card .card-heading:after {
@@ -7631,7 +7631,7 @@ button.close {
 .card.context-solution .card-heading,
 .context-solution > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-solution .card-heading:after,
 .context-solution > .card .card-heading:after {
@@ -7662,7 +7662,7 @@ button.close {
 .card.context-transcript .card-heading,
 .context-transcript > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-transcript .card-heading:after,
 .context-transcript > .card .card-heading:after {
@@ -7693,7 +7693,7 @@ button.close {
 .card.context-avatar .card-heading,
 .context-avatar > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-avatar .card-heading:after,
 .context-avatar > .card .card-heading:after {
@@ -7724,7 +7724,7 @@ button.close {
 .card.context-approval .card-heading,
 .context-approval > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-approval .card-heading:after,
 .context-approval > .card .card-heading:after {
@@ -7755,7 +7755,7 @@ button.close {
 .card.context-apps .card-heading,
 .context-apps > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-apps .card-heading:after,
 .context-apps > .card .card-heading:after {
@@ -7786,7 +7786,7 @@ button.close {
 .card.context-connected-apps-admins .card-heading,
 .context-connected-apps-admins > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-connected-apps-admins .card-heading:after,
 .context-connected-apps-admins > .card .card-heading:after {
@@ -7817,7 +7817,7 @@ button.close {
 .card.context-calibration .card-heading,
 .context-calibration > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-calibration .card-heading:after,
 .context-calibration > .card .card-heading:after {
@@ -7848,7 +7848,7 @@ button.close {
 .card.context-coaching .card-heading,
 .context-coaching > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-coaching .card-heading:after,
 .context-coaching > .card .card-heading:after {
@@ -7879,7 +7879,7 @@ button.close {
 .card.context-drafts .card-heading,
 .context-drafts > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-drafts .card-heading:after,
 .context-drafts > .card .card-heading:after {
@@ -7910,7 +7910,7 @@ button.close {
 .card.context-email .card-heading,
 .context-email > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-email .card-heading:after,
 .context-email > .card .card-heading:after {
@@ -7941,7 +7941,7 @@ button.close {
 .card.context-event .card-heading,
 .context-event > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-event .card-heading:after,
 .context-event > .card .card-heading:after {
@@ -7972,7 +7972,7 @@ button.close {
 .card.context-endorsement .card-heading,
 .context-endorsement > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-endorsement .card-heading:after,
 .context-endorsement > .card .card-heading:after {
@@ -8003,7 +8003,7 @@ button.close {
 .card.context-feed .card-heading,
 .context-feed > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-feed .card-heading:after,
 .context-feed > .card .card-heading:after {
@@ -8034,7 +8034,7 @@ button.close {
 .card.context-feedback .card-heading,
 .context-feedback > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-feedback .card-heading:after,
 .context-feedback > .card .card-heading:after {
@@ -8065,7 +8065,7 @@ button.close {
 .card.context-file .card-heading,
 .context-file > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-file .card-heading:after,
 .context-file > .card .card-heading:after {
@@ -8096,7 +8096,7 @@ button.close {
 .card.context-goals .card-heading,
 .context-goals > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-goals .card-heading:after,
 .context-goals > .card .card-heading:after {
@@ -8127,7 +8127,7 @@ button.close {
 .card.context-groups .card-heading,
 .context-groups > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-groups .card-heading:after,
 .context-groups > .card .card-heading:after {
@@ -8158,7 +8158,7 @@ button.close {
 .card.context-insights .card-heading,
 .context-insights > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-insights .card-heading:after,
 .context-insights > .card .card-heading:after {
@@ -8189,7 +8189,7 @@ button.close {
 .card.context-link .card-heading,
 .context-link > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-link .card-heading:after,
 .context-link > .card .card-heading:after {
@@ -8220,7 +8220,7 @@ button.close {
 .card.context-note .card-heading,
 .context-note > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-note .card-heading:after,
 .context-note > .card .card-heading:after {
@@ -8251,7 +8251,7 @@ button.close {
 .card.context-people .card-heading,
 .context-people > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-people .card-heading:after,
 .context-people > .card .card-heading:after {
@@ -8282,7 +8282,7 @@ button.close {
 .card.context-performance .card-heading,
 .context-performance > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-performance .card-heading:after,
 .context-performance > .card .card-heading:after {
@@ -8313,7 +8313,7 @@ button.close {
 .card.context-photo .card-heading,
 .context-photo > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-photo .card-heading:after,
 .context-photo > .card .card-heading:after {
@@ -8344,7 +8344,7 @@ button.close {
 .card.context-poll .card-heading,
 .context-poll > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-poll .card-heading:after,
 .context-poll > .card .card-heading:after {
@@ -8375,7 +8375,7 @@ button.close {
 .card.context-post .card-heading,
 .context-post > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-post .card-heading:after,
 .context-post > .card .card-heading:after {
@@ -8406,7 +8406,7 @@ button.close {
 .card.context-question-best .card-heading,
 .context-question-best > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-question-best .card-heading:after,
 .context-question-best > .card .card-heading:after {
@@ -8437,7 +8437,7 @@ button.close {
 .card.context-question-feed .card-heading,
 .context-question-feed > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-question-feed .card-heading:after,
 .context-question-feed > .card .card-heading:after {
@@ -8468,7 +8468,7 @@ button.close {
 .card.context-quotes .card-heading,
 .context-quotes > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-quotes .card-heading:after,
 .context-quotes > .card .card-heading:after {
@@ -8499,7 +8499,7 @@ button.close {
 .card.context-record .card-heading,
 .context-record > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-record .card-heading:after,
 .context-record > .card .card-heading:after {
@@ -8530,7 +8530,7 @@ button.close {
 .card.context-report .card-heading,
 .context-report > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-report .card-heading:after,
 .context-report > .card .card-heading:after {
@@ -8561,7 +8561,7 @@ button.close {
 .card.context-recent .card-heading,
 .context-recent > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-recent .card-heading:after,
 .context-recent > .card .card-heading:after {
@@ -8592,7 +8592,7 @@ button.close {
 .card.context-related-list .card-heading,
 .context-related-list > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-related-list .card-heading:after,
 .context-related-list > .card .card-heading:after {
@@ -8623,7 +8623,7 @@ button.close {
 .card.context-scan-card .card-heading,
 .context-scan-card > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-scan-card .card-heading:after,
 .context-scan-card > .card .card-heading:after {
@@ -8654,7 +8654,7 @@ button.close {
 .card.context-skill-entity .card-heading,
 .context-skill-entity > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-skill-entity .card-heading:after,
 .context-skill-entity > .card .card-heading:after {
@@ -8685,7 +8685,7 @@ button.close {
 .card.context-social .card-heading,
 .context-social > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-social .card-heading:after,
 .context-social > .card .card-heading:after {
@@ -8716,7 +8716,7 @@ button.close {
 .card.context-task .card-heading,
 .context-task > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-task .card-heading:after,
 .context-task > .card .card-heading:after {
@@ -8747,7 +8747,7 @@ button.close {
 .card.context-thanks .card-heading,
 .context-thanks > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-thanks .card-heading:after,
 .context-thanks > .card .card-heading:after {
@@ -8778,7 +8778,7 @@ button.close {
 .card.context-today .card-heading,
 .context-today > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-today .card-heading:after,
 .context-today > .card .card-heading:after {
@@ -8809,7 +8809,7 @@ button.close {
 .card.context-canvas .card-heading,
 .context-canvas > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-canvas .card-heading:after,
 .context-canvas > .card .card-heading:after {
@@ -8840,7 +8840,7 @@ button.close {
 .card.context-custom .card-heading,
 .context-custom > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-custom .card-heading:after,
 .context-custom > .card .card-heading:after {
@@ -8871,7 +8871,7 @@ button.close {
 .card.context-default .card-heading,
 .context-default > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-default .card-heading:after,
 .context-default > .card .card-heading:after {
@@ -8902,7 +8902,7 @@ button.close {
 .card.context-avatar-loading .card-heading,
 .context-avatar-loading > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-avatar-loading .card-heading:after,
 .context-avatar-loading > .card .card-heading:after {
@@ -8933,7 +8933,7 @@ button.close {
 .card.context-groups-loading .card-heading,
 .context-groups-loading > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-groups-loading .card-heading:after,
 .context-groups-loading > .card .card-heading:after {
@@ -8964,7 +8964,7 @@ button.close {
 .card.context-thanks-loading .card-heading,
 .context-thanks-loading > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-thanks-loading .card-heading:after,
 .context-thanks-loading > .card .card-heading:after {
@@ -8995,7 +8995,7 @@ button.close {
 .card.context-files .card-heading,
 .context-files > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-files .card-heading:after,
 .context-files > .card .card-heading:after {
@@ -9026,7 +9026,7 @@ button.close {
 .card.context-concur .card-heading,
 .context-concur > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-concur .card-heading:after,
 .context-concur > .card .card-heading:after {
@@ -9057,7 +9057,7 @@ button.close {
 .card.context-dropbox .card-heading,
 .context-dropbox > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-dropbox .card-heading:after,
 .context-dropbox > .card .card-heading:after {
@@ -9088,7 +9088,7 @@ button.close {
 .card.context-evernote .card-heading,
 .context-evernote > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-evernote .card-heading:after,
 .context-evernote > .card .card-heading:after {
@@ -9119,7 +9119,7 @@ button.close {
 .card.context-answer-best .card-heading,
 .context-answer-best > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-answer-best .card-heading:after,
 .context-answer-best > .card .card-heading:after {
@@ -9150,7 +9150,7 @@ button.close {
 .card.context-answer-private .card-heading,
 .context-answer-private > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-answer-private .card-heading:after,
 .context-answer-private > .card .card-heading:after {
@@ -9181,7 +9181,7 @@ button.close {
 .card.context-answer-public .card-heading,
 .context-answer-public > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-answer-public .card-heading:after,
 .context-answer-public > .card .card-heading:after {
@@ -9212,7 +9212,7 @@ button.close {
 .card.context-article .card-heading,
 .context-article > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-article .card-heading:after,
 .context-article > .card .card-heading:after {
@@ -9243,7 +9243,7 @@ button.close {
 .card.context-case-change-status .card-heading,
 .context-case-change-status > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-case-change-status .card-heading:after,
 .context-case-change-status > .card .card-heading:after {
@@ -9274,7 +9274,7 @@ button.close {
 .card.context-case-comment .card-heading,
 .context-case-comment > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-case-comment .card-heading:after,
 .context-case-comment > .card .card-heading:after {
@@ -9305,7 +9305,7 @@ button.close {
 .card.context-case-email .card-heading,
 .context-case-email > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-case-email .card-heading:after,
 .context-case-email > .card .card-heading:after {
@@ -9336,7 +9336,7 @@ button.close {
 .card.context-case-log-a-call .card-heading,
 .context-case-log-a-call > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-case-log-a-call .card-heading:after,
 .context-case-log-a-call > .card .card-heading:after {
@@ -9367,7 +9367,7 @@ button.close {
 .card.context-case-transcript .card-heading,
 .context-case-transcript > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-case-transcript .card-heading:after,
 .context-case-transcript > .card .card-heading:after {
@@ -9398,7 +9398,7 @@ button.close {
 .card.context-team-member .card-heading,
 .context-team-member > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-team-member .card-heading:after,
 .context-team-member > .card .card-heading:after {
@@ -9429,7 +9429,7 @@ button.close {
 .card.context-c-heart .card-heading,
 .context-c-heart > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-heart .card-heading:after,
 .context-c-heart > .card .card-heading:after {
@@ -9460,7 +9460,7 @@ button.close {
 .card.context-c-fan .card-heading,
 .context-c-fan > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-fan .card-heading:after,
 .context-c-fan > .card .card-heading:after {
@@ -9491,7 +9491,7 @@ button.close {
 .card.context-c-sun .card-heading,
 .context-c-sun > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-sun .card-heading:after,
 .context-c-sun > .card .card-heading:after {
@@ -9522,7 +9522,7 @@ button.close {
 .card.context-c-hexagon .card-heading,
 .context-c-hexagon > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-hexagon .card-heading:after,
 .context-c-hexagon > .card .card-heading:after {
@@ -9553,7 +9553,7 @@ button.close {
 .card.context-c-leaf .card-heading,
 .context-c-leaf > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-leaf .card-heading:after,
 .context-c-leaf > .card .card-heading:after {
@@ -9584,7 +9584,7 @@ button.close {
 .card.context-c-triangle .card-heading,
 .context-c-triangle > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-triangle .card-heading:after,
 .context-c-triangle > .card .card-heading:after {
@@ -9615,7 +9615,7 @@ button.close {
 .card.context-c-square .card-heading,
 .context-c-square > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-square .card-heading:after,
 .context-c-square > .card .card-heading:after {
@@ -9646,7 +9646,7 @@ button.close {
 .card.context-c-diamond .card-heading,
 .context-c-diamond > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-diamond .card-heading:after,
 .context-c-diamond > .card .card-heading:after {
@@ -9677,7 +9677,7 @@ button.close {
 .card.context-c-lightning .card-heading,
 .context-c-lightning > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-lightning .card-heading:after,
 .context-c-lightning > .card .card-heading:after {
@@ -9708,7 +9708,7 @@ button.close {
 .card.context-c-moon .card-heading,
 .context-c-moon > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-moon .card-heading:after,
 .context-c-moon > .card .card-heading:after {
@@ -9739,7 +9739,7 @@ button.close {
 .card.context-c-star .card-heading,
 .context-c-star > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-star .card-heading:after,
 .context-c-star > .card .card-heading:after {
@@ -9770,7 +9770,7 @@ button.close {
 .card.context-c-circle .card-heading,
 .context-c-circle > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-circle .card-heading:after,
 .context-c-circle > .card .card-heading:after {
@@ -9801,7 +9801,7 @@ button.close {
 .card.context-c-box .card-heading,
 .context-c-box > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-box .card-heading:after,
 .context-c-box > .card .card-heading:after {
@@ -9832,7 +9832,7 @@ button.close {
 .card.context-c-hands .card-heading,
 .context-c-hands > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-hands .card-heading:after,
 .context-c-hands > .card .card-heading:after {
@@ -9863,7 +9863,7 @@ button.close {
 .card.context-c-people .card-heading,
 .context-c-people > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-people .card-heading:after,
 .context-c-people > .card .card-heading:after {
@@ -9894,7 +9894,7 @@ button.close {
 .card.context-c-bank .card-heading,
 .context-c-bank > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-bank .card-heading:after,
 .context-c-bank > .card .card-heading:after {
@@ -9925,7 +9925,7 @@ button.close {
 .card.context-c-sack .card-heading,
 .context-c-sack > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-sack .card-heading:after,
 .context-c-sack > .card .card-heading:after {
@@ -9956,7 +9956,7 @@ button.close {
 .card.context-c-edit .card-heading,
 .context-c-edit > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-edit .card-heading:after,
 .context-c-edit > .card .card-heading:after {
@@ -9987,7 +9987,7 @@ button.close {
 .card.context-c-wrench .card-heading,
 .context-c-wrench > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-wrench .card-heading:after,
 .context-c-wrench > .card .card-heading:after {
@@ -10018,7 +10018,7 @@ button.close {
 .card.context-c-airplane .card-heading,
 .context-c-airplane > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-airplane .card-heading:after,
 .context-c-airplane > .card .card-heading:after {
@@ -10049,7 +10049,7 @@ button.close {
 .card.context-c-computer .card-heading,
 .context-c-computer > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-computer .card-heading:after,
 .context-c-computer > .card .card-heading:after {
@@ -10080,7 +10080,7 @@ button.close {
 .card.context-c-telephone .card-heading,
 .context-c-telephone > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-telephone .card-heading:after,
 .context-c-telephone > .card .card-heading:after {
@@ -10111,7 +10111,7 @@ button.close {
 .card.context-c-envelope .card-heading,
 .context-c-envelope > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-envelope .card-heading:after,
 .context-c-envelope > .card .card-heading:after {
@@ -10142,7 +10142,7 @@ button.close {
 .card.context-c-building .card-heading,
 .context-c-building > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-building .card-heading:after,
 .context-c-building > .card .card-heading:after {
@@ -10173,7 +10173,7 @@ button.close {
 .card.context-c-alarmclock .card-heading,
 .context-c-alarmclock > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-alarmclock .card-heading:after,
 .context-c-alarmclock > .card .card-heading:after {
@@ -10204,7 +10204,7 @@ button.close {
 .card.context-c-flag .card-heading,
 .context-c-flag > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-flag .card-heading:after,
 .context-c-flag > .card .card-heading:after {
@@ -10235,7 +10235,7 @@ button.close {
 .card.context-c-laptop .card-heading,
 .context-c-laptop > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-laptop .card-heading:after,
 .context-c-laptop > .card .card-heading:after {
@@ -10266,7 +10266,7 @@ button.close {
 .card.context-c-smartphone .card-heading,
 .context-c-smartphone > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-smartphone .card-heading:after,
 .context-c-smartphone > .card .card-heading:after {
@@ -10297,7 +10297,7 @@ button.close {
 .card.context-c-tablet .card-heading,
 .context-c-tablet > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-tablet .card-heading:after,
 .context-c-tablet > .card .card-heading:after {
@@ -10328,7 +10328,7 @@ button.close {
 .card.context-c-dish .card-heading,
 .context-c-dish > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-dish .card-heading:after,
 .context-c-dish > .card .card-heading:after {
@@ -10359,7 +10359,7 @@ button.close {
 .card.context-c-car .card-heading,
 .context-c-car > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-car .card-heading:after,
 .context-c-car > .card .card-heading:after {
@@ -10390,7 +10390,7 @@ button.close {
 .card.context-c-factory .card-heading,
 .context-c-factory > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-factory .card-heading:after,
 .context-c-factory > .card .card-heading:after {
@@ -10421,7 +10421,7 @@ button.close {
 .card.context-c-desk .card-heading,
 .context-c-desk > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-desk .card-heading:after,
 .context-c-desk > .card .card-heading:after {
@@ -10452,7 +10452,7 @@ button.close {
 .card.context-c-bug .card-heading,
 .context-c-bug > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-bug .card-heading:after,
 .context-c-bug > .card .card-heading:after {
@@ -10483,7 +10483,7 @@ button.close {
 .card.context-c-mic .card-heading,
 .context-c-mic > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-mic .card-heading:after,
 .context-c-mic > .card .card-heading:after {
@@ -10514,7 +10514,7 @@ button.close {
 .card.context-c-train .card-heading,
 .context-c-train > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-train .card-heading:after,
 .context-c-train > .card .card-heading:after {
@@ -10545,7 +10545,7 @@ button.close {
 .card.context-c-bridge .card-heading,
 .context-c-bridge > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-bridge .card-heading:after,
 .context-c-bridge > .card .card-heading:after {
@@ -10576,7 +10576,7 @@ button.close {
 .card.context-c-camera .card-heading,
 .context-c-camera > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-camera .card-heading:after,
 .context-c-camera > .card .card-heading:after {
@@ -10607,7 +10607,7 @@ button.close {
 .card.context-c-telescope .card-heading,
 .context-c-telescope > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-telescope .card-heading:after,
 .context-c-telescope > .card .card-heading:after {
@@ -10638,7 +10638,7 @@ button.close {
 .card.context-c-creditcard .card-heading,
 .context-c-creditcard > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-creditcard .card-heading:after,
 .context-c-creditcard > .card .card-heading:after {
@@ -10669,7 +10669,7 @@ button.close {
 .card.context-c-cash .card-heading,
 .context-c-cash > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-cash .card-heading:after,
 .context-c-cash > .card .card-heading:after {
@@ -10700,7 +10700,7 @@ button.close {
 .card.context-c-treasurechest .card-heading,
 .context-c-treasurechest > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-treasurechest .card-heading:after,
 .context-c-treasurechest > .card .card-heading:after {
@@ -10731,7 +10731,7 @@ button.close {
 .card.context-c-jewel .card-heading,
 .context-c-jewel > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-jewel .card-heading:after,
 .context-c-jewel > .card .card-heading:after {
@@ -10762,7 +10762,7 @@ button.close {
 .card.context-c-hammer .card-heading,
 .context-c-hammer > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-hammer .card-heading:after,
 .context-c-hammer > .card .card-heading:after {
@@ -10793,7 +10793,7 @@ button.close {
 .card.context-c-ticket .card-heading,
 .context-c-ticket > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-ticket .card-heading:after,
 .context-c-ticket > .card .card-heading:after {
@@ -10824,7 +10824,7 @@ button.close {
 .card.context-c-stamp .card-heading,
 .context-c-stamp > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-stamp .card-heading:after,
 .context-c-stamp > .card .card-heading:after {
@@ -10855,7 +10855,7 @@ button.close {
 .card.context-c-knight .card-heading,
 .context-c-knight > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-knight .card-heading:after,
 .context-c-knight > .card .card-heading:after {
@@ -10886,7 +10886,7 @@ button.close {
 .card.context-c-trophy .card-heading,
 .context-c-trophy > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-trophy .card-heading:after,
 .context-c-trophy > .card .card-heading:after {
@@ -10917,7 +10917,7 @@ button.close {
 .card.context-c-cd .card-heading,
 .context-c-cd > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-cd .card-heading:after,
 .context-c-cd > .card .card-heading:after {
@@ -10948,7 +10948,7 @@ button.close {
 .card.context-c-bigtop .card-heading,
 .context-c-bigtop > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-bigtop .card-heading:after,
 .context-c-bigtop > .card .card-heading:after {
@@ -10979,7 +10979,7 @@ button.close {
 .card.context-c-apple .card-heading,
 .context-c-apple > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-apple .card-heading:after,
 .context-c-apple > .card .card-heading:after {
@@ -11010,7 +11010,7 @@ button.close {
 .card.context-c-football .card-heading,
 .context-c-football > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-football .card-heading:after,
 .context-c-football > .card .card-heading:after {
@@ -11041,7 +11041,7 @@ button.close {
 .card.context-c-bell .card-heading,
 .context-c-bell > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-bell .card-heading:after,
 .context-c-bell > .card .card-heading:after {
@@ -11072,7 +11072,7 @@ button.close {
 .card.context-c-boat .card-heading,
 .context-c-boat > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-boat .card-heading:after,
 .context-c-boat > .card .card-heading:after {
@@ -11103,7 +11103,7 @@ button.close {
 .card.context-c-books .card-heading,
 .context-c-books > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-books .card-heading:after,
 .context-c-books > .card .card-heading:after {
@@ -11134,7 +11134,7 @@ button.close {
 .card.context-c-bottle .card-heading,
 .context-c-bottle > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-bottle .card-heading:after,
 .context-c-bottle > .card .card-heading:after {
@@ -11165,7 +11165,7 @@ button.close {
 .card.context-c-buildingblock .card-heading,
 .context-c-buildingblock > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-buildingblock .card-heading:after,
 .context-c-buildingblock > .card .card-heading:after {
@@ -11196,7 +11196,7 @@ button.close {
 .card.context-c-caduceus .card-heading,
 .context-c-caduceus > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-caduceus .card-heading:after,
 .context-c-caduceus > .card .card-heading:after {
@@ -11227,7 +11227,7 @@ button.close {
 .card.context-c-can .card-heading,
 .context-c-can > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-can .card-heading:after,
 .context-c-can > .card .card-heading:after {
@@ -11258,7 +11258,7 @@ button.close {
 .card.context-c-umbrella .card-heading,
 .context-c-umbrella > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-umbrella .card-heading:after,
 .context-c-umbrella > .card .card-heading:after {
@@ -11289,7 +11289,7 @@ button.close {
 .card.context-c-castle .card-heading,
 .context-c-castle > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-castle .card-heading:after,
 .context-c-castle > .card .card-heading:after {
@@ -11320,7 +11320,7 @@ button.close {
 .card.context-c-chalkboard .card-heading,
 .context-c-chalkboard > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-chalkboard .card-heading:after,
 .context-c-chalkboard > .card .card-heading:after {
@@ -11351,7 +11351,7 @@ button.close {
 .card.context-c-chip .card-heading,
 .context-c-chip > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-chip .card-heading:after,
 .context-c-chip > .card .card-heading:after {
@@ -11382,7 +11382,7 @@ button.close {
 .card.context-c-compass .card-heading,
 .context-c-compass > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-compass .card-heading:after,
 .context-c-compass > .card .card-heading:after {
@@ -11413,7 +11413,7 @@ button.close {
 .card.context-c-cup .card-heading,
 .context-c-cup > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-cup .card-heading:after,
 .context-c-cup > .card .card-heading:after {
@@ -11444,7 +11444,7 @@ button.close {
 .card.context-c-dice .card-heading,
 .context-c-dice > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-dice .card-heading:after,
 .context-c-dice > .card .card-heading:after {
@@ -11475,7 +11475,7 @@ button.close {
 .card.context-c-gears .card-heading,
 .context-c-gears > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-gears .card-heading:after,
 .context-c-gears > .card .card-heading:after {
@@ -11506,7 +11506,7 @@ button.close {
 .card.context-c-globe .card-heading,
 .context-c-globe > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-globe .card-heading:after,
 .context-c-globe > .card .card-heading:after {
@@ -11537,7 +11537,7 @@ button.close {
 .card.context-c-guitar .card-heading,
 .context-c-guitar > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-guitar .card-heading:after,
 .context-c-guitar > .card .card-heading:after {
@@ -11568,7 +11568,7 @@ button.close {
 .card.context-c-saw .card-heading,
 .context-c-saw > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-saw .card-heading:after,
 .context-c-saw > .card .card-heading:after {
@@ -11599,7 +11599,7 @@ button.close {
 .card.context-c-headphones .card-heading,
 .context-c-headphones > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-headphones .card-heading:after,
 .context-c-headphones > .card .card-heading:after {
@@ -11630,7 +11630,7 @@ button.close {
 .card.context-c-helicoptor .card-heading,
 .context-c-helicoptor > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-helicoptor .card-heading:after,
 .context-c-helicoptor > .card .card-heading:after {
@@ -11661,7 +11661,7 @@ button.close {
 .card.context-c-highwaysign .card-heading,
 .context-c-highwaysign > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-highwaysign .card-heading:after,
 .context-c-highwaysign > .card .card-heading:after {
@@ -11692,7 +11692,7 @@ button.close {
 .card.context-c-hotairballoon .card-heading,
 .context-c-hotairballoon > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-hotairballoon .card-heading:after,
 .context-c-hotairballoon > .card .card-heading:after {
@@ -11723,7 +11723,7 @@ button.close {
 .card.context-c-ipphone .card-heading,
 .context-c-ipphone > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-ipphone .card-heading:after,
 .context-c-ipphone > .card .card-heading:after {
@@ -11754,7 +11754,7 @@ button.close {
 .card.context-c-keys .card-heading,
 .context-c-keys > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-keys .card-heading:after,
 .context-c-keys > .card .card-heading:after {
@@ -11785,7 +11785,7 @@ button.close {
 .card.context-c-lock .card-heading,
 .context-c-lock > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-lock .card-heading:after,
 .context-c-lock > .card .card-heading:after {
@@ -11816,7 +11816,7 @@ button.close {
 .card.context-c-map .card-heading,
 .context-c-map > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-map .card-heading:after,
 .context-c-map > .card .card-heading:after {
@@ -11847,7 +11847,7 @@ button.close {
 .card.context-c-tapemeasure .card-heading,
 .context-c-tapemeasure > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-tapemeasure .card-heading:after,
 .context-c-tapemeasure > .card .card-heading:after {
@@ -11878,7 +11878,7 @@ button.close {
 .card.context-c-motorcycle .card-heading,
 .context-c-motorcycle > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-motorcycle .card-heading:after,
 .context-c-motorcycle > .card .card-heading:after {
@@ -11909,7 +11909,7 @@ button.close {
 .card.context-c-musicnote .card-heading,
 .context-c-musicnote > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-musicnote .card-heading:after,
 .context-c-musicnote > .card .card-heading:after {
@@ -11940,7 +11940,7 @@ button.close {
 .card.context-c-whistle .card-heading,
 .context-c-whistle > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-whistle .card-heading:after,
 .context-c-whistle > .card .card-heading:after {
@@ -11971,7 +11971,7 @@ button.close {
 .card.context-c-pencil .card-heading,
 .context-c-pencil > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-pencil .card-heading:after,
 .context-c-pencil > .card .card-heading:after {
@@ -12002,7 +12002,7 @@ button.close {
 .card.context-c-presenter .card-heading,
 .context-c-presenter > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-presenter .card-heading:after,
 .context-c-presenter > .card .card-heading:after {
@@ -12033,7 +12033,7 @@ button.close {
 .card.context-c-forsale .card-heading,
 .context-c-forsale > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-forsale .card-heading:after,
 .context-c-forsale > .card .card-heading:after {
@@ -12064,7 +12064,7 @@ button.close {
 .card.context-c-redcross .card-heading,
 .context-c-redcross > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-redcross .card-heading:after,
 .context-c-redcross > .card .card-heading:after {
@@ -12095,7 +12095,7 @@ button.close {
 .card.context-c-safe .card-heading,
 .context-c-safe > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-safe .card-heading:after,
 .context-c-safe > .card .card-heading:after {
@@ -12126,7 +12126,7 @@ button.close {
 .card.context-c-sailboat .card-heading,
 .context-c-sailboat > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-sailboat .card-heading:after,
 .context-c-sailboat > .card .card-heading:after {
@@ -12157,7 +12157,7 @@ button.close {
 .card.context-c-saxophone .card-heading,
 .context-c-saxophone > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-saxophone .card-heading:after,
 .context-c-saxophone > .card .card-heading:after {
@@ -12188,7 +12188,7 @@ button.close {
 .card.context-c-scales .card-heading,
 .context-c-scales > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-scales .card-heading:after,
 .context-c-scales > .card .card-heading:after {
@@ -12219,7 +12219,7 @@ button.close {
 .card.context-c-shield .card-heading,
 .context-c-shield > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-shield .card-heading:after,
 .context-c-shield > .card .card-heading:after {
@@ -12250,7 +12250,7 @@ button.close {
 .card.context-c-ship .card-heading,
 .context-c-ship > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-ship .card-heading:after,
 .context-c-ship > .card .card-heading:after {
@@ -12281,7 +12281,7 @@ button.close {
 .card.context-c-shoppingcart .card-heading,
 .context-c-shoppingcart > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-shoppingcart .card-heading:after,
 .context-c-shoppingcart > .card .card-heading:after {
@@ -12312,7 +12312,7 @@ button.close {
 .card.context-c-stethoscope .card-heading,
 .context-c-stethoscope > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-stethoscope .card-heading:after,
 .context-c-stethoscope > .card .card-heading:after {
@@ -12343,7 +12343,7 @@ button.close {
 .card.context-c-stopwatch .card-heading,
 .context-c-stopwatch > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-stopwatch .card-heading:after,
 .context-c-stopwatch > .card .card-heading:after {
@@ -12374,7 +12374,7 @@ button.close {
 .card.context-c-streetsign .card-heading,
 .context-c-streetsign > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-streetsign .card-heading:after,
 .context-c-streetsign > .card .card-heading:after {
@@ -12405,7 +12405,7 @@ button.close {
 .card.context-c-thermometer .card-heading,
 .context-c-thermometer > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-thermometer .card-heading:after,
 .context-c-thermometer > .card .card-heading:after {
@@ -12436,7 +12436,7 @@ button.close {
 .card.context-c-van .card-heading,
 .context-c-van > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-van .card-heading:after,
 .context-c-van > .card .card-heading:after {
@@ -12467,7 +12467,7 @@ button.close {
 .card.context-c-tv .card-heading,
 .context-c-tv > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-tv .card-heading:after,
 .context-c-tv > .card .card-heading:after {
@@ -12498,7 +12498,7 @@ button.close {
 .card.context-c-tvwidescreen .card-heading,
 .context-c-tvwidescreen > .card .card-heading {
   position: relative;
-  padding-right: 42px;
+  padding-right: 45px;
 }
 .card.context-c-tvwidescreen .card-heading:after,
 .context-c-tvwidescreen > .card .card-heading:after {
