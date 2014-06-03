@@ -12854,6 +12854,7 @@
   border: none;
   border-bottom: 1px solid #cfd0d2;
   border-radius: 0;
+  margin-bottom: 0;
 }
 .bootstrap .list-group-item:first-child {
   border-top-right-radius: 0;
