@@ -22,7 +22,6 @@
    ========================================================================= */
   /* This file is generated via Grunt task. **Do not edit directly.** */
   /* This file is generated via Grunt task. **Do not edit directly.** */
-  /* TODO: Move to Bootstrap-sf1 */
 }
 .bootstrap h1,
 .bootstrap h2,
@@ -3631,7 +3630,7 @@
 .bootstrap .nav-tabs > li.active > a,
 .bootstrap .nav-tabs > li.active > a:hover,
 .bootstrap .nav-tabs > li.active > a:focus {
-  color: #525354;
+  color: #3c3d3e;
   background-color: #ffffff;
   border: 1px solid #cfd0d2;
   border-bottom-color: transparent;
@@ -12864,6 +12863,83 @@
   margin-bottom: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+.bootstrap .nav > li > a {
+  color: #9a9ca1;
+}
+.bootstrap .nav-tabs {
+  border-bottom: 1px solid #cfd0d2;
+  text-transform: uppercase;
+}
+.bootstrap .nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.bootstrap .nav-tabs > li > a {
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  color: #9a9ca1;
+  margin-right: 0;
+  padding: 10px 15px 7px 15px;
+}
+.bootstrap .nav-tabs > li > a:hover {
+  border-color: #2a94d6;
+  color: #3c3d3e;
+  background-color: #f5f6f7;
+}
+.bootstrap .nav-tabs > li.active > a,
+.bootstrap .nav-tabs > li.active > a:hover,
+.bootstrap .nav-tabs > li.active > a:focus {
+  color: #3c3d3e;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #2a94d6;
+  cursor: default;
+}
+.bootstrap .nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.bootstrap .nav-tabs.nav-justified > li {
+  float: none;
+}
+.bootstrap .nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.bootstrap .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .bootstrap .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .bootstrap .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.bootstrap .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.bootstrap .nav-tabs.nav-justified > .active > a,
+.bootstrap .nav-tabs.nav-justified > .active > a:hover,
+.bootstrap .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #cfd0d2;
+}
+@media (min-width: 768px) {
+  .bootstrap .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #cfd0d2;
+    border-radius: 4px 4px 0 0;
+  }
+  .bootstrap .nav-tabs.nav-justified > .active > a,
+  .bootstrap .nav-tabs.nav-justified > .active > a:hover,
+  .bootstrap .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #f0f1f2;
+  }
 }
 .bootstrap .datepicker {
   padding: 0;

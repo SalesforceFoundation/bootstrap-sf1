@@ -3507,7 +3507,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #525354;
+  color: #3c3d3e;
   background-color: #ffffff;
   border: 1px solid #cfd0d2;
   border-bottom-color: transparent;
@@ -12753,7 +12753,83 @@ header > .navbar {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-/* TODO: Move to Bootstrap-sf1 */
+.nav > li > a {
+  color: #9a9ca1;
+}
+.nav-tabs {
+  border-bottom: 1px solid #cfd0d2;
+  text-transform: uppercase;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  color: #9a9ca1;
+  margin-right: 0;
+  padding: 10px 15px 7px 15px;
+}
+.nav-tabs > li > a:hover {
+  border-color: #2a94d6;
+  color: #3c3d3e;
+  background-color: #f5f6f7;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #3c3d3e;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #2a94d6;
+  cursor: default;
+}
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+.nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #cfd0d2;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #cfd0d2;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs.nav-justified > .active > a,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #f0f1f2;
+  }
+}
 .datepicker {
   padding: 0;
 }
