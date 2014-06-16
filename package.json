@@ -6,7 +6,7 @@
   },
   "homepage": "https://github.com/SalesforceFoundation",
   "repository": "git@github.com/SalesforceFoundation/bootstrap-theme-foundation.git",
-  "version": "v0.1.0-beta.4",
+  "version": "v0.1.0-beta.6",
   "devDependencies": {
     "grunt": "~0.4.4",
     "grunt-contrib-less": "~0.11.0",
