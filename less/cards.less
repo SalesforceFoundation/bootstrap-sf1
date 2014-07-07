@@ -64,21 +64,78 @@
                 margin-bottom: 0;
             }
         }
+
+        &.card-detail-labels {
+            display: table;
+            width: 100%;
+
+            > li {
+                display: table-row;
+
+                 .card-detail-label {
+                    font-weight: 700;
+                    font-size: 12px;
+                    vertical-align: top;
+                    text-align: left;
+                    margin-bottom: 0;
+
+                    padding-left: 15px;
+                    display: table-cell;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                .card-detail-value {
+                    padding-right: 15px;
+                    padding-left: 5px;
+                    max-width: 200px;
+                    display: table-cell;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    float: none;
+                    text-align: right;
+                }
+
+                @media (min-width: @screen-sm-min) {
+                    .card-detail-label {
+                        width: 150px;
+                    }
+                    .card-detail-value {
+                        text-align: left;
+                    }
+                }
+            }
+        }
     }
 
-    .card-detail-label {
-        font-weight: 700;
-        font-size: 12px;
-        display: inline-block;
-        vertical-align: top;
-        text-align: left;
-        margin-bottom: 0;
+    
+
+    a& {
+        display: block;
+        color: @text-color;
+
+        &:hover {
+            color: @text-color;
+            text-decoration: none;
+            background-color: @gray-light;
+        }
     }
-    .card-detail-value {
-        display: inline-block;
-        vertical-align: top;
-        text-align: right;
-        float: right;
+}
+
+.card-compact {
+    .card-heading {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+
+        font-size: 14px;
+        padding: 10px 10px 5px;
+    }
+    .card-detail {
+        padding: 0 10px 10px;
+        margin: 0;
+        min-height: 26px;
     }
 }
 

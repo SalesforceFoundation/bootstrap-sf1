@@ -99,7 +99,7 @@ base_url: "../"
         <div class="card-heading">
           ACME Publishing
         </div>
-        <ul class="card-detail ">
+        <ul class="card-detail card-detail-labels">
           <li>
             <label class="card-detail-label">Founded</label>
             <span class="card-detail-value">1956</span>
@@ -118,7 +118,7 @@ base_url: "../"
   <div class="card-heading">
     ACME Publishing
   </div>
-  <ul class="card-detail">
+  <ul class="card-detail card-detail-labels">
     <li>
       <label class="card-detail-label">Founded</label>
       <span class="card-detail-value">1956</span>
@@ -272,7 +272,62 @@ base_url: "../"
 ```
 {{/markdown}}
 
-  
+<h3 id="card-list-links">Linked Cards</h3>
+<div class="fn-example">
+  <div class="card-list context-account">
+    <div class="card-list-heading">
+      <h3>Organizations</h3>
+    </div>
+    <a href="#" class="card">
+      <div class="card-heading">
+        ACME Publishing
+      </div>
+      <ul class="card-detail ">
+        <li>Nonprofit Organization</li>
+        <li>Santa Barbara, CA</li>
+      </ul>
+    </a> <!-- end card -->
+    <a href="#" class="card">
+      <div class="card-heading">
+        Save the Cats
+      </div>
+      <ul class="card-detail ">
+        <li>Nonprofit Organization</li>
+        <li>Santa Barbara, CA</li>
+      </ul>
+    </a> <!-- end card -->
+  </div> <!-- end card list -->
+</div>
+
+{{#markdown}}
+```html
+<div class="card-list context-account">
+  <div class="card-list-heading">
+    <h3>Organizations</h3>
+  </div>
+  <a href="#" class="card">
+    <div class="card-heading">
+      ACME Publishing
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </a> <!-- end card -->
+  <a href="#" class="card">
+    <div class="card-heading">
+      Save the Cats
+    </div>
+    <ul class="card-detail ">
+      <li>Nonprofit Organization</li>
+      <li>Santa Barbara, CA</li>
+    </ul>
+  </a> <!-- end card -->
+</div> <!-- end card list -->
+```
+{{/markdown}}
+
+
 
 <h3 id="card-list-contexts">Contexts on Card Lists</h3>
 <p>Context classes can also be added to card lists. Adding the context class to the list will add icons to all of the cards within it.</p>

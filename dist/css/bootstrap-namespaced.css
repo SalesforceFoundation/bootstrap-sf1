@@ -22,6 +22,8 @@
    ========================================================================= */
   /* This file is generated via Grunt task. **Do not edit directly.** */
   /* This file is generated via Grunt task. **Do not edit directly.** */
+  /* Checkboxes and Radios
+   ========================================================================== */
 }
 .bootstrap h1,
 .bootstrap h2,
@@ -7269,19 +7271,64 @@
 .bootstrap .card ul.card-detail li:last-child {
   margin-bottom: 0;
 }
-.bootstrap .card .card-detail-label {
+.bootstrap .card ul.card-detail.card-detail-labels {
+  display: table;
+  width: 100%;
+}
+.bootstrap .card ul.card-detail.card-detail-labels > li {
+  display: table-row;
+}
+.bootstrap .card ul.card-detail.card-detail-labels > li .card-detail-label {
   font-weight: 700;
   font-size: 12px;
-  display: inline-block;
   vertical-align: top;
   text-align: left;
   margin-bottom: 0;
+  padding-left: 15px;
+  display: table-cell;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-.bootstrap .card .card-detail-value {
-  display: inline-block;
-  vertical-align: top;
+.bootstrap .card ul.card-detail.card-detail-labels > li .card-detail-value {
+  padding-right: 15px;
+  padding-left: 5px;
+  max-width: 200px;
+  display: table-cell;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  float: none;
   text-align: right;
-  float: right;
+}
+@media (min-width: 768px) {
+  .bootstrap .card ul.card-detail.card-detail-labels > li .card-detail-label {
+    width: 150px;
+  }
+  .bootstrap .card ul.card-detail.card-detail-labels > li .card-detail-value {
+    text-align: left;
+  }
+}
+.bootstrap a.card {
+  display: block;
+  color: #525354;
+}
+.bootstrap a.card:hover {
+  color: #525354;
+  text-decoration: none;
+  background-color: #e8e9ec;
+}
+.bootstrap .card-compact .card-heading {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  padding: 10px 10px 5px;
+}
+.bootstrap .card-compact .card-detail {
+  padding: 0 10px 10px;
+  margin: 0;
+  min-height: 26px;
 }
 .bootstrap .card-list {
   background-color: #ffffff;
@@ -12670,7 +12717,7 @@
   color: #a83136;
 }
 .bootstrap .jumbotron {
-  color: #e8e9ec;
+  color: #525354;
 }
 .bootstrap .jumbotron.jumbotron-center {
   text-align: center;
@@ -12700,6 +12747,9 @@
   background-color: #344a5f;
   color: #afb5b9;
 }
+.bootstrap .page-header.page-header-anchor a {
+  color: #fff;
+}
 .bootstrap .page-header.page-header-anchor h1,
 .bootstrap .page-header.page-header-anchor h2,
 .bootstrap .page-header.page-header-anchor h3,
@@ -12708,8 +12758,20 @@
 .bootstrap .page-header.page-header-anchor h6 {
   color: #fff;
 }
+@media (max-width: 767px) {
+  .bootstrap .page-header.page-header-anchor {
+    padding: 15px 0 10px;
+  }
+}
 .bootstrap .page-header.page-header-center {
   text-align: center;
+}
+.bootstrap .page-header .page-header-divider:after {
+  content: "|";
+  display: inline;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 10px;
 }
 .bootstrap .page-header[class*='context-'] h1 {
   position: relative;
@@ -12980,6 +13042,71 @@
 }
 .bootstrap .datepicker tbody tr:last-child td {
   border-bottom: none;
+}
+.bootstrap .sf1-checkbox,
+.bootstrap .sf1-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dadee2;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 22px;
+  width: 22px;
+  min-height: 22px;
+  background-color: #fff;
+}
+.bootstrap input[type="radio"].sf1-checkbox,
+.bootstrap input[type="radio"].sf1-radio {
+  margin: 0 5px 0 0;
+}
+.bootstrap .sf1-checkbox:disabled,
+.bootstrap .sf1-radio:disabled {
+  opacity: 0.5;
+}
+.bootstrap .sf1-checkbox:focus,
+.bootstrap .sf1-checkbox:active,
+.bootstrap .sf1-radio:focus,
+.bootstrap .sf1-radio:active {
+  background: #f5f6f7;
+}
+.bootstrap .sf1-checkbox:checked,
+.bootstrap .sf1-radio:checked {
+  background: #2a94d6 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid transparent;
+}
+.bootstrap .sf1-checkbox:checked::after {
+  display: block;
+  position: relative;
+  content: '';
+  height: 8px;
+  width: 14px;
+  border-bottom: 4px solid white;
+  border-left: 4px solid white;
+  -webkit-transform: translate(3px, 5px) rotate(-45deg);
+}
+.bootstrap .sf1-radio {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  line-height: normal;
+}
+.bootstrap .form-horizontal .sf1-radio {
+  min-height: 22px;
+}
+.bootstrap .sf1-radio:checked::after {
+  display: block;
+  position: relative;
+  content: '';
+  top: 5px;
+  left: 5px;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background: white;
 }
 /* these styles need to be UN-namespaced in order for modals to work properly */
 .modal-backdrop {

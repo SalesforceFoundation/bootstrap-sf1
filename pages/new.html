@@ -159,7 +159,7 @@
         <div class="card-heading">
           ACME Publishing
         </div>
-        <ul class="card-detail ">
+        <ul class="card-detail card-detail-labels">
           <li>
             <label class="card-detail-label">Founded</label>
             <span class="card-detail-value">1956</span>
@@ -176,7 +176,7 @@
   &lt;div class=&quot;card-heading&quot;&gt;
     ACME Publishing
   &lt;/div&gt;
-  &lt;ul class=&quot;card-detail&quot;&gt;
+  &lt;ul class=&quot;card-detail card-detail-labels&quot;&gt;
     &lt;li&gt;
       &lt;label class=&quot;card-detail-label&quot;&gt;Founded&lt;/label&gt;
       &lt;span class=&quot;card-detail-value&quot;&gt;1956&lt;/span&gt;
@@ -323,7 +323,59 @@
 &lt;/div&gt; &lt;!-- end card list --&gt;</code></pre>
 
 
-  
+<h3 id="card-list-links">Linked Cards</h3>
+<div class="fn-example">
+  <div class="card-list context-account">
+    <div class="card-list-heading">
+      <h3>Organizations</h3>
+    </div>
+    <a href="#" class="card">
+      <div class="card-heading">
+        ACME Publishing
+      </div>
+      <ul class="card-detail ">
+        <li>Nonprofit Organization</li>
+        <li>Santa Barbara, CA</li>
+      </ul>
+    </a> <!-- end card -->
+    <a href="#" class="card">
+      <div class="card-heading">
+        Save the Cats
+      </div>
+      <ul class="card-detail ">
+        <li>Nonprofit Organization</li>
+        <li>Santa Barbara, CA</li>
+      </ul>
+    </a> <!-- end card -->
+  </div> <!-- end card list -->
+</div>
+
+<pre><code class="language-html">&lt;div class=&quot;card-list context-account&quot;&gt;
+  &lt;div class=&quot;card-list-heading&quot;&gt;
+    &lt;h3&gt;Organizations&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;a href=&quot;#&quot; class=&quot;card&quot;&gt;
+    &lt;div class=&quot;card-heading&quot;&gt;
+      ACME Publishing
+    &lt;/div&gt;
+    &lt;ul class=&quot;card-detail &quot;&gt;
+      &lt;li&gt;Nonprofit Organization&lt;/li&gt;
+      &lt;li&gt;Santa Barbara, CA&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/a&gt; &lt;!-- end card --&gt;
+  &lt;a href=&quot;#&quot; class=&quot;card&quot;&gt;
+    &lt;div class=&quot;card-heading&quot;&gt;
+      Save the Cats
+    &lt;/div&gt;
+    &lt;ul class=&quot;card-detail &quot;&gt;
+      &lt;li&gt;Nonprofit Organization&lt;/li&gt;
+      &lt;li&gt;Santa Barbara, CA&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/a&gt; &lt;!-- end card --&gt;
+&lt;/div&gt; &lt;!-- end card list --&gt;</code></pre>
+
+
+
 
 <h3 id="card-list-contexts">Contexts on Card Lists</h3>
 <p>Context classes can also be added to card lists. Adding the context class to the list will add icons to all of the cards within it.</p>
@@ -585,6 +637,7 @@
     <li>
         <a href="#card-list">Card lists</a>
         <ul class="nav">
+            <li><a href="#card-list-links">Linked Cards</a></li>
             <li><a href="#card-list-contexts">Contexts</a></li>
         </ul>
     </li>
