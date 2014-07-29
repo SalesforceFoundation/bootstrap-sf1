@@ -145,6 +145,13 @@ module.exports = function(grunt) {
     clean: {
       tmp: ['tmp'],
       pages: ['pages']
+    },
+
+    bump: {
+      options: {
+        files: ['package.json', 'bower.json'],
+        commit: false,
+      }
     }
   });
   grunt.loadNpmTasks('grunt-contrib-less');
@@ -156,9 +163,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('assemble');
+  grunt.loadNpmTasks('grunt-bump');
 
   grunt.registerTask('build-icons-data', function () { generateIconsData.call(this, grunt, mapping); });
   
   grunt.registerTask('default', ['copy', 'less:compile', 'less:namespaced', 'recess', 'cssmin', 'clean:pages', 'build-icons-data', 'assemble', 'clean:tmp']);
   grunt.registerTask('serve', ['connect', 'watch']);
+
+  grunt.registerTask('bump:gen', ['bump', 'assemble:pages']);
 };
