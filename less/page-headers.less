@@ -4,7 +4,7 @@
 
 .page-header {
   margin: 0 0 20px;
-  font-size: (@font-size-base * 1.2);
+  font-size: (@font-size-base * 1.1);
   position: relative;
 
   h1 {
@@ -28,7 +28,7 @@
     background-color: @brand-anchor;
     color: @anchor-text-color;
     a {
-      color: #fff;
+      color: @gray-light;
     }
     h1, h2, h3, h4, h5, h6 {
       color: #fff;
@@ -54,38 +54,45 @@
   }
 
   &[class*='context-'] {
-    padding: 15px 0 10px 70px;
     min-height: 95px;
+    padding: 25px 0 20px;
 
     h1 {
+      padding: 0 0 0 70px;
       position: relative;
       margin: 3px 0 0 0;
-
-      
 
       &:before {
         content: "";
         .s1icon;
         .s1icon-lg;
         position: absolute;
-        left: -70px;
+        left: 0;
         top: 0;
 
         @media (max-width: @screen-sm) {
           .s1icon-lg;
-          top: -70px;
           left: 50%;
           margin-left: -30px;
         }
       }
+
+      @media (max-width: @screen-sm) {
+        padding: 70px 0 0 0;
+      }
     }
 
-    @media (max-width: @screen-sm) {
-      padding: 80px 0 10px 0;
+    p {
+      padding: 0 0 0 70px;
+      @media (max-width: @screen-sm) {
+        padding: 0;
+      }
     }
+    
   }
 
   @media (max-width: @screen-sm) {
+    padding: 15px 0 10px;
     text-align: center;
     font-size: @font-size-base;
   }
