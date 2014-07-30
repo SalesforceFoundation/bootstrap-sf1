@@ -133,43 +133,16 @@ a.list-group-item-danger.active:focus {
 }
 .fn-sidebar .nav .active > a {
   color: #525354;
-}
-.fn-sidebar > .nav {
-  margin-bottom: 20px;
-  padding-left: 0;
-}
-.fn-sidebar > .nav > li {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: transparent;
-  border: 1px solid #cfd0d2;
-  background-color: #fff;
-}
-.fn-sidebar > .nav > li:first-child {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
-}
-.fn-sidebar > .nav > li:last-child {
-  margin-bottom: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.fn-sidebar > .nav > li > .badge {
-  float: right;
-}
-.fn-sidebar > .nav > li > .badge + .badge {
-  margin-right: 5px;
+  border-left: 3px solid #2a94d6;
 }
 .fn-sidebar > .nav > li a {
-  padding: 0;
+  padding: 5px 10px;
 }
 .fn-sidebar > .nav > li > .nav {
   margin-left: 20px;
 }
 .fn-sidebar > .nav > li > .nav > li > a {
-  padding: 4px 0;
+  padding: 5px 10px 5px 10px;
 }
 @media (max-width: 992px) {
   .fn-sidebar.affix {

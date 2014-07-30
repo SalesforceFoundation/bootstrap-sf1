@@ -60,22 +60,21 @@
   .nav {
     .active > a {
       color: @text-color;
+      border-left: 3px solid @brand-primary;
     }
   }
 
   > .nav {
-    .list-group;
+    
     > li {
-      .list-group-item;
-      border: 1px solid @list-group-border;
-      background-color: #fff;
+  
       a {
-        padding: 0;
+        padding: 5px 10px;
       }
       > .nav {
         margin-left: 20px;
         > li > a {
-          padding: 4px 0;
+          padding: 5px 10px 5px 10px;
         }
       }
     }
