@@ -12571,6 +12571,99 @@ a.card:hover {
   background-color: #e15d76;
   background-image: url("../icons/custom/custom100_120.png");
 }
+.page-header {
+  margin: 0 0 20px;
+  font-size: 16.8px;
+  position: relative;
+}
+.page-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+  .page-header h1 {
+    font-size: 20px;
+  }
+}
+.page-header p:last-child {
+  margin-bottom: 0;
+}
+.page-header.page-header-anchor {
+  padding: 20px 0 10px 0;
+  background-color: #344a5f;
+  color: #afb5b9;
+}
+.page-header.page-header-anchor a {
+  color: #fff;
+}
+.page-header.page-header-anchor h1,
+.page-header.page-header-anchor h2,
+.page-header.page-header-anchor h3,
+.page-header.page-header-anchor h4,
+.page-header.page-header-anchor h5,
+.page-header.page-header-anchor h6 {
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .page-header.page-header-anchor {
+    padding: 15px 0 10px;
+  }
+}
+.page-header.page-header-center {
+  text-align: center;
+}
+.page-header .page-header-divider:after {
+  content: "|";
+  display: inline;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 10px;
+}
+.page-header[class*='context-'] {
+  padding: 15px 0 10px 70px;
+  min-height: 95px;
+}
+.page-header[class*='context-'] h1 {
+  position: relative;
+  margin: 3px 0 0 0;
+}
+.page-header[class*='context-'] h1:before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: -70px;
+  top: 0;
+}
+@media (max-width: 768px) {
+  .page-header[class*='context-'] h1:before {
+    width: 60px;
+    height: 60px;
+    top: -70px;
+    left: 50%;
+    margin-left: -30px;
+  }
+}
+@media (max-width: 768px) {
+  .page-header[class*='context-'] {
+    padding: 80px 0 10px 0;
+  }
+}
+@media (max-width: 768px) {
+  .page-header {
+    text-align: center;
+    font-size: 14px;
+  }
+}
 body,
 .bootstrap {
   -webkit-font-smoothing: antialiased;
@@ -12623,97 +12716,6 @@ body,
 .jumbotron-inverse h5,
 .jumbotron-inverse h6 {
   color: #ffffff;
-}
-.page-header {
-  margin: 0 0 20px;
-  font-size: 16.8px;
-  position: relative;
-}
-.page-header.page-header-anchor {
-  padding: 30px 0 20px 0;
-  background-color: #344a5f;
-  color: #afb5b9;
-}
-.page-header.page-header-anchor a {
-  color: #fff;
-}
-.page-header.page-header-anchor h1,
-.page-header.page-header-anchor h2,
-.page-header.page-header-anchor h3,
-.page-header.page-header-anchor h4,
-.page-header.page-header-anchor h5,
-.page-header.page-header-anchor h6 {
-  color: #fff;
-}
-@media (max-width: 767px) {
-  .page-header.page-header-anchor {
-    padding: 15px 0 10px;
-  }
-}
-.page-header.page-header-center {
-  text-align: center;
-}
-.page-header .page-header-divider:after {
-  content: "|";
-  display: inline;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 0 10px;
-}
-.page-header[class*='context-'] h1 {
-  position: relative;
-  padding: 10px 0 10px 70px;
-  font-size: 40px;
-  margin: 10px 0;
-}
-.page-header[class*='context-'] h1:before {
-  content: "";
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 5px;
-  width: 30px;
-  height: 30px;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-@media (max-width: 768px) {
-  .page-header[class*='context-'] h1:before {
-    left: 50%;
-    margin-left: -50px;
-    width: 100px;
-    height: 100px;
-  }
-}
-@media (max-width: 480px) {
-  .page-header[class*='context-'] h1:before {
-    width: 60px;
-    height: 60px;
-    margin-left: -30px;
-  }
-}
-@media (max-width: 768px) {
-  .page-header[class*='context-'] h1 {
-    padding-top: 110px;
-    padding-left: 0;
-  }
-}
-@media (max-width: 480px) {
-  .page-header[class*='context-'] h1 {
-    padding-top: 70px;
-    font-size: 30px;
-  }
-}
-@media (max-width: 768px) {
-  .page-header {
-    text-align: center;
-  }
 }
 header.navbar,
 header > .navbar {

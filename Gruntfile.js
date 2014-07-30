@@ -151,6 +151,8 @@ module.exports = function(grunt) {
       options: {
         files: ['package.json', 'bower.json'],
         commit: false,
+        push: false,
+        createTag: false
       }
     }
   });
