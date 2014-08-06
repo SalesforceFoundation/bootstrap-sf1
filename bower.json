@@ -11,8 +11,10 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "pages",
+    "templates",
+    "grunt",
+    "js"
   ],
   "devDependencies": {
     "bootstrap": "3.1.1"
