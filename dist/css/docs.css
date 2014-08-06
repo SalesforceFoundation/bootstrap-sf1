@@ -131,6 +131,9 @@ a.list-group-item-danger.active:focus {
 .fn-sidebar.affix-bottom {
   bottom: 20px;
 }
+.fn-sidebar .nav > a {
+  color: #525354;
+}
 .fn-sidebar .nav .active > a {
   color: #525354;
   border-left: 3px solid #2a94d6;
