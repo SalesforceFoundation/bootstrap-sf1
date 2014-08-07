@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-sf1",
-  "version": "v0.1.0-beta.9",
+  "version": "v0.1.0-beta.10",
   "private": false,
   "author": "Ryan Foster",
   "main": [
@@ -14,7 +14,9 @@
     "pages",
     "templates",
     "grunt",
-    "js"
+    "js",
+    "Gruntfile.js",
+    "index.html"
   ],
   "devDependencies": {
     "bootstrap": "3.2.0"
