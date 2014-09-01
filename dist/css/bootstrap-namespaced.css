@@ -5,7 +5,7 @@
   font-family: "ProximaNovaSoft-Regular", Calibri, "Gill Sans", "Gill Sans MT", Candara, Segoe, "Segoe UI", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #525354;
+  color: #3c3d3e;
   background-color: #f0f1f2;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -918,7 +918,7 @@
   font-family: "ProximaNovaSoft-Regular", Calibri, "Gill Sans", "Gill Sans MT", Candara, Segoe, "Segoe UI", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #525354;
+  color: #3c3d3e;
   background-color: #f0f1f2;
 }
 .bootstrap-sf1 input,
@@ -960,7 +960,7 @@
   height: auto;
 }
 .bootstrap-sf1 .img-rounded {
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .bootstrap-sf1 .img-thumbnail {
   padding: 4px;
@@ -1097,15 +1097,15 @@
 }
 .bootstrap-sf1 h1,
 .bootstrap-sf1 .h1 {
-  font-size: 36px;
+  font-size: 22px;
 }
 .bootstrap-sf1 h2,
 .bootstrap-sf1 .h2 {
-  font-size: 30px;
+  font-size: 19px;
 }
 .bootstrap-sf1 h3,
 .bootstrap-sf1 .h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 .bootstrap-sf1 h4,
 .bootstrap-sf1 .h4 {
@@ -1117,7 +1117,7 @@
 }
 .bootstrap-sf1 h6,
 .bootstrap-sf1 .h6 {
-  font-size: 12px;
+  font-size: 13px;
 }
 .bootstrap-sf1 p {
   margin: 0 0 10px;
@@ -2186,11 +2186,11 @@
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #cfd0d2;
+  border-top: 1px solid #dadee2;
 }
 .bootstrap-sf1 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #cfd0d2;
+  border-bottom: 2px solid #dadee2;
 }
 .bootstrap-sf1 .table > caption + thead > tr:first-child > th,
 .bootstrap-sf1 .table > colgroup + thead > tr:first-child > th,
@@ -2201,7 +2201,7 @@
   border-top: 0;
 }
 .bootstrap-sf1 .table > tbody + tbody {
-  border-top: 2px solid #cfd0d2;
+  border-top: 2px solid #dadee2;
 }
 .bootstrap-sf1 .table .table {
   background-color: #f0f1f2;
@@ -2215,7 +2215,7 @@
   padding: 5px;
 }
 .bootstrap-sf1 .table-bordered {
-  border: 1px solid #cfd0d2;
+  border: 1px solid #dadee2;
 }
 .bootstrap-sf1 .table-bordered > thead > tr > th,
 .bootstrap-sf1 .table-bordered > tbody > tr > th,
@@ -2223,7 +2223,7 @@
 .bootstrap-sf1 .table-bordered > thead > tr > td,
 .bootstrap-sf1 .table-bordered > tbody > tr > td,
 .bootstrap-sf1 .table-bordered > tfoot > tr > td {
-  border: 1px solid #cfd0d2;
+  border: 1px solid #dadee2;
 }
 .bootstrap-sf1 .table-bordered > thead > tr > th,
 .bootstrap-sf1 .table-bordered > thead > tr > td {
@@ -2235,7 +2235,7 @@
 }
 .bootstrap-sf1 .table-hover > tbody > tr:hover > td,
 .bootstrap-sf1 .table-hover > tbody > tr:hover > th {
-  background-color: #f0f1f2;
+  background-color: #ffffff;
 }
 .bootstrap-sf1 table col[class*="col-"] {
   position: static;
@@ -2260,14 +2260,14 @@
 .bootstrap-sf1 .table > thead > tr.active > th,
 .bootstrap-sf1 .table > tbody > tr.active > th,
 .bootstrap-sf1 .table > tfoot > tr.active > th {
-  background-color: #f0f1f2;
+  background-color: #ffffff;
 }
 .bootstrap-sf1 .table-hover > tbody > tr > td.active:hover,
 .bootstrap-sf1 .table-hover > tbody > tr > th.active:hover,
 .bootstrap-sf1 .table-hover > tbody > tr.active:hover > td,
 .bootstrap-sf1 .table-hover > tbody > tr:hover > .active,
 .bootstrap-sf1 .table-hover > tbody > tr.active:hover > th {
-  background-color: #e2e4e6;
+  background-color: #f2f2f2;
 }
 .bootstrap-sf1 .table > thead > tr > td.success,
 .bootstrap-sf1 .table > tbody > tr > td.success,
@@ -2360,7 +2360,7 @@
     overflow-y: hidden;
     overflow-x: auto;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #cfd0d2;
+    border: 1px solid #dadee2;
     -webkit-overflow-scrolling: touch;
   }
   .bootstrap-sf1 .table-responsive > .table {
@@ -2609,7 +2609,7 @@
 .bootstrap-sf1 .input-sm,
 .bootstrap-sf1 .form-horizontal .form-group-sm .form-control {
   height: 30px;
-  padding: 5px 12px;
+  padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
@@ -2625,10 +2625,10 @@
 .bootstrap-sf1 .input-lg,
 .bootstrap-sf1 .form-horizontal .form-group-lg .form-control {
   height: 46px;
-  padding: 10px 18px;
+  padding: 10px 28px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .bootstrap-sf1 select.input-lg {
   height: 46px;
@@ -2750,7 +2750,7 @@
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #919394;
+  color: #7b7d7f;
 }
 @media (min-width: 768px) {
   .bootstrap-sf1 .form-inline .form-group {
@@ -3165,14 +3165,14 @@
 }
 .bootstrap-sf1 .btn-lg,
 .bootstrap-sf1 .btn-group-lg > .btn {
-  padding: 10px 18px;
+  padding: 10px 28px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .bootstrap-sf1 .btn-sm,
 .bootstrap-sf1 .btn-group-sm > .btn {
-  padding: 5px 12px;
+  padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
@@ -3556,10 +3556,10 @@
 .bootstrap-sf1 .input-group-lg > .input-group-addon,
 .bootstrap-sf1 .input-group-lg > .input-group-btn > .btn {
   height: 46px;
-  padding: 10px 18px;
+  padding: 10px 28px;
   font-size: 18px;
   line-height: 1.33;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .bootstrap-sf1 select.input-group-lg > .form-control,
 .bootstrap-sf1 select.input-group-lg > .input-group-addon,
@@ -3579,7 +3579,7 @@
 .bootstrap-sf1 .input-group-sm > .input-group-addon,
 .bootstrap-sf1 .input-group-sm > .input-group-btn > .btn {
   height: 30px;
-  padding: 5px 12px;
+  padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
@@ -3626,14 +3626,14 @@
   border-radius: 4px;
 }
 .bootstrap-sf1 .input-group-addon.input-sm {
-  padding: 5px 12px;
+  padding: 5px 10px;
   font-size: 12px;
   border-radius: 3px;
 }
 .bootstrap-sf1 .input-group-addon.input-lg {
-  padding: 10px 18px;
+  padding: 10px 28px;
   font-size: 18px;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .bootstrap-sf1 .input-group-addon input[type="radio"],
 .bootstrap-sf1 .input-group-addon input[type="checkbox"] {
@@ -4311,7 +4311,7 @@
   background-color: transparent;
 }
 .bootstrap-sf1 .navbar-inverse .navbar-text {
-  color: #afb5b9;
+  color: #ffffff;
 }
 .bootstrap-sf1 .navbar-inverse .navbar-nav > li > a {
   color: #ffffff;
@@ -4483,22 +4483,22 @@
 }
 .bootstrap-sf1 .pagination-lg > li > a,
 .bootstrap-sf1 .pagination-lg > li > span {
-  padding: 10px 18px;
+  padding: 10px 28px;
   font-size: 18px;
 }
 .bootstrap-sf1 .pagination-lg > li:first-child > a,
 .bootstrap-sf1 .pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 .bootstrap-sf1 .pagination-lg > li:last-child > a,
 .bootstrap-sf1 .pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 6px;
-  border-top-right-radius: 6px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
 }
 .bootstrap-sf1 .pagination-sm > li > a,
 .bootstrap-sf1 .pagination-sm > li > span {
-  padding: 5px 12px;
+  padding: 5px 10px;
   font-size: 12px;
 }
 .bootstrap-sf1 .pagination-sm > li:first-child > a,
@@ -4674,7 +4674,7 @@
   border-top-color: #e6e6e6;
 }
 .bootstrap-sf1 .container .jumbotron {
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .bootstrap-sf1 .jumbotron .container {
   max-width: 100%;
@@ -4717,7 +4717,7 @@
 }
 .bootstrap-sf1 .thumbnail .caption {
   padding: 9px;
-  color: #525354;
+  color: #3c3d3e;
 }
 .bootstrap-sf1 .alert {
   padding: 15px;
@@ -5209,7 +5209,7 @@
 }
 .bootstrap-sf1 .panel > .panel-body + .table,
 .bootstrap-sf1 .panel > .panel-body + .table-responsive {
-  border-top: 1px solid #cfd0d2;
+  border-top: 1px solid #dadee2;
 }
 .bootstrap-sf1 .panel > .table > tbody:first-child > tr:first-child th,
 .bootstrap-sf1 .panel > .table > tbody:first-child > tr:first-child td {
@@ -5297,7 +5297,7 @@
   border-color: #cfd0d2;
 }
 .bootstrap-sf1 .panel-default > .panel-heading {
-  color: #525354;
+  color: #3c3d3e;
   background-color: #ffffff;
   border-color: #cfd0d2;
 }
@@ -5306,7 +5306,7 @@
 }
 .bootstrap-sf1 .panel-default > .panel-heading .badge {
   color: #ffffff;
-  background-color: #525354;
+  background-color: #3c3d3e;
 }
 .bootstrap-sf1 .panel-default > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #cfd0d2;
@@ -5442,7 +5442,7 @@
 }
 .bootstrap-sf1 .well-lg {
   padding: 24px;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .bootstrap-sf1 .well-sm {
   padding: 9px;
@@ -5514,7 +5514,7 @@
   background-color: #ffffff;
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 8px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
@@ -5704,7 +5704,7 @@
   background-clip: padding-box;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 8px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal;
@@ -5729,7 +5729,7 @@
   line-height: 18px;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-radius: 5px 5px 0 0;
+  border-radius: 7px 7px 0 0;
 }
 .bootstrap-sf1 .popover-content {
   padding: 9px 14px;
@@ -6299,15 +6299,22 @@
   font-family: 'ProximaNovaSoft-Regular';
   font-weight: normal;
   font-style: normal;
-  src: url('../fonts/proximanovasoft-regular.eot');
-  src: url('../fonts/proximanovasoft-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanovasoft-regular.woff') format('woff'), url('../fonts/proximanovasoft-regular.ttf') format('truetype'), url('../fonts/proximanovasoft-regular.svg#proxima_nova_softregular') format('svg');
+  src: url('../fonts/ProximaNovaSoft-Regular.eot');
+  src: url('../fonts/ProximaNovaSoft-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNovaSoft-Regular.woff') format('woff'), url('../fonts/ProximaNovaSoft-Regular.ttf') format('truetype'), url('../fonts/ProximaNovaSoft-Regular.svg#proxima_nova_softregular') format('svg');
 }
 @font-face {
   font-family: 'ProximaNovaSoft-Medium';
   font-weight: normal;
   font-style: normal;
-  src: url('../fonts/proximanovasoft-regular.eot');
-  src: url('../fonts/proximanovasoft-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanovasoft-regular.woff') format('woff'), url('../fonts/proximanovasoft-regular.ttf') format('truetype'), url('../fonts/proximanovasoft-regular.svg#proxima_nova_softmedium') format('svg');
+  src: url('../fonts/ProximaNovaSoft-Regular.eot');
+  src: url('../fonts/ProximaNovaSoft-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNovaSoft-Regular.woff') format('woff'), url('../fonts/ProximaNovaSoft-Regular.ttf') format('truetype'), url('../fonts/ProximaNovaSoft-Regular.svg#proxima_nova_softmedium') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaSoft-Semibold';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/ProximaNovaSoft-Regular.eot');
+  src: url('../fonts/ProximaNovaSoft-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNovaSoft-Regular.woff') format('woff'), url('../fonts/ProximaNovaSoft-Regular.ttf') format('truetype'), url('../fonts/ProximaNovaSoft-Regular.svg#proxima_nova_softmedium') format('svg');
 }
 .bootstrap-sf1 .s1icon {
   position: relative;
@@ -7702,10 +7709,10 @@
 }
 .bootstrap-sf1 a.card {
   display: block;
-  color: #525354;
+  color: #3c3d3e;
 }
 .bootstrap-sf1 a.card:hover {
-  color: #525354;
+  color: #3c3d3e;
   text-decoration: none;
   background-color: #e8e9ec;
 }
@@ -7755,11 +7762,10 @@
 }
 .bootstrap-sf1 .card-list .card-list-heading,
 .bootstrap-sf1 .card-list .card-list-heading > h3 {
-  color: #3c3d3e;
   font-weight: 500;
   margin: 0;
   font-size: 14px;
-  color: #525354;
+  color: #3c3d3e;
 }
 .bootstrap-sf1 .card-list .card {
   border: none;
@@ -13093,9 +13099,9 @@
   margin-bottom: 0;
 }
 .bootstrap-sf1 .page-header.page-header-anchor {
-  padding: 20px 0 15px 0;
-  background-color: #344a5f;
-  color: #afb5b9;
+  padding: 14px 0;
+  background-color: #34495e;
+  color: #ffffff;
 }
 .bootstrap-sf1 .page-header.page-header-anchor a {
   color: #e8e9ec;
@@ -13210,7 +13216,7 @@
   color: #a83136;
 }
 .bootstrap-sf1 .jumbotron {
-  color: #525354;
+  color: #3c3d3e;
 }
 .bootstrap-sf1 .jumbotron.jumbotron-center {
   text-align: center;
@@ -13219,7 +13225,7 @@
   color: #fff;
 }
 .bootstrap-sf1 .jumbotron-inverse {
-  background-color: #344a5f;
+  background-color: #34495e;
   color: #ffffff;
 }
 .bootstrap-sf1 .jumbotron-inverse h1,
@@ -13274,7 +13280,7 @@
   line-height: 1.1;
   color: #293f54;
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 19px;
   margin-top: 20px;
   margin-bottom: 30px;
   padding-bottom: 10px;

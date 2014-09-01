@@ -1,35 +1,36 @@
 @import "../bower_components/bootstrap/less/variables.less";
+@import "s1variables/s1base.less";
 
 
 //== Colors
 //
-@gray-dark:              #3c3d3e;
-@gray:                   #cfd0d2;
-@gray-light:             #E8E9EC;
-@gray-lighter:           #F5F6F7;
-@brand-primary:         #2A94D6;
-@brand-success:         #4AB471;
-@brand-info:            #4EB1CB;
-@brand-warning:         #F3AE4E;
-@brand-danger:          #CF5C60;
-@brand-anchor:              #344a5f;
+@gray-dark:                 #3c3d3e;
+@gray:                      #cfd0d2;
+@gray-light:                #E8E9EC;
+@gray-lighter:              #F5F6F7;
+@brand-primary:             @color-background-button-brand;
+@brand-success:             #4AB471;
+@brand-info:                #4EB1CB;
+@brand-warning:             #F3AE4E;
+@brand-danger:              #CF5C60;
+@brand-anchor:              @color-background-anchor;
 @jumbotron-inverse-bg:      @brand-anchor;
 @jumbotron-inverse-color:   #fff;
 
 
 //== Scaffolding
 //
-@body-bg:               #F0F1F2;
-@text-color:            #525354;
-@anchor-text-color:     #afb5b9;
+@body-bg:               @color-background;
+@text-color:            @color-text-default;
+@anchor-text-color:     @color-text-inverse;
 @text-color-4:          #5c7995;
 
 
 //== Typography
 //
 @font-path:               "../fonts/";
-@font-file-regular:       "proximanovasoft-regular";
-@font-file-medium:        "proximanovasoft-medium";
+@font-file-regular:       "ProximaNovaSoft-Regular";
+@font-file-medium:        "ProximaNovaSoft-Semibold";
 @font-family-sans-serif:  "ProximaNovaSoft-Regular", Calibri, "Gill Sans", "Gill Sans MT", Candara, Segoe, "Segoe UI", Arial, sans-serif;
 @headings-color:          #293f54;
 
@@ -37,26 +38,26 @@
 @font-size-large:         ceil((@font-size-base * 1.25)); 
 @font-size-small:         ceil((@font-size-base * 0.85));
 
-@font-size-h1:            floor((@font-size-base * 2.15));
-@font-size-h2:            floor((@font-size-base * 1.7));
-@font-size-h3:            ceil((@font-size-base * 1.25));
-@font-size-h4:            ceil((@font-size-base * 1.1));
+@font-size-h1:            @font-size-xx-large;
+@font-size-h2:            @font-size-xl-large;
+@font-size-h3:            @font-size-x-large;
+@font-size-h4:            @font-size-large;
 @font-size-h5:            @font-size-base;
-@font-size-h6:            ceil((@font-size-base * 0.85));
+@font-size-h6:            @font-size-x-small;
 
 
 //== Components
 //
-@padding-base-horizontal:   14px;
-@padding-large-horizontal:  18px;
-@padding-small-horizontal:  12px;
-@padding-xs-horizontal:     7px;
+@padding-base-horizontal:   @spacing-medium;
+@padding-large-horizontal:  @spacing-x-large;
+@padding-small-horizontal:  10px;
+@padding-xs-horizontal:     @spacing-x-small;
 
 
 //== Tables
 //
-@table-bg-hover:                #F0F1F2;
-@table-border-color:            #cfd0d2;
+@table-bg-hover:                @color-background-alt;
+@table-border-color:            @color-border-separator-alt;
 
 
 //== Buttons
