@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     less: {
       options: {
         compress: false,
-        paths: ['less', 'tmp', '<%= bowerDirectory %>/bootstrap/less']
+        paths: ['less', 'bower_components/bootstrap/less']
       },
       compile: {
         files: {
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
     watch: {
       less: {
         files: ['less/*.less', '!less/s1-icons.less', '!less/mapped.less'],
-        tasks: ['copy', 'less:compile', 'less:namespaced', 'clean:tmp'],
+        tasks: ['less:compile', 'less:namespaced'],
         options: {
           livereload: true
         }
