@@ -1,0 +1,23 @@
+.dropdown-menu {
+  padding: 0;
+  .divider {
+    margin: 0;
+  }
+  > li {
+    > a {
+      padding: @spacing-medium;
+      border-bottom: 1px solid #edeff0;
+    }
+
+    &:last-child {
+      > a {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.dropdown-header {
+  padding: @spacing-medium;
+  border-bottom: 1px solid #edeff0;
+}

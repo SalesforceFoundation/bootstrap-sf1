@@ -13280,6 +13280,23 @@
 .bootstrap-sf1 .btn-default {
   color: #5c7995;
 }
+.bootstrap-sf1 .dropdown-menu {
+  padding: 0;
+}
+.bootstrap-sf1 .dropdown-menu .divider {
+  margin: 0;
+}
+.bootstrap-sf1 .dropdown-menu > li > a {
+  padding: 14px;
+  border-bottom: 1px solid #edeff0;
+}
+.bootstrap-sf1 .dropdown-menu > li:last-child > a {
+  border-bottom: none;
+}
+.bootstrap-sf1 .dropdown-header {
+  padding: 14px;
+  border-bottom: 1px solid #edeff0;
+}
 .bootstrap-sf1 body,
 .bootstrap-sf1 .bootstrap {
   -webkit-font-smoothing: antialiased;

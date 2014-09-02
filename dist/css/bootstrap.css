@@ -13167,6 +13167,23 @@ button:focus {
 .btn-default {
   color: #5c7995;
 }
+.dropdown-menu {
+  padding: 0;
+}
+.dropdown-menu .divider {
+  margin: 0;
+}
+.dropdown-menu > li > a {
+  padding: 14px;
+  border-bottom: 1px solid #edeff0;
+}
+.dropdown-menu > li:last-child > a {
+  border-bottom: none;
+}
+.dropdown-header {
+  padding: 14px;
+  border-bottom: 1px solid #edeff0;
+}
 body,
 .bootstrap {
   -webkit-font-smoothing: antialiased;
