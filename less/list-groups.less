@@ -1,0 +1,32 @@
+//
+// List groups
+// --------------------------------------------------
+
+.list-group-heading {
+  border-bottom: 1px solid @list-group-border;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid @list-group-border;
+  border-radius: 0;
+  margin-bottom: 0;
+
+  &:first-child {
+    .border-top-radius(0);
+  }
+  &:last-child {
+    margin-bottom: 0;
+    .border-bottom-radius(0);
+  }
+}
+
+.panel {
+  .list-group {
+    .list-group-item {
+      border-bottom-color: @panel-inner-border;
+    }
+  }
+}

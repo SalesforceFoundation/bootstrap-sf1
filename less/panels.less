@@ -1,0 +1,57 @@
+// Panels
+// -------------------------
+.panel {
+
+  .panel-heading {
+    font-weight: bold;
+    font-size: @font-size-h1;
+    padding-top: @spacing-medium;
+    padding-bottom: @spacing-medium;
+    border-bottom-color: @panel-inner-border;
+
+    .panel-title {
+      font-size: @font-size-h1;
+      font-weight: bold;
+    }
+  }
+
+  .panel-body {
+    color: @panel-default-text;
+  }
+
+  &.panel-default {
+    > .panel-heading {
+      color: @headings-color;
+    }
+  }
+
+  &.panel-primary {
+    > .panel-heading {
+      color: @panel-primary-text;
+    }
+  }
+
+  &.panel-success {
+    > .panel-heading {
+      color: @panel-success-text;
+    }
+  }
+
+  &.panel-info {
+    > .panel-heading {
+      color: @panel-info-text;
+    }
+  }
+
+  &.panel-warning {
+    .panel-heading {
+      color: @panel-warning-text;
+    }
+  }
+
+  &.panel-danger {
+    > .panel-heading {
+      color: @panel-danger-text;
+    }
+  }
+}

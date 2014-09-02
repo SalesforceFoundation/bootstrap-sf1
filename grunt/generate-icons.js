@@ -31,7 +31,7 @@ module.exports = function generateIcons(grunt, mapping) {
       // cards
       cardContextData += '.card { \n  &.context-'+contextName+', .context-'+contextName+' > & { \n    .card-context-mixin(); \n    .card-heading:after { \n      .'+match[1]+'; \n    } \n  } \n} \n';
       // page header
-      cardContextData += '.page-header.context-'+contextName+' {\n  h1:before {\n    .s1icon-s-'+contextName+';\n  }\n}\n';
+      cardContextData += '.page-header.context-'+contextName+' {\n  &:before {\n    .s1icon-s-'+contextName+';\n  }\n}\n';
     }
   }
 
@@ -78,7 +78,7 @@ module.exports = function generateIcons(grunt, mapping) {
             // cards
             cardContextData += '.card { \n  &.context-c-'+ mapping[j][1] +', .context-c-'+mapping[j][1]+' > & { \n    .card-context-mixin(); \n    .card-heading:after { \n      .s1icon-c-'+mapping[j][1]+'; \n    } \n  } \n} \n';
             // page header
-            cardContextData += '.page-header.context-c-'+mapping[j][1]+' {\n  h1:before {\n    .s1icon-c-'+mapping[j][1]+';\n  }\n}\n';
+            cardContextData += '.page-header.context-c-'+mapping[j][1]+' {\n  &:before {\n    .s1icon-c-'+mapping[j][1]+';\n  }\n}\n';
           }
         }
       }

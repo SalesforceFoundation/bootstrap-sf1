@@ -37,6 +37,9 @@
 @import "generated/contexts.less";
 
 @import "page-headers.less";
+@import "panels.less";
+@import "list-groups.less";
+@import "buttons.less";
 
 // Add CSS Customizations to your theme here.
 
@@ -45,58 +48,7 @@ body,
   -webkit-font-smoothing: antialiased;
 }
 
-// Panels
-// -------------------------
-.panel {
 
-    .panel-heading {
-        font-weight: bold;
-        font-size: 18px;
-        padding-top: 14px;
-        padding-bottom: 14px;
-
-        .panel-title {
-            font-size: 18px;
-            font-weight: bold;
-        }
-    }
-
-    &.panel-default {
-      > .panel-heading {
-        color: @headings-color;
-      }
-    }
-
-    &.panel-primary {
-      > .panel-heading {
-        color: @panel-primary-text;
-      }
-    }
-
-    &.panel-success {
-      > .panel-heading {
-        color: @panel-success-text;
-      }
-    }
-
-    &.panel-info {
-      > .panel-heading {
-        color: @panel-info-text;
-      }
-    }
-
-    &.panel-warning {
-      .panel-heading {
-        color: @panel-warning-text;
-      }
-    }
-
-    &.panel-danger {
-      > .panel-heading {
-        color: @panel-danger-text;
-      }
-    }
-}
 
 //
 // Jumbotron
@@ -144,19 +96,6 @@ body,
 .navbar-brand {
   font-weight: bold;
   font-size: 22px;
-}
-
-
-//
-// Buttons
-// --------------------------------------------------
-
-.btn {
-  font-weight: 700;
-}
-
-.btn-default {
-  color: @text-color-4;
 }
 
 //
@@ -214,30 +153,7 @@ body,
   }
 }
 
-//
-// List groups
-// --------------------------------------------------
 
-.list-group-heading {
-  border-bottom: 1px solid @list-group-border;
-  margin: 0;
-  padding: 10px 0;
-}
-
-.list-group-item {
-  border: none;
-  border-bottom: 1px solid @list-group-border;
-  border-radius: 0;
-  margin-bottom: 0;
-
-  &:first-child {
-    .border-top-radius(0);
-  }
-  &:last-child {
-    margin-bottom: 0;
-    .border-bottom-radius(0);
-  }
-}
 
 //
 // Navs
