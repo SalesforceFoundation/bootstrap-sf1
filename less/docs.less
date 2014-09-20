@@ -58,12 +58,14 @@
   }
 
   .nav {
-    > a {
-      color: @text-color;
-    }
-    .active > a {
-      color: @text-color;
-      border-left: 3px solid @brand-primary;
+    > li {
+      > a {
+        color: @text-color-4;
+      }
+      .active > a {
+        color: @text-color;
+        border-left: 3px solid @brand-primary;
+      }
     }
   }
 

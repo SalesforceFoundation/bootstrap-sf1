@@ -131,11 +131,11 @@ a.list-group-item-danger.active:focus {
 .fn-sidebar.affix-bottom {
   bottom: 20px;
 }
-.fn-sidebar .nav > a {
-  color: #525354;
+.fn-sidebar .nav > li > a {
+  color: #5c7995;
 }
-.fn-sidebar .nav .active > a {
-  color: #525354;
+.fn-sidebar .nav > li .active > a {
+  color: #3c3d3e;
   border-left: 3px solid #2a94d6;
 }
 .fn-sidebar > .nav > li a {
@@ -177,7 +177,7 @@ a.list-group-item-danger.active:focus {
   border-top: none;
 }
 .fn-footer {
-  background-color: #344a5f;
+  background-color: #34495e;
   padding: 30px 0;
   margin-top: 50px;
   color: #f5f6f7;

@@ -499,19 +499,15 @@ base_url: "../"
 
   <div class="fn-example">
     <div class="page-header page-header-anchor">
-      <div class="container">
-        <h1>ACME Publishing</h1>
-        <p>123 Some Street, San Francisco, CA, 93101</p>
-      </div>
+      <h1>ACME Publishing</h1>
+      <p>123 Some Street, San Francisco, CA, 93101</p>
     </div>
   </div>
 {{#markdown}}
 ```html
 <div class="page-header page-header-anchor">
-  <div class="container">
-    <h1>ACME Publishing</h1>
-    <p>123 Some Street, San Francisco, CA, 93101</p>
-  </div>
+  <h1>ACME Publishing</h1>
+  <p>123 Some Street, San Francisco, CA, 93101</p>
 </div>
 ```
 {{/markdown}}
@@ -523,69 +519,129 @@ base_url: "../"
 
     <!-- Account -->
     <div class="page-header page-header-anchor context-account">
-      <div class="container">
-        <h1>ACME Publishing</h1>
-        <p>123 Some Street, San Francisco, CA, 93101</p>
-      </div>
+      <h1>ACME Publishing</h1>
+      <p>123 Some Street, San Francisco, CA, 93101</p>
     </div>
 
     <!-- Contact -->
     <div class="page-header page-header-anchor context-contact">
-      <div class="container">
-        <h1>Jason Blakemoth</h1>
-        <p>123 Some Street, San Francisco, CA, 93101</p>
-      </div>
+      <h1>Jason Blakemoth</h1>
+      <p>123 Some Street, San Francisco, CA, 93101</p>
     </div>
 
     <!-- Boat -->
     <div class="page-header page-header-anchor context-c-boat">
-      <div class="container">
-        <h1>HMS Shazam</h1>
-        <p>123 Some Street, San Francisco, CA, 93101</p>
-      </div>
+      <h1>HMS Shazam</h1>
+      <p>123 Some Street, San Francisco, CA, 93101</p>
     </div>
 
     <!-- Triangle -->
     <div class="page-header page-header-anchor context-c-triangle">
-      <div class="container">
-        <h1>Scheme</h1>
-        <p>123 Some Street, San Francisco, CA, 93101</p>
-      </div>
+      <h1>Scheme</h1>
+      <p>123 Some Street, San Francisco, CA, 93101</p>
     </div>
   </div>
 {{#markdown}}
 ```html
 <!-- Account -->
 <div class="page-header page-header-anchor context-account">
-  <div class="container">
-    <h1>ACME Publishing</h1>
-    <p>123 Some Street, San Francisco, CA, 93101</p>
-  </div>
+  <h1>ACME Publishing</h1>
+  <p>123 Some Street, San Francisco, CA, 93101</p>
 </div>
 
 <!-- Contact -->
 <div class="page-header page-header-anchor context-contact">
-  <div class="container">
-    <h1>Jason Blakemoth</h1>
-    <p>123 Some Street, San Francisco, CA, 93101</p>
-  </div>
+  <h1>Jason Blakemoth</h1>
+  <p>123 Some Street, San Francisco, CA, 93101</p>
 </div>
 
 <!-- Boat -->
 <div class="page-header page-header-anchor context-c-boat">
-  <div class="container">
-    <h1>HMS Shazam</h1>
-    <p>123 Some Street, San Francisco, CA, 93101</p>
-  </div>
+  <h1>HMS Shazam</h1>
+  <p>123 Some Street, San Francisco, CA, 93101</p>
 </div>
 
 <!-- Triangle -->
 <div class="page-header page-header-anchor context-c-triangle">
-  <div class="container">
-    <h1>Scheme</h1>
-    <p>123 Some Street, San Francisco, CA, 93101</p>
-  </div>
+  <h1>Scheme</h1>
+  <p>123 Some Street, San Francisco, CA, 93101</p>
 </div>
+```
+{{/markdown}}
+
+  <h3 id="page-headers-contexts">Light Page Header Contexts</h3>
+  <p>You can set the context of the page header by using the context icon classes.</p>
+
+  <div class="fn-example">
+    <!-- Account -->
+    <div class="page-header context-account">
+      <h1>ACME Publishing</h1>
+      <p>123 Some Street, San Francisco, CA, 93101</p>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<!-- Account -->
+<div class="page-header context-account">
+  <h1>ACME Publishing</h1>
+  <p>123 Some Street, San Francisco, CA, 93101</p>
+</div>
+
+```
+{{/markdown}}
+
+  <h3 id="page-headers-contexts">Light Small Page Header Contexts</h3>
+  <p>You can set the context of the page header by using the context icon classes.</p>
+
+  <div class="fn-example">
+    <!-- Account -->
+    <div class="page-header page-header-compact context-account">
+      <span class="page-header-label">recent</span>
+      <h1>Accounts</h1>
+    </div>
+
+    <!-- Opportunities -->
+    <div class="page-header page-header-compact context-opportunity">
+      <h1>Opportunities</h1>
+      <span class="page-header-label">14 results</span>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<!-- Account -->
+<div class="page-header page-header-compact context-account">
+  <h1>ACME Publishing</h1>
+  <p>123 Some Street, San Francisco, CA, 93101</p>
+</div>
+
+<!-- Opportunities -->
+<div class="page-header page-header-compact context-opportunity">
+  <h1>Opportunities</h1>
+  <span class="page-header-label">14 results</span>
+</div>
+
+```
+{{/markdown}}
+
+  <h3 id="page-headers-contexts">Light Small Page Header Contexts with Transparent BG</h3>
+  <p>You can set the context of the page header by using the context icon classes.</p>
+
+  <div class="fn-example">
+
+    <!-- Leads -->
+    <div class="page-header page-header-compact page-header-transparent context-lead">
+      <h1>Leads</h1>
+      <span class="page-header-label">14 results</span>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<!-- Leads -->
+<div class="page-header page-header-compact page-header-transparent context-lead">
+  <h1>Leads</h1>
+  <span class="page-header-label">14 results</span>
+</div>
+
 ```
 {{/markdown}}
 </section>
