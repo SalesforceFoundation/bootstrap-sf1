@@ -50,6 +50,7 @@
   }
 
   &.page-header-compact {
+    padding: @spacing-medium;
     font-size: @font-size-base;
     text-align: left;
     h1 {
@@ -70,11 +71,12 @@
     color: #B1B1B2;
     line-height: @font-size-small;
     font-size: @font-size-small;
+    display: block;
   }
 
   @media (min-width: @screen-md-min) {
     text-align: left;
-    
+
   }
 
   &[class*='context-'] {
@@ -88,16 +90,6 @@
       margin-bottom: 6px;
     }
 
-    &.page-header-compact {
-      
-      &:before {
-        .s1icon-sm;
-        float: left;
-        margin-right: @spacing-medium;
-        margin-bottom: @spacing-medium;
-      }
-    }
-    
     @media (min-width: @screen-md-min) {
       min-height: 88px;
       h1 {
@@ -106,14 +98,13 @@
       &:before {
         float: left;
         margin-right: @spacing-medium;
-        margin-bottom: @spacing-medium;
+        margin-bottom: 0;
       }
     }
 
     @media (min-width: @screen-lg-min) {
       min-height: 108px;
       h1 {
-        margin-top: 14px;
         font-size: @font-size-xxx-large;
       }
       p {
@@ -122,6 +113,52 @@
       &:before {
         .s1icon-xl;
       }
+    }
+
+    &.page-header-compact {
+
+      &:before {
+        .s1icon-sm;
+        float: left;
+        margin-right: @spacing-medium;
+        margin-bottom: 0;
+
+        @media (min-width: @screen-md-min) {
+          .s1icon-m;
+          margin-bottom: 0;
+        }
+
+        @media (min-width: @screen-lg-min) {
+          .s1icon-lg;
+          margin-bottom: 0;
+        }
+      }
+
+      @media (min-width: @screen-md-min) {
+        min-height: inherit;
+        h1 {
+          margin-top: 0;
+          font-size: @font-size-xl-large;
+        }
+        .page-header-label {
+          font-size: @font-size-large;
+          line-height: (@font-size-large * 1.2);
+        }
+      }
+
+      @media (min-width: @screen-lg-min) {
+        min-height: inherit;
+        h1 {
+          margin-top: 0;
+          line-height: 35px;
+          font-size: @font-size-xxx-large;
+        }
+        .page-header-label {
+          font-size: @font-size-x-large;
+          line-height: 20px;
+        }
+      }
+
     }
   }
 }

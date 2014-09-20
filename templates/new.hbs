@@ -489,7 +489,7 @@ base_url: "../"
 </section>
 
 <section class="section" id="page-headers">
-  <h2 class="section-head">Page Headers</h2>
+  <h2 class="section-head">Page Headers (anchors)</h2>
 
   <p>Page headers are not new to Bootstrap, but we have included some additional styles and components. The first customization is a class for the SFDC style page header anchor.</p>
 
@@ -509,6 +509,26 @@ base_url: "../"
   <h1>ACME Publishing</h1>
   <p>123 Some Street, San Francisco, CA, 93101</p>
 </div>
+```
+{{/markdown}}
+
+  <h3 id="page-headers-compact">Light Small Page Header</h3>
+
+  <div class="fn-example">
+
+    <!-- Leads -->
+    <div class="page-header page-header-compact">
+      <h1>Leads <span class="page-header-label">14 results</span></h1>
+    </div>
+  </div>
+{{#markdown}}
+```html
+<!-- Leads -->
+<div class="page-header page-header-compact">
+<h1>Leads <span class="page-header-label">14 results</span></h1>
+
+</div>
+
 ```
 {{/markdown}}
 
@@ -630,16 +650,16 @@ base_url: "../"
 
     <!-- Leads -->
     <div class="page-header page-header-compact page-header-transparent context-lead">
-      <h1>Leads</h1>
-      <span class="page-header-label">14 results</span>
+      <h1>Leads <span class="page-header-label">14 results</span></h1>
+
     </div>
   </div>
 {{#markdown}}
 ```html
 <!-- Leads -->
 <div class="page-header page-header-compact page-header-transparent context-lead">
-  <h1>Leads</h1>
-  <span class="page-header-label">14 results</span>
+  <h1>Leads <span class="page-header-label">14 results</span></h1>
+
 </div>
 
 ```
