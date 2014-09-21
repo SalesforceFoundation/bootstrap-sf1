@@ -83,19 +83,26 @@
     position: relative;
     padding-top: @spacing-medium;
 
-    &:before {
+    h1:before {
       content: "";
       .s1icon;
       .s1icon-lg;
       margin-bottom: 6px;
+      display: block;
+      left: 50%;
+      margin-left: -30px;
     }
 
     @media (min-width: @screen-md-min) {
       min-height: 88px;
       h1 {
-        margin-top: 10px;
+        margin-top: 8px;
       }
-      &:before {
+      h1:before {
+        display: inline-block;
+        left: auto;
+        margin-left: auto;
+        margin-top: -8px;
         float: left;
         margin-right: @spacing-medium;
         margin-bottom: 0;
@@ -106,22 +113,29 @@
       min-height: 108px;
       h1 {
         font-size: @font-size-xxx-large;
+        margin-top: 12px;
       }
       p {
         font-size: @font-size-xl-large;
       }
-      &:before {
+      h1:before {
+        margin-top: -12px;
         .s1icon-xl;
       }
     }
 
     &.page-header-compact {
 
-      &:before {
+      h1:before {
         .s1icon-sm;
         float: left;
         margin-right: @spacing-medium;
         margin-bottom: 0;
+        margin-top: 0;
+
+        display: inline-block;
+        left: auto;
+        margin-left: auto;
 
         @media (min-width: @screen-md-min) {
           .s1icon-m;
