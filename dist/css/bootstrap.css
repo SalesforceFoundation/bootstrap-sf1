@@ -7729,7 +7729,7 @@ a.card:hover {
   background-color: #7f8de1;
   background-image: url(../icons/standard/account_120.png);
 }
-.page-header.context-account:before {
+.page-header.context-account h1:before {
   background-color: #7f8de1;
   background-image: url(../icons/standard/account_120.png);
 }
@@ -7760,7 +7760,7 @@ a.card:hover {
   background-color: #f49756;
   background-image: url(../icons/standard/campaign_120.png);
 }
-.page-header.context-campaign:before {
+.page-header.context-campaign h1:before {
   background-color: #f49756;
   background-image: url(../icons/standard/campaign_120.png);
 }
@@ -7791,7 +7791,7 @@ a.card:hover {
   background-color: #f49756;
   background-image: url(../icons/standard/campaign_members_120.png);
 }
-.page-header.context-campaign-members:before {
+.page-header.context-campaign-members h1:before {
   background-color: #f49756;
   background-image: url(../icons/standard/campaign_members_120.png);
 }
@@ -7822,7 +7822,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_120.png);
 }
-.page-header.context-case:before {
+.page-header.context-case h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_120.png);
 }
@@ -7853,7 +7853,7 @@ a.card:hover {
   background-color: #a094ed;
   background-image: url(../icons/standard/contact_120.png);
 }
-.page-header.context-contact:before {
+.page-header.context-contact h1:before {
   background-color: #a094ed;
   background-image: url(../icons/standard/contact_120.png);
 }
@@ -7884,7 +7884,7 @@ a.card:hover {
   background-color: #6ec06e;
   background-image: url(../icons/standard/contract_120.png);
 }
-.page-header.context-contract:before {
+.page-header.context-contract h1:before {
   background-color: #6ec06e;
   background-image: url(../icons/standard/contract_120.png);
 }
@@ -7915,7 +7915,7 @@ a.card:hover {
   background-color: #ef6e64;
   background-image: url(../icons/standard/dashboard_120.png);
 }
-.page-header.context-dashboard:before {
+.page-header.context-dashboard h1:before {
   background-color: #ef6e64;
   background-image: url(../icons/standard/dashboard_120.png);
 }
@@ -7946,7 +7946,7 @@ a.card:hover {
   background-color: #ed7e58;
   background-image: url(../icons/standard/lead_120.png);
 }
-.page-header.context-lead:before {
+.page-header.context-lead h1:before {
   background-color: #ed7e58;
   background-image: url(../icons/standard/lead_120.png);
 }
@@ -7977,7 +7977,7 @@ a.card:hover {
   background-color: #fcb95b;
   background-image: url(../icons/standard/opportunity_120.png);
 }
-.page-header.context-opportunity:before {
+.page-header.context-opportunity h1:before {
   background-color: #fcb95b;
   background-image: url(../icons/standard/opportunity_120.png);
 }
@@ -8008,7 +8008,7 @@ a.card:hover {
   background-color: #aec770;
   background-image: url(../icons/standard/portal_120.png);
 }
-.page-header.context-portal:before {
+.page-header.context-portal h1:before {
   background-color: #aec770;
   background-image: url(../icons/standard/portal_120.png);
 }
@@ -8039,7 +8039,7 @@ a.card:hover {
   background-color: #b781d3;
   background-image: url(../icons/standard/product_120.png);
 }
-.page-header.context-product:before {
+.page-header.context-product h1:before {
   background-color: #b781d3;
   background-image: url(../icons/standard/product_120.png);
 }
@@ -8070,7 +8070,7 @@ a.card:hover {
   background-color: #7dc37d;
   background-image: url(../icons/standard/record_120.png);
 }
-.page-header.context-record:before {
+.page-header.context-record h1:before {
   background-color: #7dc37d;
   background-image: url(../icons/standard/record_120.png);
 }
@@ -8101,7 +8101,7 @@ a.card:hover {
   background-color: #8fc972;
   background-image: url(../icons/standard/solution_120.png);
 }
-.page-header.context-solution:before {
+.page-header.context-solution h1:before {
   background-color: #8fc972;
   background-image: url(../icons/standard/solution_120.png);
 }
@@ -8132,7 +8132,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_transcript_120.png);
 }
-.page-header.context-transcript:before {
+.page-header.context-transcript h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_transcript_120.png);
 }
@@ -8163,7 +8163,7 @@ a.card:hover {
   background-color: #62b7ed;
   background-image: url(../icons/standard/avatar_120.png);
 }
-.page-header.context-avatar:before {
+.page-header.context-avatar h1:before {
   background-color: #62b7ed;
   background-image: url(../icons/standard/avatar_120.png);
 }
@@ -8194,7 +8194,7 @@ a.card:hover {
   background-color: #50cc7a;
   background-image: url(../icons/standard/approval_120.png);
 }
-.page-header.context-approval:before {
+.page-header.context-approval h1:before {
   background-color: #50cc7a;
   background-image: url(../icons/standard/approval_120.png);
 }
@@ -8225,7 +8225,7 @@ a.card:hover {
   background-color: #3c97dd;
   background-image: url(../icons/standard/apps_120.png);
 }
-.page-header.context-apps:before {
+.page-header.context-apps h1:before {
   background-color: #3c97dd;
   background-image: url(../icons/standard/apps_120.png);
 }
@@ -8256,7 +8256,7 @@ a.card:hover {
   background-color: #9895ee;
   background-image: url(../icons/standard/connected_apps_admins_120.png);
 }
-.page-header.context-connected-apps-admins:before {
+.page-header.context-connected-apps-admins h1:before {
   background-color: #9895ee;
   background-image: url(../icons/standard/connected_apps_admins_120.png);
 }
@@ -8287,7 +8287,7 @@ a.card:hover {
   background-color: #47cfd2;
   background-image: url(../icons/standard/calibration_120.png);
 }
-.page-header.context-calibration:before {
+.page-header.context-calibration h1:before {
   background-color: #47cfd2;
   background-image: url(../icons/standard/calibration_120.png);
 }
@@ -8318,7 +8318,7 @@ a.card:hover {
   background-color: #f67594;
   background-image: url(../icons/standard/coaching_120.png);
 }
-.page-header.context-coaching:before {
+.page-header.context-coaching h1:before {
   background-color: #f67594;
   background-image: url(../icons/standard/coaching_120.png);
 }
@@ -8349,7 +8349,7 @@ a.card:hover {
   background-color: #6ca1e9;
   background-image: url(../icons/standard/drafts_120.png);
 }
-.page-header.context-drafts:before {
+.page-header.context-drafts h1:before {
   background-color: #6ca1e9;
   background-image: url(../icons/standard/drafts_120.png);
 }
@@ -8380,7 +8380,7 @@ a.card:hover {
   background-color: #95aec5;
   background-image: url(../icons/standard/email_120.png);
 }
-.page-header.context-email:before {
+.page-header.context-email h1:before {
   background-color: #95aec5;
   background-image: url(../icons/standard/email_120.png);
 }
@@ -8411,7 +8411,7 @@ a.card:hover {
   background-color: #eb7092;
   background-image: url(../icons/standard/event_120.png);
 }
-.page-header.context-event:before {
+.page-header.context-event h1:before {
   background-color: #eb7092;
   background-image: url(../icons/standard/event_120.png);
 }
@@ -8442,7 +8442,7 @@ a.card:hover {
   background-color: #8b9ae3;
   background-image: url(../icons/standard/endorsement_120.png);
 }
-.page-header.context-endorsement:before {
+.page-header.context-endorsement h1:before {
   background-color: #8b9ae3;
   background-image: url(../icons/standard/endorsement_120.png);
 }
@@ -8473,7 +8473,7 @@ a.card:hover {
   background-color: #62b7ed;
   background-image: url(../icons/standard/feed_120.png);
 }
-.page-header.context-feed:before {
+.page-header.context-feed h1:before {
   background-color: #62b7ed;
   background-image: url(../icons/standard/feed_120.png);
 }
@@ -8504,7 +8504,7 @@ a.card:hover {
   background-color: #6da1ea;
   background-image: url(../icons/standard/feedback_120.png);
 }
-.page-header.context-feedback:before {
+.page-header.context-feedback h1:before {
   background-color: #6da1ea;
   background-image: url(../icons/standard/feedback_120.png);
 }
@@ -8535,7 +8535,7 @@ a.card:hover {
   background-color: #baac93;
   background-image: url(../icons/standard/file_120.png);
 }
-.page-header.context-file:before {
+.page-header.context-file h1:before {
   background-color: #baac93;
   background-image: url(../icons/standard/file_120.png);
 }
@@ -8566,7 +8566,7 @@ a.card:hover {
   background-color: #7fc574;
   background-image: url(../icons/standard/goals_120.png);
 }
-.page-header.context-goals:before {
+.page-header.context-goals h1:before {
   background-color: #7fc574;
   background-image: url(../icons/standard/goals_120.png);
 }
@@ -8597,7 +8597,7 @@ a.card:hover {
   background-color: #779ef2;
   background-image: url(../icons/standard/groups_120.png);
 }
-.page-header.context-groups:before {
+.page-header.context-groups h1:before {
   background-color: #779ef2;
   background-image: url(../icons/standard/groups_120.png);
 }
@@ -8628,7 +8628,7 @@ a.card:hover {
   background-color: #47cfd2;
   background-image: url(../icons/standard/insights_120.png);
 }
-.page-header.context-insights:before {
+.page-header.context-insights h1:before {
   background-color: #47cfd2;
   background-image: url(../icons/standard/insights_120.png);
 }
@@ -8659,7 +8659,7 @@ a.card:hover {
   background-color: #7a9ae6;
   background-image: url(../icons/standard/link_120.png);
 }
-.page-header.context-link:before {
+.page-header.context-link h1:before {
   background-color: #7a9ae6;
   background-image: url(../icons/standard/link_120.png);
 }
@@ -8690,7 +8690,7 @@ a.card:hover {
   background-color: #e6d478;
   background-image: url(../icons/standard/note_120.png);
 }
-.page-header.context-note:before {
+.page-header.context-note h1:before {
   background-color: #e6d478;
   background-image: url(../icons/standard/note_120.png);
 }
@@ -8721,7 +8721,7 @@ a.card:hover {
   background-color: #34becd;
   background-image: url(../icons/standard/people_120.png);
 }
-.page-header.context-people:before {
+.page-header.context-people h1:before {
   background-color: #34becd;
   background-image: url(../icons/standard/people_120.png);
 }
@@ -8752,7 +8752,7 @@ a.card:hover {
   background-color: #f8b156;
   background-image: url(../icons/standard/performance_120.png);
 }
-.page-header.context-performance:before {
+.page-header.context-performance h1:before {
   background-color: #f8b156;
   background-image: url(../icons/standard/performance_120.png);
 }
@@ -8783,7 +8783,7 @@ a.card:hover {
   background-color: #d7d1d1;
   background-image: url(../icons/standard/photo_120.png);
 }
-.page-header.context-photo:before {
+.page-header.context-photo h1:before {
   background-color: #d7d1d1;
   background-image: url(../icons/standard/photo_120.png);
 }
@@ -8814,7 +8814,7 @@ a.card:hover {
   background-color: #699be1;
   background-image: url(../icons/standard/poll_120.png);
 }
-.page-header.context-poll:before {
+.page-header.context-poll h1:before {
   background-color: #699be1;
   background-image: url(../icons/standard/poll_120.png);
 }
@@ -8845,7 +8845,7 @@ a.card:hover {
   background-color: #65cae4;
   background-image: url(../icons/standard/post_120.png);
 }
-.page-header.context-post:before {
+.page-header.context-post h1:before {
   background-color: #65cae4;
   background-image: url(../icons/standard/post_120.png);
 }
@@ -8876,7 +8876,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/question_best_120.png);
 }
-.page-header.context-question-best:before {
+.page-header.context-question-best h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/question_best_120.png);
 }
@@ -8907,7 +8907,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/question_feed_120.png);
 }
-.page-header.context-question-feed:before {
+.page-header.context-question-feed h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/question_feed_120.png);
 }
@@ -8938,7 +8938,7 @@ a.card:hover {
   background-color: #88c651;
   background-image: url(../icons/standard/quotes_120.png);
 }
-.page-header.context-quotes:before {
+.page-header.context-quotes h1:before {
   background-color: #88c651;
   background-image: url(../icons/standard/quotes_120.png);
 }
@@ -8969,7 +8969,7 @@ a.card:hover {
   background-color: #7dc37d;
   background-image: url(../icons/standard/record_120.png);
 }
-.page-header.context-record:before {
+.page-header.context-record h1:before {
   background-color: #7dc37d;
   background-image: url(../icons/standard/record_120.png);
 }
@@ -9000,7 +9000,7 @@ a.card:hover {
   background-color: #f77373;
   background-image: url(../icons/standard/report_120.png);
 }
-.page-header.context-report:before {
+.page-header.context-report h1:before {
   background-color: #f77373;
   background-image: url(../icons/standard/report_120.png);
 }
@@ -9031,7 +9031,7 @@ a.card:hover {
   background-color: #6ca1e9;
   background-image: url(../icons/standard/recent_120.png);
 }
-.page-header.context-recent:before {
+.page-header.context-recent h1:before {
   background-color: #6ca1e9;
   background-image: url(../icons/standard/recent_120.png);
 }
@@ -9062,7 +9062,7 @@ a.card:hover {
   background-color: #59bcab;
   background-image: url(../icons/standard/related_list_120.png);
 }
-.page-header.context-related-list:before {
+.page-header.context-related-list h1:before {
   background-color: #59bcab;
   background-image: url(../icons/standard/related_list_120.png);
 }
@@ -9093,7 +9093,7 @@ a.card:hover {
   background-color: #f39e58;
   background-image: url(../icons/standard/scan_card_120.png);
 }
-.page-header.context-scan-card:before {
+.page-header.context-scan-card h1:before {
   background-color: #f39e58;
   background-image: url(../icons/standard/scan_card_120.png);
 }
@@ -9124,7 +9124,7 @@ a.card:hover {
   background-color: #8b9ae3;
   background-image: url(../icons/standard/skill_entity_120.png);
 }
-.page-header.context-skill-entity:before {
+.page-header.context-skill-entity h1:before {
   background-color: #8b9ae3;
   background-image: url(../icons/standard/skill_entity_120.png);
 }
@@ -9155,7 +9155,7 @@ a.card:hover {
   background-color: #ea74a2;
   background-image: url(../icons/standard/social_post_120.png);
 }
-.page-header.context-social:before {
+.page-header.context-social h1:before {
   background-color: #ea74a2;
   background-image: url(../icons/standard/social_post_120.png);
 }
@@ -9186,7 +9186,7 @@ a.card:hover {
   background-color: #4bc076;
   background-image: url(../icons/standard/task_120.png);
 }
-.page-header.context-task:before {
+.page-header.context-task h1:before {
   background-color: #4bc076;
   background-image: url(../icons/standard/task_120.png);
 }
@@ -9217,7 +9217,7 @@ a.card:hover {
   background-color: #e9696e;
   background-image: url(../icons/standard/thanks_120.png);
 }
-.page-header.context-thanks:before {
+.page-header.context-thanks h1:before {
   background-color: #e9696e;
   background-image: url(../icons/standard/thanks_120.png);
 }
@@ -9248,7 +9248,7 @@ a.card:hover {
   background-color: #ef7ead;
   background-image: url(../icons/standard/today_120.png);
 }
-.page-header.context-today:before {
+.page-header.context-today h1:before {
   background-color: #ef7ead;
   background-image: url(../icons/standard/today_120.png);
 }
@@ -9279,7 +9279,7 @@ a.card:hover {
   background-color: #8199af;
   background-image: url(../icons/standard/canvas_120.png);
 }
-.page-header.context-canvas:before {
+.page-header.context-canvas h1:before {
   background-color: #8199af;
   background-image: url(../icons/standard/canvas_120.png);
 }
@@ -9310,7 +9310,7 @@ a.card:hover {
   background-color: #8199af;
   background-image: url(../icons/standard/custom_120.png);
 }
-.page-header.context-custom:before {
+.page-header.context-custom h1:before {
   background-color: #8199af;
   background-image: url(../icons/standard/custom_120.png);
 }
@@ -9341,7 +9341,7 @@ a.card:hover {
   background-color: #8199af;
   background-image: url(../icons/standard/default_120.png);
 }
-.page-header.context-default:before {
+.page-header.context-default h1:before {
   background-color: #8199af;
   background-image: url(../icons/standard/default_120.png);
 }
@@ -9372,7 +9372,7 @@ a.card:hover {
   background-color: #b8c3ce;
   background-image: url(../icons/standard/avatar_loading_120.png);
 }
-.page-header.context-avatar-loading:before {
+.page-header.context-avatar-loading h1:before {
   background-color: #b8c3ce;
   background-image: url(../icons/standard/avatar_loading_120.png);
 }
@@ -9403,7 +9403,7 @@ a.card:hover {
   background-color: #bac3cc;
   background-image: url(../icons/standard/group_loading_120.png);
 }
-.page-header.context-groups-loading:before {
+.page-header.context-groups-loading h1:before {
   background-color: #bac3cc;
   background-image: url(../icons/standard/group_loading_120.png);
 }
@@ -9434,7 +9434,7 @@ a.card:hover {
   background-color: #bac3cc;
   background-image: url(../icons/standard/thanks_loading_120.png);
 }
-.page-header.context-thanks-loading:before {
+.page-header.context-thanks-loading h1:before {
   background-color: #bac3cc;
   background-image: url(../icons/standard/thanks_loading_120.png);
 }
@@ -9465,7 +9465,7 @@ a.card:hover {
   background-color: #5bb6ee;
   background-image: url(../icons/standard/chatterbox_120.png);
 }
-.page-header.context-files:before {
+.page-header.context-files h1:before {
   background-color: #5bb6ee;
   background-image: url(../icons/standard/chatterbox_120.png);
 }
@@ -9496,7 +9496,7 @@ a.card:hover {
   background-color: #4cc3c7;
   background-image: url(../icons/standard/concur_120.png);
 }
-.page-header.context-concur:before {
+.page-header.context-concur h1:before {
   background-color: #4cc3c7;
   background-image: url(../icons/standard/concur_120.png);
 }
@@ -9527,7 +9527,7 @@ a.card:hover {
   background-color: #52aef9;
   background-image: url(../icons/standard/dropbox_120.png);
 }
-.page-header.context-dropbox:before {
+.page-header.context-dropbox h1:before {
   background-color: #52aef9;
   background-image: url(../icons/standard/dropbox_120.png);
 }
@@ -9558,7 +9558,7 @@ a.card:hover {
   background-color: #86c86f;
   background-image: url(../icons/standard/evernote_120.png);
 }
-.page-header.context-evernote:before {
+.page-header.context-evernote h1:before {
   background-color: #86c86f;
   background-image: url(../icons/standard/evernote_120.png);
 }
@@ -9589,7 +9589,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/answer_best_120.png);
 }
-.page-header.context-answer-best:before {
+.page-header.context-answer-best h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/answer_best_120.png);
 }
@@ -9620,7 +9620,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/answer_private_120.png);
 }
-.page-header.context-answer-private:before {
+.page-header.context-answer-private h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/answer_private_120.png);
 }
@@ -9651,7 +9651,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/answer_public_120.png);
 }
-.page-header.context-answer-public:before {
+.page-header.context-answer-public h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/answer_public_120.png);
 }
@@ -9682,7 +9682,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/article_120.png);
 }
-.page-header.context-article:before {
+.page-header.context-article h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/article_120.png);
 }
@@ -9713,7 +9713,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_change_status_120.png);
 }
-.page-header.context-case-change-status:before {
+.page-header.context-case-change-status h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_change_status_120.png);
 }
@@ -9744,7 +9744,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_comment_120.png);
 }
-.page-header.context-case-comment:before {
+.page-header.context-case-comment h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_comment_120.png);
 }
@@ -9775,7 +9775,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/email_chatter_120.png);
 }
-.page-header.context-case-email:before {
+.page-header.context-case-email h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/email_chatter_120.png);
 }
@@ -9806,7 +9806,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/log_a_call_chatter_120.png);
 }
-.page-header.context-case-log-a-call:before {
+.page-header.context-case-log-a-call h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/log_a_call_chatter_120.png);
 }
@@ -9837,7 +9837,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_transcript_120.png);
 }
-.page-header.context-case-transcript:before {
+.page-header.context-case-transcript h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/case_transcript_120.png);
 }
@@ -9868,7 +9868,7 @@ a.card:hover {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/team_member_120.png);
 }
-.page-header.context-team-member:before {
+.page-header.context-team-member h1:before {
   background-color: #f2cf5b;
   background-image: url(../icons/standard/team_member_120.png);
 }
@@ -9899,7 +9899,7 @@ a.card:hover {
   background-color: #ff7b84;
   background-image: url("../icons/custom/custom1_120.png");
 }
-.page-header.context-c-heart:before {
+.page-header.context-c-heart h1:before {
   background-color: #ff7b84;
   background-image: url("../icons/custom/custom1_120.png");
 }
@@ -9930,7 +9930,7 @@ a.card:hover {
   background-color: #cfd05c;
   background-image: url("../icons/custom/custom2_120.png");
 }
-.page-header.context-c-fan:before {
+.page-header.context-c-fan h1:before {
   background-color: #cfd05c;
   background-image: url("../icons/custom/custom2_120.png");
 }
@@ -9961,7 +9961,7 @@ a.card:hover {
   background-color: #ecb46c;
   background-image: url("../icons/custom/custom3_120.png");
 }
-.page-header.context-c-sun:before {
+.page-header.context-c-sun h1:before {
   background-color: #ecb46c;
   background-image: url("../icons/custom/custom3_120.png");
 }
@@ -9992,7 +9992,7 @@ a.card:hover {
   background-color: #e1d951;
   background-image: url("../icons/custom/custom4_120.png");
 }
-.page-header.context-c-hexagon:before {
+.page-header.context-c-hexagon h1:before {
   background-color: #e1d951;
   background-image: url("../icons/custom/custom4_120.png");
 }
@@ -10023,7 +10023,7 @@ a.card:hover {
   background-color: #9fdb66;
   background-image: url("../icons/custom/custom5_120.png");
 }
-.page-header.context-c-leaf:before {
+.page-header.context-c-leaf h1:before {
   background-color: #9fdb66;
   background-image: url("../icons/custom/custom5_120.png");
 }
@@ -10054,7 +10054,7 @@ a.card:hover {
   background-color: #54c473;
   background-image: url("../icons/custom/custom6_120.png");
 }
-.page-header.context-c-triangle:before {
+.page-header.context-c-triangle h1:before {
   background-color: #54c473;
   background-image: url("../icons/custom/custom6_120.png");
 }
@@ -10085,7 +10085,7 @@ a.card:hover {
   background-color: #6a89e5;
   background-image: url("../icons/custom/custom7_120.png");
 }
-.page-header.context-c-square:before {
+.page-header.context-c-square h1:before {
   background-color: #6a89e5;
   background-image: url("../icons/custom/custom7_120.png");
 }
@@ -10116,7 +10116,7 @@ a.card:hover {
   background-color: #50ceb9;
   background-image: url("../icons/custom/custom8_120.png");
 }
-.page-header.context-c-diamond:before {
+.page-header.context-c-diamond h1:before {
   background-color: #50ceb9;
   background-image: url("../icons/custom/custom8_120.png");
 }
@@ -10147,7 +10147,7 @@ a.card:hover {
   background-color: #6b9ee2;
   background-image: url("../icons/custom/custom9_120.png");
 }
-.page-header.context-c-lightning:before {
+.page-header.context-c-lightning h1:before {
   background-color: #6b9ee2;
   background-image: url("../icons/custom/custom9_120.png");
 }
@@ -10178,7 +10178,7 @@ a.card:hover {
   background-color: #6488e3;
   background-image: url("../icons/custom/custom10_120.png");
 }
-.page-header.context-c-moon:before {
+.page-header.context-c-moon h1:before {
   background-color: #6488e3;
   background-image: url("../icons/custom/custom10_120.png");
 }
@@ -10209,7 +10209,7 @@ a.card:hover {
   background-color: #8784ea;
   background-image: url("../icons/custom/custom11_120.png");
 }
-.page-header.context-c-star:before {
+.page-header.context-c-star h1:before {
   background-color: #8784ea;
   background-image: url("../icons/custom/custom11_120.png");
 }
@@ -10240,7 +10240,7 @@ a.card:hover {
   background-color: #dc71d1;
   background-image: url("../icons/custom/custom12_120.png");
 }
-.page-header.context-c-circle:before {
+.page-header.context-c-circle h1:before {
   background-color: #dc71d1;
   background-image: url("../icons/custom/custom12_120.png");
 }
@@ -10271,7 +10271,7 @@ a.card:hover {
   background-color: #df6184;
   background-image: url("../icons/custom/custom13_120.png");
 }
-.page-header.context-c-box:before {
+.page-header.context-c-box h1:before {
   background-color: #df6184;
   background-image: url("../icons/custom/custom13_120.png");
 }
@@ -10302,7 +10302,7 @@ a.card:hover {
   background-color: #3cc2b3;
   background-image: url("../icons/custom/custom14_120.png");
 }
-.page-header.context-c-hands:before {
+.page-header.context-c-hands h1:before {
   background-color: #3cc2b3;
   background-image: url("../icons/custom/custom14_120.png");
 }
@@ -10333,7 +10333,7 @@ a.card:hover {
   background-color: #f77e75;
   background-image: url("../icons/custom/custom15_120.png");
 }
-.page-header.context-c-people:before {
+.page-header.context-c-people h1:before {
   background-color: #f77e75;
   background-image: url("../icons/custom/custom15_120.png");
 }
@@ -10364,7 +10364,7 @@ a.card:hover {
   background-color: #e9af67;
   background-image: url("../icons/custom/custom16_120.png");
 }
-.page-header.context-c-bank:before {
+.page-header.context-c-bank h1:before {
   background-color: #e9af67;
   background-image: url("../icons/custom/custom16_120.png");
 }
@@ -10395,7 +10395,7 @@ a.card:hover {
   background-color: #acd360;
   background-image: url("../icons/custom/custom17_120.png");
 }
-.page-header.context-c-sack:before {
+.page-header.context-c-sack h1:before {
   background-color: #acd360;
   background-image: url("../icons/custom/custom17_120.png");
 }
@@ -10426,7 +10426,7 @@ a.card:hover {
   background-color: #4dca76;
   background-image: url("../icons/custom/custom18_120.png");
 }
-.page-header.context-c-edit:before {
+.page-header.context-c-edit h1:before {
   background-color: #4dca76;
   background-image: url("../icons/custom/custom18_120.png");
 }
@@ -10457,7 +10457,7 @@ a.card:hover {
   background-color: #3abeb1;
   background-image: url("../icons/custom/custom19_120.png");
 }
-.page-header.context-c-wrench:before {
+.page-header.context-c-wrench h1:before {
   background-color: #3abeb1;
   background-image: url("../icons/custom/custom19_120.png");
 }
@@ -10488,7 +10488,7 @@ a.card:hover {
   background-color: #48c7c8;
   background-image: url("../icons/custom/custom20_120.png");
 }
-.page-header.context-c-airplane:before {
+.page-header.context-c-airplane h1:before {
   background-color: #48c7c8;
   background-image: url("../icons/custom/custom20_120.png");
 }
@@ -10519,7 +10519,7 @@ a.card:hover {
   background-color: #8a7aed;
   background-image: url("../icons/custom/custom21_120.png");
 }
-.page-header.context-c-computer:before {
+.page-header.context-c-computer h1:before {
   background-color: #8a7aed;
   background-image: url("../icons/custom/custom21_120.png");
 }
@@ -10550,7 +10550,7 @@ a.card:hover {
   background-color: #8b85f9;
   background-image: url("../icons/custom/custom22_120.png");
 }
-.page-header.context-c-telephone:before {
+.page-header.context-c-telephone h1:before {
   background-color: #8b85f9;
   background-image: url("../icons/custom/custom22_120.png");
 }
@@ -10581,7 +10581,7 @@ a.card:hover {
   background-color: #b070e6;
   background-image: url("../icons/custom/custom23_120.png");
 }
-.page-header.context-c-envelope:before {
+.page-header.context-c-envelope h1:before {
   background-color: #b070e6;
   background-image: url("../icons/custom/custom23_120.png");
 }
@@ -10612,7 +10612,7 @@ a.card:hover {
   background-color: #e56798;
   background-image: url("../icons/custom/custom24_120.png");
 }
-.page-header.context-c-building:before {
+.page-header.context-c-building h1:before {
   background-color: #e56798;
   background-image: url("../icons/custom/custom24_120.png");
 }
@@ -10643,7 +10643,7 @@ a.card:hover {
   background-color: #e46fbe;
   background-image: url("../icons/custom/custom25_120.png");
 }
-.page-header.context-c-alarmclock:before {
+.page-header.context-c-alarmclock h1:before {
   background-color: #e46fbe;
   background-image: url("../icons/custom/custom25_120.png");
 }
@@ -10674,7 +10674,7 @@ a.card:hover {
   background-color: #7698f0;
   background-image: url("../icons/custom/custom26_120.png");
 }
-.page-header.context-c-flag:before {
+.page-header.context-c-flag h1:before {
   background-color: #7698f0;
   background-image: url("../icons/custom/custom26_120.png");
 }
@@ -10705,7 +10705,7 @@ a.card:hover {
   background-color: #5ab0d2;
   background-image: url("../icons/custom/custom27_120.png");
 }
-.page-header.context-c-laptop:before {
+.page-header.context-c-laptop h1:before {
   background-color: #5ab0d2;
   background-image: url("../icons/custom/custom27_120.png");
 }
@@ -10736,7 +10736,7 @@ a.card:hover {
   background-color: #89c059;
   background-image: url("../icons/custom/custom28_120.png");
 }
-.page-header.context-c-smartphone:before {
+.page-header.context-c-smartphone h1:before {
   background-color: #89c059;
   background-image: url("../icons/custom/custom28_120.png");
 }
@@ -10767,7 +10767,7 @@ a.card:hover {
   background-color: #bdd25f;
   background-image: url("../icons/custom/custom29_120.png");
 }
-.page-header.context-c-tablet:before {
+.page-header.context-c-tablet h1:before {
   background-color: #bdd25f;
   background-image: url("../icons/custom/custom29_120.png");
 }
@@ -10798,7 +10798,7 @@ a.card:hover {
   background-color: #f59f71;
   background-image: url("../icons/custom/custom30_120.png");
 }
-.page-header.context-c-dish:before {
+.page-header.context-c-dish h1:before {
   background-color: #f59f71;
   background-image: url("../icons/custom/custom30_120.png");
 }
@@ -10829,7 +10829,7 @@ a.card:hover {
   background-color: #eb687f;
   background-image: url("../icons/custom/custom31_120.png");
 }
-.page-header.context-c-car:before {
+.page-header.context-c-car h1:before {
   background-color: #eb687f;
   background-image: url("../icons/custom/custom31_120.png");
 }
@@ -10860,7 +10860,7 @@ a.card:hover {
   background-color: #38c393;
   background-image: url("../icons/custom/custom32_120.png");
 }
-.page-header.context-c-factory:before {
+.page-header.context-c-factory h1:before {
   background-color: #38c393;
   background-image: url("../icons/custom/custom32_120.png");
 }
@@ -10891,7 +10891,7 @@ a.card:hover {
   background-color: #97cf5d;
   background-image: url("../icons/custom/custom33_120.png");
 }
-.page-header.context-c-desk:before {
+.page-header.context-c-desk h1:before {
   background-color: #97cf5d;
   background-image: url("../icons/custom/custom33_120.png");
 }
@@ -10922,7 +10922,7 @@ a.card:hover {
   background-color: #d58a6a;
   background-image: url("../icons/custom/custom34_120.png");
 }
-.page-header.context-c-bug:before {
+.page-header.context-c-bug h1:before {
   background-color: #d58a6a;
   background-image: url("../icons/custom/custom34_120.png");
 }
@@ -10953,7 +10953,7 @@ a.card:hover {
   background-color: #e9637e;
   background-image: url("../icons/custom/custom35_120.png");
 }
-.page-header.context-c-mic:before {
+.page-header.context-c-mic h1:before {
   background-color: #e9637e;
   background-image: url("../icons/custom/custom35_120.png");
 }
@@ -10984,7 +10984,7 @@ a.card:hover {
   background-color: #d472d4;
   background-image: url("../icons/custom/custom36_120.png");
 }
-.page-header.context-c-train:before {
+.page-header.context-c-train h1:before {
   background-color: #d472d4;
   background-image: url("../icons/custom/custom36_120.png");
 }
@@ -11015,7 +11015,7 @@ a.card:hover {
   background-color: #8c89f2;
   background-image: url("../icons/custom/custom37_120.png");
 }
-.page-header.context-c-bridge:before {
+.page-header.context-c-bridge h1:before {
   background-color: #8c89f2;
   background-image: url("../icons/custom/custom37_120.png");
 }
@@ -11046,7 +11046,7 @@ a.card:hover {
   background-color: #53b6d7;
   background-image: url("../icons/custom/custom38_120.png");
 }
-.page-header.context-c-camera:before {
+.page-header.context-c-camera h1:before {
   background-color: #53b6d7;
   background-image: url("../icons/custom/custom38_120.png");
 }
@@ -11077,7 +11077,7 @@ a.card:hover {
   background-color: #4fbe75;
   background-image: url("../icons/custom/custom39_120.png");
 }
-.page-header.context-c-telescope:before {
+.page-header.context-c-telescope h1:before {
   background-color: #4fbe75;
   background-image: url("../icons/custom/custom39_120.png");
 }
@@ -11108,7 +11108,7 @@ a.card:hover {
   background-color: #83c75e;
   background-image: url("../icons/custom/custom40_120.png");
 }
-.page-header.context-c-creditcard:before {
+.page-header.context-c-creditcard h1:before {
   background-color: #83c75e;
   background-image: url("../icons/custom/custom40_120.png");
 }
@@ -11139,7 +11139,7 @@ a.card:hover {
   background-color: #43b5b5;
   background-image: url("../icons/custom/custom41_120.png");
 }
-.page-header.context-c-cash:before {
+.page-header.context-c-cash h1:before {
   background-color: #43b5b5;
   background-image: url("../icons/custom/custom41_120.png");
 }
@@ -11170,7 +11170,7 @@ a.card:hover {
   background-color: #cfd05b;
   background-image: url("../icons/custom/custom42_120.png");
 }
-.page-header.context-c-treasurechest:before {
+.page-header.context-c-treasurechest h1:before {
   background-color: #cfd05b;
   background-image: url("../icons/custom/custom42_120.png");
 }
@@ -11201,7 +11201,7 @@ a.card:hover {
   background-color: #7f93f9;
   background-image: url("../icons/custom/custom43_120.png");
 }
-.page-header.context-c-jewel:before {
+.page-header.context-c-jewel h1:before {
   background-color: #7f93f9;
   background-image: url("../icons/custom/custom43_120.png");
 }
@@ -11232,7 +11232,7 @@ a.card:hover {
   background-color: #c8ca58;
   background-image: url("../icons/custom/custom44_120.png");
 }
-.page-header.context-c-hammer:before {
+.page-header.context-c-hammer h1:before {
   background-color: #c8ca58;
   background-image: url("../icons/custom/custom44_120.png");
 }
@@ -11263,7 +11263,7 @@ a.card:hover {
   background-color: #d95879;
   background-image: url("../icons/custom/custom45_120.png");
 }
-.page-header.context-c-ticket:before {
+.page-header.context-c-ticket h1:before {
   background-color: #d95879;
   background-image: url("../icons/custom/custom45_120.png");
 }
@@ -11294,7 +11294,7 @@ a.card:hover {
   background-color: #67a5e7;
   background-image: url("../icons/custom/custom46_120.png");
 }
-.page-header.context-c-stamp:before {
+.page-header.context-c-stamp h1:before {
   background-color: #67a5e7;
   background-image: url("../icons/custom/custom46_120.png");
 }
@@ -11325,7 +11325,7 @@ a.card:hover {
   background-color: #5fcc64;
   background-image: url("../icons/custom/custom47_120.png");
 }
-.page-header.context-c-knight:before {
+.page-header.context-c-knight h1:before {
   background-color: #5fcc64;
   background-image: url("../icons/custom/custom47_120.png");
 }
@@ -11356,7 +11356,7 @@ a.card:hover {
   background-color: #ef697f;
   background-image: url("../icons/custom/custom48_120.png");
 }
-.page-header.context-c-trophy:before {
+.page-header.context-c-trophy h1:before {
   background-color: #ef697f;
   background-image: url("../icons/custom/custom48_120.png");
 }
@@ -11387,7 +11387,7 @@ a.card:hover {
   background-color: #e25c80;
   background-image: url("../icons/custom/custom49_120.png");
 }
-.page-header.context-c-cd:before {
+.page-header.context-c-cd h1:before {
   background-color: #e25c80;
   background-image: url("../icons/custom/custom49_120.png");
 }
@@ -11418,7 +11418,7 @@ a.card:hover {
   background-color: #49bcd3;
   background-image: url("../icons/custom/custom50_120.png");
 }
-.page-header.context-c-bigtop:before {
+.page-header.context-c-bigtop h1:before {
   background-color: #49bcd3;
   background-image: url("../icons/custom/custom50_120.png");
 }
@@ -11449,7 +11449,7 @@ a.card:hover {
   background-color: #d8c760;
   background-image: url("../icons/custom/custom51_120.png");
 }
-.page-header.context-c-apple:before {
+.page-header.context-c-apple h1:before {
   background-color: #d8c760;
   background-image: url("../icons/custom/custom51_120.png");
 }
@@ -11480,7 +11480,7 @@ a.card:hover {
   background-color: #ee8e6f;
   background-image: url("../icons/custom/custom52_120.png");
 }
-.page-header.context-c-football:before {
+.page-header.context-c-football h1:before {
   background-color: #ee8e6f;
   background-image: url("../icons/custom/custom52_120.png");
 }
@@ -11511,7 +11511,7 @@ a.card:hover {
   background-color: #f36e83;
   background-image: url("../icons/custom/custom53_120.png");
 }
-.page-header.context-c-bell:before {
+.page-header.context-c-bell h1:before {
   background-color: #f36e83;
   background-image: url("../icons/custom/custom53_120.png");
 }
@@ -11542,7 +11542,7 @@ a.card:hover {
   background-color: #ea70b1;
   background-image: url("../icons/custom/custom54_120.png");
 }
-.page-header.context-c-boat:before {
+.page-header.context-c-boat h1:before {
   background-color: #ea70b1;
   background-image: url("../icons/custom/custom54_120.png");
 }
@@ -11573,7 +11573,7 @@ a.card:hover {
   background-color: #d66ee0;
   background-image: url("../icons/custom/custom55_120.png");
 }
-.page-header.context-c-books:before {
+.page-header.context-c-books h1:before {
   background-color: #d66ee0;
   background-image: url("../icons/custom/custom55_120.png");
 }
@@ -11604,7 +11604,7 @@ a.card:hover {
   background-color: #718deb;
   background-image: url("../icons/custom/custom56_120.png");
 }
-.page-header.context-c-bottle:before {
+.page-header.context-c-bottle h1:before {
   background-color: #718deb;
   background-image: url("../icons/custom/custom56_120.png");
 }
@@ -11635,7 +11635,7 @@ a.card:hover {
   background-color: #5a9cdd;
   background-image: url("../icons/custom/custom57_120.png");
 }
-.page-header.context-c-buildingblock:before {
+.page-header.context-c-buildingblock h1:before {
   background-color: #5a9cdd;
   background-image: url("../icons/custom/custom57_120.png");
 }
@@ -11666,7 +11666,7 @@ a.card:hover {
   background-color: #34b59d;
   background-image: url("../icons/custom/custom58_120.png");
 }
-.page-header.context-c-caduceus:before {
+.page-header.context-c-caduceus h1:before {
   background-color: #34b59d;
   background-image: url("../icons/custom/custom58_120.png");
 }
@@ -11697,7 +11697,7 @@ a.card:hover {
   background-color: #e3d067;
   background-image: url("../icons/custom/custom59_120.png");
 }
-.page-header.context-c-can:before {
+.page-header.context-c-can h1:before {
   background-color: #e3d067;
   background-image: url("../icons/custom/custom59_120.png");
 }
@@ -11728,7 +11728,7 @@ a.card:hover {
   background-color: #bf5a88;
   background-image: url("../icons/custom/custom60_120.png");
 }
-.page-header.context-c-umbrella:before {
+.page-header.context-c-umbrella h1:before {
   background-color: #bf5a88;
   background-image: url("../icons/custom/custom60_120.png");
 }
@@ -11759,7 +11759,7 @@ a.card:hover {
   background-color: #f57376;
   background-image: url("../icons/custom/custom61_120.png");
 }
-.page-header.context-c-castle:before {
+.page-header.context-c-castle h1:before {
   background-color: #f57376;
   background-image: url("../icons/custom/custom61_120.png");
 }
@@ -11790,7 +11790,7 @@ a.card:hover {
   background-color: #6b92dc;
   background-image: url("../icons/custom/custom62_120.png");
 }
-.page-header.context-c-chalkboard:before {
+.page-header.context-c-chalkboard h1:before {
   background-color: #6b92dc;
   background-image: url("../icons/custom/custom62_120.png");
 }
@@ -11821,7 +11821,7 @@ a.card:hover {
   background-color: #7ccf60;
   background-image: url("../icons/custom/custom63_120.png");
 }
-.page-header.context-c-chip:before {
+.page-header.context-c-chip h1:before {
   background-color: #7ccf60;
   background-image: url("../icons/custom/custom63_120.png");
 }
@@ -11852,7 +11852,7 @@ a.card:hover {
   background-color: #618fd8;
   background-image: url("../icons/custom/custom64_120.png");
 }
-.page-header.context-c-compass:before {
+.page-header.context-c-compass h1:before {
   background-color: #618fd8;
   background-image: url("../icons/custom/custom64_120.png");
 }
@@ -11883,7 +11883,7 @@ a.card:hover {
   background-color: #f279ab;
   background-image: url("../icons/custom/custom65_120.png");
 }
-.page-header.context-c-cup:before {
+.page-header.context-c-cup h1:before {
   background-color: #f279ab;
   background-image: url("../icons/custom/custom65_120.png");
 }
@@ -11914,7 +11914,7 @@ a.card:hover {
   background-color: #d8be5f;
   background-image: url("../icons/custom/custom66_120.png");
 }
-.page-header.context-c-dice:before {
+.page-header.context-c-dice h1:before {
   background-color: #d8be5f;
   background-image: url("../icons/custom/custom66_120.png");
 }
@@ -11945,7 +11945,7 @@ a.card:hover {
   background-color: #f87d76;
   background-image: url("../icons/custom/custom67_120.png");
 }
-.page-header.context-c-gears:before {
+.page-header.context-c-gears h1:before {
   background-color: #f87d76;
   background-image: url("../icons/custom/custom67_120.png");
 }
@@ -11976,7 +11976,7 @@ a.card:hover {
   background-color: #f26979;
   background-image: url("../icons/custom/custom68_120.png");
 }
-.page-header.context-c-globe:before {
+.page-header.context-c-globe h1:before {
   background-color: #f26979;
   background-image: url("../icons/custom/custom68_120.png");
 }
@@ -12007,7 +12007,7 @@ a.card:hover {
   background-color: #ed6387;
   background-image: url("../icons/custom/custom69_120.png");
 }
-.page-header.context-c-guitar:before {
+.page-header.context-c-guitar h1:before {
   background-color: #ed6387;
   background-image: url("../icons/custom/custom69_120.png");
 }
@@ -12038,7 +12038,7 @@ a.card:hover {
   background-color: #e769b4;
   background-image: url("../icons/custom/custom70_120.png");
 }
-.page-header.context-c-saw:before {
+.page-header.context-c-saw h1:before {
   background-color: #e769b4;
   background-image: url("../icons/custom/custom70_120.png");
 }
@@ -12069,7 +12069,7 @@ a.card:hover {
   background-color: #e36ee3;
   background-image: url("../icons/custom/custom71_120.png");
 }
-.page-header.context-c-headphones:before {
+.page-header.context-c-headphones h1:before {
   background-color: #e36ee3;
   background-image: url("../icons/custom/custom71_120.png");
 }
@@ -12100,7 +12100,7 @@ a.card:hover {
   background-color: #8d9bfb;
   background-image: url("../icons/custom/custom72_120.png");
 }
-.page-header.context-c-helicoptor:before {
+.page-header.context-c-helicoptor h1:before {
   background-color: #8d9bfb;
   background-image: url("../icons/custom/custom72_120.png");
 }
@@ -12131,7 +12131,7 @@ a.card:hover {
   background-color: #679ef0;
   background-image: url("../icons/custom/custom73_120.png");
 }
-.page-header.context-c-highwaysign:before {
+.page-header.context-c-highwaysign h1:before {
   background-color: #679ef0;
   background-image: url("../icons/custom/custom73_120.png");
 }
@@ -12162,7 +12162,7 @@ a.card:hover {
   background-color: #41c8a0;
   background-image: url("../icons/custom/custom74_120.png");
 }
-.page-header.context-c-hotairballoon:before {
+.page-header.context-c-hotairballoon h1:before {
   background-color: #41c8a0;
   background-image: url("../icons/custom/custom74_120.png");
 }
@@ -12193,7 +12193,7 @@ a.card:hover {
   background-color: #cd9f65;
   background-image: url("../icons/custom/custom75_120.png");
 }
-.page-header.context-c-ipphone:before {
+.page-header.context-c-ipphone h1:before {
   background-color: #cd9f65;
   background-image: url("../icons/custom/custom75_120.png");
 }
@@ -12224,7 +12224,7 @@ a.card:hover {
   background-color: #db6d7a;
   background-image: url("../icons/custom/custom76_120.png");
 }
-.page-header.context-c-keys:before {
+.page-header.context-c-keys h1:before {
   background-color: #db6d7a;
   background-image: url("../icons/custom/custom76_120.png");
 }
@@ -12255,7 +12255,7 @@ a.card:hover {
   background-color: #b55d5b;
   background-image: url("../icons/custom/custom77_120.png");
 }
-.page-header.context-c-lock:before {
+.page-header.context-c-lock h1:before {
   background-color: #b55d5b;
   background-image: url("../icons/custom/custom77_120.png");
 }
@@ -12286,7 +12286,7 @@ a.card:hover {
   background-color: #5a95dd;
   background-image: url("../icons/custom/custom78_120.png");
 }
-.page-header.context-c-map:before {
+.page-header.context-c-map h1:before {
   background-color: #5a95dd;
   background-image: url("../icons/custom/custom78_120.png");
 }
@@ -12317,7 +12317,7 @@ a.card:hover {
   background-color: #8ed363;
   background-image: url("../icons/custom/custom79_120.png");
 }
-.page-header.context-c-tapemeasure:before {
+.page-header.context-c-tapemeasure h1:before {
   background-color: #8ed363;
   background-image: url("../icons/custom/custom79_120.png");
 }
@@ -12348,7 +12348,7 @@ a.card:hover {
   background-color: #659ad5;
   background-image: url("../icons/custom/custom80_120.png");
 }
-.page-header.context-c-motorcycle:before {
+.page-header.context-c-motorcycle h1:before {
   background-color: #659ad5;
   background-image: url("../icons/custom/custom80_120.png");
 }
@@ -12379,7 +12379,7 @@ a.card:hover {
   background-color: #da627f;
   background-image: url("../icons/custom/custom81_120.png");
 }
-.page-header.context-c-musicnote:before {
+.page-header.context-c-musicnote h1:before {
   background-color: #da627f;
   background-image: url("../icons/custom/custom81_120.png");
 }
@@ -12410,7 +12410,7 @@ a.card:hover {
   background-color: #d15b97;
   background-image: url("../icons/custom/custom82_120.png");
 }
-.page-header.context-c-whistle:before {
+.page-header.context-c-whistle h1:before {
   background-color: #d15b97;
   background-image: url("../icons/custom/custom82_120.png");
 }
@@ -12441,7 +12441,7 @@ a.card:hover {
   background-color: #e7806f;
   background-image: url("../icons/custom/custom83_120.png");
 }
-.page-header.context-c-pencil:before {
+.page-header.context-c-pencil h1:before {
   background-color: #e7806f;
   background-image: url("../icons/custom/custom83_120.png");
 }
@@ -12472,7 +12472,7 @@ a.card:hover {
   background-color: #f6707b;
   background-image: url("../icons/custom/custom84_120.png");
 }
-.page-header.context-c-presenter:before {
+.page-header.context-c-presenter h1:before {
   background-color: #f6707b;
   background-image: url("../icons/custom/custom84_120.png");
 }
@@ -12503,7 +12503,7 @@ a.card:hover {
   background-color: #f26891;
   background-image: url("../icons/custom/custom85_120.png");
 }
-.page-header.context-c-forsale:before {
+.page-header.context-c-forsale h1:before {
   background-color: #f26891;
   background-image: url("../icons/custom/custom85_120.png");
 }
@@ -12534,7 +12534,7 @@ a.card:hover {
   background-color: #e260ab;
   background-image: url("../icons/custom/custom86_120.png");
 }
-.page-header.context-c-redcross:before {
+.page-header.context-c-redcross h1:before {
   background-color: #e260ab;
   background-image: url("../icons/custom/custom86_120.png");
 }
@@ -12565,7 +12565,7 @@ a.card:hover {
   background-color: #d876e5;
   background-image: url("../icons/custom/custom87_120.png");
 }
-.page-header.context-c-safe:before {
+.page-header.context-c-safe h1:before {
   background-color: #d876e5;
   background-image: url("../icons/custom/custom87_120.png");
 }
@@ -12596,7 +12596,7 @@ a.card:hover {
   background-color: #996fe6;
   background-image: url("../icons/custom/custom88_120.png");
 }
-.page-header.context-c-sailboat:before {
+.page-header.context-c-sailboat h1:before {
   background-color: #996fe6;
   background-image: url("../icons/custom/custom88_120.png");
 }
@@ -12627,7 +12627,7 @@ a.card:hover {
   background-color: #3e99be;
   background-image: url("../icons/custom/custom89_120.png");
 }
-.page-header.context-c-saxophone:before {
+.page-header.context-c-saxophone h1:before {
   background-color: #3e99be;
   background-image: url("../icons/custom/custom89_120.png");
 }
@@ -12658,7 +12658,7 @@ a.card:hover {
   background-color: #22a48a;
   background-image: url("../icons/custom/custom90_120.png");
 }
-.page-header.context-c-scales:before {
+.page-header.context-c-scales h1:before {
   background-color: #22a48a;
   background-image: url("../icons/custom/custom90_120.png");
 }
@@ -12689,7 +12689,7 @@ a.card:hover {
   background-color: #bf7b66;
   background-image: url("../icons/custom/custom91_120.png");
 }
-.page-header.context-c-shield:before {
+.page-header.context-c-shield h1:before {
   background-color: #bf7b66;
   background-image: url("../icons/custom/custom91_120.png");
 }
@@ -12720,7 +12720,7 @@ a.card:hover {
   background-color: #517e82;
   background-image: url("../icons/custom/custom92_120.png");
 }
-.page-header.context-c-ship:before {
+.page-header.context-c-ship h1:before {
   background-color: #517e82;
   background-image: url("../icons/custom/custom92_120.png");
 }
@@ -12751,7 +12751,7 @@ a.card:hover {
   background-color: #904d4c;
   background-image: url("../icons/custom/custom93_120.png");
 }
-.page-header.context-c-shoppingcart:before {
+.page-header.context-c-shoppingcart h1:before {
   background-color: #904d4c;
   background-image: url("../icons/custom/custom93_120.png");
 }
@@ -12782,7 +12782,7 @@ a.card:hover {
   background-color: #439cba;
   background-image: url("../icons/custom/custom94_120.png");
 }
-.page-header.context-c-stethoscope:before {
+.page-header.context-c-stethoscope h1:before {
   background-color: #439cba;
   background-image: url("../icons/custom/custom94_120.png");
 }
@@ -12813,7 +12813,7 @@ a.card:hover {
   background-color: #8bcf6a;
   background-image: url("../icons/custom/custom95_120.png");
 }
-.page-header.context-c-stopwatch:before {
+.page-header.context-c-stopwatch h1:before {
   background-color: #8bcf6a;
   background-image: url("../icons/custom/custom95_120.png");
 }
@@ -12844,7 +12844,7 @@ a.card:hover {
   background-color: #6d9de3;
   background-image: url("../icons/custom/custom96_120.png");
 }
-.page-header.context-c-streetsign:before {
+.page-header.context-c-streetsign h1:before {
   background-color: #6d9de3;
   background-image: url("../icons/custom/custom96_120.png");
 }
@@ -12875,7 +12875,7 @@ a.card:hover {
   background-color: #dd6085;
   background-image: url("../icons/custom/custom97_120.png");
 }
-.page-header.context-c-thermometer:before {
+.page-header.context-c-thermometer h1:before {
   background-color: #dd6085;
   background-image: url("../icons/custom/custom97_120.png");
 }
@@ -12906,7 +12906,7 @@ a.card:hover {
   background-color: #e1be5c;
   background-image: url("../icons/custom/custom98_120.png");
 }
-.page-header.context-c-van:before {
+.page-header.context-c-van h1:before {
   background-color: #e1be5c;
   background-image: url("../icons/custom/custom98_120.png");
 }
@@ -12937,7 +12937,7 @@ a.card:hover {
   background-color: #f0856e;
   background-image: url("../icons/custom/custom99_120.png");
 }
-.page-header.context-c-tv:before {
+.page-header.context-c-tv h1:before {
   background-color: #f0856e;
   background-image: url("../icons/custom/custom99_120.png");
 }
@@ -12968,7 +12968,7 @@ a.card:hover {
   background-color: #e15d76;
   background-image: url("../icons/custom/custom100_120.png");
 }
-.page-header.context-c-tvwidescreen:before {
+.page-header.context-c-tvwidescreen h1:before {
   background-color: #e15d76;
   background-image: url("../icons/custom/custom100_120.png");
 }
@@ -13048,7 +13048,7 @@ a.card:hover {
   position: relative;
   padding-top: 14px;
 }
-.page-header[class*='context-']:before {
+.page-header[class*='context-'] h1:before {
   content: "";
   position: relative;
   display: inline-block;
@@ -13062,15 +13062,22 @@ a.card:hover {
   width: 60px;
   height: 60px;
   margin-bottom: 6px;
+  display: block;
+  left: 50%;
+  margin-left: -30px;
 }
 @media (min-width: 992px) {
   .page-header[class*='context-'] {
     min-height: 88px;
   }
   .page-header[class*='context-'] h1 {
-    margin-top: 10px;
+    margin-top: 8px;
   }
-  .page-header[class*='context-']:before {
+  .page-header[class*='context-'] h1:before {
+    display: inline-block;
+    left: auto;
+    margin-left: auto;
+    margin-top: -8px;
     float: left;
     margin-right: 14px;
     margin-bottom: 0;
@@ -13082,31 +13089,37 @@ a.card:hover {
   }
   .page-header[class*='context-'] h1 {
     font-size: 25px;
+    margin-top: 12px;
   }
   .page-header[class*='context-'] p {
     font-size: 19px;
   }
-  .page-header[class*='context-']:before {
+  .page-header[class*='context-'] h1:before {
+    margin-top: -12px;
     width: 80px;
     height: 80px;
   }
 }
-.page-header[class*='context-'].page-header-compact:before {
+.page-header[class*='context-'].page-header-compact h1:before {
   width: 30px;
   height: 30px;
   float: left;
   margin-right: 14px;
   margin-bottom: 0;
+  margin-top: 0;
+  display: inline-block;
+  left: auto;
+  margin-left: auto;
 }
 @media (min-width: 992px) {
-  .page-header[class*='context-'].page-header-compact:before {
+  .page-header[class*='context-'].page-header-compact h1:before {
     width: 40px;
     height: 40px;
     margin-bottom: 0;
   }
 }
 @media (min-width: 1200px) {
-  .page-header[class*='context-'].page-header-compact:before {
+  .page-header[class*='context-'].page-header-compact h1:before {
     width: 60px;
     height: 60px;
     margin-bottom: 0;
