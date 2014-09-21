@@ -4,6 +4,10 @@ module.exports = function(grunt) {
   var helpers = require('handlebars-helpers');
   var mapping = grunt.file.readYAML('templates/_data/mapping.yml');
   var generateIconsData = require('./grunt/generate-icons.js');
+  var terminal = require('child_process').exec;
+  var fs = require('fs');
+  var theo = require('theo');
+
   grunt.initConfig({
 
     // Project metadata
@@ -15,7 +19,7 @@ module.exports = function(grunt) {
     less: {
       options: {
         compress: false,
-        paths: ['less', 'tmp', '<%= bowerDirectory %>/bootstrap/less']
+        paths: ['less', 'bower_components/bootstrap/less']
       },
       compile: {
         files: {
@@ -42,7 +46,7 @@ module.exports = function(grunt) {
     watch: {
       less: {
         files: ['less/*.less', '!less/s1-icons.less', '!less/mapped.less'],
-        tasks: ['copy', 'less:compile', 'less:namespaced', 'clean:tmp'],
+        tasks: ['less:compile', 'less:namespaced'],
         options: {
           livereload: true
         }
@@ -140,11 +144,20 @@ module.exports = function(grunt) {
             dest: 'dist/fonts'
           }
         ]
+      },
+      s1less: {
+        files: [{
+          expand: true,
+          cwd: 'vartmp',
+          src: ['*.less'],
+          dest: 'less/s1variables'
+        }]
       }
     },
     clean: {
       tmp: ['tmp'],
-      pages: ['pages']
+      pages: ['pages'],
+      s1vars: ['vartmp', 's1variables']
     },
 
     bump: {
@@ -168,6 +181,15 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bump');
 
   grunt.registerTask('build-icons-data', function () { generateIconsData.call(this, grunt, mapping); });
+
+  grunt.registerTask('clone-s1vars', function() {
+    terminal('rm -rf less/s1variables');
+    terminal('git clone git@git.soma.salesforce.com:ux/s1variables.git');
+    fs.mkdir('vartmp');
+    theo.batch(['Less'], './s1variables/variables', 'vartmp')
+  });
+
+  grunt.registerTask('s1variables', ['clone-s1vars', 'copy:s1less', 'clean:s1vars']);
   
   grunt.registerTask('default', ['copy', 'less:compile', 'less:namespaced', 'recess', 'cssmin', 'clean:pages', 'build-icons-data', 'assemble', 'clean:tmp']);
   grunt.registerTask('serve', ['connect', 'watch']);
