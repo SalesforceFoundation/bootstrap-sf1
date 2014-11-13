@@ -20,6 +20,7 @@
     "assemble": "~0.4.41",
     "handlebars-helpers": "~0.5.5",
     "grunt-bump": "0.0.15",
-    "theo": "~0.1.23"
+    "theo": "~0.1.23",
+    "design-properties": "0.0.2"
   }
 }
