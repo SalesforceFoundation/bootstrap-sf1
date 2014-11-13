@@ -53,7 +53,7 @@ module.exports = function(grunt) {
       },
       icons: {
         files: ['less/s1-icons.less'],
-        tasks: ['build-icons-data', 'copy', 'less:compile', 'clean:tmp', 'assemble'],
+        tasks: ['icons', 'assemble'],
         options: {
           livereload: true
         }
@@ -114,11 +114,6 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: '<%= bowerDirectory %>/bootstrap/less',
-            src: ['bootstrap.less'],
-            dest: 'tmp/'
-          }, {
-            expand: true,
             cwd: '<%= bowerDirectory %>/bootstrap/fonts',
             src: ['*'],
             dest: 'dist/fonts'
@@ -148,16 +143,15 @@ module.exports = function(grunt) {
       s1less: {
         files: [{
           expand: true,
-          cwd: 'vartmp',
+          cwd: 'tmp',
           src: ['*.less'],
-          dest: 'less/s1variables'
+          dest: 'less/generated'
         }]
       }
     },
     clean: {
-      tmp: ['tmp', 'vartmp'],
-      pages: ['pages'],
-      s1vars: ['s1variables']
+      tmp: ['tmp'],
+      pages: ['pages']
     },
 
     bump: {
@@ -183,13 +177,14 @@ module.exports = function(grunt) {
   grunt.registerTask('build-icons-data', function () { generateIconsData.call(this, grunt, mapping); });
 
   grunt.registerTask('clone-s1vars', function() {
-    fs.mkdir('vartmp');
-    theo.batch(['Less'], './node_modules/design-properties/variables', 'vartmp')
+    fs.mkdir('tmp');
+    theo.batch(['Less'], './node_modules/design-properties/variables', 'tmp')
   });
 
-  grunt.registerTask('s1variables', ['clean:s1vars', 'clone-s1vars', 'copy:s1less', 'clean:tmp']);
+  grunt.registerTask('s1variables', ['clone-s1vars', 'copy:s1less', 'clean:tmp']);
+  grunt.registerTask('icons', ['build-icons-data', 'copy', 'less:compile'])
   
-  grunt.registerTask('default', ['s1variables', 'copy:bootstrap', 'copy:icons', 'copy:fonts', 'less:compile', 'less:namespaced', 'recess', 'cssmin', 'clean:pages', 'build-icons-data', 'assemble', 'clean:tmp']);
+  grunt.registerTask('default', ['s1variables', 'copy:bootstrap', 'copy:icons', 'copy:fonts', 'less:compile', 'less:namespaced', 'recess', 'cssmin', 'clean:pages', 'icons', 'assemble']);
   grunt.registerTask('serve', ['connect', 'watch']);
 
   grunt.registerTask('bump:gen', ['bump', 'assemble:pages']);
