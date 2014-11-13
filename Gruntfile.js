@@ -155,9 +155,9 @@ module.exports = function(grunt) {
       }
     },
     clean: {
-      tmp: ['tmp'],
+      tmp: ['tmp', 'vartmp'],
       pages: ['pages'],
-      s1vars: ['vartmp', 's1variables']
+      s1vars: ['s1variables']
     },
 
     bump: {
@@ -183,15 +183,13 @@ module.exports = function(grunt) {
   grunt.registerTask('build-icons-data', function () { generateIconsData.call(this, grunt, mapping); });
 
   grunt.registerTask('clone-s1vars', function() {
-    terminal('rm -rf less/s1variables');
-    terminal('git clone git@git.soma.salesforce.com:ux/s1variables.git');
     fs.mkdir('vartmp');
-    theo.batch(['Less'], './s1variables/variables', 'vartmp')
+    theo.batch(['Less'], './node_modules/design-properties/variables', 'vartmp')
   });
 
-  grunt.registerTask('s1variables', ['clone-s1vars', 'copy:s1less', 'clean:s1vars']);
+  grunt.registerTask('s1variables', ['clean:s1vars', 'clone-s1vars', 'copy:s1less', 'clean:tmp']);
   
-  grunt.registerTask('default', ['copy', 'less:compile', 'less:namespaced', 'recess', 'cssmin', 'clean:pages', 'build-icons-data', 'assemble', 'clean:tmp']);
+  grunt.registerTask('default', ['s1variables', 'copy:bootstrap', 'copy:icons', 'copy:fonts', 'less:compile', 'less:namespaced', 'recess', 'cssmin', 'clean:pages', 'build-icons-data', 'assemble', 'clean:tmp']);
   grunt.registerTask('serve', ['connect', 'watch']);
 
   grunt.registerTask('bump:gen', ['bump', 'assemble:pages']);
