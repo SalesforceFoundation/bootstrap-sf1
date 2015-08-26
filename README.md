@@ -4,7 +4,7 @@ With the release of the [Lightning Design System](https://www.lightningdesignsys
 
 ## Introduction
 
-This is a Bootstrap based theme developed by the Salesforce.com Foundation's Business Applications team. The aim is to provide a solid and complete theme for Bootstrap that matches the [SFDC Salesforce1 styleguide][sfdc-styles].
+This is a Bootstrap based theme developed by the Salesforce.com Foundation's Business Applications team. The aim is to provide a solid and complete theme for Bootstrap that matches the [SFDC Salesforce1 styleguide][sfdc-styles]. More information about the contents of this theme is available at the [Bootstrap-sf1 companion site][bootstrap-sf1].
 
 The general look and feel is inspired by the [SFDC Styleguide][sfdc-styles]. There is some intention of building theme variations for different application contexts (visualforce, salesforce1, chatter), but this work has not been done at this time.
 
@@ -54,6 +54,7 @@ There are a number of files that are generated for you as you make changes to th
 This will also start up a local webserver at http://localhost:8000. As you edit Less files or templates Grunt will automatically compile the CSS and HTML for the docs so long as you have `grunt serve` running.
 
 [sfdc-styles]: http://sfdc-styleguide.herokuapp.com/
+[bootstrap-sf1]: http://developer.salesforcefoundation.org/bootstrap-sf1/index.html
 [download]: https://github.com/SalesforceFoundation/bootstrap-sf1/archive/v0.1.0-beta.5.zip
 [node-download]: http://nodejs.org/download/
 [grunt]: http://gruntjs.com
