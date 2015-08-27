@@ -1,6 +1,6 @@
 # Warning Deprecated!
 
-With the release of the [Lightning Design System](https://www.lightningdesignsystem.com) we have decided to move away from this project. We will continue to review any pull requests or issues submitted.
+With the release of the [Lightning Design System](https://www.lightningdesignsystem.com) we have decided to move away from this project. We will continue to review any pull requests or issues submitted through [Github](https://github.com/SalesforceFoundation/bootstrap-sf1).
 
 ## Introduction
 
