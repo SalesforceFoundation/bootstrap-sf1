@@ -1,8 +1,6 @@
-# Warning Deprecated!
-
-With the release of the [Lightning Design System](https://www.lightningdesignsystem.com) we have decided to move away from this project. We will continue to review any pull requests or issues submitted.
-
 ## Introduction
+
+_**If you haven't seen it already, please check out the [Lightning Design System](https://www.lightningdesignsystem.com) as it may be more appropriate for your project.**_
 
 This is a Bootstrap based theme developed by the Salesforce.com Foundation's Business Applications team. The aim is to provide a solid and complete theme for Bootstrap that matches the [SFDC Salesforce1 styleguide][sfdc-styles]. More information about the contents of this theme is available at the [Bootstrap-sf1 companion site][bootstrap-sf1].
 
@@ -12,7 +10,7 @@ The Proxima Nova Soft fonts are not included in this repository. To match the SF
 
 ## Getting Started
 
-To use the theme you just need to include the `dist/` folder in your project and include `bootstrap.css` or `bootstrap.min.css` in your page. For use inside of a VisualForce page you may need to use the namespaced CSS in `bootstrap-namespaced.css`.
+To use the theme you just need to include the `dist/` folder in your project and include `bootstrap.css` or `bootstrap.min.css` in your page. For use inside of a VisualForce page or Lightning Component you may need to use the namespaced CSS in `bootstrap-namespaced.css`.
 
 You can download the theme using bower:
 
