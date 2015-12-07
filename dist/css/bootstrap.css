@@ -881,7 +881,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "ProximaNovaSoft-Regular", Calibri, "Gill Sans", "Gill Sans MT", Candara, Segoe, "Segoe UI", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #3c3d3e;
@@ -6170,27 +6170,6 @@ button.close {
     display: none !important;
   }
 }
-@font-face {
-  font-family: 'ProximaNovaSoft-Regular';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../fonts/ProximaNovaSoft-Regular.eot');
-  src: url('../fonts/ProximaNovaSoft-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNovaSoft-Regular.woff') format('woff'), url('../fonts/ProximaNovaSoft-Regular.ttf') format('truetype'), url('../fonts/ProximaNovaSoft-Regular.svg#proxima_nova_softregular') format('svg');
-}
-@font-face {
-  font-family: 'ProximaNovaSoft-Medium';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../fonts/ProximaNovaSoft-Regular.eot');
-  src: url('../fonts/ProximaNovaSoft-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNovaSoft-Regular.woff') format('woff'), url('../fonts/ProximaNovaSoft-Regular.ttf') format('truetype'), url('../fonts/ProximaNovaSoft-Regular.svg#proxima_nova_softmedium') format('svg');
-}
-@font-face {
-  font-family: 'ProximaNovaSoft-Semibold';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../fonts/ProximaNovaSoft-Regular.eot');
-  src: url('../fonts/ProximaNovaSoft-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNovaSoft-Regular.woff') format('woff'), url('../fonts/ProximaNovaSoft-Regular.ttf') format('truetype'), url('../fonts/ProximaNovaSoft-Regular.svg#proxima_nova_softmedium') format('svg');
-}
 .s1icon {
   position: relative;
   display: inline-block;
@@ -6232,691 +6211,691 @@ button.close {
 }
 .s1icon-s-account {
   background-color: #7f8de1;
-  background-image: url(../icons/standard/account_120.png);
+  background-image: url(../icons/standard/account.svg);
 }
 .s1icon-s-campaign {
   background-color: #f49756;
-  background-image: url(../icons/standard/campaign_120.png);
+  background-image: url(../icons/standard/campaign.svg);
 }
 .s1icon-s-campaign-members {
   background-color: #f49756;
-  background-image: url(../icons/standard/campaign_members_120.png);
+  background-image: url(../icons/standard/campaign_members.svg);
 }
 .s1icon-s-case {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_120.png);
+  background-image: url(../icons/standard/case.svg);
 }
 .s1icon-s-contact {
   background-color: #a094ed;
-  background-image: url(../icons/standard/contact_120.png);
+  background-image: url(../icons/standard/contact.svg);
 }
 .s1icon-s-contract {
   background-color: #6ec06e;
-  background-image: url(../icons/standard/contract_120.png);
+  background-image: url(../icons/standard/contract.svg);
 }
 .s1icon-s-dashboard {
   background-color: #ef6e64;
-  background-image: url(../icons/standard/dashboard_120.png);
+  background-image: url(../icons/standard/dashboard.svg);
 }
 .s1icon-s-lead {
   background-color: #ed7e58;
-  background-image: url(../icons/standard/lead_120.png);
+  background-image: url(../icons/standard/lead.svg);
 }
 .s1icon-s-opportunity {
   background-color: #fcb95b;
-  background-image: url(../icons/standard/opportunity_120.png);
+  background-image: url(../icons/standard/opportunity.svg);
 }
 .s1icon-s-portal {
   background-color: #aec770;
-  background-image: url(../icons/standard/portal_120.png);
+  background-image: url(../icons/standard/portal.svg);
 }
 .s1icon-s-product {
   background-color: #b781d3;
-  background-image: url(../icons/standard/product_120.png);
+  background-image: url(../icons/standard/product.svg);
 }
 .s1icon-s-record {
   background-color: #7dc37d;
-  background-image: url(../icons/standard/record_120.png);
+  background-image: url(../icons/standard/record.svg);
 }
 .s1icon-s-solution {
   background-color: #8fc972;
-  background-image: url(../icons/standard/solution_120.png);
+  background-image: url(../icons/standard/solution.svg);
 }
 .s1icon-s-transcript {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_transcript_120.png);
+  background-image: url(../icons/standard/case_transcript.svg);
 }
 /* Standard Misc
    ========================================================================== */
 .s1icon-s-avatar {
   background-color: #62b7ed;
-  background-image: url(../icons/standard/avatar_120.png);
+  background-image: url(../icons/standard/avatar.svg);
 }
 .s1icon-s-approval {
   background-color: #50cc7a;
-  background-image: url(../icons/standard/approval_120.png);
+  background-image: url(../icons/standard/approval.svg);
 }
 .s1icon-s-apps {
   background-color: #3c97dd;
-  background-image: url(../icons/standard/apps_120.png);
+  background-image: url(../icons/standard/apps.svg);
 }
 .s1icon-s-connected-apps-admins {
   background-color: #9895ee;
-  background-image: url(../icons/standard/connected_apps_admins_120.png);
+  background-image: url(../icons/standard/connected_apps_admins.svg);
 }
 .s1icon-s-calibration {
   background-color: #47cfd2;
-  background-image: url(../icons/standard/calibration_120.png);
+  background-image: url(../icons/standard/calibration.svg);
 }
 .s1icon-s-coaching {
   background-color: #f67594;
-  background-image: url(../icons/standard/coaching_120.png);
+  background-image: url(../icons/standard/coaching.svg);
 }
 .s1icon-s-drafts {
   background-color: #6ca1e9;
-  background-image: url(../icons/standard/drafts_120.png);
+  background-image: url(../icons/standard/drafts.svg);
 }
 .s1icon-s-email {
   background-color: #95aec5;
-  background-image: url(../icons/standard/email_120.png);
+  background-image: url(../icons/standard/email.svg);
 }
 .s1icon-s-event {
   background-color: #eb7092;
-  background-image: url(../icons/standard/event_120.png);
+  background-image: url(../icons/standard/event.svg);
 }
 .s1icon-s-endorsement {
   background-color: #8b9ae3;
-  background-image: url(../icons/standard/endorsement_120.png);
+  background-image: url(../icons/standard/endorsement.svg);
 }
 .s1icon-s-feed {
   background-color: #62b7ed;
-  background-image: url(../icons/standard/feed_120.png);
+  background-image: url(../icons/standard/feed.svg);
 }
 .s1icon-s-feedback {
   background-color: #6da1ea;
-  background-image: url(../icons/standard/feedback_120.png);
+  background-image: url(../icons/standard/feedback.svg);
 }
 .s1icon-s-file {
   background-color: #baac93;
-  background-image: url(../icons/standard/file_120.png);
+  background-image: url(../icons/standard/file.svg);
 }
 .s1icon-s-goals {
   background-color: #7fc574;
-  background-image: url(../icons/standard/goals_120.png);
+  background-image: url(../icons/standard/goals.svg);
 }
 .s1icon-s-groups {
   background-color: #779ef2;
-  background-image: url(../icons/standard/groups_120.png);
+  background-image: url(../icons/standard/groups.svg);
 }
 .s1icon-s-insights {
   background-color: #47cfd2;
-  background-image: url(../icons/standard/insights_120.png);
+  background-image: url(../icons/standard/insights.svg);
 }
 .s1icon-s-link {
   background-color: #7a9ae6;
-  background-image: url(../icons/standard/link_120.png);
+  background-image: url(../icons/standard/link.svg);
 }
 .s1icon-s-note {
   background-color: #e6d478;
-  background-image: url(../icons/standard/note_120.png);
+  background-image: url(../icons/standard/note.svg);
 }
 .s1icon-s-people {
   background-color: #34becd;
-  background-image: url(../icons/standard/people_120.png);
+  background-image: url(../icons/standard/people.svg);
 }
 .s1icon-s-performance {
   background-color: #f8b156;
-  background-image: url(../icons/standard/performance_120.png);
+  background-image: url(../icons/standard/performance.svg);
 }
 .s1icon-s-photo {
   background-color: #d7d1d1;
-  background-image: url(../icons/standard/photo_120.png);
+  background-image: url(../icons/standard/photo.svg);
 }
 .s1icon-s-poll {
   background-color: #699be1;
-  background-image: url(../icons/standard/poll_120.png);
+  background-image: url(../icons/standard/poll.svg);
 }
 .s1icon-s-post {
   background-color: #65cae4;
-  background-image: url(../icons/standard/post_120.png);
+  background-image: url(../icons/standard/post.svg);
 }
 .s1icon-s-question-best {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/question_best_120.png);
+  background-image: url(../icons/standard/question_best.svg);
 }
 .s1icon-s-question-feed {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/question_feed_120.png);
+  background-image: url(../icons/standard/question_feed.svg);
 }
 .s1icon-s-quotes {
   background-color: #88c651;
-  background-image: url(../icons/standard/quotes_120.png);
+  background-image: url(../icons/standard/quotes.svg);
 }
 .s1icon-s-record {
   background-color: #7dc37d;
-  background-image: url(../icons/standard/record_120.png);
+  background-image: url(../icons/standard/record.svg);
 }
 .s1icon-s-report {
   background-color: #f77373;
-  background-image: url(../icons/standard/report_120.png);
+  background-image: url(../icons/standard/report.svg);
 }
 .s1icon-s-recent {
   background-color: #6ca1e9;
-  background-image: url(../icons/standard/recent_120.png);
+  background-image: url(../icons/standard/recent.svg);
 }
 .s1icon-s-related-list {
   background-color: #59bcab;
-  background-image: url(../icons/standard/related_list_120.png);
+  background-image: url(../icons/standard/related_list.svg);
 }
 .s1icon-s-scan-card {
   background-color: #f39e58;
-  background-image: url(../icons/standard/scan_card_120.png);
+  background-image: url(../icons/standard/scan_card.svg);
 }
 .s1icon-s-skill-entity {
   background-color: #8b9ae3;
-  background-image: url(../icons/standard/skill_entity_120.png);
+  background-image: url(../icons/standard/skill_entity.svg);
 }
 .s1icon-s-social {
   background-color: #ea74a2;
-  background-image: url(../icons/standard/social_post_120.png);
+  background-image: url(../icons/standard/social_post.svg);
 }
 .s1icon-s-task {
   background-color: #4bc076;
-  background-image: url(../icons/standard/task_120.png);
+  background-image: url(../icons/standard/task.svg);
 }
 .s1icon-s-thanks {
   background-color: #e9696e;
-  background-image: url(../icons/standard/thanks_120.png);
+  background-image: url(../icons/standard/thanks.svg);
 }
 .s1icon-s-today {
   background-color: #ef7ead;
-  background-image: url(../icons/standard/today_120.png);
+  background-image: url(../icons/standard/today.svg);
 }
 .s1icon-s-canvas {
   background-color: #8199af;
-  background-image: url(../icons/standard/canvas_120.png);
+  background-image: url(../icons/standard/canvas.svg);
 }
 .s1icon-s-custom {
   background-color: #8199af;
-  background-image: url(../icons/standard/custom_120.png);
+  background-image: url(../icons/standard/custom.svg);
 }
 .s1icon-s-default {
   background-color: #8199af;
-  background-image: url(../icons/standard/default_120.png);
+  background-image: url(../icons/standard/default.svg);
 }
 .s1icon-s-avatar-loading {
   background-color: #b8c3ce;
-  background-image: url(../icons/standard/avatar_loading_120.png);
+  background-image: url(../icons/standard/avatar_loading.svg);
 }
 .s1icon-s-groups-loading {
   background-color: #bac3cc;
-  background-image: url(../icons/standard/group_loading_120.png);
+  background-image: url(../icons/standard/group_loading.svg);
 }
 .s1icon-s-thanks-loading {
   background-color: #bac3cc;
-  background-image: url(../icons/standard/thanks_loading_120.png);
+  background-image: url(../icons/standard/thanks_loading.svg);
 }
 /* Standard 3rd Party
    ========================================================================== */
 .s1icon-s-files {
   background-color: #5bb6ee;
-  background-image: url(../icons/standard/chatterbox_120.png);
+  background-image: url(../icons/standard/chatterbox.svg);
 }
 .s1icon-s-concur {
   background-color: #4cc3c7;
-  background-image: url(../icons/standard/concur_120.png);
+  background-image: url(../icons/standard/concur.svg);
 }
 .s1icon-s-dropbox {
   background-color: #52aef9;
-  background-image: url(../icons/standard/dropbox_120.png);
+  background-image: url(../icons/standard/dropbox.svg);
 }
 .s1icon-s-evernote {
   background-color: #86c86f;
-  background-image: url(../icons/standard/evernote_120.png);
+  background-image: url(../icons/standard/evernote.svg);
 }
 /* Standard Case
    ========================================================================== */
 .s1icon-s-answer-best {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/answer_best_120.png);
+  background-image: url(../icons/standard/answer_best.svg);
 }
 .s1icon-s-answer-private {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/answer_private_120.png);
+  background-image: url(../icons/standard/answer_private.svg);
 }
 .s1icon-s-answer-public {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/answer_public_120.png);
+  background-image: url(../icons/standard/answer_public.svg);
 }
 .s1icon-s-article {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/article_120.png);
+  background-image: url(../icons/standard/article.svg);
 }
 .s1icon-s-case-change-status {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_change_status_120.png);
+  background-image: url(../icons/standard/case_change_status.svg);
 }
 .s1icon-s-case-comment {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_comment_120.png);
+  background-image: url(../icons/standard/case_comment.svg);
 }
 .s1icon-s-case-email {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/email_chatter_120.png);
+  background-image: url(../icons/standard/email_chatter.svg);
 }
 .s1icon-s-case-log-a-call {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/log_a_call_chatter_120.png);
+  background-image: url(../icons/standard/log_a_call_chatter.svg);
 }
 .s1icon-s-case-transcript {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_transcript_120.png);
+  background-image: url(../icons/standard/case_transcript.svg);
 }
 .s1icon-s-team-member {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/team_member_120.png);
+  background-image: url(../icons/standard/team_member.svg);
 }
 /* Custom Icons
    ========================================================================= */
 .s1icon-c-1 {
   background-color: #ff7b84;
-  background-image: url("../icons/custom/custom1_120.png");
+  background-image: url("../icons/custom/custom1.svg");
 }
 .s1icon-c-2 {
   background-color: #cfd05c;
-  background-image: url("../icons/custom/custom2_120.png");
+  background-image: url("../icons/custom/custom2.svg");
 }
 .s1icon-c-3 {
   background-color: #ecb46c;
-  background-image: url("../icons/custom/custom3_120.png");
+  background-image: url("../icons/custom/custom3.svg");
 }
 .s1icon-c-4 {
   background-color: #e1d951;
-  background-image: url("../icons/custom/custom4_120.png");
+  background-image: url("../icons/custom/custom4.svg");
 }
 .s1icon-c-5 {
   background-color: #9fdb66;
-  background-image: url("../icons/custom/custom5_120.png");
+  background-image: url("../icons/custom/custom5.svg");
 }
 .s1icon-c-6 {
   background-color: #54c473;
-  background-image: url("../icons/custom/custom6_120.png");
+  background-image: url("../icons/custom/custom6.svg");
 }
 .s1icon-c-7 {
   background-color: #6a89e5;
-  background-image: url("../icons/custom/custom7_120.png");
+  background-image: url("../icons/custom/custom7.svg");
 }
 .s1icon-c-8 {
   background-color: #50ceb9;
-  background-image: url("../icons/custom/custom8_120.png");
+  background-image: url("../icons/custom/custom8.svg");
 }
 .s1icon-c-9 {
   background-color: #6b9ee2;
-  background-image: url("../icons/custom/custom9_120.png");
+  background-image: url("../icons/custom/custom9.svg");
 }
 .s1icon-c-10 {
   background-color: #6488e3;
-  background-image: url("../icons/custom/custom10_120.png");
+  background-image: url("../icons/custom/custom10.svg");
 }
 .s1icon-c-11 {
   background-color: #8784ea;
-  background-image: url("../icons/custom/custom11_120.png");
+  background-image: url("../icons/custom/custom11.svg");
 }
 .s1icon-c-12 {
   background-color: #dc71d1;
-  background-image: url("../icons/custom/custom12_120.png");
+  background-image: url("../icons/custom/custom12.svg");
 }
 .s1icon-c-13 {
   background-color: #df6184;
-  background-image: url("../icons/custom/custom13_120.png");
+  background-image: url("../icons/custom/custom13.svg");
 }
 .s1icon-c-14 {
   background-color: #3cc2b3;
-  background-image: url("../icons/custom/custom14_120.png");
+  background-image: url("../icons/custom/custom14.svg");
 }
 .s1icon-c-15 {
   background-color: #f77e75;
-  background-image: url("../icons/custom/custom15_120.png");
+  background-image: url("../icons/custom/custom15.svg");
 }
 .s1icon-c-16 {
   background-color: #e9af67;
-  background-image: url("../icons/custom/custom16_120.png");
+  background-image: url("../icons/custom/custom16.svg");
 }
 .s1icon-c-17 {
   background-color: #acd360;
-  background-image: url("../icons/custom/custom17_120.png");
+  background-image: url("../icons/custom/custom17.svg");
 }
 .s1icon-c-18 {
   background-color: #4dca76;
-  background-image: url("../icons/custom/custom18_120.png");
+  background-image: url("../icons/custom/custom18.svg");
 }
 .s1icon-c-19 {
   background-color: #3abeb1;
-  background-image: url("../icons/custom/custom19_120.png");
+  background-image: url("../icons/custom/custom19.svg");
 }
 .s1icon-c-20 {
   background-color: #48c7c8;
-  background-image: url("../icons/custom/custom20_120.png");
+  background-image: url("../icons/custom/custom20.svg");
 }
 .s1icon-c-21 {
   background-color: #8a7aed;
-  background-image: url("../icons/custom/custom21_120.png");
+  background-image: url("../icons/custom/custom21.svg");
 }
 .s1icon-c-22 {
   background-color: #8b85f9;
-  background-image: url("../icons/custom/custom22_120.png");
+  background-image: url("../icons/custom/custom22.svg");
 }
 .s1icon-c-23 {
   background-color: #b070e6;
-  background-image: url("../icons/custom/custom23_120.png");
+  background-image: url("../icons/custom/custom23.svg");
 }
 .s1icon-c-24 {
   background-color: #e56798;
-  background-image: url("../icons/custom/custom24_120.png");
+  background-image: url("../icons/custom/custom24.svg");
 }
 .s1icon-c-25 {
   background-color: #e46fbe;
-  background-image: url("../icons/custom/custom25_120.png");
+  background-image: url("../icons/custom/custom25.svg");
 }
 .s1icon-c-26 {
   background-color: #7698f0;
-  background-image: url("../icons/custom/custom26_120.png");
+  background-image: url("../icons/custom/custom26.svg");
 }
 .s1icon-c-27 {
   background-color: #5ab0d2;
-  background-image: url("../icons/custom/custom27_120.png");
+  background-image: url("../icons/custom/custom27.svg");
 }
 .s1icon-c-28 {
   background-color: #89c059;
-  background-image: url("../icons/custom/custom28_120.png");
+  background-image: url("../icons/custom/custom28.svg");
 }
 .s1icon-c-29 {
   background-color: #bdd25f;
-  background-image: url("../icons/custom/custom29_120.png");
+  background-image: url("../icons/custom/custom29.svg");
 }
 .s1icon-c-30 {
   background-color: #f59f71;
-  background-image: url("../icons/custom/custom30_120.png");
+  background-image: url("../icons/custom/custom30.svg");
 }
 .s1icon-c-31 {
   background-color: #eb687f;
-  background-image: url("../icons/custom/custom31_120.png");
+  background-image: url("../icons/custom/custom31.svg");
 }
 .s1icon-c-32 {
   background-color: #38c393;
-  background-image: url("../icons/custom/custom32_120.png");
+  background-image: url("../icons/custom/custom32.svg");
 }
 .s1icon-c-33 {
   background-color: #97cf5d;
-  background-image: url("../icons/custom/custom33_120.png");
+  background-image: url("../icons/custom/custom33.svg");
 }
 .s1icon-c-34 {
   background-color: #d58a6a;
-  background-image: url("../icons/custom/custom34_120.png");
+  background-image: url("../icons/custom/custom34.svg");
 }
 .s1icon-c-35 {
   background-color: #e9637e;
-  background-image: url("../icons/custom/custom35_120.png");
+  background-image: url("../icons/custom/custom35.svg");
 }
 .s1icon-c-36 {
   background-color: #d472d4;
-  background-image: url("../icons/custom/custom36_120.png");
+  background-image: url("../icons/custom/custom36.svg");
 }
 .s1icon-c-37 {
   background-color: #8c89f2;
-  background-image: url("../icons/custom/custom37_120.png");
+  background-image: url("../icons/custom/custom37.svg");
 }
 .s1icon-c-38 {
   background-color: #53b6d7;
-  background-image: url("../icons/custom/custom38_120.png");
+  background-image: url("../icons/custom/custom38.svg");
 }
 .s1icon-c-39 {
   background-color: #4fbe75;
-  background-image: url("../icons/custom/custom39_120.png");
+  background-image: url("../icons/custom/custom39.svg");
 }
 .s1icon-c-40 {
   background-color: #83c75e;
-  background-image: url("../icons/custom/custom40_120.png");
+  background-image: url("../icons/custom/custom40.svg");
 }
 .s1icon-c-41 {
   background-color: #43b5b5;
-  background-image: url("../icons/custom/custom41_120.png");
+  background-image: url("../icons/custom/custom41.svg");
 }
 .s1icon-c-42 {
   background-color: #cfd05b;
-  background-image: url("../icons/custom/custom42_120.png");
+  background-image: url("../icons/custom/custom42.svg");
 }
 .s1icon-c-43 {
   background-color: #7f93f9;
-  background-image: url("../icons/custom/custom43_120.png");
+  background-image: url("../icons/custom/custom43.svg");
 }
 .s1icon-c-44 {
   background-color: #c8ca58;
-  background-image: url("../icons/custom/custom44_120.png");
+  background-image: url("../icons/custom/custom44.svg");
 }
 .s1icon-c-45 {
   background-color: #d95879;
-  background-image: url("../icons/custom/custom45_120.png");
+  background-image: url("../icons/custom/custom45.svg");
 }
 .s1icon-c-46 {
   background-color: #67a5e7;
-  background-image: url("../icons/custom/custom46_120.png");
+  background-image: url("../icons/custom/custom46.svg");
 }
 .s1icon-c-47 {
   background-color: #5fcc64;
-  background-image: url("../icons/custom/custom47_120.png");
+  background-image: url("../icons/custom/custom47.svg");
 }
 .s1icon-c-48 {
   background-color: #ef697f;
-  background-image: url("../icons/custom/custom48_120.png");
+  background-image: url("../icons/custom/custom48.svg");
 }
 .s1icon-c-49 {
   background-color: #e25c80;
-  background-image: url("../icons/custom/custom49_120.png");
+  background-image: url("../icons/custom/custom49.svg");
 }
 .s1icon-c-50 {
   background-color: #49bcd3;
-  background-image: url("../icons/custom/custom50_120.png");
+  background-image: url("../icons/custom/custom50.svg");
 }
 .s1icon-c-51 {
   background-color: #d8c760;
-  background-image: url("../icons/custom/custom51_120.png");
+  background-image: url("../icons/custom/custom51.svg");
 }
 .s1icon-c-52 {
   background-color: #ee8e6f;
-  background-image: url("../icons/custom/custom52_120.png");
+  background-image: url("../icons/custom/custom52.svg");
 }
 .s1icon-c-53 {
   background-color: #f36e83;
-  background-image: url("../icons/custom/custom53_120.png");
+  background-image: url("../icons/custom/custom53.svg");
 }
 .s1icon-c-54 {
   background-color: #ea70b1;
-  background-image: url("../icons/custom/custom54_120.png");
+  background-image: url("../icons/custom/custom54.svg");
 }
 .s1icon-c-55 {
   background-color: #d66ee0;
-  background-image: url("../icons/custom/custom55_120.png");
+  background-image: url("../icons/custom/custom55.svg");
 }
 .s1icon-c-56 {
   background-color: #718deb;
-  background-image: url("../icons/custom/custom56_120.png");
+  background-image: url("../icons/custom/custom56.svg");
 }
 .s1icon-c-57 {
   background-color: #5a9cdd;
-  background-image: url("../icons/custom/custom57_120.png");
+  background-image: url("../icons/custom/custom57.svg");
 }
 .s1icon-c-58 {
   background-color: #34b59d;
-  background-image: url("../icons/custom/custom58_120.png");
+  background-image: url("../icons/custom/custom58.svg");
 }
 .s1icon-c-59 {
   background-color: #e3d067;
-  background-image: url("../icons/custom/custom59_120.png");
+  background-image: url("../icons/custom/custom59.svg");
 }
 .s1icon-c-60 {
   background-color: #bf5a88;
-  background-image: url("../icons/custom/custom60_120.png");
+  background-image: url("../icons/custom/custom60.svg");
 }
 .s1icon-c-61 {
   background-color: #f57376;
-  background-image: url("../icons/custom/custom61_120.png");
+  background-image: url("../icons/custom/custom61.svg");
 }
 .s1icon-c-62 {
   background-color: #6b92dc;
-  background-image: url("../icons/custom/custom62_120.png");
+  background-image: url("../icons/custom/custom62.svg");
 }
 .s1icon-c-63 {
   background-color: #7ccf60;
-  background-image: url("../icons/custom/custom63_120.png");
+  background-image: url("../icons/custom/custom63.svg");
 }
 .s1icon-c-64 {
   background-color: #618fd8;
-  background-image: url("../icons/custom/custom64_120.png");
+  background-image: url("../icons/custom/custom64.svg");
 }
 .s1icon-c-65 {
   background-color: #f279ab;
-  background-image: url("../icons/custom/custom65_120.png");
+  background-image: url("../icons/custom/custom65.svg");
 }
 .s1icon-c-66 {
   background-color: #d8be5f;
-  background-image: url("../icons/custom/custom66_120.png");
+  background-image: url("../icons/custom/custom66.svg");
 }
 .s1icon-c-67 {
   background-color: #f87d76;
-  background-image: url("../icons/custom/custom67_120.png");
+  background-image: url("../icons/custom/custom67.svg");
 }
 .s1icon-c-68 {
   background-color: #f26979;
-  background-image: url("../icons/custom/custom68_120.png");
+  background-image: url("../icons/custom/custom68.svg");
 }
 .s1icon-c-69 {
   background-color: #ed6387;
-  background-image: url("../icons/custom/custom69_120.png");
+  background-image: url("../icons/custom/custom69.svg");
 }
 .s1icon-c-70 {
   background-color: #e769b4;
-  background-image: url("../icons/custom/custom70_120.png");
+  background-image: url("../icons/custom/custom70.svg");
 }
 .s1icon-c-71 {
   background-color: #e36ee3;
-  background-image: url("../icons/custom/custom71_120.png");
+  background-image: url("../icons/custom/custom71.svg");
 }
 .s1icon-c-72 {
   background-color: #8d9bfb;
-  background-image: url("../icons/custom/custom72_120.png");
+  background-image: url("../icons/custom/custom72.svg");
 }
 .s1icon-c-73 {
   background-color: #679ef0;
-  background-image: url("../icons/custom/custom73_120.png");
+  background-image: url("../icons/custom/custom73.svg");
 }
 .s1icon-c-74 {
   background-color: #41c8a0;
-  background-image: url("../icons/custom/custom74_120.png");
+  background-image: url("../icons/custom/custom74.svg");
 }
 .s1icon-c-75 {
   background-color: #cd9f65;
-  background-image: url("../icons/custom/custom75_120.png");
+  background-image: url("../icons/custom/custom75.svg");
 }
 .s1icon-c-76 {
   background-color: #db6d7a;
-  background-image: url("../icons/custom/custom76_120.png");
+  background-image: url("../icons/custom/custom76.svg");
 }
 .s1icon-c-77 {
   background-color: #b55d5b;
-  background-image: url("../icons/custom/custom77_120.png");
+  background-image: url("../icons/custom/custom77.svg");
 }
 .s1icon-c-78 {
   background-color: #5a95dd;
-  background-image: url("../icons/custom/custom78_120.png");
+  background-image: url("../icons/custom/custom78.svg");
 }
 .s1icon-c-79 {
   background-color: #8ed363;
-  background-image: url("../icons/custom/custom79_120.png");
+  background-image: url("../icons/custom/custom79.svg");
 }
 .s1icon-c-80 {
   background-color: #659ad5;
-  background-image: url("../icons/custom/custom80_120.png");
+  background-image: url("../icons/custom/custom80.svg");
 }
 .s1icon-c-81 {
   background-color: #da627f;
-  background-image: url("../icons/custom/custom81_120.png");
+  background-image: url("../icons/custom/custom81.svg");
 }
 .s1icon-c-82 {
   background-color: #d15b97;
-  background-image: url("../icons/custom/custom82_120.png");
+  background-image: url("../icons/custom/custom82.svg");
 }
 .s1icon-c-83 {
   background-color: #e7806f;
-  background-image: url("../icons/custom/custom83_120.png");
+  background-image: url("../icons/custom/custom83.svg");
 }
 .s1icon-c-84 {
   background-color: #f6707b;
-  background-image: url("../icons/custom/custom84_120.png");
+  background-image: url("../icons/custom/custom84.svg");
 }
 .s1icon-c-85 {
   background-color: #f26891;
-  background-image: url("../icons/custom/custom85_120.png");
+  background-image: url("../icons/custom/custom85.svg");
 }
 .s1icon-c-86 {
   background-color: #e260ab;
-  background-image: url("../icons/custom/custom86_120.png");
+  background-image: url("../icons/custom/custom86.svg");
 }
 .s1icon-c-87 {
   background-color: #d876e5;
-  background-image: url("../icons/custom/custom87_120.png");
+  background-image: url("../icons/custom/custom87.svg");
 }
 .s1icon-c-88 {
   background-color: #996fe6;
-  background-image: url("../icons/custom/custom88_120.png");
+  background-image: url("../icons/custom/custom88.svg");
 }
 .s1icon-c-89 {
   background-color: #3e99be;
-  background-image: url("../icons/custom/custom89_120.png");
+  background-image: url("../icons/custom/custom89.svg");
 }
 .s1icon-c-90 {
   background-color: #22a48a;
-  background-image: url("../icons/custom/custom90_120.png");
+  background-image: url("../icons/custom/custom90.svg");
 }
 .s1icon-c-91 {
   background-color: #bf7b66;
-  background-image: url("../icons/custom/custom91_120.png");
+  background-image: url("../icons/custom/custom91.svg");
 }
 .s1icon-c-92 {
   background-color: #517e82;
-  background-image: url("../icons/custom/custom92_120.png");
+  background-image: url("../icons/custom/custom92.svg");
 }
 .s1icon-c-93 {
   background-color: #904d4c;
-  background-image: url("../icons/custom/custom93_120.png");
+  background-image: url("../icons/custom/custom93.svg");
 }
 .s1icon-c-94 {
   background-color: #439cba;
-  background-image: url("../icons/custom/custom94_120.png");
+  background-image: url("../icons/custom/custom94.svg");
 }
 .s1icon-c-95 {
   background-color: #8bcf6a;
-  background-image: url("../icons/custom/custom95_120.png");
+  background-image: url("../icons/custom/custom95.svg");
 }
 .s1icon-c-96 {
   background-color: #6d9de3;
-  background-image: url("../icons/custom/custom96_120.png");
+  background-image: url("../icons/custom/custom96.svg");
 }
 .s1icon-c-97 {
   background-color: #dd6085;
-  background-image: url("../icons/custom/custom97_120.png");
+  background-image: url("../icons/custom/custom97.svg");
 }
 .s1icon-c-98 {
   background-color: #e1be5c;
-  background-image: url("../icons/custom/custom98_120.png");
+  background-image: url("../icons/custom/custom98.svg");
 }
 .s1icon-c-99 {
   background-color: #f0856e;
-  background-image: url("../icons/custom/custom99_120.png");
+  background-image: url("../icons/custom/custom99.svg");
 }
 .s1icon-c-100 {
   background-color: #e15d76;
-  background-image: url("../icons/custom/custom100_120.png");
+  background-image: url("../icons/custom/custom100.svg");
 }
 /* Utility Icons
    ========================================================================= */
@@ -7113,403 +7092,403 @@ button.close {
 /* This file is generated via Grunt task. **Do not edit directly.** */
 .s1icon-c-heart {
   background-color: #ff7b84;
-  background-image: url("../icons/custom/custom1_120.png");
+  background-image: url("../icons/custom/custom1.svg");
 }
 .s1icon-c-fan {
   background-color: #cfd05c;
-  background-image: url("../icons/custom/custom2_120.png");
+  background-image: url("../icons/custom/custom2.svg");
 }
 .s1icon-c-sun {
   background-color: #ecb46c;
-  background-image: url("../icons/custom/custom3_120.png");
+  background-image: url("../icons/custom/custom3.svg");
 }
 .s1icon-c-hexagon {
   background-color: #e1d951;
-  background-image: url("../icons/custom/custom4_120.png");
+  background-image: url("../icons/custom/custom4.svg");
 }
 .s1icon-c-leaf {
   background-color: #9fdb66;
-  background-image: url("../icons/custom/custom5_120.png");
+  background-image: url("../icons/custom/custom5.svg");
 }
 .s1icon-c-triangle {
   background-color: #54c473;
-  background-image: url("../icons/custom/custom6_120.png");
+  background-image: url("../icons/custom/custom6.svg");
 }
 .s1icon-c-square {
   background-color: #6a89e5;
-  background-image: url("../icons/custom/custom7_120.png");
+  background-image: url("../icons/custom/custom7.svg");
 }
 .s1icon-c-diamond {
   background-color: #50ceb9;
-  background-image: url("../icons/custom/custom8_120.png");
+  background-image: url("../icons/custom/custom8.svg");
 }
 .s1icon-c-lightning {
   background-color: #6b9ee2;
-  background-image: url("../icons/custom/custom9_120.png");
+  background-image: url("../icons/custom/custom9.svg");
 }
 .s1icon-c-moon {
   background-color: #6488e3;
-  background-image: url("../icons/custom/custom10_120.png");
+  background-image: url("../icons/custom/custom10.svg");
 }
 .s1icon-c-star {
   background-color: #8784ea;
-  background-image: url("../icons/custom/custom11_120.png");
+  background-image: url("../icons/custom/custom11.svg");
 }
 .s1icon-c-circle {
   background-color: #dc71d1;
-  background-image: url("../icons/custom/custom12_120.png");
+  background-image: url("../icons/custom/custom12.svg");
 }
 .s1icon-c-box {
   background-color: #df6184;
-  background-image: url("../icons/custom/custom13_120.png");
+  background-image: url("../icons/custom/custom13.svg");
 }
 .s1icon-c-hands {
   background-color: #3cc2b3;
-  background-image: url("../icons/custom/custom14_120.png");
+  background-image: url("../icons/custom/custom14.svg");
 }
 .s1icon-c-people {
   background-color: #f77e75;
-  background-image: url("../icons/custom/custom15_120.png");
+  background-image: url("../icons/custom/custom15.svg");
 }
 .s1icon-c-bank {
   background-color: #e9af67;
-  background-image: url("../icons/custom/custom16_120.png");
+  background-image: url("../icons/custom/custom16.svg");
 }
 .s1icon-c-sack {
   background-color: #acd360;
-  background-image: url("../icons/custom/custom17_120.png");
+  background-image: url("../icons/custom/custom17.svg");
 }
 .s1icon-c-edit {
   background-color: #4dca76;
-  background-image: url("../icons/custom/custom18_120.png");
+  background-image: url("../icons/custom/custom18.svg");
 }
 .s1icon-c-wrench {
   background-color: #3abeb1;
-  background-image: url("../icons/custom/custom19_120.png");
+  background-image: url("../icons/custom/custom19.svg");
 }
 .s1icon-c-airplane {
   background-color: #48c7c8;
-  background-image: url("../icons/custom/custom20_120.png");
+  background-image: url("../icons/custom/custom20.svg");
 }
 .s1icon-c-computer {
   background-color: #8a7aed;
-  background-image: url("../icons/custom/custom21_120.png");
+  background-image: url("../icons/custom/custom21.svg");
 }
 .s1icon-c-telephone {
   background-color: #8b85f9;
-  background-image: url("../icons/custom/custom22_120.png");
+  background-image: url("../icons/custom/custom22.svg");
 }
 .s1icon-c-envelope {
   background-color: #b070e6;
-  background-image: url("../icons/custom/custom23_120.png");
+  background-image: url("../icons/custom/custom23.svg");
 }
 .s1icon-c-building {
   background-color: #e56798;
-  background-image: url("../icons/custom/custom24_120.png");
+  background-image: url("../icons/custom/custom24.svg");
 }
 .s1icon-c-alarmclock {
   background-color: #e46fbe;
-  background-image: url("../icons/custom/custom25_120.png");
+  background-image: url("../icons/custom/custom25.svg");
 }
 .s1icon-c-flag {
   background-color: #7698f0;
-  background-image: url("../icons/custom/custom26_120.png");
+  background-image: url("../icons/custom/custom26.svg");
 }
 .s1icon-c-laptop {
   background-color: #5ab0d2;
-  background-image: url("../icons/custom/custom27_120.png");
+  background-image: url("../icons/custom/custom27.svg");
 }
 .s1icon-c-smartphone {
   background-color: #89c059;
-  background-image: url("../icons/custom/custom28_120.png");
+  background-image: url("../icons/custom/custom28.svg");
 }
 .s1icon-c-tablet {
   background-color: #bdd25f;
-  background-image: url("../icons/custom/custom29_120.png");
+  background-image: url("../icons/custom/custom29.svg");
 }
 .s1icon-c-dish {
   background-color: #f59f71;
-  background-image: url("../icons/custom/custom30_120.png");
+  background-image: url("../icons/custom/custom30.svg");
 }
 .s1icon-c-car {
   background-color: #eb687f;
-  background-image: url("../icons/custom/custom31_120.png");
+  background-image: url("../icons/custom/custom31.svg");
 }
 .s1icon-c-factory {
   background-color: #38c393;
-  background-image: url("../icons/custom/custom32_120.png");
+  background-image: url("../icons/custom/custom32.svg");
 }
 .s1icon-c-desk {
   background-color: #97cf5d;
-  background-image: url("../icons/custom/custom33_120.png");
+  background-image: url("../icons/custom/custom33.svg");
 }
 .s1icon-c-bug {
   background-color: #d58a6a;
-  background-image: url("../icons/custom/custom34_120.png");
+  background-image: url("../icons/custom/custom34.svg");
 }
 .s1icon-c-mic {
   background-color: #e9637e;
-  background-image: url("../icons/custom/custom35_120.png");
+  background-image: url("../icons/custom/custom35.svg");
 }
 .s1icon-c-train {
   background-color: #d472d4;
-  background-image: url("../icons/custom/custom36_120.png");
+  background-image: url("../icons/custom/custom36.svg");
 }
 .s1icon-c-bridge {
   background-color: #8c89f2;
-  background-image: url("../icons/custom/custom37_120.png");
+  background-image: url("../icons/custom/custom37.svg");
 }
 .s1icon-c-camera {
   background-color: #53b6d7;
-  background-image: url("../icons/custom/custom38_120.png");
+  background-image: url("../icons/custom/custom38.svg");
 }
 .s1icon-c-telescope {
   background-color: #4fbe75;
-  background-image: url("../icons/custom/custom39_120.png");
+  background-image: url("../icons/custom/custom39.svg");
 }
 .s1icon-c-creditcard {
   background-color: #83c75e;
-  background-image: url("../icons/custom/custom40_120.png");
+  background-image: url("../icons/custom/custom40.svg");
 }
 .s1icon-c-cash {
   background-color: #43b5b5;
-  background-image: url("../icons/custom/custom41_120.png");
+  background-image: url("../icons/custom/custom41.svg");
 }
 .s1icon-c-treasurechest {
   background-color: #cfd05b;
-  background-image: url("../icons/custom/custom42_120.png");
+  background-image: url("../icons/custom/custom42.svg");
 }
 .s1icon-c-jewel {
   background-color: #7f93f9;
-  background-image: url("../icons/custom/custom43_120.png");
+  background-image: url("../icons/custom/custom43.svg");
 }
 .s1icon-c-hammer {
   background-color: #c8ca58;
-  background-image: url("../icons/custom/custom44_120.png");
+  background-image: url("../icons/custom/custom44.svg");
 }
 .s1icon-c-ticket {
   background-color: #d95879;
-  background-image: url("../icons/custom/custom45_120.png");
+  background-image: url("../icons/custom/custom45.svg");
 }
 .s1icon-c-stamp {
   background-color: #67a5e7;
-  background-image: url("../icons/custom/custom46_120.png");
+  background-image: url("../icons/custom/custom46.svg");
 }
 .s1icon-c-knight {
   background-color: #5fcc64;
-  background-image: url("../icons/custom/custom47_120.png");
+  background-image: url("../icons/custom/custom47.svg");
 }
 .s1icon-c-trophy {
   background-color: #ef697f;
-  background-image: url("../icons/custom/custom48_120.png");
+  background-image: url("../icons/custom/custom48.svg");
 }
 .s1icon-c-cd {
   background-color: #e25c80;
-  background-image: url("../icons/custom/custom49_120.png");
+  background-image: url("../icons/custom/custom49.svg");
 }
 .s1icon-c-bigtop {
   background-color: #49bcd3;
-  background-image: url("../icons/custom/custom50_120.png");
+  background-image: url("../icons/custom/custom50.svg");
 }
 .s1icon-c-apple {
   background-color: #d8c760;
-  background-image: url("../icons/custom/custom51_120.png");
+  background-image: url("../icons/custom/custom51.svg");
 }
 .s1icon-c-football {
   background-color: #ee8e6f;
-  background-image: url("../icons/custom/custom52_120.png");
+  background-image: url("../icons/custom/custom52.svg");
 }
 .s1icon-c-bell {
   background-color: #f36e83;
-  background-image: url("../icons/custom/custom53_120.png");
+  background-image: url("../icons/custom/custom53.svg");
 }
 .s1icon-c-boat {
   background-color: #ea70b1;
-  background-image: url("../icons/custom/custom54_120.png");
+  background-image: url("../icons/custom/custom54.svg");
 }
 .s1icon-c-books {
   background-color: #d66ee0;
-  background-image: url("../icons/custom/custom55_120.png");
+  background-image: url("../icons/custom/custom55.svg");
 }
 .s1icon-c-bottle {
   background-color: #718deb;
-  background-image: url("../icons/custom/custom56_120.png");
+  background-image: url("../icons/custom/custom56.svg");
 }
 .s1icon-c-buildingblock {
   background-color: #5a9cdd;
-  background-image: url("../icons/custom/custom57_120.png");
+  background-image: url("../icons/custom/custom57.svg");
 }
 .s1icon-c-caduceus {
   background-color: #34b59d;
-  background-image: url("../icons/custom/custom58_120.png");
+  background-image: url("../icons/custom/custom58.svg");
 }
 .s1icon-c-can {
   background-color: #e3d067;
-  background-image: url("../icons/custom/custom59_120.png");
+  background-image: url("../icons/custom/custom59.svg");
 }
 .s1icon-c-umbrella {
   background-color: #bf5a88;
-  background-image: url("../icons/custom/custom60_120.png");
+  background-image: url("../icons/custom/custom60.svg");
 }
 .s1icon-c-castle {
   background-color: #f57376;
-  background-image: url("../icons/custom/custom61_120.png");
+  background-image: url("../icons/custom/custom61.svg");
 }
 .s1icon-c-chalkboard {
   background-color: #6b92dc;
-  background-image: url("../icons/custom/custom62_120.png");
+  background-image: url("../icons/custom/custom62.svg");
 }
 .s1icon-c-chip {
   background-color: #7ccf60;
-  background-image: url("../icons/custom/custom63_120.png");
+  background-image: url("../icons/custom/custom63.svg");
 }
 .s1icon-c-compass {
   background-color: #618fd8;
-  background-image: url("../icons/custom/custom64_120.png");
+  background-image: url("../icons/custom/custom64.svg");
 }
 .s1icon-c-cup {
   background-color: #f279ab;
-  background-image: url("../icons/custom/custom65_120.png");
+  background-image: url("../icons/custom/custom65.svg");
 }
 .s1icon-c-dice {
   background-color: #d8be5f;
-  background-image: url("../icons/custom/custom66_120.png");
+  background-image: url("../icons/custom/custom66.svg");
 }
 .s1icon-c-gears {
   background-color: #f87d76;
-  background-image: url("../icons/custom/custom67_120.png");
+  background-image: url("../icons/custom/custom67.svg");
 }
 .s1icon-c-globe {
   background-color: #f26979;
-  background-image: url("../icons/custom/custom68_120.png");
+  background-image: url("../icons/custom/custom68.svg");
 }
 .s1icon-c-guitar {
   background-color: #ed6387;
-  background-image: url("../icons/custom/custom69_120.png");
+  background-image: url("../icons/custom/custom69.svg");
 }
 .s1icon-c-saw {
   background-color: #e769b4;
-  background-image: url("../icons/custom/custom70_120.png");
+  background-image: url("../icons/custom/custom70.svg");
 }
 .s1icon-c-headphones {
   background-color: #e36ee3;
-  background-image: url("../icons/custom/custom71_120.png");
+  background-image: url("../icons/custom/custom71.svg");
 }
 .s1icon-c-helicoptor {
   background-color: #8d9bfb;
-  background-image: url("../icons/custom/custom72_120.png");
+  background-image: url("../icons/custom/custom72.svg");
 }
 .s1icon-c-highwaysign {
   background-color: #679ef0;
-  background-image: url("../icons/custom/custom73_120.png");
+  background-image: url("../icons/custom/custom73.svg");
 }
 .s1icon-c-hotairballoon {
   background-color: #41c8a0;
-  background-image: url("../icons/custom/custom74_120.png");
+  background-image: url("../icons/custom/custom74.svg");
 }
 .s1icon-c-ipphone {
   background-color: #cd9f65;
-  background-image: url("../icons/custom/custom75_120.png");
+  background-image: url("../icons/custom/custom75.svg");
 }
 .s1icon-c-keys {
   background-color: #db6d7a;
-  background-image: url("../icons/custom/custom76_120.png");
+  background-image: url("../icons/custom/custom76.svg");
 }
 .s1icon-c-lock {
   background-color: #b55d5b;
-  background-image: url("../icons/custom/custom77_120.png");
+  background-image: url("../icons/custom/custom77.svg");
 }
 .s1icon-c-map {
   background-color: #5a95dd;
-  background-image: url("../icons/custom/custom78_120.png");
+  background-image: url("../icons/custom/custom78.svg");
 }
 .s1icon-c-tapemeasure {
   background-color: #8ed363;
-  background-image: url("../icons/custom/custom79_120.png");
+  background-image: url("../icons/custom/custom79.svg");
 }
 .s1icon-c-motorcycle {
   background-color: #659ad5;
-  background-image: url("../icons/custom/custom80_120.png");
+  background-image: url("../icons/custom/custom80.svg");
 }
 .s1icon-c-musicnote {
   background-color: #da627f;
-  background-image: url("../icons/custom/custom81_120.png");
+  background-image: url("../icons/custom/custom81.svg");
 }
 .s1icon-c-whistle {
   background-color: #d15b97;
-  background-image: url("../icons/custom/custom82_120.png");
+  background-image: url("../icons/custom/custom82.svg");
 }
 .s1icon-c-pencil {
   background-color: #e7806f;
-  background-image: url("../icons/custom/custom83_120.png");
+  background-image: url("../icons/custom/custom83.svg");
 }
 .s1icon-c-presenter {
   background-color: #f6707b;
-  background-image: url("../icons/custom/custom84_120.png");
+  background-image: url("../icons/custom/custom84.svg");
 }
 .s1icon-c-forsale {
   background-color: #f26891;
-  background-image: url("../icons/custom/custom85_120.png");
+  background-image: url("../icons/custom/custom85.svg");
 }
 .s1icon-c-redcross {
   background-color: #e260ab;
-  background-image: url("../icons/custom/custom86_120.png");
+  background-image: url("../icons/custom/custom86.svg");
 }
 .s1icon-c-safe {
   background-color: #d876e5;
-  background-image: url("../icons/custom/custom87_120.png");
+  background-image: url("../icons/custom/custom87.svg");
 }
 .s1icon-c-sailboat {
   background-color: #996fe6;
-  background-image: url("../icons/custom/custom88_120.png");
+  background-image: url("../icons/custom/custom88.svg");
 }
 .s1icon-c-saxophone {
   background-color: #3e99be;
-  background-image: url("../icons/custom/custom89_120.png");
+  background-image: url("../icons/custom/custom89.svg");
 }
 .s1icon-c-scales {
   background-color: #22a48a;
-  background-image: url("../icons/custom/custom90_120.png");
+  background-image: url("../icons/custom/custom90.svg");
 }
 .s1icon-c-shield {
   background-color: #bf7b66;
-  background-image: url("../icons/custom/custom91_120.png");
+  background-image: url("../icons/custom/custom91.svg");
 }
 .s1icon-c-ship {
   background-color: #517e82;
-  background-image: url("../icons/custom/custom92_120.png");
+  background-image: url("../icons/custom/custom92.svg");
 }
 .s1icon-c-shoppingcart {
   background-color: #904d4c;
-  background-image: url("../icons/custom/custom93_120.png");
+  background-image: url("../icons/custom/custom93.svg");
 }
 .s1icon-c-stethoscope {
   background-color: #439cba;
-  background-image: url("../icons/custom/custom94_120.png");
+  background-image: url("../icons/custom/custom94.svg");
 }
 .s1icon-c-stopwatch {
   background-color: #8bcf6a;
-  background-image: url("../icons/custom/custom95_120.png");
+  background-image: url("../icons/custom/custom95.svg");
 }
 .s1icon-c-streetsign {
   background-color: #6d9de3;
-  background-image: url("../icons/custom/custom96_120.png");
+  background-image: url("../icons/custom/custom96.svg");
 }
 .s1icon-c-thermometer {
   background-color: #dd6085;
-  background-image: url("../icons/custom/custom97_120.png");
+  background-image: url("../icons/custom/custom97.svg");
 }
 .s1icon-c-van {
   background-color: #e1be5c;
-  background-image: url("../icons/custom/custom98_120.png");
+  background-image: url("../icons/custom/custom98.svg");
 }
 .s1icon-c-tv {
   background-color: #f0856e;
-  background-image: url("../icons/custom/custom99_120.png");
+  background-image: url("../icons/custom/custom99.svg");
 }
 .s1icon-c-tvwidescreen {
   background-color: #e15d76;
-  background-image: url("../icons/custom/custom100_120.png");
+  background-image: url("../icons/custom/custom100.svg");
 }
 .card {
   background-color: #ffffff;
@@ -7727,11 +7706,11 @@ a.card:hover {
 .card.context-account .card-heading:after,
 .context-account > .card .card-heading:after {
   background-color: #7f8de1;
-  background-image: url(../icons/standard/account_120.png);
+  background-image: url(../icons/standard/account.svg);
 }
 .page-header.context-account h1:before {
   background-color: #7f8de1;
-  background-image: url(../icons/standard/account_120.png);
+  background-image: url(../icons/standard/account.svg);
 }
 .card.context-campaign .card-heading,
 .context-campaign > .card .card-heading {
@@ -7758,11 +7737,11 @@ a.card:hover {
 .card.context-campaign .card-heading:after,
 .context-campaign > .card .card-heading:after {
   background-color: #f49756;
-  background-image: url(../icons/standard/campaign_120.png);
+  background-image: url(../icons/standard/campaign.svg);
 }
 .page-header.context-campaign h1:before {
   background-color: #f49756;
-  background-image: url(../icons/standard/campaign_120.png);
+  background-image: url(../icons/standard/campaign.svg);
 }
 .card.context-campaign-members .card-heading,
 .context-campaign-members > .card .card-heading {
@@ -7789,11 +7768,11 @@ a.card:hover {
 .card.context-campaign-members .card-heading:after,
 .context-campaign-members > .card .card-heading:after {
   background-color: #f49756;
-  background-image: url(../icons/standard/campaign_members_120.png);
+  background-image: url(../icons/standard/campaign_members.svg);
 }
 .page-header.context-campaign-members h1:before {
   background-color: #f49756;
-  background-image: url(../icons/standard/campaign_members_120.png);
+  background-image: url(../icons/standard/campaign_members.svg);
 }
 .card.context-case .card-heading,
 .context-case > .card .card-heading {
@@ -7820,11 +7799,11 @@ a.card:hover {
 .card.context-case .card-heading:after,
 .context-case > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_120.png);
+  background-image: url(../icons/standard/case.svg);
 }
 .page-header.context-case h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_120.png);
+  background-image: url(../icons/standard/case.svg);
 }
 .card.context-contact .card-heading,
 .context-contact > .card .card-heading {
@@ -7851,11 +7830,11 @@ a.card:hover {
 .card.context-contact .card-heading:after,
 .context-contact > .card .card-heading:after {
   background-color: #a094ed;
-  background-image: url(../icons/standard/contact_120.png);
+  background-image: url(../icons/standard/contact.svg);
 }
 .page-header.context-contact h1:before {
   background-color: #a094ed;
-  background-image: url(../icons/standard/contact_120.png);
+  background-image: url(../icons/standard/contact.svg);
 }
 .card.context-contract .card-heading,
 .context-contract > .card .card-heading {
@@ -7882,11 +7861,11 @@ a.card:hover {
 .card.context-contract .card-heading:after,
 .context-contract > .card .card-heading:after {
   background-color: #6ec06e;
-  background-image: url(../icons/standard/contract_120.png);
+  background-image: url(../icons/standard/contract.svg);
 }
 .page-header.context-contract h1:before {
   background-color: #6ec06e;
-  background-image: url(../icons/standard/contract_120.png);
+  background-image: url(../icons/standard/contract.svg);
 }
 .card.context-dashboard .card-heading,
 .context-dashboard > .card .card-heading {
@@ -7913,11 +7892,11 @@ a.card:hover {
 .card.context-dashboard .card-heading:after,
 .context-dashboard > .card .card-heading:after {
   background-color: #ef6e64;
-  background-image: url(../icons/standard/dashboard_120.png);
+  background-image: url(../icons/standard/dashboard.svg);
 }
 .page-header.context-dashboard h1:before {
   background-color: #ef6e64;
-  background-image: url(../icons/standard/dashboard_120.png);
+  background-image: url(../icons/standard/dashboard.svg);
 }
 .card.context-lead .card-heading,
 .context-lead > .card .card-heading {
@@ -7944,11 +7923,11 @@ a.card:hover {
 .card.context-lead .card-heading:after,
 .context-lead > .card .card-heading:after {
   background-color: #ed7e58;
-  background-image: url(../icons/standard/lead_120.png);
+  background-image: url(../icons/standard/lead.svg);
 }
 .page-header.context-lead h1:before {
   background-color: #ed7e58;
-  background-image: url(../icons/standard/lead_120.png);
+  background-image: url(../icons/standard/lead.svg);
 }
 .card.context-opportunity .card-heading,
 .context-opportunity > .card .card-heading {
@@ -7975,11 +7954,11 @@ a.card:hover {
 .card.context-opportunity .card-heading:after,
 .context-opportunity > .card .card-heading:after {
   background-color: #fcb95b;
-  background-image: url(../icons/standard/opportunity_120.png);
+  background-image: url(../icons/standard/opportunity.svg);
 }
 .page-header.context-opportunity h1:before {
   background-color: #fcb95b;
-  background-image: url(../icons/standard/opportunity_120.png);
+  background-image: url(../icons/standard/opportunity.svg);
 }
 .card.context-portal .card-heading,
 .context-portal > .card .card-heading {
@@ -8006,11 +7985,11 @@ a.card:hover {
 .card.context-portal .card-heading:after,
 .context-portal > .card .card-heading:after {
   background-color: #aec770;
-  background-image: url(../icons/standard/portal_120.png);
+  background-image: url(../icons/standard/portal.svg);
 }
 .page-header.context-portal h1:before {
   background-color: #aec770;
-  background-image: url(../icons/standard/portal_120.png);
+  background-image: url(../icons/standard/portal.svg);
 }
 .card.context-product .card-heading,
 .context-product > .card .card-heading {
@@ -8037,11 +8016,11 @@ a.card:hover {
 .card.context-product .card-heading:after,
 .context-product > .card .card-heading:after {
   background-color: #b781d3;
-  background-image: url(../icons/standard/product_120.png);
+  background-image: url(../icons/standard/product.svg);
 }
 .page-header.context-product h1:before {
   background-color: #b781d3;
-  background-image: url(../icons/standard/product_120.png);
+  background-image: url(../icons/standard/product.svg);
 }
 .card.context-record .card-heading,
 .context-record > .card .card-heading {
@@ -8068,11 +8047,11 @@ a.card:hover {
 .card.context-record .card-heading:after,
 .context-record > .card .card-heading:after {
   background-color: #7dc37d;
-  background-image: url(../icons/standard/record_120.png);
+  background-image: url(../icons/standard/record.svg);
 }
 .page-header.context-record h1:before {
   background-color: #7dc37d;
-  background-image: url(../icons/standard/record_120.png);
+  background-image: url(../icons/standard/record.svg);
 }
 .card.context-solution .card-heading,
 .context-solution > .card .card-heading {
@@ -8099,11 +8078,11 @@ a.card:hover {
 .card.context-solution .card-heading:after,
 .context-solution > .card .card-heading:after {
   background-color: #8fc972;
-  background-image: url(../icons/standard/solution_120.png);
+  background-image: url(../icons/standard/solution.svg);
 }
 .page-header.context-solution h1:before {
   background-color: #8fc972;
-  background-image: url(../icons/standard/solution_120.png);
+  background-image: url(../icons/standard/solution.svg);
 }
 .card.context-transcript .card-heading,
 .context-transcript > .card .card-heading {
@@ -8130,11 +8109,11 @@ a.card:hover {
 .card.context-transcript .card-heading:after,
 .context-transcript > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_transcript_120.png);
+  background-image: url(../icons/standard/case_transcript.svg);
 }
 .page-header.context-transcript h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_transcript_120.png);
+  background-image: url(../icons/standard/case_transcript.svg);
 }
 .card.context-avatar .card-heading,
 .context-avatar > .card .card-heading {
@@ -8161,11 +8140,11 @@ a.card:hover {
 .card.context-avatar .card-heading:after,
 .context-avatar > .card .card-heading:after {
   background-color: #62b7ed;
-  background-image: url(../icons/standard/avatar_120.png);
+  background-image: url(../icons/standard/avatar.svg);
 }
 .page-header.context-avatar h1:before {
   background-color: #62b7ed;
-  background-image: url(../icons/standard/avatar_120.png);
+  background-image: url(../icons/standard/avatar.svg);
 }
 .card.context-approval .card-heading,
 .context-approval > .card .card-heading {
@@ -8192,11 +8171,11 @@ a.card:hover {
 .card.context-approval .card-heading:after,
 .context-approval > .card .card-heading:after {
   background-color: #50cc7a;
-  background-image: url(../icons/standard/approval_120.png);
+  background-image: url(../icons/standard/approval.svg);
 }
 .page-header.context-approval h1:before {
   background-color: #50cc7a;
-  background-image: url(../icons/standard/approval_120.png);
+  background-image: url(../icons/standard/approval.svg);
 }
 .card.context-apps .card-heading,
 .context-apps > .card .card-heading {
@@ -8223,11 +8202,11 @@ a.card:hover {
 .card.context-apps .card-heading:after,
 .context-apps > .card .card-heading:after {
   background-color: #3c97dd;
-  background-image: url(../icons/standard/apps_120.png);
+  background-image: url(../icons/standard/apps.svg);
 }
 .page-header.context-apps h1:before {
   background-color: #3c97dd;
-  background-image: url(../icons/standard/apps_120.png);
+  background-image: url(../icons/standard/apps.svg);
 }
 .card.context-connected-apps-admins .card-heading,
 .context-connected-apps-admins > .card .card-heading {
@@ -8254,11 +8233,11 @@ a.card:hover {
 .card.context-connected-apps-admins .card-heading:after,
 .context-connected-apps-admins > .card .card-heading:after {
   background-color: #9895ee;
-  background-image: url(../icons/standard/connected_apps_admins_120.png);
+  background-image: url(../icons/standard/connected_apps_admins.svg);
 }
 .page-header.context-connected-apps-admins h1:before {
   background-color: #9895ee;
-  background-image: url(../icons/standard/connected_apps_admins_120.png);
+  background-image: url(../icons/standard/connected_apps_admins.svg);
 }
 .card.context-calibration .card-heading,
 .context-calibration > .card .card-heading {
@@ -8285,11 +8264,11 @@ a.card:hover {
 .card.context-calibration .card-heading:after,
 .context-calibration > .card .card-heading:after {
   background-color: #47cfd2;
-  background-image: url(../icons/standard/calibration_120.png);
+  background-image: url(../icons/standard/calibration.svg);
 }
 .page-header.context-calibration h1:before {
   background-color: #47cfd2;
-  background-image: url(../icons/standard/calibration_120.png);
+  background-image: url(../icons/standard/calibration.svg);
 }
 .card.context-coaching .card-heading,
 .context-coaching > .card .card-heading {
@@ -8316,11 +8295,11 @@ a.card:hover {
 .card.context-coaching .card-heading:after,
 .context-coaching > .card .card-heading:after {
   background-color: #f67594;
-  background-image: url(../icons/standard/coaching_120.png);
+  background-image: url(../icons/standard/coaching.svg);
 }
 .page-header.context-coaching h1:before {
   background-color: #f67594;
-  background-image: url(../icons/standard/coaching_120.png);
+  background-image: url(../icons/standard/coaching.svg);
 }
 .card.context-drafts .card-heading,
 .context-drafts > .card .card-heading {
@@ -8347,11 +8326,11 @@ a.card:hover {
 .card.context-drafts .card-heading:after,
 .context-drafts > .card .card-heading:after {
   background-color: #6ca1e9;
-  background-image: url(../icons/standard/drafts_120.png);
+  background-image: url(../icons/standard/drafts.svg);
 }
 .page-header.context-drafts h1:before {
   background-color: #6ca1e9;
-  background-image: url(../icons/standard/drafts_120.png);
+  background-image: url(../icons/standard/drafts.svg);
 }
 .card.context-email .card-heading,
 .context-email > .card .card-heading {
@@ -8378,11 +8357,11 @@ a.card:hover {
 .card.context-email .card-heading:after,
 .context-email > .card .card-heading:after {
   background-color: #95aec5;
-  background-image: url(../icons/standard/email_120.png);
+  background-image: url(../icons/standard/email.svg);
 }
 .page-header.context-email h1:before {
   background-color: #95aec5;
-  background-image: url(../icons/standard/email_120.png);
+  background-image: url(../icons/standard/email.svg);
 }
 .card.context-event .card-heading,
 .context-event > .card .card-heading {
@@ -8409,11 +8388,11 @@ a.card:hover {
 .card.context-event .card-heading:after,
 .context-event > .card .card-heading:after {
   background-color: #eb7092;
-  background-image: url(../icons/standard/event_120.png);
+  background-image: url(../icons/standard/event.svg);
 }
 .page-header.context-event h1:before {
   background-color: #eb7092;
-  background-image: url(../icons/standard/event_120.png);
+  background-image: url(../icons/standard/event.svg);
 }
 .card.context-endorsement .card-heading,
 .context-endorsement > .card .card-heading {
@@ -8440,11 +8419,11 @@ a.card:hover {
 .card.context-endorsement .card-heading:after,
 .context-endorsement > .card .card-heading:after {
   background-color: #8b9ae3;
-  background-image: url(../icons/standard/endorsement_120.png);
+  background-image: url(../icons/standard/endorsement.svg);
 }
 .page-header.context-endorsement h1:before {
   background-color: #8b9ae3;
-  background-image: url(../icons/standard/endorsement_120.png);
+  background-image: url(../icons/standard/endorsement.svg);
 }
 .card.context-feed .card-heading,
 .context-feed > .card .card-heading {
@@ -8471,11 +8450,11 @@ a.card:hover {
 .card.context-feed .card-heading:after,
 .context-feed > .card .card-heading:after {
   background-color: #62b7ed;
-  background-image: url(../icons/standard/feed_120.png);
+  background-image: url(../icons/standard/feed.svg);
 }
 .page-header.context-feed h1:before {
   background-color: #62b7ed;
-  background-image: url(../icons/standard/feed_120.png);
+  background-image: url(../icons/standard/feed.svg);
 }
 .card.context-feedback .card-heading,
 .context-feedback > .card .card-heading {
@@ -8502,11 +8481,11 @@ a.card:hover {
 .card.context-feedback .card-heading:after,
 .context-feedback > .card .card-heading:after {
   background-color: #6da1ea;
-  background-image: url(../icons/standard/feedback_120.png);
+  background-image: url(../icons/standard/feedback.svg);
 }
 .page-header.context-feedback h1:before {
   background-color: #6da1ea;
-  background-image: url(../icons/standard/feedback_120.png);
+  background-image: url(../icons/standard/feedback.svg);
 }
 .card.context-file .card-heading,
 .context-file > .card .card-heading {
@@ -8533,11 +8512,11 @@ a.card:hover {
 .card.context-file .card-heading:after,
 .context-file > .card .card-heading:after {
   background-color: #baac93;
-  background-image: url(../icons/standard/file_120.png);
+  background-image: url(../icons/standard/file.svg);
 }
 .page-header.context-file h1:before {
   background-color: #baac93;
-  background-image: url(../icons/standard/file_120.png);
+  background-image: url(../icons/standard/file.svg);
 }
 .card.context-goals .card-heading,
 .context-goals > .card .card-heading {
@@ -8564,11 +8543,11 @@ a.card:hover {
 .card.context-goals .card-heading:after,
 .context-goals > .card .card-heading:after {
   background-color: #7fc574;
-  background-image: url(../icons/standard/goals_120.png);
+  background-image: url(../icons/standard/goals.svg);
 }
 .page-header.context-goals h1:before {
   background-color: #7fc574;
-  background-image: url(../icons/standard/goals_120.png);
+  background-image: url(../icons/standard/goals.svg);
 }
 .card.context-groups .card-heading,
 .context-groups > .card .card-heading {
@@ -8595,11 +8574,11 @@ a.card:hover {
 .card.context-groups .card-heading:after,
 .context-groups > .card .card-heading:after {
   background-color: #779ef2;
-  background-image: url(../icons/standard/groups_120.png);
+  background-image: url(../icons/standard/groups.svg);
 }
 .page-header.context-groups h1:before {
   background-color: #779ef2;
-  background-image: url(../icons/standard/groups_120.png);
+  background-image: url(../icons/standard/groups.svg);
 }
 .card.context-insights .card-heading,
 .context-insights > .card .card-heading {
@@ -8626,11 +8605,11 @@ a.card:hover {
 .card.context-insights .card-heading:after,
 .context-insights > .card .card-heading:after {
   background-color: #47cfd2;
-  background-image: url(../icons/standard/insights_120.png);
+  background-image: url(../icons/standard/insights.svg);
 }
 .page-header.context-insights h1:before {
   background-color: #47cfd2;
-  background-image: url(../icons/standard/insights_120.png);
+  background-image: url(../icons/standard/insights.svg);
 }
 .card.context-link .card-heading,
 .context-link > .card .card-heading {
@@ -8657,11 +8636,11 @@ a.card:hover {
 .card.context-link .card-heading:after,
 .context-link > .card .card-heading:after {
   background-color: #7a9ae6;
-  background-image: url(../icons/standard/link_120.png);
+  background-image: url(../icons/standard/link.svg);
 }
 .page-header.context-link h1:before {
   background-color: #7a9ae6;
-  background-image: url(../icons/standard/link_120.png);
+  background-image: url(../icons/standard/link.svg);
 }
 .card.context-note .card-heading,
 .context-note > .card .card-heading {
@@ -8688,11 +8667,11 @@ a.card:hover {
 .card.context-note .card-heading:after,
 .context-note > .card .card-heading:after {
   background-color: #e6d478;
-  background-image: url(../icons/standard/note_120.png);
+  background-image: url(../icons/standard/note.svg);
 }
 .page-header.context-note h1:before {
   background-color: #e6d478;
-  background-image: url(../icons/standard/note_120.png);
+  background-image: url(../icons/standard/note.svg);
 }
 .card.context-people .card-heading,
 .context-people > .card .card-heading {
@@ -8719,11 +8698,11 @@ a.card:hover {
 .card.context-people .card-heading:after,
 .context-people > .card .card-heading:after {
   background-color: #34becd;
-  background-image: url(../icons/standard/people_120.png);
+  background-image: url(../icons/standard/people.svg);
 }
 .page-header.context-people h1:before {
   background-color: #34becd;
-  background-image: url(../icons/standard/people_120.png);
+  background-image: url(../icons/standard/people.svg);
 }
 .card.context-performance .card-heading,
 .context-performance > .card .card-heading {
@@ -8750,11 +8729,11 @@ a.card:hover {
 .card.context-performance .card-heading:after,
 .context-performance > .card .card-heading:after {
   background-color: #f8b156;
-  background-image: url(../icons/standard/performance_120.png);
+  background-image: url(../icons/standard/performance.svg);
 }
 .page-header.context-performance h1:before {
   background-color: #f8b156;
-  background-image: url(../icons/standard/performance_120.png);
+  background-image: url(../icons/standard/performance.svg);
 }
 .card.context-photo .card-heading,
 .context-photo > .card .card-heading {
@@ -8781,11 +8760,11 @@ a.card:hover {
 .card.context-photo .card-heading:after,
 .context-photo > .card .card-heading:after {
   background-color: #d7d1d1;
-  background-image: url(../icons/standard/photo_120.png);
+  background-image: url(../icons/standard/photo.svg);
 }
 .page-header.context-photo h1:before {
   background-color: #d7d1d1;
-  background-image: url(../icons/standard/photo_120.png);
+  background-image: url(../icons/standard/photo.svg);
 }
 .card.context-poll .card-heading,
 .context-poll > .card .card-heading {
@@ -8812,11 +8791,11 @@ a.card:hover {
 .card.context-poll .card-heading:after,
 .context-poll > .card .card-heading:after {
   background-color: #699be1;
-  background-image: url(../icons/standard/poll_120.png);
+  background-image: url(../icons/standard/poll.svg);
 }
 .page-header.context-poll h1:before {
   background-color: #699be1;
-  background-image: url(../icons/standard/poll_120.png);
+  background-image: url(../icons/standard/poll.svg);
 }
 .card.context-post .card-heading,
 .context-post > .card .card-heading {
@@ -8843,11 +8822,11 @@ a.card:hover {
 .card.context-post .card-heading:after,
 .context-post > .card .card-heading:after {
   background-color: #65cae4;
-  background-image: url(../icons/standard/post_120.png);
+  background-image: url(../icons/standard/post.svg);
 }
 .page-header.context-post h1:before {
   background-color: #65cae4;
-  background-image: url(../icons/standard/post_120.png);
+  background-image: url(../icons/standard/post.svg);
 }
 .card.context-question-best .card-heading,
 .context-question-best > .card .card-heading {
@@ -8874,11 +8853,11 @@ a.card:hover {
 .card.context-question-best .card-heading:after,
 .context-question-best > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/question_best_120.png);
+  background-image: url(../icons/standard/question_best.svg);
 }
 .page-header.context-question-best h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/question_best_120.png);
+  background-image: url(../icons/standard/question_best.svg);
 }
 .card.context-question-feed .card-heading,
 .context-question-feed > .card .card-heading {
@@ -8905,11 +8884,11 @@ a.card:hover {
 .card.context-question-feed .card-heading:after,
 .context-question-feed > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/question_feed_120.png);
+  background-image: url(../icons/standard/question_feed.svg);
 }
 .page-header.context-question-feed h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/question_feed_120.png);
+  background-image: url(../icons/standard/question_feed.svg);
 }
 .card.context-quotes .card-heading,
 .context-quotes > .card .card-heading {
@@ -8936,11 +8915,11 @@ a.card:hover {
 .card.context-quotes .card-heading:after,
 .context-quotes > .card .card-heading:after {
   background-color: #88c651;
-  background-image: url(../icons/standard/quotes_120.png);
+  background-image: url(../icons/standard/quotes.svg);
 }
 .page-header.context-quotes h1:before {
   background-color: #88c651;
-  background-image: url(../icons/standard/quotes_120.png);
+  background-image: url(../icons/standard/quotes.svg);
 }
 .card.context-record .card-heading,
 .context-record > .card .card-heading {
@@ -8967,11 +8946,11 @@ a.card:hover {
 .card.context-record .card-heading:after,
 .context-record > .card .card-heading:after {
   background-color: #7dc37d;
-  background-image: url(../icons/standard/record_120.png);
+  background-image: url(../icons/standard/record.svg);
 }
 .page-header.context-record h1:before {
   background-color: #7dc37d;
-  background-image: url(../icons/standard/record_120.png);
+  background-image: url(../icons/standard/record.svg);
 }
 .card.context-report .card-heading,
 .context-report > .card .card-heading {
@@ -8998,11 +8977,11 @@ a.card:hover {
 .card.context-report .card-heading:after,
 .context-report > .card .card-heading:after {
   background-color: #f77373;
-  background-image: url(../icons/standard/report_120.png);
+  background-image: url(../icons/standard/report.svg);
 }
 .page-header.context-report h1:before {
   background-color: #f77373;
-  background-image: url(../icons/standard/report_120.png);
+  background-image: url(../icons/standard/report.svg);
 }
 .card.context-recent .card-heading,
 .context-recent > .card .card-heading {
@@ -9029,11 +9008,11 @@ a.card:hover {
 .card.context-recent .card-heading:after,
 .context-recent > .card .card-heading:after {
   background-color: #6ca1e9;
-  background-image: url(../icons/standard/recent_120.png);
+  background-image: url(../icons/standard/recent.svg);
 }
 .page-header.context-recent h1:before {
   background-color: #6ca1e9;
-  background-image: url(../icons/standard/recent_120.png);
+  background-image: url(../icons/standard/recent.svg);
 }
 .card.context-related-list .card-heading,
 .context-related-list > .card .card-heading {
@@ -9060,11 +9039,11 @@ a.card:hover {
 .card.context-related-list .card-heading:after,
 .context-related-list > .card .card-heading:after {
   background-color: #59bcab;
-  background-image: url(../icons/standard/related_list_120.png);
+  background-image: url(../icons/standard/related_list.svg);
 }
 .page-header.context-related-list h1:before {
   background-color: #59bcab;
-  background-image: url(../icons/standard/related_list_120.png);
+  background-image: url(../icons/standard/related_list.svg);
 }
 .card.context-scan-card .card-heading,
 .context-scan-card > .card .card-heading {
@@ -9091,11 +9070,11 @@ a.card:hover {
 .card.context-scan-card .card-heading:after,
 .context-scan-card > .card .card-heading:after {
   background-color: #f39e58;
-  background-image: url(../icons/standard/scan_card_120.png);
+  background-image: url(../icons/standard/scan_card.svg);
 }
 .page-header.context-scan-card h1:before {
   background-color: #f39e58;
-  background-image: url(../icons/standard/scan_card_120.png);
+  background-image: url(../icons/standard/scan_card.svg);
 }
 .card.context-skill-entity .card-heading,
 .context-skill-entity > .card .card-heading {
@@ -9122,11 +9101,11 @@ a.card:hover {
 .card.context-skill-entity .card-heading:after,
 .context-skill-entity > .card .card-heading:after {
   background-color: #8b9ae3;
-  background-image: url(../icons/standard/skill_entity_120.png);
+  background-image: url(../icons/standard/skill_entity.svg);
 }
 .page-header.context-skill-entity h1:before {
   background-color: #8b9ae3;
-  background-image: url(../icons/standard/skill_entity_120.png);
+  background-image: url(../icons/standard/skill_entity.svg);
 }
 .card.context-social .card-heading,
 .context-social > .card .card-heading {
@@ -9153,11 +9132,11 @@ a.card:hover {
 .card.context-social .card-heading:after,
 .context-social > .card .card-heading:after {
   background-color: #ea74a2;
-  background-image: url(../icons/standard/social_post_120.png);
+  background-image: url(../icons/standard/social_post.svg);
 }
 .page-header.context-social h1:before {
   background-color: #ea74a2;
-  background-image: url(../icons/standard/social_post_120.png);
+  background-image: url(../icons/standard/social_post.svg);
 }
 .card.context-task .card-heading,
 .context-task > .card .card-heading {
@@ -9184,11 +9163,11 @@ a.card:hover {
 .card.context-task .card-heading:after,
 .context-task > .card .card-heading:after {
   background-color: #4bc076;
-  background-image: url(../icons/standard/task_120.png);
+  background-image: url(../icons/standard/task.svg);
 }
 .page-header.context-task h1:before {
   background-color: #4bc076;
-  background-image: url(../icons/standard/task_120.png);
+  background-image: url(../icons/standard/task.svg);
 }
 .card.context-thanks .card-heading,
 .context-thanks > .card .card-heading {
@@ -9215,11 +9194,11 @@ a.card:hover {
 .card.context-thanks .card-heading:after,
 .context-thanks > .card .card-heading:after {
   background-color: #e9696e;
-  background-image: url(../icons/standard/thanks_120.png);
+  background-image: url(../icons/standard/thanks.svg);
 }
 .page-header.context-thanks h1:before {
   background-color: #e9696e;
-  background-image: url(../icons/standard/thanks_120.png);
+  background-image: url(../icons/standard/thanks.svg);
 }
 .card.context-today .card-heading,
 .context-today > .card .card-heading {
@@ -9246,11 +9225,11 @@ a.card:hover {
 .card.context-today .card-heading:after,
 .context-today > .card .card-heading:after {
   background-color: #ef7ead;
-  background-image: url(../icons/standard/today_120.png);
+  background-image: url(../icons/standard/today.svg);
 }
 .page-header.context-today h1:before {
   background-color: #ef7ead;
-  background-image: url(../icons/standard/today_120.png);
+  background-image: url(../icons/standard/today.svg);
 }
 .card.context-canvas .card-heading,
 .context-canvas > .card .card-heading {
@@ -9277,11 +9256,11 @@ a.card:hover {
 .card.context-canvas .card-heading:after,
 .context-canvas > .card .card-heading:after {
   background-color: #8199af;
-  background-image: url(../icons/standard/canvas_120.png);
+  background-image: url(../icons/standard/canvas.svg);
 }
 .page-header.context-canvas h1:before {
   background-color: #8199af;
-  background-image: url(../icons/standard/canvas_120.png);
+  background-image: url(../icons/standard/canvas.svg);
 }
 .card.context-custom .card-heading,
 .context-custom > .card .card-heading {
@@ -9308,11 +9287,11 @@ a.card:hover {
 .card.context-custom .card-heading:after,
 .context-custom > .card .card-heading:after {
   background-color: #8199af;
-  background-image: url(../icons/standard/custom_120.png);
+  background-image: url(../icons/standard/custom.svg);
 }
 .page-header.context-custom h1:before {
   background-color: #8199af;
-  background-image: url(../icons/standard/custom_120.png);
+  background-image: url(../icons/standard/custom.svg);
 }
 .card.context-default .card-heading,
 .context-default > .card .card-heading {
@@ -9339,11 +9318,11 @@ a.card:hover {
 .card.context-default .card-heading:after,
 .context-default > .card .card-heading:after {
   background-color: #8199af;
-  background-image: url(../icons/standard/default_120.png);
+  background-image: url(../icons/standard/default.svg);
 }
 .page-header.context-default h1:before {
   background-color: #8199af;
-  background-image: url(../icons/standard/default_120.png);
+  background-image: url(../icons/standard/default.svg);
 }
 .card.context-avatar-loading .card-heading,
 .context-avatar-loading > .card .card-heading {
@@ -9370,11 +9349,11 @@ a.card:hover {
 .card.context-avatar-loading .card-heading:after,
 .context-avatar-loading > .card .card-heading:after {
   background-color: #b8c3ce;
-  background-image: url(../icons/standard/avatar_loading_120.png);
+  background-image: url(../icons/standard/avatar_loading.svg);
 }
 .page-header.context-avatar-loading h1:before {
   background-color: #b8c3ce;
-  background-image: url(../icons/standard/avatar_loading_120.png);
+  background-image: url(../icons/standard/avatar_loading.svg);
 }
 .card.context-groups-loading .card-heading,
 .context-groups-loading > .card .card-heading {
@@ -9401,11 +9380,11 @@ a.card:hover {
 .card.context-groups-loading .card-heading:after,
 .context-groups-loading > .card .card-heading:after {
   background-color: #bac3cc;
-  background-image: url(../icons/standard/group_loading_120.png);
+  background-image: url(../icons/standard/group_loading.svg);
 }
 .page-header.context-groups-loading h1:before {
   background-color: #bac3cc;
-  background-image: url(../icons/standard/group_loading_120.png);
+  background-image: url(../icons/standard/group_loading.svg);
 }
 .card.context-thanks-loading .card-heading,
 .context-thanks-loading > .card .card-heading {
@@ -9432,11 +9411,11 @@ a.card:hover {
 .card.context-thanks-loading .card-heading:after,
 .context-thanks-loading > .card .card-heading:after {
   background-color: #bac3cc;
-  background-image: url(../icons/standard/thanks_loading_120.png);
+  background-image: url(../icons/standard/thanks_loading.svg);
 }
 .page-header.context-thanks-loading h1:before {
   background-color: #bac3cc;
-  background-image: url(../icons/standard/thanks_loading_120.png);
+  background-image: url(../icons/standard/thanks_loading.svg);
 }
 .card.context-files .card-heading,
 .context-files > .card .card-heading {
@@ -9463,11 +9442,11 @@ a.card:hover {
 .card.context-files .card-heading:after,
 .context-files > .card .card-heading:after {
   background-color: #5bb6ee;
-  background-image: url(../icons/standard/chatterbox_120.png);
+  background-image: url(../icons/standard/chatterbox.svg);
 }
 .page-header.context-files h1:before {
   background-color: #5bb6ee;
-  background-image: url(../icons/standard/chatterbox_120.png);
+  background-image: url(../icons/standard/chatterbox.svg);
 }
 .card.context-concur .card-heading,
 .context-concur > .card .card-heading {
@@ -9494,11 +9473,11 @@ a.card:hover {
 .card.context-concur .card-heading:after,
 .context-concur > .card .card-heading:after {
   background-color: #4cc3c7;
-  background-image: url(../icons/standard/concur_120.png);
+  background-image: url(../icons/standard/concur.svg);
 }
 .page-header.context-concur h1:before {
   background-color: #4cc3c7;
-  background-image: url(../icons/standard/concur_120.png);
+  background-image: url(../icons/standard/concur.svg);
 }
 .card.context-dropbox .card-heading,
 .context-dropbox > .card .card-heading {
@@ -9525,11 +9504,11 @@ a.card:hover {
 .card.context-dropbox .card-heading:after,
 .context-dropbox > .card .card-heading:after {
   background-color: #52aef9;
-  background-image: url(../icons/standard/dropbox_120.png);
+  background-image: url(../icons/standard/dropbox.svg);
 }
 .page-header.context-dropbox h1:before {
   background-color: #52aef9;
-  background-image: url(../icons/standard/dropbox_120.png);
+  background-image: url(../icons/standard/dropbox.svg);
 }
 .card.context-evernote .card-heading,
 .context-evernote > .card .card-heading {
@@ -9556,11 +9535,11 @@ a.card:hover {
 .card.context-evernote .card-heading:after,
 .context-evernote > .card .card-heading:after {
   background-color: #86c86f;
-  background-image: url(../icons/standard/evernote_120.png);
+  background-image: url(../icons/standard/evernote.svg);
 }
 .page-header.context-evernote h1:before {
   background-color: #86c86f;
-  background-image: url(../icons/standard/evernote_120.png);
+  background-image: url(../icons/standard/evernote.svg);
 }
 .card.context-answer-best .card-heading,
 .context-answer-best > .card .card-heading {
@@ -9587,11 +9566,11 @@ a.card:hover {
 .card.context-answer-best .card-heading:after,
 .context-answer-best > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/answer_best_120.png);
+  background-image: url(../icons/standard/answer_best.svg);
 }
 .page-header.context-answer-best h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/answer_best_120.png);
+  background-image: url(../icons/standard/answer_best.svg);
 }
 .card.context-answer-private .card-heading,
 .context-answer-private > .card .card-heading {
@@ -9618,11 +9597,11 @@ a.card:hover {
 .card.context-answer-private .card-heading:after,
 .context-answer-private > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/answer_private_120.png);
+  background-image: url(../icons/standard/answer_private.svg);
 }
 .page-header.context-answer-private h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/answer_private_120.png);
+  background-image: url(../icons/standard/answer_private.svg);
 }
 .card.context-answer-public .card-heading,
 .context-answer-public > .card .card-heading {
@@ -9649,11 +9628,11 @@ a.card:hover {
 .card.context-answer-public .card-heading:after,
 .context-answer-public > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/answer_public_120.png);
+  background-image: url(../icons/standard/answer_public.svg);
 }
 .page-header.context-answer-public h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/answer_public_120.png);
+  background-image: url(../icons/standard/answer_public.svg);
 }
 .card.context-article .card-heading,
 .context-article > .card .card-heading {
@@ -9680,11 +9659,11 @@ a.card:hover {
 .card.context-article .card-heading:after,
 .context-article > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/article_120.png);
+  background-image: url(../icons/standard/article.svg);
 }
 .page-header.context-article h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/article_120.png);
+  background-image: url(../icons/standard/article.svg);
 }
 .card.context-case-change-status .card-heading,
 .context-case-change-status > .card .card-heading {
@@ -9711,11 +9690,11 @@ a.card:hover {
 .card.context-case-change-status .card-heading:after,
 .context-case-change-status > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_change_status_120.png);
+  background-image: url(../icons/standard/case_change_status.svg);
 }
 .page-header.context-case-change-status h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_change_status_120.png);
+  background-image: url(../icons/standard/case_change_status.svg);
 }
 .card.context-case-comment .card-heading,
 .context-case-comment > .card .card-heading {
@@ -9742,11 +9721,11 @@ a.card:hover {
 .card.context-case-comment .card-heading:after,
 .context-case-comment > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_comment_120.png);
+  background-image: url(../icons/standard/case_comment.svg);
 }
 .page-header.context-case-comment h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_comment_120.png);
+  background-image: url(../icons/standard/case_comment.svg);
 }
 .card.context-case-email .card-heading,
 .context-case-email > .card .card-heading {
@@ -9773,11 +9752,11 @@ a.card:hover {
 .card.context-case-email .card-heading:after,
 .context-case-email > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/email_chatter_120.png);
+  background-image: url(../icons/standard/email_chatter.svg);
 }
 .page-header.context-case-email h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/email_chatter_120.png);
+  background-image: url(../icons/standard/email_chatter.svg);
 }
 .card.context-case-log-a-call .card-heading,
 .context-case-log-a-call > .card .card-heading {
@@ -9804,11 +9783,11 @@ a.card:hover {
 .card.context-case-log-a-call .card-heading:after,
 .context-case-log-a-call > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/log_a_call_chatter_120.png);
+  background-image: url(../icons/standard/log_a_call_chatter.svg);
 }
 .page-header.context-case-log-a-call h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/log_a_call_chatter_120.png);
+  background-image: url(../icons/standard/log_a_call_chatter.svg);
 }
 .card.context-case-transcript .card-heading,
 .context-case-transcript > .card .card-heading {
@@ -9835,11 +9814,11 @@ a.card:hover {
 .card.context-case-transcript .card-heading:after,
 .context-case-transcript > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_transcript_120.png);
+  background-image: url(../icons/standard/case_transcript.svg);
 }
 .page-header.context-case-transcript h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/case_transcript_120.png);
+  background-image: url(../icons/standard/case_transcript.svg);
 }
 .card.context-team-member .card-heading,
 .context-team-member > .card .card-heading {
@@ -9866,11 +9845,11 @@ a.card:hover {
 .card.context-team-member .card-heading:after,
 .context-team-member > .card .card-heading:after {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/team_member_120.png);
+  background-image: url(../icons/standard/team_member.svg);
 }
 .page-header.context-team-member h1:before {
   background-color: #f2cf5b;
-  background-image: url(../icons/standard/team_member_120.png);
+  background-image: url(../icons/standard/team_member.svg);
 }
 .card.context-c-heart .card-heading,
 .context-c-heart > .card .card-heading {
@@ -9897,11 +9876,11 @@ a.card:hover {
 .card.context-c-heart .card-heading:after,
 .context-c-heart > .card .card-heading:after {
   background-color: #ff7b84;
-  background-image: url("../icons/custom/custom1_120.png");
+  background-image: url("../icons/custom/custom1.svg");
 }
 .page-header.context-c-heart h1:before {
   background-color: #ff7b84;
-  background-image: url("../icons/custom/custom1_120.png");
+  background-image: url("../icons/custom/custom1.svg");
 }
 .card.context-c-fan .card-heading,
 .context-c-fan > .card .card-heading {
@@ -9928,11 +9907,11 @@ a.card:hover {
 .card.context-c-fan .card-heading:after,
 .context-c-fan > .card .card-heading:after {
   background-color: #cfd05c;
-  background-image: url("../icons/custom/custom2_120.png");
+  background-image: url("../icons/custom/custom2.svg");
 }
 .page-header.context-c-fan h1:before {
   background-color: #cfd05c;
-  background-image: url("../icons/custom/custom2_120.png");
+  background-image: url("../icons/custom/custom2.svg");
 }
 .card.context-c-sun .card-heading,
 .context-c-sun > .card .card-heading {
@@ -9959,11 +9938,11 @@ a.card:hover {
 .card.context-c-sun .card-heading:after,
 .context-c-sun > .card .card-heading:after {
   background-color: #ecb46c;
-  background-image: url("../icons/custom/custom3_120.png");
+  background-image: url("../icons/custom/custom3.svg");
 }
 .page-header.context-c-sun h1:before {
   background-color: #ecb46c;
-  background-image: url("../icons/custom/custom3_120.png");
+  background-image: url("../icons/custom/custom3.svg");
 }
 .card.context-c-hexagon .card-heading,
 .context-c-hexagon > .card .card-heading {
@@ -9990,11 +9969,11 @@ a.card:hover {
 .card.context-c-hexagon .card-heading:after,
 .context-c-hexagon > .card .card-heading:after {
   background-color: #e1d951;
-  background-image: url("../icons/custom/custom4_120.png");
+  background-image: url("../icons/custom/custom4.svg");
 }
 .page-header.context-c-hexagon h1:before {
   background-color: #e1d951;
-  background-image: url("../icons/custom/custom4_120.png");
+  background-image: url("../icons/custom/custom4.svg");
 }
 .card.context-c-leaf .card-heading,
 .context-c-leaf > .card .card-heading {
@@ -10021,11 +10000,11 @@ a.card:hover {
 .card.context-c-leaf .card-heading:after,
 .context-c-leaf > .card .card-heading:after {
   background-color: #9fdb66;
-  background-image: url("../icons/custom/custom5_120.png");
+  background-image: url("../icons/custom/custom5.svg");
 }
 .page-header.context-c-leaf h1:before {
   background-color: #9fdb66;
-  background-image: url("../icons/custom/custom5_120.png");
+  background-image: url("../icons/custom/custom5.svg");
 }
 .card.context-c-triangle .card-heading,
 .context-c-triangle > .card .card-heading {
@@ -10052,11 +10031,11 @@ a.card:hover {
 .card.context-c-triangle .card-heading:after,
 .context-c-triangle > .card .card-heading:after {
   background-color: #54c473;
-  background-image: url("../icons/custom/custom6_120.png");
+  background-image: url("../icons/custom/custom6.svg");
 }
 .page-header.context-c-triangle h1:before {
   background-color: #54c473;
-  background-image: url("../icons/custom/custom6_120.png");
+  background-image: url("../icons/custom/custom6.svg");
 }
 .card.context-c-square .card-heading,
 .context-c-square > .card .card-heading {
@@ -10083,11 +10062,11 @@ a.card:hover {
 .card.context-c-square .card-heading:after,
 .context-c-square > .card .card-heading:after {
   background-color: #6a89e5;
-  background-image: url("../icons/custom/custom7_120.png");
+  background-image: url("../icons/custom/custom7.svg");
 }
 .page-header.context-c-square h1:before {
   background-color: #6a89e5;
-  background-image: url("../icons/custom/custom7_120.png");
+  background-image: url("../icons/custom/custom7.svg");
 }
 .card.context-c-diamond .card-heading,
 .context-c-diamond > .card .card-heading {
@@ -10114,11 +10093,11 @@ a.card:hover {
 .card.context-c-diamond .card-heading:after,
 .context-c-diamond > .card .card-heading:after {
   background-color: #50ceb9;
-  background-image: url("../icons/custom/custom8_120.png");
+  background-image: url("../icons/custom/custom8.svg");
 }
 .page-header.context-c-diamond h1:before {
   background-color: #50ceb9;
-  background-image: url("../icons/custom/custom8_120.png");
+  background-image: url("../icons/custom/custom8.svg");
 }
 .card.context-c-lightning .card-heading,
 .context-c-lightning > .card .card-heading {
@@ -10145,11 +10124,11 @@ a.card:hover {
 .card.context-c-lightning .card-heading:after,
 .context-c-lightning > .card .card-heading:after {
   background-color: #6b9ee2;
-  background-image: url("../icons/custom/custom9_120.png");
+  background-image: url("../icons/custom/custom9.svg");
 }
 .page-header.context-c-lightning h1:before {
   background-color: #6b9ee2;
-  background-image: url("../icons/custom/custom9_120.png");
+  background-image: url("../icons/custom/custom9.svg");
 }
 .card.context-c-moon .card-heading,
 .context-c-moon > .card .card-heading {
@@ -10176,11 +10155,11 @@ a.card:hover {
 .card.context-c-moon .card-heading:after,
 .context-c-moon > .card .card-heading:after {
   background-color: #6488e3;
-  background-image: url("../icons/custom/custom10_120.png");
+  background-image: url("../icons/custom/custom10.svg");
 }
 .page-header.context-c-moon h1:before {
   background-color: #6488e3;
-  background-image: url("../icons/custom/custom10_120.png");
+  background-image: url("../icons/custom/custom10.svg");
 }
 .card.context-c-star .card-heading,
 .context-c-star > .card .card-heading {
@@ -10207,11 +10186,11 @@ a.card:hover {
 .card.context-c-star .card-heading:after,
 .context-c-star > .card .card-heading:after {
   background-color: #8784ea;
-  background-image: url("../icons/custom/custom11_120.png");
+  background-image: url("../icons/custom/custom11.svg");
 }
 .page-header.context-c-star h1:before {
   background-color: #8784ea;
-  background-image: url("../icons/custom/custom11_120.png");
+  background-image: url("../icons/custom/custom11.svg");
 }
 .card.context-c-circle .card-heading,
 .context-c-circle > .card .card-heading {
@@ -10238,11 +10217,11 @@ a.card:hover {
 .card.context-c-circle .card-heading:after,
 .context-c-circle > .card .card-heading:after {
   background-color: #dc71d1;
-  background-image: url("../icons/custom/custom12_120.png");
+  background-image: url("../icons/custom/custom12.svg");
 }
 .page-header.context-c-circle h1:before {
   background-color: #dc71d1;
-  background-image: url("../icons/custom/custom12_120.png");
+  background-image: url("../icons/custom/custom12.svg");
 }
 .card.context-c-box .card-heading,
 .context-c-box > .card .card-heading {
@@ -10269,11 +10248,11 @@ a.card:hover {
 .card.context-c-box .card-heading:after,
 .context-c-box > .card .card-heading:after {
   background-color: #df6184;
-  background-image: url("../icons/custom/custom13_120.png");
+  background-image: url("../icons/custom/custom13.svg");
 }
 .page-header.context-c-box h1:before {
   background-color: #df6184;
-  background-image: url("../icons/custom/custom13_120.png");
+  background-image: url("../icons/custom/custom13.svg");
 }
 .card.context-c-hands .card-heading,
 .context-c-hands > .card .card-heading {
@@ -10300,11 +10279,11 @@ a.card:hover {
 .card.context-c-hands .card-heading:after,
 .context-c-hands > .card .card-heading:after {
   background-color: #3cc2b3;
-  background-image: url("../icons/custom/custom14_120.png");
+  background-image: url("../icons/custom/custom14.svg");
 }
 .page-header.context-c-hands h1:before {
   background-color: #3cc2b3;
-  background-image: url("../icons/custom/custom14_120.png");
+  background-image: url("../icons/custom/custom14.svg");
 }
 .card.context-c-people .card-heading,
 .context-c-people > .card .card-heading {
@@ -10331,11 +10310,11 @@ a.card:hover {
 .card.context-c-people .card-heading:after,
 .context-c-people > .card .card-heading:after {
   background-color: #f77e75;
-  background-image: url("../icons/custom/custom15_120.png");
+  background-image: url("../icons/custom/custom15.svg");
 }
 .page-header.context-c-people h1:before {
   background-color: #f77e75;
-  background-image: url("../icons/custom/custom15_120.png");
+  background-image: url("../icons/custom/custom15.svg");
 }
 .card.context-c-bank .card-heading,
 .context-c-bank > .card .card-heading {
@@ -10362,11 +10341,11 @@ a.card:hover {
 .card.context-c-bank .card-heading:after,
 .context-c-bank > .card .card-heading:after {
   background-color: #e9af67;
-  background-image: url("../icons/custom/custom16_120.png");
+  background-image: url("../icons/custom/custom16.svg");
 }
 .page-header.context-c-bank h1:before {
   background-color: #e9af67;
-  background-image: url("../icons/custom/custom16_120.png");
+  background-image: url("../icons/custom/custom16.svg");
 }
 .card.context-c-sack .card-heading,
 .context-c-sack > .card .card-heading {
@@ -10393,11 +10372,11 @@ a.card:hover {
 .card.context-c-sack .card-heading:after,
 .context-c-sack > .card .card-heading:after {
   background-color: #acd360;
-  background-image: url("../icons/custom/custom17_120.png");
+  background-image: url("../icons/custom/custom17.svg");
 }
 .page-header.context-c-sack h1:before {
   background-color: #acd360;
-  background-image: url("../icons/custom/custom17_120.png");
+  background-image: url("../icons/custom/custom17.svg");
 }
 .card.context-c-edit .card-heading,
 .context-c-edit > .card .card-heading {
@@ -10424,11 +10403,11 @@ a.card:hover {
 .card.context-c-edit .card-heading:after,
 .context-c-edit > .card .card-heading:after {
   background-color: #4dca76;
-  background-image: url("../icons/custom/custom18_120.png");
+  background-image: url("../icons/custom/custom18.svg");
 }
 .page-header.context-c-edit h1:before {
   background-color: #4dca76;
-  background-image: url("../icons/custom/custom18_120.png");
+  background-image: url("../icons/custom/custom18.svg");
 }
 .card.context-c-wrench .card-heading,
 .context-c-wrench > .card .card-heading {
@@ -10455,11 +10434,11 @@ a.card:hover {
 .card.context-c-wrench .card-heading:after,
 .context-c-wrench > .card .card-heading:after {
   background-color: #3abeb1;
-  background-image: url("../icons/custom/custom19_120.png");
+  background-image: url("../icons/custom/custom19.svg");
 }
 .page-header.context-c-wrench h1:before {
   background-color: #3abeb1;
-  background-image: url("../icons/custom/custom19_120.png");
+  background-image: url("../icons/custom/custom19.svg");
 }
 .card.context-c-airplane .card-heading,
 .context-c-airplane > .card .card-heading {
@@ -10486,11 +10465,11 @@ a.card:hover {
 .card.context-c-airplane .card-heading:after,
 .context-c-airplane > .card .card-heading:after {
   background-color: #48c7c8;
-  background-image: url("../icons/custom/custom20_120.png");
+  background-image: url("../icons/custom/custom20.svg");
 }
 .page-header.context-c-airplane h1:before {
   background-color: #48c7c8;
-  background-image: url("../icons/custom/custom20_120.png");
+  background-image: url("../icons/custom/custom20.svg");
 }
 .card.context-c-computer .card-heading,
 .context-c-computer > .card .card-heading {
@@ -10517,11 +10496,11 @@ a.card:hover {
 .card.context-c-computer .card-heading:after,
 .context-c-computer > .card .card-heading:after {
   background-color: #8a7aed;
-  background-image: url("../icons/custom/custom21_120.png");
+  background-image: url("../icons/custom/custom21.svg");
 }
 .page-header.context-c-computer h1:before {
   background-color: #8a7aed;
-  background-image: url("../icons/custom/custom21_120.png");
+  background-image: url("../icons/custom/custom21.svg");
 }
 .card.context-c-telephone .card-heading,
 .context-c-telephone > .card .card-heading {
@@ -10548,11 +10527,11 @@ a.card:hover {
 .card.context-c-telephone .card-heading:after,
 .context-c-telephone > .card .card-heading:after {
   background-color: #8b85f9;
-  background-image: url("../icons/custom/custom22_120.png");
+  background-image: url("../icons/custom/custom22.svg");
 }
 .page-header.context-c-telephone h1:before {
   background-color: #8b85f9;
-  background-image: url("../icons/custom/custom22_120.png");
+  background-image: url("../icons/custom/custom22.svg");
 }
 .card.context-c-envelope .card-heading,
 .context-c-envelope > .card .card-heading {
@@ -10579,11 +10558,11 @@ a.card:hover {
 .card.context-c-envelope .card-heading:after,
 .context-c-envelope > .card .card-heading:after {
   background-color: #b070e6;
-  background-image: url("../icons/custom/custom23_120.png");
+  background-image: url("../icons/custom/custom23.svg");
 }
 .page-header.context-c-envelope h1:before {
   background-color: #b070e6;
-  background-image: url("../icons/custom/custom23_120.png");
+  background-image: url("../icons/custom/custom23.svg");
 }
 .card.context-c-building .card-heading,
 .context-c-building > .card .card-heading {
@@ -10610,11 +10589,11 @@ a.card:hover {
 .card.context-c-building .card-heading:after,
 .context-c-building > .card .card-heading:after {
   background-color: #e56798;
-  background-image: url("../icons/custom/custom24_120.png");
+  background-image: url("../icons/custom/custom24.svg");
 }
 .page-header.context-c-building h1:before {
   background-color: #e56798;
-  background-image: url("../icons/custom/custom24_120.png");
+  background-image: url("../icons/custom/custom24.svg");
 }
 .card.context-c-alarmclock .card-heading,
 .context-c-alarmclock > .card .card-heading {
@@ -10641,11 +10620,11 @@ a.card:hover {
 .card.context-c-alarmclock .card-heading:after,
 .context-c-alarmclock > .card .card-heading:after {
   background-color: #e46fbe;
-  background-image: url("../icons/custom/custom25_120.png");
+  background-image: url("../icons/custom/custom25.svg");
 }
 .page-header.context-c-alarmclock h1:before {
   background-color: #e46fbe;
-  background-image: url("../icons/custom/custom25_120.png");
+  background-image: url("../icons/custom/custom25.svg");
 }
 .card.context-c-flag .card-heading,
 .context-c-flag > .card .card-heading {
@@ -10672,11 +10651,11 @@ a.card:hover {
 .card.context-c-flag .card-heading:after,
 .context-c-flag > .card .card-heading:after {
   background-color: #7698f0;
-  background-image: url("../icons/custom/custom26_120.png");
+  background-image: url("../icons/custom/custom26.svg");
 }
 .page-header.context-c-flag h1:before {
   background-color: #7698f0;
-  background-image: url("../icons/custom/custom26_120.png");
+  background-image: url("../icons/custom/custom26.svg");
 }
 .card.context-c-laptop .card-heading,
 .context-c-laptop > .card .card-heading {
@@ -10703,11 +10682,11 @@ a.card:hover {
 .card.context-c-laptop .card-heading:after,
 .context-c-laptop > .card .card-heading:after {
   background-color: #5ab0d2;
-  background-image: url("../icons/custom/custom27_120.png");
+  background-image: url("../icons/custom/custom27.svg");
 }
 .page-header.context-c-laptop h1:before {
   background-color: #5ab0d2;
-  background-image: url("../icons/custom/custom27_120.png");
+  background-image: url("../icons/custom/custom27.svg");
 }
 .card.context-c-smartphone .card-heading,
 .context-c-smartphone > .card .card-heading {
@@ -10734,11 +10713,11 @@ a.card:hover {
 .card.context-c-smartphone .card-heading:after,
 .context-c-smartphone > .card .card-heading:after {
   background-color: #89c059;
-  background-image: url("../icons/custom/custom28_120.png");
+  background-image: url("../icons/custom/custom28.svg");
 }
 .page-header.context-c-smartphone h1:before {
   background-color: #89c059;
-  background-image: url("../icons/custom/custom28_120.png");
+  background-image: url("../icons/custom/custom28.svg");
 }
 .card.context-c-tablet .card-heading,
 .context-c-tablet > .card .card-heading {
@@ -10765,11 +10744,11 @@ a.card:hover {
 .card.context-c-tablet .card-heading:after,
 .context-c-tablet > .card .card-heading:after {
   background-color: #bdd25f;
-  background-image: url("../icons/custom/custom29_120.png");
+  background-image: url("../icons/custom/custom29.svg");
 }
 .page-header.context-c-tablet h1:before {
   background-color: #bdd25f;
-  background-image: url("../icons/custom/custom29_120.png");
+  background-image: url("../icons/custom/custom29.svg");
 }
 .card.context-c-dish .card-heading,
 .context-c-dish > .card .card-heading {
@@ -10796,11 +10775,11 @@ a.card:hover {
 .card.context-c-dish .card-heading:after,
 .context-c-dish > .card .card-heading:after {
   background-color: #f59f71;
-  background-image: url("../icons/custom/custom30_120.png");
+  background-image: url("../icons/custom/custom30.svg");
 }
 .page-header.context-c-dish h1:before {
   background-color: #f59f71;
-  background-image: url("../icons/custom/custom30_120.png");
+  background-image: url("../icons/custom/custom30.svg");
 }
 .card.context-c-car .card-heading,
 .context-c-car > .card .card-heading {
@@ -10827,11 +10806,11 @@ a.card:hover {
 .card.context-c-car .card-heading:after,
 .context-c-car > .card .card-heading:after {
   background-color: #eb687f;
-  background-image: url("../icons/custom/custom31_120.png");
+  background-image: url("../icons/custom/custom31.svg");
 }
 .page-header.context-c-car h1:before {
   background-color: #eb687f;
-  background-image: url("../icons/custom/custom31_120.png");
+  background-image: url("../icons/custom/custom31.svg");
 }
 .card.context-c-factory .card-heading,
 .context-c-factory > .card .card-heading {
@@ -10858,11 +10837,11 @@ a.card:hover {
 .card.context-c-factory .card-heading:after,
 .context-c-factory > .card .card-heading:after {
   background-color: #38c393;
-  background-image: url("../icons/custom/custom32_120.png");
+  background-image: url("../icons/custom/custom32.svg");
 }
 .page-header.context-c-factory h1:before {
   background-color: #38c393;
-  background-image: url("../icons/custom/custom32_120.png");
+  background-image: url("../icons/custom/custom32.svg");
 }
 .card.context-c-desk .card-heading,
 .context-c-desk > .card .card-heading {
@@ -10889,11 +10868,11 @@ a.card:hover {
 .card.context-c-desk .card-heading:after,
 .context-c-desk > .card .card-heading:after {
   background-color: #97cf5d;
-  background-image: url("../icons/custom/custom33_120.png");
+  background-image: url("../icons/custom/custom33.svg");
 }
 .page-header.context-c-desk h1:before {
   background-color: #97cf5d;
-  background-image: url("../icons/custom/custom33_120.png");
+  background-image: url("../icons/custom/custom33.svg");
 }
 .card.context-c-bug .card-heading,
 .context-c-bug > .card .card-heading {
@@ -10920,11 +10899,11 @@ a.card:hover {
 .card.context-c-bug .card-heading:after,
 .context-c-bug > .card .card-heading:after {
   background-color: #d58a6a;
-  background-image: url("../icons/custom/custom34_120.png");
+  background-image: url("../icons/custom/custom34.svg");
 }
 .page-header.context-c-bug h1:before {
   background-color: #d58a6a;
-  background-image: url("../icons/custom/custom34_120.png");
+  background-image: url("../icons/custom/custom34.svg");
 }
 .card.context-c-mic .card-heading,
 .context-c-mic > .card .card-heading {
@@ -10951,11 +10930,11 @@ a.card:hover {
 .card.context-c-mic .card-heading:after,
 .context-c-mic > .card .card-heading:after {
   background-color: #e9637e;
-  background-image: url("../icons/custom/custom35_120.png");
+  background-image: url("../icons/custom/custom35.svg");
 }
 .page-header.context-c-mic h1:before {
   background-color: #e9637e;
-  background-image: url("../icons/custom/custom35_120.png");
+  background-image: url("../icons/custom/custom35.svg");
 }
 .card.context-c-train .card-heading,
 .context-c-train > .card .card-heading {
@@ -10982,11 +10961,11 @@ a.card:hover {
 .card.context-c-train .card-heading:after,
 .context-c-train > .card .card-heading:after {
   background-color: #d472d4;
-  background-image: url("../icons/custom/custom36_120.png");
+  background-image: url("../icons/custom/custom36.svg");
 }
 .page-header.context-c-train h1:before {
   background-color: #d472d4;
-  background-image: url("../icons/custom/custom36_120.png");
+  background-image: url("../icons/custom/custom36.svg");
 }
 .card.context-c-bridge .card-heading,
 .context-c-bridge > .card .card-heading {
@@ -11013,11 +10992,11 @@ a.card:hover {
 .card.context-c-bridge .card-heading:after,
 .context-c-bridge > .card .card-heading:after {
   background-color: #8c89f2;
-  background-image: url("../icons/custom/custom37_120.png");
+  background-image: url("../icons/custom/custom37.svg");
 }
 .page-header.context-c-bridge h1:before {
   background-color: #8c89f2;
-  background-image: url("../icons/custom/custom37_120.png");
+  background-image: url("../icons/custom/custom37.svg");
 }
 .card.context-c-camera .card-heading,
 .context-c-camera > .card .card-heading {
@@ -11044,11 +11023,11 @@ a.card:hover {
 .card.context-c-camera .card-heading:after,
 .context-c-camera > .card .card-heading:after {
   background-color: #53b6d7;
-  background-image: url("../icons/custom/custom38_120.png");
+  background-image: url("../icons/custom/custom38.svg");
 }
 .page-header.context-c-camera h1:before {
   background-color: #53b6d7;
-  background-image: url("../icons/custom/custom38_120.png");
+  background-image: url("../icons/custom/custom38.svg");
 }
 .card.context-c-telescope .card-heading,
 .context-c-telescope > .card .card-heading {
@@ -11075,11 +11054,11 @@ a.card:hover {
 .card.context-c-telescope .card-heading:after,
 .context-c-telescope > .card .card-heading:after {
   background-color: #4fbe75;
-  background-image: url("../icons/custom/custom39_120.png");
+  background-image: url("../icons/custom/custom39.svg");
 }
 .page-header.context-c-telescope h1:before {
   background-color: #4fbe75;
-  background-image: url("../icons/custom/custom39_120.png");
+  background-image: url("../icons/custom/custom39.svg");
 }
 .card.context-c-creditcard .card-heading,
 .context-c-creditcard > .card .card-heading {
@@ -11106,11 +11085,11 @@ a.card:hover {
 .card.context-c-creditcard .card-heading:after,
 .context-c-creditcard > .card .card-heading:after {
   background-color: #83c75e;
-  background-image: url("../icons/custom/custom40_120.png");
+  background-image: url("../icons/custom/custom40.svg");
 }
 .page-header.context-c-creditcard h1:before {
   background-color: #83c75e;
-  background-image: url("../icons/custom/custom40_120.png");
+  background-image: url("../icons/custom/custom40.svg");
 }
 .card.context-c-cash .card-heading,
 .context-c-cash > .card .card-heading {
@@ -11137,11 +11116,11 @@ a.card:hover {
 .card.context-c-cash .card-heading:after,
 .context-c-cash > .card .card-heading:after {
   background-color: #43b5b5;
-  background-image: url("../icons/custom/custom41_120.png");
+  background-image: url("../icons/custom/custom41.svg");
 }
 .page-header.context-c-cash h1:before {
   background-color: #43b5b5;
-  background-image: url("../icons/custom/custom41_120.png");
+  background-image: url("../icons/custom/custom41.svg");
 }
 .card.context-c-treasurechest .card-heading,
 .context-c-treasurechest > .card .card-heading {
@@ -11168,11 +11147,11 @@ a.card:hover {
 .card.context-c-treasurechest .card-heading:after,
 .context-c-treasurechest > .card .card-heading:after {
   background-color: #cfd05b;
-  background-image: url("../icons/custom/custom42_120.png");
+  background-image: url("../icons/custom/custom42.svg");
 }
 .page-header.context-c-treasurechest h1:before {
   background-color: #cfd05b;
-  background-image: url("../icons/custom/custom42_120.png");
+  background-image: url("../icons/custom/custom42.svg");
 }
 .card.context-c-jewel .card-heading,
 .context-c-jewel > .card .card-heading {
@@ -11199,11 +11178,11 @@ a.card:hover {
 .card.context-c-jewel .card-heading:after,
 .context-c-jewel > .card .card-heading:after {
   background-color: #7f93f9;
-  background-image: url("../icons/custom/custom43_120.png");
+  background-image: url("../icons/custom/custom43.svg");
 }
 .page-header.context-c-jewel h1:before {
   background-color: #7f93f9;
-  background-image: url("../icons/custom/custom43_120.png");
+  background-image: url("../icons/custom/custom43.svg");
 }
 .card.context-c-hammer .card-heading,
 .context-c-hammer > .card .card-heading {
@@ -11230,11 +11209,11 @@ a.card:hover {
 .card.context-c-hammer .card-heading:after,
 .context-c-hammer > .card .card-heading:after {
   background-color: #c8ca58;
-  background-image: url("../icons/custom/custom44_120.png");
+  background-image: url("../icons/custom/custom44.svg");
 }
 .page-header.context-c-hammer h1:before {
   background-color: #c8ca58;
-  background-image: url("../icons/custom/custom44_120.png");
+  background-image: url("../icons/custom/custom44.svg");
 }
 .card.context-c-ticket .card-heading,
 .context-c-ticket > .card .card-heading {
@@ -11261,11 +11240,11 @@ a.card:hover {
 .card.context-c-ticket .card-heading:after,
 .context-c-ticket > .card .card-heading:after {
   background-color: #d95879;
-  background-image: url("../icons/custom/custom45_120.png");
+  background-image: url("../icons/custom/custom45.svg");
 }
 .page-header.context-c-ticket h1:before {
   background-color: #d95879;
-  background-image: url("../icons/custom/custom45_120.png");
+  background-image: url("../icons/custom/custom45.svg");
 }
 .card.context-c-stamp .card-heading,
 .context-c-stamp > .card .card-heading {
@@ -11292,11 +11271,11 @@ a.card:hover {
 .card.context-c-stamp .card-heading:after,
 .context-c-stamp > .card .card-heading:after {
   background-color: #67a5e7;
-  background-image: url("../icons/custom/custom46_120.png");
+  background-image: url("../icons/custom/custom46.svg");
 }
 .page-header.context-c-stamp h1:before {
   background-color: #67a5e7;
-  background-image: url("../icons/custom/custom46_120.png");
+  background-image: url("../icons/custom/custom46.svg");
 }
 .card.context-c-knight .card-heading,
 .context-c-knight > .card .card-heading {
@@ -11323,11 +11302,11 @@ a.card:hover {
 .card.context-c-knight .card-heading:after,
 .context-c-knight > .card .card-heading:after {
   background-color: #5fcc64;
-  background-image: url("../icons/custom/custom47_120.png");
+  background-image: url("../icons/custom/custom47.svg");
 }
 .page-header.context-c-knight h1:before {
   background-color: #5fcc64;
-  background-image: url("../icons/custom/custom47_120.png");
+  background-image: url("../icons/custom/custom47.svg");
 }
 .card.context-c-trophy .card-heading,
 .context-c-trophy > .card .card-heading {
@@ -11354,11 +11333,11 @@ a.card:hover {
 .card.context-c-trophy .card-heading:after,
 .context-c-trophy > .card .card-heading:after {
   background-color: #ef697f;
-  background-image: url("../icons/custom/custom48_120.png");
+  background-image: url("../icons/custom/custom48.svg");
 }
 .page-header.context-c-trophy h1:before {
   background-color: #ef697f;
-  background-image: url("../icons/custom/custom48_120.png");
+  background-image: url("../icons/custom/custom48.svg");
 }
 .card.context-c-cd .card-heading,
 .context-c-cd > .card .card-heading {
@@ -11385,11 +11364,11 @@ a.card:hover {
 .card.context-c-cd .card-heading:after,
 .context-c-cd > .card .card-heading:after {
   background-color: #e25c80;
-  background-image: url("../icons/custom/custom49_120.png");
+  background-image: url("../icons/custom/custom49.svg");
 }
 .page-header.context-c-cd h1:before {
   background-color: #e25c80;
-  background-image: url("../icons/custom/custom49_120.png");
+  background-image: url("../icons/custom/custom49.svg");
 }
 .card.context-c-bigtop .card-heading,
 .context-c-bigtop > .card .card-heading {
@@ -11416,11 +11395,11 @@ a.card:hover {
 .card.context-c-bigtop .card-heading:after,
 .context-c-bigtop > .card .card-heading:after {
   background-color: #49bcd3;
-  background-image: url("../icons/custom/custom50_120.png");
+  background-image: url("../icons/custom/custom50.svg");
 }
 .page-header.context-c-bigtop h1:before {
   background-color: #49bcd3;
-  background-image: url("../icons/custom/custom50_120.png");
+  background-image: url("../icons/custom/custom50.svg");
 }
 .card.context-c-apple .card-heading,
 .context-c-apple > .card .card-heading {
@@ -11447,11 +11426,11 @@ a.card:hover {
 .card.context-c-apple .card-heading:after,
 .context-c-apple > .card .card-heading:after {
   background-color: #d8c760;
-  background-image: url("../icons/custom/custom51_120.png");
+  background-image: url("../icons/custom/custom51.svg");
 }
 .page-header.context-c-apple h1:before {
   background-color: #d8c760;
-  background-image: url("../icons/custom/custom51_120.png");
+  background-image: url("../icons/custom/custom51.svg");
 }
 .card.context-c-football .card-heading,
 .context-c-football > .card .card-heading {
@@ -11478,11 +11457,11 @@ a.card:hover {
 .card.context-c-football .card-heading:after,
 .context-c-football > .card .card-heading:after {
   background-color: #ee8e6f;
-  background-image: url("../icons/custom/custom52_120.png");
+  background-image: url("../icons/custom/custom52.svg");
 }
 .page-header.context-c-football h1:before {
   background-color: #ee8e6f;
-  background-image: url("../icons/custom/custom52_120.png");
+  background-image: url("../icons/custom/custom52.svg");
 }
 .card.context-c-bell .card-heading,
 .context-c-bell > .card .card-heading {
@@ -11509,11 +11488,11 @@ a.card:hover {
 .card.context-c-bell .card-heading:after,
 .context-c-bell > .card .card-heading:after {
   background-color: #f36e83;
-  background-image: url("../icons/custom/custom53_120.png");
+  background-image: url("../icons/custom/custom53.svg");
 }
 .page-header.context-c-bell h1:before {
   background-color: #f36e83;
-  background-image: url("../icons/custom/custom53_120.png");
+  background-image: url("../icons/custom/custom53.svg");
 }
 .card.context-c-boat .card-heading,
 .context-c-boat > .card .card-heading {
@@ -11540,11 +11519,11 @@ a.card:hover {
 .card.context-c-boat .card-heading:after,
 .context-c-boat > .card .card-heading:after {
   background-color: #ea70b1;
-  background-image: url("../icons/custom/custom54_120.png");
+  background-image: url("../icons/custom/custom54.svg");
 }
 .page-header.context-c-boat h1:before {
   background-color: #ea70b1;
-  background-image: url("../icons/custom/custom54_120.png");
+  background-image: url("../icons/custom/custom54.svg");
 }
 .card.context-c-books .card-heading,
 .context-c-books > .card .card-heading {
@@ -11571,11 +11550,11 @@ a.card:hover {
 .card.context-c-books .card-heading:after,
 .context-c-books > .card .card-heading:after {
   background-color: #d66ee0;
-  background-image: url("../icons/custom/custom55_120.png");
+  background-image: url("../icons/custom/custom55.svg");
 }
 .page-header.context-c-books h1:before {
   background-color: #d66ee0;
-  background-image: url("../icons/custom/custom55_120.png");
+  background-image: url("../icons/custom/custom55.svg");
 }
 .card.context-c-bottle .card-heading,
 .context-c-bottle > .card .card-heading {
@@ -11602,11 +11581,11 @@ a.card:hover {
 .card.context-c-bottle .card-heading:after,
 .context-c-bottle > .card .card-heading:after {
   background-color: #718deb;
-  background-image: url("../icons/custom/custom56_120.png");
+  background-image: url("../icons/custom/custom56.svg");
 }
 .page-header.context-c-bottle h1:before {
   background-color: #718deb;
-  background-image: url("../icons/custom/custom56_120.png");
+  background-image: url("../icons/custom/custom56.svg");
 }
 .card.context-c-buildingblock .card-heading,
 .context-c-buildingblock > .card .card-heading {
@@ -11633,11 +11612,11 @@ a.card:hover {
 .card.context-c-buildingblock .card-heading:after,
 .context-c-buildingblock > .card .card-heading:after {
   background-color: #5a9cdd;
-  background-image: url("../icons/custom/custom57_120.png");
+  background-image: url("../icons/custom/custom57.svg");
 }
 .page-header.context-c-buildingblock h1:before {
   background-color: #5a9cdd;
-  background-image: url("../icons/custom/custom57_120.png");
+  background-image: url("../icons/custom/custom57.svg");
 }
 .card.context-c-caduceus .card-heading,
 .context-c-caduceus > .card .card-heading {
@@ -11664,11 +11643,11 @@ a.card:hover {
 .card.context-c-caduceus .card-heading:after,
 .context-c-caduceus > .card .card-heading:after {
   background-color: #34b59d;
-  background-image: url("../icons/custom/custom58_120.png");
+  background-image: url("../icons/custom/custom58.svg");
 }
 .page-header.context-c-caduceus h1:before {
   background-color: #34b59d;
-  background-image: url("../icons/custom/custom58_120.png");
+  background-image: url("../icons/custom/custom58.svg");
 }
 .card.context-c-can .card-heading,
 .context-c-can > .card .card-heading {
@@ -11695,11 +11674,11 @@ a.card:hover {
 .card.context-c-can .card-heading:after,
 .context-c-can > .card .card-heading:after {
   background-color: #e3d067;
-  background-image: url("../icons/custom/custom59_120.png");
+  background-image: url("../icons/custom/custom59.svg");
 }
 .page-header.context-c-can h1:before {
   background-color: #e3d067;
-  background-image: url("../icons/custom/custom59_120.png");
+  background-image: url("../icons/custom/custom59.svg");
 }
 .card.context-c-umbrella .card-heading,
 .context-c-umbrella > .card .card-heading {
@@ -11726,11 +11705,11 @@ a.card:hover {
 .card.context-c-umbrella .card-heading:after,
 .context-c-umbrella > .card .card-heading:after {
   background-color: #bf5a88;
-  background-image: url("../icons/custom/custom60_120.png");
+  background-image: url("../icons/custom/custom60.svg");
 }
 .page-header.context-c-umbrella h1:before {
   background-color: #bf5a88;
-  background-image: url("../icons/custom/custom60_120.png");
+  background-image: url("../icons/custom/custom60.svg");
 }
 .card.context-c-castle .card-heading,
 .context-c-castle > .card .card-heading {
@@ -11757,11 +11736,11 @@ a.card:hover {
 .card.context-c-castle .card-heading:after,
 .context-c-castle > .card .card-heading:after {
   background-color: #f57376;
-  background-image: url("../icons/custom/custom61_120.png");
+  background-image: url("../icons/custom/custom61.svg");
 }
 .page-header.context-c-castle h1:before {
   background-color: #f57376;
-  background-image: url("../icons/custom/custom61_120.png");
+  background-image: url("../icons/custom/custom61.svg");
 }
 .card.context-c-chalkboard .card-heading,
 .context-c-chalkboard > .card .card-heading {
@@ -11788,11 +11767,11 @@ a.card:hover {
 .card.context-c-chalkboard .card-heading:after,
 .context-c-chalkboard > .card .card-heading:after {
   background-color: #6b92dc;
-  background-image: url("../icons/custom/custom62_120.png");
+  background-image: url("../icons/custom/custom62.svg");
 }
 .page-header.context-c-chalkboard h1:before {
   background-color: #6b92dc;
-  background-image: url("../icons/custom/custom62_120.png");
+  background-image: url("../icons/custom/custom62.svg");
 }
 .card.context-c-chip .card-heading,
 .context-c-chip > .card .card-heading {
@@ -11819,11 +11798,11 @@ a.card:hover {
 .card.context-c-chip .card-heading:after,
 .context-c-chip > .card .card-heading:after {
   background-color: #7ccf60;
-  background-image: url("../icons/custom/custom63_120.png");
+  background-image: url("../icons/custom/custom63.svg");
 }
 .page-header.context-c-chip h1:before {
   background-color: #7ccf60;
-  background-image: url("../icons/custom/custom63_120.png");
+  background-image: url("../icons/custom/custom63.svg");
 }
 .card.context-c-compass .card-heading,
 .context-c-compass > .card .card-heading {
@@ -11850,11 +11829,11 @@ a.card:hover {
 .card.context-c-compass .card-heading:after,
 .context-c-compass > .card .card-heading:after {
   background-color: #618fd8;
-  background-image: url("../icons/custom/custom64_120.png");
+  background-image: url("../icons/custom/custom64.svg");
 }
 .page-header.context-c-compass h1:before {
   background-color: #618fd8;
-  background-image: url("../icons/custom/custom64_120.png");
+  background-image: url("../icons/custom/custom64.svg");
 }
 .card.context-c-cup .card-heading,
 .context-c-cup > .card .card-heading {
@@ -11881,11 +11860,11 @@ a.card:hover {
 .card.context-c-cup .card-heading:after,
 .context-c-cup > .card .card-heading:after {
   background-color: #f279ab;
-  background-image: url("../icons/custom/custom65_120.png");
+  background-image: url("../icons/custom/custom65.svg");
 }
 .page-header.context-c-cup h1:before {
   background-color: #f279ab;
-  background-image: url("../icons/custom/custom65_120.png");
+  background-image: url("../icons/custom/custom65.svg");
 }
 .card.context-c-dice .card-heading,
 .context-c-dice > .card .card-heading {
@@ -11912,11 +11891,11 @@ a.card:hover {
 .card.context-c-dice .card-heading:after,
 .context-c-dice > .card .card-heading:after {
   background-color: #d8be5f;
-  background-image: url("../icons/custom/custom66_120.png");
+  background-image: url("../icons/custom/custom66.svg");
 }
 .page-header.context-c-dice h1:before {
   background-color: #d8be5f;
-  background-image: url("../icons/custom/custom66_120.png");
+  background-image: url("../icons/custom/custom66.svg");
 }
 .card.context-c-gears .card-heading,
 .context-c-gears > .card .card-heading {
@@ -11943,11 +11922,11 @@ a.card:hover {
 .card.context-c-gears .card-heading:after,
 .context-c-gears > .card .card-heading:after {
   background-color: #f87d76;
-  background-image: url("../icons/custom/custom67_120.png");
+  background-image: url("../icons/custom/custom67.svg");
 }
 .page-header.context-c-gears h1:before {
   background-color: #f87d76;
-  background-image: url("../icons/custom/custom67_120.png");
+  background-image: url("../icons/custom/custom67.svg");
 }
 .card.context-c-globe .card-heading,
 .context-c-globe > .card .card-heading {
@@ -11974,11 +11953,11 @@ a.card:hover {
 .card.context-c-globe .card-heading:after,
 .context-c-globe > .card .card-heading:after {
   background-color: #f26979;
-  background-image: url("../icons/custom/custom68_120.png");
+  background-image: url("../icons/custom/custom68.svg");
 }
 .page-header.context-c-globe h1:before {
   background-color: #f26979;
-  background-image: url("../icons/custom/custom68_120.png");
+  background-image: url("../icons/custom/custom68.svg");
 }
 .card.context-c-guitar .card-heading,
 .context-c-guitar > .card .card-heading {
@@ -12005,11 +11984,11 @@ a.card:hover {
 .card.context-c-guitar .card-heading:after,
 .context-c-guitar > .card .card-heading:after {
   background-color: #ed6387;
-  background-image: url("../icons/custom/custom69_120.png");
+  background-image: url("../icons/custom/custom69.svg");
 }
 .page-header.context-c-guitar h1:before {
   background-color: #ed6387;
-  background-image: url("../icons/custom/custom69_120.png");
+  background-image: url("../icons/custom/custom69.svg");
 }
 .card.context-c-saw .card-heading,
 .context-c-saw > .card .card-heading {
@@ -12036,11 +12015,11 @@ a.card:hover {
 .card.context-c-saw .card-heading:after,
 .context-c-saw > .card .card-heading:after {
   background-color: #e769b4;
-  background-image: url("../icons/custom/custom70_120.png");
+  background-image: url("../icons/custom/custom70.svg");
 }
 .page-header.context-c-saw h1:before {
   background-color: #e769b4;
-  background-image: url("../icons/custom/custom70_120.png");
+  background-image: url("../icons/custom/custom70.svg");
 }
 .card.context-c-headphones .card-heading,
 .context-c-headphones > .card .card-heading {
@@ -12067,11 +12046,11 @@ a.card:hover {
 .card.context-c-headphones .card-heading:after,
 .context-c-headphones > .card .card-heading:after {
   background-color: #e36ee3;
-  background-image: url("../icons/custom/custom71_120.png");
+  background-image: url("../icons/custom/custom71.svg");
 }
 .page-header.context-c-headphones h1:before {
   background-color: #e36ee3;
-  background-image: url("../icons/custom/custom71_120.png");
+  background-image: url("../icons/custom/custom71.svg");
 }
 .card.context-c-helicoptor .card-heading,
 .context-c-helicoptor > .card .card-heading {
@@ -12098,11 +12077,11 @@ a.card:hover {
 .card.context-c-helicoptor .card-heading:after,
 .context-c-helicoptor > .card .card-heading:after {
   background-color: #8d9bfb;
-  background-image: url("../icons/custom/custom72_120.png");
+  background-image: url("../icons/custom/custom72.svg");
 }
 .page-header.context-c-helicoptor h1:before {
   background-color: #8d9bfb;
-  background-image: url("../icons/custom/custom72_120.png");
+  background-image: url("../icons/custom/custom72.svg");
 }
 .card.context-c-highwaysign .card-heading,
 .context-c-highwaysign > .card .card-heading {
@@ -12129,11 +12108,11 @@ a.card:hover {
 .card.context-c-highwaysign .card-heading:after,
 .context-c-highwaysign > .card .card-heading:after {
   background-color: #679ef0;
-  background-image: url("../icons/custom/custom73_120.png");
+  background-image: url("../icons/custom/custom73.svg");
 }
 .page-header.context-c-highwaysign h1:before {
   background-color: #679ef0;
-  background-image: url("../icons/custom/custom73_120.png");
+  background-image: url("../icons/custom/custom73.svg");
 }
 .card.context-c-hotairballoon .card-heading,
 .context-c-hotairballoon > .card .card-heading {
@@ -12160,11 +12139,11 @@ a.card:hover {
 .card.context-c-hotairballoon .card-heading:after,
 .context-c-hotairballoon > .card .card-heading:after {
   background-color: #41c8a0;
-  background-image: url("../icons/custom/custom74_120.png");
+  background-image: url("../icons/custom/custom74.svg");
 }
 .page-header.context-c-hotairballoon h1:before {
   background-color: #41c8a0;
-  background-image: url("../icons/custom/custom74_120.png");
+  background-image: url("../icons/custom/custom74.svg");
 }
 .card.context-c-ipphone .card-heading,
 .context-c-ipphone > .card .card-heading {
@@ -12191,11 +12170,11 @@ a.card:hover {
 .card.context-c-ipphone .card-heading:after,
 .context-c-ipphone > .card .card-heading:after {
   background-color: #cd9f65;
-  background-image: url("../icons/custom/custom75_120.png");
+  background-image: url("../icons/custom/custom75.svg");
 }
 .page-header.context-c-ipphone h1:before {
   background-color: #cd9f65;
-  background-image: url("../icons/custom/custom75_120.png");
+  background-image: url("../icons/custom/custom75.svg");
 }
 .card.context-c-keys .card-heading,
 .context-c-keys > .card .card-heading {
@@ -12222,11 +12201,11 @@ a.card:hover {
 .card.context-c-keys .card-heading:after,
 .context-c-keys > .card .card-heading:after {
   background-color: #db6d7a;
-  background-image: url("../icons/custom/custom76_120.png");
+  background-image: url("../icons/custom/custom76.svg");
 }
 .page-header.context-c-keys h1:before {
   background-color: #db6d7a;
-  background-image: url("../icons/custom/custom76_120.png");
+  background-image: url("../icons/custom/custom76.svg");
 }
 .card.context-c-lock .card-heading,
 .context-c-lock > .card .card-heading {
@@ -12253,11 +12232,11 @@ a.card:hover {
 .card.context-c-lock .card-heading:after,
 .context-c-lock > .card .card-heading:after {
   background-color: #b55d5b;
-  background-image: url("../icons/custom/custom77_120.png");
+  background-image: url("../icons/custom/custom77.svg");
 }
 .page-header.context-c-lock h1:before {
   background-color: #b55d5b;
-  background-image: url("../icons/custom/custom77_120.png");
+  background-image: url("../icons/custom/custom77.svg");
 }
 .card.context-c-map .card-heading,
 .context-c-map > .card .card-heading {
@@ -12284,11 +12263,11 @@ a.card:hover {
 .card.context-c-map .card-heading:after,
 .context-c-map > .card .card-heading:after {
   background-color: #5a95dd;
-  background-image: url("../icons/custom/custom78_120.png");
+  background-image: url("../icons/custom/custom78.svg");
 }
 .page-header.context-c-map h1:before {
   background-color: #5a95dd;
-  background-image: url("../icons/custom/custom78_120.png");
+  background-image: url("../icons/custom/custom78.svg");
 }
 .card.context-c-tapemeasure .card-heading,
 .context-c-tapemeasure > .card .card-heading {
@@ -12315,11 +12294,11 @@ a.card:hover {
 .card.context-c-tapemeasure .card-heading:after,
 .context-c-tapemeasure > .card .card-heading:after {
   background-color: #8ed363;
-  background-image: url("../icons/custom/custom79_120.png");
+  background-image: url("../icons/custom/custom79.svg");
 }
 .page-header.context-c-tapemeasure h1:before {
   background-color: #8ed363;
-  background-image: url("../icons/custom/custom79_120.png");
+  background-image: url("../icons/custom/custom79.svg");
 }
 .card.context-c-motorcycle .card-heading,
 .context-c-motorcycle > .card .card-heading {
@@ -12346,11 +12325,11 @@ a.card:hover {
 .card.context-c-motorcycle .card-heading:after,
 .context-c-motorcycle > .card .card-heading:after {
   background-color: #659ad5;
-  background-image: url("../icons/custom/custom80_120.png");
+  background-image: url("../icons/custom/custom80.svg");
 }
 .page-header.context-c-motorcycle h1:before {
   background-color: #659ad5;
-  background-image: url("../icons/custom/custom80_120.png");
+  background-image: url("../icons/custom/custom80.svg");
 }
 .card.context-c-musicnote .card-heading,
 .context-c-musicnote > .card .card-heading {
@@ -12377,11 +12356,11 @@ a.card:hover {
 .card.context-c-musicnote .card-heading:after,
 .context-c-musicnote > .card .card-heading:after {
   background-color: #da627f;
-  background-image: url("../icons/custom/custom81_120.png");
+  background-image: url("../icons/custom/custom81.svg");
 }
 .page-header.context-c-musicnote h1:before {
   background-color: #da627f;
-  background-image: url("../icons/custom/custom81_120.png");
+  background-image: url("../icons/custom/custom81.svg");
 }
 .card.context-c-whistle .card-heading,
 .context-c-whistle > .card .card-heading {
@@ -12408,11 +12387,11 @@ a.card:hover {
 .card.context-c-whistle .card-heading:after,
 .context-c-whistle > .card .card-heading:after {
   background-color: #d15b97;
-  background-image: url("../icons/custom/custom82_120.png");
+  background-image: url("../icons/custom/custom82.svg");
 }
 .page-header.context-c-whistle h1:before {
   background-color: #d15b97;
-  background-image: url("../icons/custom/custom82_120.png");
+  background-image: url("../icons/custom/custom82.svg");
 }
 .card.context-c-pencil .card-heading,
 .context-c-pencil > .card .card-heading {
@@ -12439,11 +12418,11 @@ a.card:hover {
 .card.context-c-pencil .card-heading:after,
 .context-c-pencil > .card .card-heading:after {
   background-color: #e7806f;
-  background-image: url("../icons/custom/custom83_120.png");
+  background-image: url("../icons/custom/custom83.svg");
 }
 .page-header.context-c-pencil h1:before {
   background-color: #e7806f;
-  background-image: url("../icons/custom/custom83_120.png");
+  background-image: url("../icons/custom/custom83.svg");
 }
 .card.context-c-presenter .card-heading,
 .context-c-presenter > .card .card-heading {
@@ -12470,11 +12449,11 @@ a.card:hover {
 .card.context-c-presenter .card-heading:after,
 .context-c-presenter > .card .card-heading:after {
   background-color: #f6707b;
-  background-image: url("../icons/custom/custom84_120.png");
+  background-image: url("../icons/custom/custom84.svg");
 }
 .page-header.context-c-presenter h1:before {
   background-color: #f6707b;
-  background-image: url("../icons/custom/custom84_120.png");
+  background-image: url("../icons/custom/custom84.svg");
 }
 .card.context-c-forsale .card-heading,
 .context-c-forsale > .card .card-heading {
@@ -12501,11 +12480,11 @@ a.card:hover {
 .card.context-c-forsale .card-heading:after,
 .context-c-forsale > .card .card-heading:after {
   background-color: #f26891;
-  background-image: url("../icons/custom/custom85_120.png");
+  background-image: url("../icons/custom/custom85.svg");
 }
 .page-header.context-c-forsale h1:before {
   background-color: #f26891;
-  background-image: url("../icons/custom/custom85_120.png");
+  background-image: url("../icons/custom/custom85.svg");
 }
 .card.context-c-redcross .card-heading,
 .context-c-redcross > .card .card-heading {
@@ -12532,11 +12511,11 @@ a.card:hover {
 .card.context-c-redcross .card-heading:after,
 .context-c-redcross > .card .card-heading:after {
   background-color: #e260ab;
-  background-image: url("../icons/custom/custom86_120.png");
+  background-image: url("../icons/custom/custom86.svg");
 }
 .page-header.context-c-redcross h1:before {
   background-color: #e260ab;
-  background-image: url("../icons/custom/custom86_120.png");
+  background-image: url("../icons/custom/custom86.svg");
 }
 .card.context-c-safe .card-heading,
 .context-c-safe > .card .card-heading {
@@ -12563,11 +12542,11 @@ a.card:hover {
 .card.context-c-safe .card-heading:after,
 .context-c-safe > .card .card-heading:after {
   background-color: #d876e5;
-  background-image: url("../icons/custom/custom87_120.png");
+  background-image: url("../icons/custom/custom87.svg");
 }
 .page-header.context-c-safe h1:before {
   background-color: #d876e5;
-  background-image: url("../icons/custom/custom87_120.png");
+  background-image: url("../icons/custom/custom87.svg");
 }
 .card.context-c-sailboat .card-heading,
 .context-c-sailboat > .card .card-heading {
@@ -12594,11 +12573,11 @@ a.card:hover {
 .card.context-c-sailboat .card-heading:after,
 .context-c-sailboat > .card .card-heading:after {
   background-color: #996fe6;
-  background-image: url("../icons/custom/custom88_120.png");
+  background-image: url("../icons/custom/custom88.svg");
 }
 .page-header.context-c-sailboat h1:before {
   background-color: #996fe6;
-  background-image: url("../icons/custom/custom88_120.png");
+  background-image: url("../icons/custom/custom88.svg");
 }
 .card.context-c-saxophone .card-heading,
 .context-c-saxophone > .card .card-heading {
@@ -12625,11 +12604,11 @@ a.card:hover {
 .card.context-c-saxophone .card-heading:after,
 .context-c-saxophone > .card .card-heading:after {
   background-color: #3e99be;
-  background-image: url("../icons/custom/custom89_120.png");
+  background-image: url("../icons/custom/custom89.svg");
 }
 .page-header.context-c-saxophone h1:before {
   background-color: #3e99be;
-  background-image: url("../icons/custom/custom89_120.png");
+  background-image: url("../icons/custom/custom89.svg");
 }
 .card.context-c-scales .card-heading,
 .context-c-scales > .card .card-heading {
@@ -12656,11 +12635,11 @@ a.card:hover {
 .card.context-c-scales .card-heading:after,
 .context-c-scales > .card .card-heading:after {
   background-color: #22a48a;
-  background-image: url("../icons/custom/custom90_120.png");
+  background-image: url("../icons/custom/custom90.svg");
 }
 .page-header.context-c-scales h1:before {
   background-color: #22a48a;
-  background-image: url("../icons/custom/custom90_120.png");
+  background-image: url("../icons/custom/custom90.svg");
 }
 .card.context-c-shield .card-heading,
 .context-c-shield > .card .card-heading {
@@ -12687,11 +12666,11 @@ a.card:hover {
 .card.context-c-shield .card-heading:after,
 .context-c-shield > .card .card-heading:after {
   background-color: #bf7b66;
-  background-image: url("../icons/custom/custom91_120.png");
+  background-image: url("../icons/custom/custom91.svg");
 }
 .page-header.context-c-shield h1:before {
   background-color: #bf7b66;
-  background-image: url("../icons/custom/custom91_120.png");
+  background-image: url("../icons/custom/custom91.svg");
 }
 .card.context-c-ship .card-heading,
 .context-c-ship > .card .card-heading {
@@ -12718,11 +12697,11 @@ a.card:hover {
 .card.context-c-ship .card-heading:after,
 .context-c-ship > .card .card-heading:after {
   background-color: #517e82;
-  background-image: url("../icons/custom/custom92_120.png");
+  background-image: url("../icons/custom/custom92.svg");
 }
 .page-header.context-c-ship h1:before {
   background-color: #517e82;
-  background-image: url("../icons/custom/custom92_120.png");
+  background-image: url("../icons/custom/custom92.svg");
 }
 .card.context-c-shoppingcart .card-heading,
 .context-c-shoppingcart > .card .card-heading {
@@ -12749,11 +12728,11 @@ a.card:hover {
 .card.context-c-shoppingcart .card-heading:after,
 .context-c-shoppingcart > .card .card-heading:after {
   background-color: #904d4c;
-  background-image: url("../icons/custom/custom93_120.png");
+  background-image: url("../icons/custom/custom93.svg");
 }
 .page-header.context-c-shoppingcart h1:before {
   background-color: #904d4c;
-  background-image: url("../icons/custom/custom93_120.png");
+  background-image: url("../icons/custom/custom93.svg");
 }
 .card.context-c-stethoscope .card-heading,
 .context-c-stethoscope > .card .card-heading {
@@ -12780,11 +12759,11 @@ a.card:hover {
 .card.context-c-stethoscope .card-heading:after,
 .context-c-stethoscope > .card .card-heading:after {
   background-color: #439cba;
-  background-image: url("../icons/custom/custom94_120.png");
+  background-image: url("../icons/custom/custom94.svg");
 }
 .page-header.context-c-stethoscope h1:before {
   background-color: #439cba;
-  background-image: url("../icons/custom/custom94_120.png");
+  background-image: url("../icons/custom/custom94.svg");
 }
 .card.context-c-stopwatch .card-heading,
 .context-c-stopwatch > .card .card-heading {
@@ -12811,11 +12790,11 @@ a.card:hover {
 .card.context-c-stopwatch .card-heading:after,
 .context-c-stopwatch > .card .card-heading:after {
   background-color: #8bcf6a;
-  background-image: url("../icons/custom/custom95_120.png");
+  background-image: url("../icons/custom/custom95.svg");
 }
 .page-header.context-c-stopwatch h1:before {
   background-color: #8bcf6a;
-  background-image: url("../icons/custom/custom95_120.png");
+  background-image: url("../icons/custom/custom95.svg");
 }
 .card.context-c-streetsign .card-heading,
 .context-c-streetsign > .card .card-heading {
@@ -12842,11 +12821,11 @@ a.card:hover {
 .card.context-c-streetsign .card-heading:after,
 .context-c-streetsign > .card .card-heading:after {
   background-color: #6d9de3;
-  background-image: url("../icons/custom/custom96_120.png");
+  background-image: url("../icons/custom/custom96.svg");
 }
 .page-header.context-c-streetsign h1:before {
   background-color: #6d9de3;
-  background-image: url("../icons/custom/custom96_120.png");
+  background-image: url("../icons/custom/custom96.svg");
 }
 .card.context-c-thermometer .card-heading,
 .context-c-thermometer > .card .card-heading {
@@ -12873,11 +12852,11 @@ a.card:hover {
 .card.context-c-thermometer .card-heading:after,
 .context-c-thermometer > .card .card-heading:after {
   background-color: #dd6085;
-  background-image: url("../icons/custom/custom97_120.png");
+  background-image: url("../icons/custom/custom97.svg");
 }
 .page-header.context-c-thermometer h1:before {
   background-color: #dd6085;
-  background-image: url("../icons/custom/custom97_120.png");
+  background-image: url("../icons/custom/custom97.svg");
 }
 .card.context-c-van .card-heading,
 .context-c-van > .card .card-heading {
@@ -12904,11 +12883,11 @@ a.card:hover {
 .card.context-c-van .card-heading:after,
 .context-c-van > .card .card-heading:after {
   background-color: #e1be5c;
-  background-image: url("../icons/custom/custom98_120.png");
+  background-image: url("../icons/custom/custom98.svg");
 }
 .page-header.context-c-van h1:before {
   background-color: #e1be5c;
-  background-image: url("../icons/custom/custom98_120.png");
+  background-image: url("../icons/custom/custom98.svg");
 }
 .card.context-c-tv .card-heading,
 .context-c-tv > .card .card-heading {
@@ -12935,11 +12914,11 @@ a.card:hover {
 .card.context-c-tv .card-heading:after,
 .context-c-tv > .card .card-heading:after {
   background-color: #f0856e;
-  background-image: url("../icons/custom/custom99_120.png");
+  background-image: url("../icons/custom/custom99.svg");
 }
 .page-header.context-c-tv h1:before {
   background-color: #f0856e;
-  background-image: url("../icons/custom/custom99_120.png");
+  background-image: url("../icons/custom/custom99.svg");
 }
 .card.context-c-tvwidescreen .card-heading,
 .context-c-tvwidescreen > .card .card-heading {
@@ -12966,11 +12945,11 @@ a.card:hover {
 .card.context-c-tvwidescreen .card-heading:after,
 .context-c-tvwidescreen > .card .card-heading:after {
   background-color: #e15d76;
-  background-image: url("../icons/custom/custom100_120.png");
+  background-image: url("../icons/custom/custom100.svg");
 }
 .page-header.context-c-tvwidescreen h1:before {
   background-color: #e15d76;
-  background-image: url("../icons/custom/custom100_120.png");
+  background-image: url("../icons/custom/custom100.svg");
 }
 .page-header {
   margin: 0 0 20px;

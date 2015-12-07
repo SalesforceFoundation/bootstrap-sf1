@@ -125,7 +125,7 @@ module.exports = function(grunt) {
           {
             expand: true,
             cwd: 'icons',
-            src: ['**/*_120.png'],
+            src: ['**/*.svg'],
             dest: 'dist/icons'
           }
         ]

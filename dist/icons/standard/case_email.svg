@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "display:none;opacity:0.4;filter:url(#f2);">
+	<!ENTITY st1 "display:none;opacity:0.2;filter:url(#f1);">
+	<!ENTITY st2 "fill-rule:evenodd;clip-rule:evenodd;fill:#EBF2F9;">
+	<!ENTITY st3 "display:inline;">
+	<!ENTITY st4 "display:none;">
+	<!ENTITY st5 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);">
+	<!ENTITY st6 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);">
+	<!ENTITY st7 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_3_);">
+	<!ENTITY st8 "display:none;opacity:0.5;filter:url(#f1);">
+]>
+<svg version="1.1" id="Email" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<filter  x="-7" y="-4" filterUnits="userSpaceOnUse" id="f2">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="-2"></feOffset>
+	<feGaussianBlur  stdDeviation="1" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<filter  x="-7" y="8" filterUnits="userSpaceOnUse" id="f1">
+	<feOffset  result="offOut" in="SourceGraphic" dx="0" dy="3"></feOffset>
+	<feGaussianBlur  stdDeviation="2" result="blurOut" in="offOut"></feGaussianBlur>
+	<feBlend  mode="normal" in2="blurOut" in="SourceGraphic"></feBlend>
+</filter>
+<g id="shape_copy_18_1_" style="&st4;">
+	<g style="&st3;">
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="381" y1="-196" x2="381" y2="-315.9995" gradientTransform="matrix(1 0 0 1 -321 316)">
+			<stop  offset="0" style="stop-color:#EAC447"/>
+			<stop  offset="1" style="stop-color:#EDCD62"/>
+		</linearGradient>
+		<path style="&st5;" d="M108,0H12C5.373,0,0,5.373,0,12v96c0,6.628,5.373,12,12,12h96c6.627,0,12-5.372,12-12V12
+			C120,5.373,114.627,0,108,0z"/>
+	</g>
+</g>
+<g id="Layer_47">
+	<g style="&st1;">
+		<path style="&st3;" d="M99.869,89.668c0,1.694-1.374,3.068-3.068,3.068H23.937c-1.694,0-3.068-1.374-3.068-3.068V28.82
+			c0-1.694,1.374-3.068,3.068-3.068h72.864c1.694,0,3.068,1.374,3.068,3.068V89.668z"/>
+	</g>
+	<g id="Rectangle_12_2_">
+		<g>
+			
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="58.0215" y1="-373" x2="58.0215" y2="-421.1665" gradientTransform="matrix(1 0 0 1 2.9937 456.9941)">
+				<stop  offset="0" style="stop-color:#D2DDE8"/>
+				<stop  offset="1" style="stop-color:#D7E3ED"/>
+			</linearGradient>
+			<rect x="21.041" y="35.828" style="&st6;" width="79.949" height="48.166"/>
+		</g>
+	</g>
+	<g id="shape_copy_25_6_" style="&st0;">
+		<path style="&st3;" d="M74.95,56.102c0,0-7.106-5.652-8.327-4.674c-2.94,2.357-2.662,3.796-6.565,0.938
+			c-0.104-0.075-5.359-0.851-5.46-0.932c-1.396-1.123-7.692,4.568-7.692,4.568L23.536,81.344l-0.019,6.002
+			c0,4.062,1.415,5.355,5.474,5.355h64.046c4.059,0,5.474-1.168,5.474-5.23l0.006-6.098L74.95,56.102z"/>
+	</g>
+	<g id="shape_copy_25_4_">
+		<g>
+			
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="58.0239" y1="-362.9941" x2="58.0239" y2="-407.1505" gradientTransform="matrix(1 0 0 1 2.9937 456.9941)">
+				<stop  offset="0" style="stop-color:#DCE7F1"/>
+				<stop  offset="1" style="stop-color:#EAEFF5"/>
+			</linearGradient>
+			<path style="&st7;" d="M75.872,54.977c0,0-7.577-6.025-8.878-4.982c-3.135,2.514-2.838,4.047-7,1
+				c-0.111-0.081-5.714-0.907-5.822-0.994c-1.489-1.197-8.201,4.871-8.201,4.871L21.055,81.89l-0.02,6.4
+				c0,4.331,1.508,5.71,5.836,5.71h68.286c4.328,0,5.836-1.245,5.836-5.577L101,81.922L75.872,54.977z"/>
+		</g>
+	</g>
+	<g id="shape_copy_19_6_" style="&st8;">
+		<path style="&st3;" d="M94.166,26.791H27.864c-4.308,0-5.85,1.546-5.85,5.857l0.01,2.178c0,0,32.458,26.816,35.068,28.937
+			c2.372,1.927,6.447,1.899,8.78,0c3.798-3.091,34.375-28.707,34.14-28.694l0.002-2.42C100.014,28.337,98.474,26.791,94.166,26.791z
+			"/>
+	</g>
+	<g id="shape_copy_19_4_">
+		<g>
+			<path style="&st2;" d="M94.998,24.994H27.031c-4.416,0-5.996,1.584-5.996,6.004l0.01,6.333c0,0,33.273,27.489,35.949,29.663
+				c2.432,1.975,6.609,1.946,9,0c3.894-3.169,35.239-29.428,34.998-29.415l0.002-6.581C100.994,26.578,99.414,24.994,94.998,24.994z
+				"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_72">
+</g>
+</svg>
